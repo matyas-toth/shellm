@@ -1,0 +1,17 @@
+[project]
+name = "shellm"
+version = "0.1.0"
+description = "Small English-to-Linux-command model experiments"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "torch>=2.11,<2.12",
+    "transformers>=4.51,<5",
+]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu130" }
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
