@@ -17,5 +17,6 @@ Created on 2026-10-01. This notebook backfills the work performed on 2026-09-28 
 | [Training data contribution guide](training-data-contribution-guide.md) | Extend catalogs, create releases, and add independent intent checks | Contributor guide |
 | [Experiment report history](experiment-report-history.md) | Preserved runs, per-epoch reports, and chart-ready history export | Implemented |
 | [First LoRA training experiment](first-lora-training-experiment.md) | Three saved adapters, 26.8% to 80.4% functional accuracy, and failure analysis | Completed |
+| [ShellBench v1 comparison chart](shellbench-v1-comparison-chart.md) | Column chart comparing Base and three LoRA epochs, with PNG/SVG/CSV exports | Completed |
 
 Each topic should explain what we did, why, how to repeat it, what we observed, and what remains uncertain. Experiment dates and documentation dates are recorded separately when backfilling. Plans are not recorded as completed experiments.

@@ -1,0 +1,5 @@
+model,correct,total,percent,report
+qwen-3-0.6b-base,30,112,26.785714285714285,reports/2026-10-01-lora-pilot-v1/evaluations/baseline/evaluation.json
+shellm-lora-pilot-1-epoch-1-0.6b,78,112,69.64285714285714,reports/2026-10-01-lora-pilot-v1/evaluations/epoch-1/evaluation.json
+shellm-lora-pilot-1-epoch-2-0.6b,89,112,79.46428571428571,reports/2026-10-01-lora-pilot-v1/evaluations/epoch-2/evaluation.json
+shellm-lora-pilot-1-epoch-3-0.6b,90,112,80.35714285714286,reports/2026-10-01-lora-pilot-v1/evaluations/epoch-3/evaluation.json
