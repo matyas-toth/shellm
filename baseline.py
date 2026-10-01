@@ -1,4 +1,4 @@
-"""Run the untouched Qwen3 base model on a few shell translation prompts."""
+"""Compare Qwen3 checkpoints on a few shell translation prompts."""
 
 import argparse
 
@@ -11,6 +11,14 @@ DEFAULT_REQUESTS = [
     "list all files including hidden ones",
     "show my current directory",
     "create a directory called projects",
+    "go to my home directory",
+    "show the first five lines of README.md",
+    "count the lines in report.txt",
+    "copy a.txt to b.txt",
+    "rename old.txt to new.txt",
+    "delete the file old.log",
+    "find all .log files under the current directory",
+    "search recursively for TODO in the current directory",
 ]
 
 
@@ -18,6 +26,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("requests", nargs="*", default=DEFAULT_REQUESTS)
     parser.add_argument("--model", default="Qwen/Qwen3-0.6B-Base")
+    parser.add_argument("--prompt-style", choices=("raw", "chat"), default="raw")
     parser.add_argument("--max-new-tokens", type=int, default=32)
     args = parser.parse_args()
 
@@ -34,7 +43,22 @@ def main() -> None:
     model.eval()
 
     for request in args.requests:
-        prompt = f"Request: {request}\nCommand:"
+        if args.prompt_style == "chat":
+            messages = [
+                {
+                    "role": "system",
+                    "content": "Translate the user's request into one Linux shell command. Reply with only the command, with no Markdown or explanation.",
+                },
+                {"role": "user", "content": request},
+            ]
+            prompt = tokenizer.apply_chat_template(
+                messages,
+                tokenize=False,
+                add_generation_prompt=True,
+                enable_thinking=False,
+            )
+        else:
+            prompt = f"Request: {request}\nCommand:"
         inputs = tokenizer(prompt, return_tensors="pt").to("cuda")
         with torch.inference_mode():
             output = model.generate(

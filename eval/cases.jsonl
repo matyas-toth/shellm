@@ -1,0 +1,112 @@
+{"id":"pwd-01","family":"pwd","coverage":"basic","request":"print the current working directory","reference":"pwd","comparison":"exact"}
+{"id":"pwd-02","family":"pwd","coverage":"paraphrase","request":"where am I in the filesystem?","reference":"pwd","comparison":"exact"}
+{"id":"pwd-03","family":"pwd","coverage":"paraphrase","request":"display the absolute path of this directory","reference":"pwd","comparison":"exact"}
+{"id":"pwd-04","family":"pwd","coverage":"informal","request":"what folder am i in rn","reference":"pwd","comparison":"exact"}
+{"id":"pwd-05","family":"pwd","coverage":"paraphrase","request":"tell me my working directory's full path","reference":"pwd","comparison":"exact"}
+{"id":"pwd-06","family":"pwd","coverage":"paraphrase","request":"show the path of the directory I'm currently using","reference":"pwd","comparison":"exact"}
+{"id":"pwd-07","family":"pwd","coverage":"paraphrase","request":"output my current location as an absolute filesystem path","reference":"pwd","comparison":"exact"}
+{"id":"pwd-08","family":"pwd","coverage":"informal","request":"need the full path to the current folder","reference":"pwd","comparison":"exact"}
+{"id":"cd-01","family":"cd","coverage":"basic","request":"change directory to the filesystem root","reference":"cd /","comparison":"exact"}
+{"id":"cd-02","family":"cd","coverage":"basic","request":"return to my home directory","reference":"cd ~","comparison":"exact"}
+{"id":"cd-03","family":"cd","coverage":"basic","request":"go up one directory","reference":"cd ..","comparison":"exact"}
+{"id":"cd-04","family":"cd","coverage":"argument","request":"enter the docs subdirectory","reference":"cd docs","comparison":"exact"}
+{"id":"cd-05","family":"cd","coverage":"argument","request":"switch to /workspace/src","reference":"cd /workspace/src","comparison":"exact"}
+{"id":"cd-06","family":"cd","coverage":"quoted_argument","request":"open the directory named my projects in the current folder","reference":"cd 'my projects'","comparison":"exact"}
+{"id":"cd-07","family":"cd","coverage":"quoted_argument","request":"move into the folder called client's files","reference":"cd \"client's files\"","comparison":"exact"}
+{"id":"cd-08","family":"cd","coverage":"informal","request":"take me into the archive folder","reference":"cd archive","comparison":"exact"}
+{"id":"ls-01","family":"ls","coverage":"basic","request":"list the entries in this directory","reference":"ls","comparison":"lines"}
+{"id":"ls-02","family":"ls","coverage":"option","request":"list every entry here including dotfiles","reference":"ls -a","comparison":"lines"}
+{"id":"ls-03","family":"ls","coverage":"option","request":"show a detailed long listing of this directory","reference":"ls -l","comparison":"listing"}
+{"id":"ls-04","family":"ls","coverage":"composition","request":"list all entries including hidden ones with detailed information","reference":"ls -la","comparison":"listing"}
+{"id":"ls-05","family":"ls","coverage":"argument","request":"list the contents of docs","reference":"ls docs","comparison":"lines"}
+{"id":"ls-06","family":"ls","coverage":"quoted_argument","request":"show the contents of the my projects folder","reference":"ls 'my projects'","comparison":"lines"}
+{"id":"ls-07","family":"ls","coverage":"argument","request":"list the entries inside src","reference":"ls src","comparison":"lines"}
+{"id":"ls-08","family":"ls","coverage":"option","request":"list all entries in docs including . and ..","reference":"ls -a docs","comparison":"lines"}
+{"id":"mkdir-01","family":"mkdir","coverage":"basic","request":"make a new directory named projects","reference":"mkdir projects","comparison":"exact"}
+{"id":"mkdir-02","family":"mkdir","coverage":"argument","request":"create the backups folder","reference":"mkdir backups","comparison":"exact"}
+{"id":"mkdir-03","family":"mkdir","coverage":"quoted_argument","request":"create a directory called project drafts","reference":"mkdir 'project drafts'","comparison":"exact"}
+{"id":"mkdir-04","family":"mkdir","coverage":"composition","request":"make build/cache and create any missing parent directories","reference":"mkdir -p build/cache","comparison":"exact"}
+{"id":"mkdir-05","family":"mkdir","coverage":"composition","request":"create two directories named alpha and beta","reference":"mkdir alpha beta","comparison":"exact"}
+{"id":"mkdir-06","family":"mkdir","coverage":"argument","request":"create a reports subdirectory inside docs","reference":"mkdir docs/reports","comparison":"exact"}
+{"id":"mkdir-07","family":"mkdir","coverage":"option","request":"make a directory named private with permissions 700","reference":"mkdir -m 700 private","comparison":"exact"}
+{"id":"mkdir-08","family":"mkdir","coverage":"quoted_argument","request":"create a directory whose exact name is -drafts","reference":"mkdir -- -drafts","comparison":"exact"}
+{"id":"touch-01","family":"touch","coverage":"basic","request":"create an empty file named new.txt","reference":"touch new.txt","comparison":"exact"}
+{"id":"touch-02","family":"touch","coverage":"quoted_argument","request":"make an empty file called meeting notes.txt","reference":"touch 'meeting notes.txt'","comparison":"exact"}
+{"id":"touch-03","family":"touch","coverage":"argument","request":"create an empty new.md file inside docs","reference":"touch docs/new.md","comparison":"exact"}
+{"id":"touch-04","family":"touch","coverage":"composition","request":"make two empty files named a.txt and b.txt","reference":"touch a.txt b.txt","comparison":"exact"}
+{"id":"touch-05","family":"touch","coverage":"quoted_argument","request":"create an empty file whose name is -new.txt","reference":"touch -- -new.txt","comparison":"exact"}
+{"id":"touch-06","family":"touch","coverage":"quoted_argument","request":"make an empty file called client's notes.txt","reference":"touch \"client's notes.txt\"","comparison":"exact"}
+{"id":"touch-07","family":"touch","coverage":"argument","request":"create an empty placeholder.txt inside archive","reference":"touch archive/placeholder.txt","comparison":"exact"}
+{"id":"touch-08","family":"touch","coverage":"informal","request":"need a blank scratch.txt file here","reference":"touch scratch.txt","comparison":"exact"}
+{"id":"cp-01","family":"cp","coverage":"basic","request":"copy notes.txt to copy.txt","reference":"cp notes.txt copy.txt","comparison":"exact"}
+{"id":"cp-02","family":"cp","coverage":"quoted_argument","request":"copy notes.txt into a new file named notes backup.txt","reference":"cp notes.txt 'notes backup.txt'","comparison":"exact"}
+{"id":"cp-03","family":"cp","coverage":"option","request":"copy the docs directory and all its contents to docs-copy","reference":"cp -r docs docs-copy","comparison":"exact"}
+{"id":"cp-04","family":"cp","coverage":"argument","request":"copy src/main.py to archive/main.py","reference":"cp src/main.py archive/main.py","comparison":"exact"}
+{"id":"cp-05","family":"cp","coverage":"argument","request":"copy docs/intro.md into archive","reference":"cp docs/intro.md archive/","comparison":"exact"}
+{"id":"cp-06","family":"cp","coverage":"composition","request":"copy notes.txt and report.txt into archive","reference":"cp notes.txt report.txt archive/","comparison":"exact"}
+{"id":"cp-07","family":"cp","coverage":"quoted_argument","request":"copy the file named -draft.txt to draft-copy.txt","reference":"cp -- -draft.txt draft-copy.txt","comparison":"exact"}
+{"id":"cp-08","family":"cp","coverage":"quoted_argument","request":"duplicate client's plan.txt as plan-copy.txt","reference":"cp \"client's plan.txt\" plan-copy.txt","comparison":"exact"}
+{"id":"mv-01","family":"mv","coverage":"basic","request":"rename notes.txt to renamed.txt","reference":"mv notes.txt renamed.txt","comparison":"exact"}
+{"id":"mv-02","family":"mv","coverage":"quoted_argument","request":"rename notes.txt to meeting notes.txt","reference":"mv notes.txt 'meeting notes.txt'","comparison":"exact"}
+{"id":"mv-03","family":"mv","coverage":"argument","request":"move report.txt into archive","reference":"mv report.txt archive/","comparison":"exact"}
+{"id":"mv-04","family":"mv","coverage":"argument","request":"rename the docs directory to documents","reference":"mv docs documents","comparison":"exact"}
+{"id":"mv-05","family":"mv","coverage":"composition","request":"move notes.txt and report.txt into archive","reference":"mv notes.txt report.txt archive/","comparison":"exact"}
+{"id":"mv-06","family":"mv","coverage":"quoted_argument","request":"rename the file -draft.txt to draft.txt","reference":"mv -- -draft.txt draft.txt","comparison":"exact"}
+{"id":"mv-07","family":"mv","coverage":"quoted_argument","request":"move client's plan.txt to archive/plan.txt","reference":"mv \"client's plan.txt\" archive/plan.txt","comparison":"exact"}
+{"id":"mv-08","family":"mv","coverage":"argument","request":"move src/main.py into the current directory as main.py","reference":"mv src/main.py main.py","comparison":"exact"}
+{"id":"rm-01","family":"rm","coverage":"basic","request":"remove old.log","reference":"rm old.log","comparison":"exact"}
+{"id":"rm-02","family":"rm","coverage":"composition","request":"delete old.log and app.log","reference":"rm old.log app.log","comparison":"exact"}
+{"id":"rm-03","family":"rm","coverage":"quoted_argument","request":"delete the file named todo list.txt","reference":"rm 'todo list.txt'","comparison":"exact"}
+{"id":"rm-04","family":"rm","coverage":"argument","request":"delete docs/old.log","reference":"rm docs/old.log","comparison":"exact"}
+{"id":"rm-05","family":"rm","coverage":"option","request":"remove the obsolete directory and everything inside it","reference":"rm -r obsolete","comparison":"exact"}
+{"id":"rm-06","family":"rm","coverage":"quoted_argument","request":"delete the file whose name is -draft.txt","reference":"rm -- -draft.txt","comparison":"exact"}
+{"id":"rm-07","family":"rm","coverage":"quoted_argument","request":"remove client's plan.txt","reference":"rm \"client's plan.txt\"","comparison":"exact"}
+{"id":"rm-08","family":"rm","coverage":"argument","request":"delete the file src/helper.py","reference":"rm src/helper.py","comparison":"exact"}
+{"id":"cat-01","family":"cat","coverage":"basic","request":"print the contents of notes.txt","reference":"cat notes.txt","comparison":"exact"}
+{"id":"cat-02","family":"cat","coverage":"argument","request":"display README.md","reference":"cat README.md","comparison":"exact"}
+{"id":"cat-03","family":"cat","coverage":"quoted_argument","request":"show the contents of todo list.txt","reference":"cat 'todo list.txt'","comparison":"exact"}
+{"id":"cat-04","family":"cat","coverage":"composition","request":"print notes.txt then report.txt in that order","reference":"cat notes.txt report.txt","comparison":"exact"}
+{"id":"cat-05","family":"cat","coverage":"quoted_argument","request":"display the file named -draft.txt","reference":"cat -- -draft.txt","comparison":"exact"}
+{"id":"cat-06","family":"cat","coverage":"quoted_argument","request":"print client's plan.txt","reference":"cat \"client's plan.txt\"","comparison":"exact"}
+{"id":"cat-07","family":"cat","coverage":"argument","request":"show the text in docs/intro.md","reference":"cat docs/intro.md","comparison":"exact"}
+{"id":"cat-08","family":"cat","coverage":"argument","request":"print unicode.txt to standard output","reference":"cat unicode.txt","comparison":"exact"}
+{"id":"head-01","family":"head","coverage":"basic","request":"show the first five lines of README.md","reference":"head -n 5 README.md","comparison":"exact"}
+{"id":"head-02","family":"head","coverage":"argument","request":"print the first two lines of notes.txt","reference":"head -n 2 notes.txt","comparison":"exact"}
+{"id":"head-03","family":"head","coverage":"basic","request":"display the first ten lines of numbers.txt","reference":"head -n 10 numbers.txt","comparison":"exact"}
+{"id":"head-04","family":"head","coverage":"argument","request":"show only the first line of report.txt","reference":"head -n 1 report.txt","comparison":"exact"}
+{"id":"head-05","family":"head","coverage":"quoted_argument","request":"print the first line of todo list.txt","reference":"head -n 1 'todo list.txt'","comparison":"exact"}
+{"id":"head-06","family":"head","coverage":"option","request":"show the first four bytes of notes.txt","reference":"head -c 4 notes.txt","comparison":"exact"}
+{"id":"head-07","family":"head","coverage":"argument","request":"print the first seven lines of README.md","reference":"head -n 7 README.md","comparison":"exact"}
+{"id":"head-08","family":"head","coverage":"informal","request":"give me the top 3 lines from numbers.txt","reference":"head -n 3 numbers.txt","comparison":"exact"}
+{"id":"tail-01","family":"tail","coverage":"basic","request":"show the last five lines of README.md","reference":"tail -n 5 README.md","comparison":"exact"}
+{"id":"tail-02","family":"tail","coverage":"argument","request":"print the last two lines of notes.txt","reference":"tail -n 2 notes.txt","comparison":"exact"}
+{"id":"tail-03","family":"tail","coverage":"basic","request":"display the last ten lines of numbers.txt","reference":"tail -n 10 numbers.txt","comparison":"exact"}
+{"id":"tail-04","family":"tail","coverage":"argument","request":"show only the final line of report.txt","reference":"tail -n 1 report.txt","comparison":"exact"}
+{"id":"tail-05","family":"tail","coverage":"quoted_argument","request":"print the final line of todo list.txt","reference":"tail -n 1 'todo list.txt'","comparison":"exact"}
+{"id":"tail-06","family":"tail","coverage":"option","request":"show the last four bytes of notes.txt","reference":"tail -c 4 notes.txt","comparison":"exact"}
+{"id":"tail-07","family":"tail","coverage":"argument","request":"print the last seven lines of README.md","reference":"tail -n 7 README.md","comparison":"exact"}
+{"id":"tail-08","family":"tail","coverage":"informal","request":"give me the bottom 3 lines from numbers.txt","reference":"tail -n 3 numbers.txt","comparison":"exact"}
+{"id":"wc-01","family":"wc","coverage":"basic","request":"count the lines in report.txt","reference":"wc -l report.txt","comparison":"count"}
+{"id":"wc-02","family":"wc","coverage":"option","request":"count the words in notes.txt","reference":"wc -w notes.txt","comparison":"count"}
+{"id":"wc-03","family":"wc","coverage":"option","request":"count the bytes in unicode.txt","reference":"wc -c unicode.txt","comparison":"count"}
+{"id":"wc-04","family":"wc","coverage":"quoted_argument","request":"count lines in todo list.txt","reference":"wc -l 'todo list.txt'","comparison":"count"}
+{"id":"wc-05","family":"wc","coverage":"argument","request":"how many lines are in README.md?","reference":"wc -l README.md","comparison":"count"}
+{"id":"wc-06","family":"wc","coverage":"argument","request":"count the words in docs/intro.md","reference":"wc -w docs/intro.md","comparison":"count"}
+{"id":"wc-07","family":"wc","coverage":"argument","request":"get the byte count of notes.txt","reference":"wc -c notes.txt","comparison":"count"}
+{"id":"wc-08","family":"wc","coverage":"informal","request":"how many lines does numbers.txt have","reference":"wc -l numbers.txt","comparison":"count"}
+{"id":"grep-01","family":"grep","coverage":"basic","request":"print the lines in notes.txt containing TODO","reference":"grep -F TODO notes.txt","comparison":"exact"}
+{"id":"grep-02","family":"grep","coverage":"option","request":"find lines containing todo in notes.txt ignoring case","reference":"grep -iF todo notes.txt","comparison":"exact"}
+{"id":"grep-03","family":"grep","coverage":"option","request":"show matching lines and their line numbers for TODO in notes.txt","reference":"grep -nF TODO notes.txt","comparison":"exact"}
+{"id":"grep-04","family":"grep","coverage":"option","request":"print lines from notes.txt that do not contain TODO","reference":"grep -vF TODO notes.txt","comparison":"exact"}
+{"id":"grep-05","family":"grep","coverage":"option","request":"count the lines in notes.txt containing TODO","reference":"grep -cF TODO notes.txt","comparison":"count"}
+{"id":"grep-06","family":"grep","coverage":"literal_pattern","request":"print lines in notes.txt containing the literal text a.b","reference":"grep -F 'a.b' notes.txt","comparison":"exact"}
+{"id":"grep-07","family":"grep","coverage":"composition","request":"recursively list the file paths containing TODO under the current directory","reference":"grep -rlF TODO .","comparison":"lines"}
+{"id":"grep-08","family":"grep","coverage":"quoted_argument","request":"print lines containing TODO in the file todo list.txt","reference":"grep -F TODO 'todo list.txt'","comparison":"exact"}
+{"id":"find-01","family":"find","coverage":"basic","request":"recursively list regular files ending in .log from here","reference":"find . -type f -name '*.log'","comparison":"lines"}
+{"id":"find-02","family":"find","coverage":"argument","request":"list all regular files inside docs recursively","reference":"find docs -type f","comparison":"lines"}
+{"id":"find-03","family":"find","coverage":"argument","request":"find regular Python files ending in .py below this directory","reference":"find . -type f -name '*.py'","comparison":"lines"}
+{"id":"find-04","family":"find","coverage":"option","request":"list only regular files directly in the current directory without recursing","reference":"find . -maxdepth 1 -type f","comparison":"lines"}
+{"id":"find-05","family":"find","coverage":"option","request":"list all directories recursively starting with the current directory itself","reference":"find . -type d","comparison":"lines"}
+{"id":"find-06","family":"find","coverage":"quoted_argument","request":"find regular files whose exact name is todo list.txt below here","reference":"find . -type f -name 'todo list.txt'","comparison":"lines"}
+{"id":"find-07","family":"find","coverage":"composition","request":"find all empty regular files recursively from here","reference":"find . -type f -empty","comparison":"lines"}
+{"id":"find-08","family":"find","coverage":"composition","request":"find regular .log files recursively that are larger than 100 bytes","reference":"find . -type f -name '*.log' -size +100c","comparison":"lines"}
