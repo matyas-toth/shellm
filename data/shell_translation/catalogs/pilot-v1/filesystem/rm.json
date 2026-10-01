@@ -1,0 +1,407 @@
+[
+  {
+    "id": "pilot-v1-rm-01",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "discard-copper"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "delete the directory discard-copper and everything inside it",
+      "remove the directory discard-copper and everything inside it",
+      "erase the directory discard-copper and everything inside it",
+      "get rid of the directory discard-copper and everything inside it"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-02",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "mango old memo.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the file mango old memo.txt",
+      "remove the file mango old memo.txt",
+      "erase the file mango old memo.txt",
+      "get rid of the file mango old memo.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-03",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "falcon-a.old",
+        "falcon-b.old"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the files falcon-a.old and falcon-b.old",
+      "remove the files falcon-a.old and falcon-b.old",
+      "erase the files falcon-a.old and falcon-b.old",
+      "get rid of the files falcon-a.old and falcon-b.old"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-04",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "orchid.old"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the file orchid.old",
+      "remove the file orchid.old",
+      "erase the file orchid.old",
+      "get rid of the file orchid.old"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-05",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "discard-nebula"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "delete the directory discard-nebula and everything inside it",
+      "remove the directory discard-nebula and everything inside it",
+      "erase the directory discard-nebula and everything inside it",
+      "get rid of the directory discard-nebula and everything inside it"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-06",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "otter old memo.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the file otter old memo.txt",
+      "remove the file otter old memo.txt",
+      "erase the file otter old memo.txt",
+      "get rid of the file otter old memo.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-07",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "cedar-a.old",
+        "cedar-b.old"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the files cedar-a.old and cedar-b.old",
+      "remove the files cedar-a.old and cedar-b.old",
+      "erase the files cedar-a.old and cedar-b.old",
+      "get rid of the files cedar-a.old and cedar-b.old"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-08",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "saffron.old"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the file saffron.old",
+      "remove the file saffron.old",
+      "erase the file saffron.old",
+      "get rid of the file saffron.old"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-09",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "discard-marble"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "delete the directory discard-marble and everything inside it",
+      "remove the directory discard-marble and everything inside it",
+      "erase the directory discard-marble and everything inside it",
+      "get rid of the directory discard-marble and everything inside it"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-10",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "comet old memo.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the file comet old memo.txt",
+      "remove the file comet old memo.txt",
+      "erase the file comet old memo.txt",
+      "get rid of the file comet old memo.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-11",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "willow-a.old",
+        "willow-b.old"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the files willow-a.old and willow-b.old",
+      "remove the files willow-a.old and willow-b.old",
+      "erase the files willow-a.old and willow-b.old",
+      "get rid of the files willow-a.old and willow-b.old"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-12",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "-badger.old"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the file -badger.old",
+      "remove the file -badger.old",
+      "erase the file -badger.old",
+      "get rid of the file -badger.old"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-13",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "discard-quartz"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "delete the directory discard-quartz and everything inside it",
+      "remove the directory discard-quartz and everything inside it",
+      "erase the directory discard-quartz and everything inside it",
+      "get rid of the directory discard-quartz and everything inside it"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-14",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "hazel old memo.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the file hazel old memo.txt",
+      "remove the file hazel old memo.txt",
+      "erase the file hazel old memo.txt",
+      "get rid of the file hazel old memo.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-15",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "maple-a.old",
+        "maple-b.old"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the files maple-a.old and maple-b.old",
+      "remove the files maple-a.old and maple-b.old",
+      "erase the files maple-a.old and maple-b.old",
+      "get rid of the files maple-a.old and maple-b.old"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-16",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "client's raven old memo.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the file client's raven old memo.txt",
+      "remove the file client's raven old memo.txt",
+      "erase the file client's raven old memo.txt",
+      "get rid of the file client's raven old memo.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-17",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "discard-lotus"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "delete the directory discard-lotus and everything inside it",
+      "remove the directory discard-lotus and everything inside it",
+      "erase the directory discard-lotus and everything inside it",
+      "get rid of the directory discard-lotus and everything inside it"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-18",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "birch old memo.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the file birch old memo.txt",
+      "remove the file birch old memo.txt",
+      "erase the file birch old memo.txt",
+      "get rid of the file birch old memo.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-19",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "tundra-a.old",
+        "tundra-b.old"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the files tundra-a.old and tundra-b.old",
+      "remove the files tundra-a.old and tundra-b.old",
+      "erase the files tundra-a.old and tundra-b.old",
+      "get rid of the files tundra-a.old and tundra-b.old"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-20",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "zephyr.old"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the file zephyr.old",
+      "remove the file zephyr.old",
+      "erase the file zephyr.old",
+      "get rid of the file zephyr.old"
+    ]
+  }
+]

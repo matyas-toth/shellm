@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-01T13:17:13.415790+02:00",
+  "model": "Qwen/Qwen3-0.6B-Base",
+  "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+  "suite_sha256": "0b0ad3c730398c7473e0f40e99ee1588e497c1cbf1c3df1c906466177240240c",
+  "python": "3.12.3",
+  "packages": {
+    "torch": "2.11.0+cu130",
+    "transformers": "4.57.6",
+    "huggingface-hub": "0.36.2"
+  },
+  "gpu": "NVIDIA GeForce RTX 2060",
+  "dtype": "float16",
+  "do_sample": false,
+  "max_new_tokens": 64,
+  "stop_strings": [
+    "\n"
+  ],
+  "prompt_style": "raw",
+  "cases": 112,
+  "generation_seconds": 143.6112521999994,
+  "peak_pytorch_gib": 1.1621904373168945,
+  "adapter": "/mnt/c/Users/reign/Documents/ChatGPT/SheLLM-0.6B-Project/checkpoints/2026-10-01-lora-pilot-v1/epoch-1",
+  "adapter_sha256": "c542734f0bf4a7cbb717d71264bbe49d2a7aa2543fa9093f2bb4a9be705191f5",
+  "training": {
+    "run_id": "2026-10-01-lora-pilot-v1",
+    "epoch": 1,
+    "step": 63,
+    "examples_seen": 1008,
+    "validation_loss": 0.007686159257934411,
+    "dataset_sha256": "57653a7992e7186acbf7e6a25c496a85e335b30915dd823a2cb681ef5a5f1594",
+    "base_model": "Qwen/Qwen3-0.6B-Base",
+    "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+    "config": {
+      "model": "Qwen/Qwen3-0.6B-Base",
+      "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+      "dataset_release": "pilot-v1",
+      "seed": 42,
+      "epochs": 3,
+      "micro_batch_size": 2,
+      "effective_batch_size": 16,
+      "max_length": 128,
+      "learning_rate": 0.0002,
+      "warmup_steps": 10,
+      "weight_decay": 0.0,
+      "max_grad_norm": 1.0,
+      "lora": {
+        "r": 8,
+        "lora_alpha": 16,
+        "lora_dropout": 0.05,
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj",
+          "gate_proj",
+          "up_proj",
+          "down_proj"
+        ],
+        "bias": "none",
+        "task_type": "CAUSAL_LM"
+      }
+    },
+    "adapter_sha256": "c542734f0bf4a7cbb717d71264bbe49d2a7aa2543fa9093f2bb4a9be705191f5",
+    "checkpoint": "checkpoints/2026-10-01-lora-pilot-v1/epoch-1"
+  }
+}

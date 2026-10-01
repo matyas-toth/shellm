@@ -1,0 +1,378 @@
+[
+  {
+    "id": "pilot-v1-grep-01",
+    "topic": "text",
+    "family": "grep",
+    "capability": "literal-text-search",
+    "split": "train",
+    "intent": {
+      "op": "grep",
+      "source": "copper messages.txt",
+      "pattern": "WARN"
+    },
+    "requests": [
+      "print lines containing the literal text WARN in copper messages.txt",
+      "show lines containing the literal text WARN in copper messages.txt",
+      "display lines containing the literal text WARN in copper messages.txt",
+      "output lines containing the literal text WARN in copper messages.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-grep-02",
+    "topic": "text",
+    "family": "grep",
+    "capability": "literal-text-search",
+    "split": "train",
+    "intent": {
+      "op": "grep",
+      "source": "texts/mango.txt",
+      "pattern": "a.b",
+      "ignore_case": true
+    },
+    "requests": [
+      "print lines containing the literal text a.b in texts/mango.txt ignoring case",
+      "show lines containing the literal text a.b in texts/mango.txt ignoring case",
+      "display lines containing the literal text a.b in texts/mango.txt ignoring case",
+      "output lines containing the literal text a.b in texts/mango.txt ignoring case"
+    ]
+  },
+  {
+    "id": "pilot-v1-grep-03",
+    "topic": "text",
+    "family": "grep",
+    "capability": "literal-text-search",
+    "split": "train",
+    "intent": {
+      "op": "grep",
+      "source": "texts/falcon.txt",
+      "pattern": "READY",
+      "line_numbers": true
+    },
+    "requests": [
+      "print lines containing the literal text READY in texts/falcon.txt with their line numbers",
+      "show lines containing the literal text READY in texts/falcon.txt with their line numbers",
+      "display lines containing the literal text READY in texts/falcon.txt with their line numbers",
+      "output lines containing the literal text READY in texts/falcon.txt with their line numbers"
+    ]
+  },
+  {
+    "id": "pilot-v1-grep-04",
+    "topic": "text",
+    "family": "grep",
+    "capability": "literal-text-search",
+    "split": "train",
+    "intent": {
+      "op": "grep",
+      "source": "texts/orchid.txt",
+      "pattern": "fatal.error",
+      "invert": true
+    },
+    "requests": [
+      "print lines not containing the literal text fatal.error in texts/orchid.txt",
+      "show lines not containing the literal text fatal.error in texts/orchid.txt",
+      "display lines not containing the literal text fatal.error in texts/orchid.txt",
+      "output lines not containing the literal text fatal.error in texts/orchid.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-grep-05",
+    "topic": "text",
+    "family": "grep",
+    "capability": "literal-text-search",
+    "split": "train",
+    "intent": {
+      "op": "grep",
+      "source": "nebula messages.txt",
+      "pattern": "todo_7",
+      "count": true
+    },
+    "requests": [
+      "count lines containing the literal text todo_7 in nebula messages.txt",
+      "get the number of lines containing the literal text todo_7 in nebula messages.txt",
+      "report the count of lines containing the literal text todo_7 in nebula messages.txt",
+      "tell me how many lines containing the literal text todo_7 in nebula messages.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-grep-06",
+    "topic": "text",
+    "family": "grep",
+    "capability": "literal-text-search",
+    "split": "train",
+    "intent": {
+      "op": "grep",
+      "source": "search-otter",
+      "pattern": "[notice]",
+      "recursive": true
+    },
+    "requests": [
+      "list the file paths containing the literal text [notice] recursively under search-otter",
+      "find the file paths containing the literal text [notice] recursively under search-otter",
+      "show the file paths containing the literal text [notice] recursively under search-otter",
+      "print the file paths containing the literal text [notice] recursively under search-otter"
+    ]
+  },
+  {
+    "id": "pilot-v1-grep-07",
+    "topic": "text",
+    "family": "grep",
+    "capability": "literal-text-search",
+    "split": "train",
+    "intent": {
+      "op": "grep",
+      "source": "texts/cedar.txt",
+      "pattern": "WARN"
+    },
+    "requests": [
+      "print lines containing the literal text WARN in texts/cedar.txt",
+      "show lines containing the literal text WARN in texts/cedar.txt",
+      "display lines containing the literal text WARN in texts/cedar.txt",
+      "output lines containing the literal text WARN in texts/cedar.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-grep-08",
+    "topic": "text",
+    "family": "grep",
+    "capability": "literal-text-search",
+    "split": "train",
+    "intent": {
+      "op": "grep",
+      "source": "texts/saffron.txt",
+      "pattern": "a.b",
+      "ignore_case": true
+    },
+    "requests": [
+      "print lines containing the literal text a.b in texts/saffron.txt ignoring case",
+      "show lines containing the literal text a.b in texts/saffron.txt ignoring case",
+      "display lines containing the literal text a.b in texts/saffron.txt ignoring case",
+      "output lines containing the literal text a.b in texts/saffron.txt ignoring case"
+    ]
+  },
+  {
+    "id": "pilot-v1-grep-09",
+    "topic": "text",
+    "family": "grep",
+    "capability": "literal-text-search",
+    "split": "train",
+    "intent": {
+      "op": "grep",
+      "source": "marble messages.txt",
+      "pattern": "READY",
+      "line_numbers": true
+    },
+    "requests": [
+      "print lines containing the literal text READY in marble messages.txt with their line numbers",
+      "show lines containing the literal text READY in marble messages.txt with their line numbers",
+      "display lines containing the literal text READY in marble messages.txt with their line numbers",
+      "output lines containing the literal text READY in marble messages.txt with their line numbers"
+    ]
+  },
+  {
+    "id": "pilot-v1-grep-10",
+    "topic": "text",
+    "family": "grep",
+    "capability": "literal-text-search",
+    "split": "train",
+    "intent": {
+      "op": "grep",
+      "source": "texts/comet.txt",
+      "pattern": "fatal.error",
+      "invert": true
+    },
+    "requests": [
+      "print lines not containing the literal text fatal.error in texts/comet.txt",
+      "show lines not containing the literal text fatal.error in texts/comet.txt",
+      "display lines not containing the literal text fatal.error in texts/comet.txt",
+      "output lines not containing the literal text fatal.error in texts/comet.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-grep-11",
+    "topic": "text",
+    "family": "grep",
+    "capability": "literal-text-search",
+    "split": "train",
+    "intent": {
+      "op": "grep",
+      "source": "texts/willow.txt",
+      "pattern": "todo_7",
+      "count": true
+    },
+    "requests": [
+      "count lines containing the literal text todo_7 in texts/willow.txt",
+      "get the number of lines containing the literal text todo_7 in texts/willow.txt",
+      "report the count of lines containing the literal text todo_7 in texts/willow.txt",
+      "tell me how many lines containing the literal text todo_7 in texts/willow.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-grep-12",
+    "topic": "text",
+    "family": "grep",
+    "capability": "literal-text-search",
+    "split": "train",
+    "intent": {
+      "op": "grep",
+      "source": "search-badger",
+      "pattern": "[notice]",
+      "recursive": true
+    },
+    "requests": [
+      "list the file paths containing the literal text [notice] recursively under search-badger",
+      "find the file paths containing the literal text [notice] recursively under search-badger",
+      "show the file paths containing the literal text [notice] recursively under search-badger",
+      "print the file paths containing the literal text [notice] recursively under search-badger"
+    ]
+  },
+  {
+    "id": "pilot-v1-grep-13",
+    "topic": "text",
+    "family": "grep",
+    "capability": "literal-text-search",
+    "split": "train",
+    "intent": {
+      "op": "grep",
+      "source": "quartz messages.txt",
+      "pattern": "WARN"
+    },
+    "requests": [
+      "print lines containing the literal text WARN in quartz messages.txt",
+      "show lines containing the literal text WARN in quartz messages.txt",
+      "display lines containing the literal text WARN in quartz messages.txt",
+      "output lines containing the literal text WARN in quartz messages.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-grep-14",
+    "topic": "text",
+    "family": "grep",
+    "capability": "literal-text-search",
+    "split": "train",
+    "intent": {
+      "op": "grep",
+      "source": "texts/hazel.txt",
+      "pattern": "a.b",
+      "ignore_case": true
+    },
+    "requests": [
+      "print lines containing the literal text a.b in texts/hazel.txt ignoring case",
+      "show lines containing the literal text a.b in texts/hazel.txt ignoring case",
+      "display lines containing the literal text a.b in texts/hazel.txt ignoring case",
+      "output lines containing the literal text a.b in texts/hazel.txt ignoring case"
+    ]
+  },
+  {
+    "id": "pilot-v1-grep-15",
+    "topic": "text",
+    "family": "grep",
+    "capability": "literal-text-search",
+    "split": "train",
+    "intent": {
+      "op": "grep",
+      "source": "texts/maple.txt",
+      "pattern": "READY",
+      "line_numbers": true
+    },
+    "requests": [
+      "print lines containing the literal text READY in texts/maple.txt with their line numbers",
+      "show lines containing the literal text READY in texts/maple.txt with their line numbers",
+      "display lines containing the literal text READY in texts/maple.txt with their line numbers",
+      "output lines containing the literal text READY in texts/maple.txt with their line numbers"
+    ]
+  },
+  {
+    "id": "pilot-v1-grep-16",
+    "topic": "text",
+    "family": "grep",
+    "capability": "literal-text-search",
+    "split": "train",
+    "intent": {
+      "op": "grep",
+      "source": "texts/raven.txt",
+      "pattern": "fatal.error",
+      "invert": true
+    },
+    "requests": [
+      "print lines not containing the literal text fatal.error in texts/raven.txt",
+      "show lines not containing the literal text fatal.error in texts/raven.txt",
+      "display lines not containing the literal text fatal.error in texts/raven.txt",
+      "output lines not containing the literal text fatal.error in texts/raven.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-grep-17",
+    "topic": "text",
+    "family": "grep",
+    "capability": "literal-text-search",
+    "split": "train",
+    "intent": {
+      "op": "grep",
+      "source": "lotus messages.txt",
+      "pattern": "todo_7",
+      "count": true
+    },
+    "requests": [
+      "count lines containing the literal text todo_7 in lotus messages.txt",
+      "get the number of lines containing the literal text todo_7 in lotus messages.txt",
+      "report the count of lines containing the literal text todo_7 in lotus messages.txt",
+      "tell me how many lines containing the literal text todo_7 in lotus messages.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-grep-18",
+    "topic": "text",
+    "family": "grep",
+    "capability": "literal-text-search",
+    "split": "train",
+    "intent": {
+      "op": "grep",
+      "source": "search-birch",
+      "pattern": "[notice]",
+      "recursive": true
+    },
+    "requests": [
+      "list the file paths containing the literal text [notice] recursively under search-birch",
+      "find the file paths containing the literal text [notice] recursively under search-birch",
+      "show the file paths containing the literal text [notice] recursively under search-birch",
+      "print the file paths containing the literal text [notice] recursively under search-birch"
+    ]
+  },
+  {
+    "id": "pilot-v1-grep-19",
+    "topic": "text",
+    "family": "grep",
+    "capability": "literal-text-search",
+    "split": "validation",
+    "intent": {
+      "op": "grep",
+      "source": "texts/tundra.txt",
+      "pattern": "WARN"
+    },
+    "requests": [
+      "print lines containing the literal text WARN in texts/tundra.txt",
+      "show lines containing the literal text WARN in texts/tundra.txt",
+      "display lines containing the literal text WARN in texts/tundra.txt",
+      "output lines containing the literal text WARN in texts/tundra.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-grep-20",
+    "topic": "text",
+    "family": "grep",
+    "capability": "literal-text-search",
+    "split": "validation",
+    "intent": {
+      "op": "grep",
+      "source": "texts/zephyr.txt",
+      "pattern": "a.b",
+      "ignore_case": true
+    },
+    "requests": [
+      "print lines containing the literal text a.b in texts/zephyr.txt ignoring case",
+      "show lines containing the literal text a.b in texts/zephyr.txt ignoring case",
+      "display lines containing the literal text a.b in texts/zephyr.txt ignoring case",
+      "output lines containing the literal text a.b in texts/zephyr.txt ignoring case"
+    ]
+  }
+]

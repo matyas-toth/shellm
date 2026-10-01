@@ -1,6 +1,6 @@
 # Functional baseline results: Qwen3 0.6B Base
 
-Run date: 2026-10-01. No fine-tuning has occurred.
+Run date: 2026-10-01. This report records the untouched model before fine-tuning.
 
 ## Configuration and artifacts
 

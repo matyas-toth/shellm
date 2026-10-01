@@ -41,7 +41,39 @@ uv run python -m shellbench build
 uv run python -m shellbench validate
 uv run python -m unittest discover -s tests -v
 uv run python -m shellbench evaluate \
-  --predictions reports/base-functional-baseline/predictions.jsonl
+  --predictions reports/base-functional-baseline/predictions.jsonl \
+  --output reports/baseline-replay.json
 ```
 
-The [evaluator guide](docs/functional-shell-evaluation.md) explains generation and replay. The [baseline report](docs/functional-baseline-results.md) links to saved predictions, settings, and detailed results. The next milestone is a small validated training dataset.
+The [evaluator guide](docs/functional-shell-evaluation.md) explains generation and replay. The [baseline report](docs/functional-baseline-results.md) links to saved predictions, settings, and detailed results.
+
+## Milestone 4: validated data and LoRA
+
+The [training dataset](data/shell_translation/README.md) keeps 1,008 training and 112 validation examples in topic/family folders, with editable intent catalogs and fully rendered JSONL releases. See the [contribution guide](docs/training-data-contribution-guide.md) to extend it.
+
+The [first LoRA experiment](docs/first-lora-training-experiment.md) completed three epochs on the RTX 2060 in about 15 minutes, with 1.40 GiB peak PyTorch tensor allocation. Functional accuracy improved from 30/112 (26.8%) to 90/112 (80.4%). This is a development-suite result; quoting, path interpretation, and search composition still need work. The separate smoke request `enter the root directory` currently prints `pwd`, showing that broader wording also needs attention.
+
+```bash
+uv run python -m shellm_data build --release pilot-v1 --check
+uv run python -m shellm_data validate --release pilot-v1
+uv run python -m shellm_training \
+  --config configs/training/lora-pilot-v1.json \
+  --run-id my-lora-experiment
+uv run python -m shellbench generate \
+  --adapter checkpoints/my-lora-experiment/epoch-3 \
+  --output reports/my-lora-experiment/evaluations/epoch-3
+uv run python -m shellbench evaluate \
+  --predictions reports/my-lora-experiment/evaluations/epoch-3/predictions.jsonl
+uv run python tools/report_history.py
+```
+
+Try the saved best overall checkpoint inside WSL:
+
+```bash
+uv run python translate.py "enter the root directory" \
+  --adapter checkpoints/2026-10-01-lora-pilot-v1/epoch-3
+```
+
+`translate.py` prints the command. Use `uv run python tools/evaluate_checkpoints.py --run-id my-lora-experiment` to generate and evaluate every saved epoch of another completed run.
+
+Use a fresh run ID for each experiment. Checkpoints are ignored by Git; dataset releases, configurations, training logs, and evaluation reports are intended to be tracked. New prediction directories and evaluation files refuse overwrites to preserve history. `reports/history.csv` is a regenerable chart index; original reports remain authoritative.

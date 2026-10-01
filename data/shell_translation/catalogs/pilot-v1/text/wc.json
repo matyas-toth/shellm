@@ -1,0 +1,362 @@
+[
+  {
+    "id": "pilot-v1-wc-01",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "copper text.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "count lines in copper text.txt",
+      "how many lines are in copper text.txt?",
+      "get the number of lines in copper text.txt",
+      "report the lines count for copper text.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-02",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/mango.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "count words in texts/mango.txt",
+      "how many words are in texts/mango.txt?",
+      "get the number of words in texts/mango.txt",
+      "report the words count for texts/mango.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-03",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/falcon.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "count bytes in texts/falcon.txt",
+      "how many bytes are in texts/falcon.txt?",
+      "get the number of bytes in texts/falcon.txt",
+      "report the bytes count for texts/falcon.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-04",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/orchid.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "count lines in texts/orchid.txt",
+      "how many lines are in texts/orchid.txt?",
+      "get the number of lines in texts/orchid.txt",
+      "report the lines count for texts/orchid.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-05",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "nebula text.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "count words in nebula text.txt",
+      "how many words are in nebula text.txt?",
+      "get the number of words in nebula text.txt",
+      "report the words count for nebula text.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-06",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/otter.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "count bytes in texts/otter.txt",
+      "how many bytes are in texts/otter.txt?",
+      "get the number of bytes in texts/otter.txt",
+      "report the bytes count for texts/otter.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-07",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/cedar.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "count lines in texts/cedar.txt",
+      "how many lines are in texts/cedar.txt?",
+      "get the number of lines in texts/cedar.txt",
+      "report the lines count for texts/cedar.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-08",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/saffron.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "count words in texts/saffron.txt",
+      "how many words are in texts/saffron.txt?",
+      "get the number of words in texts/saffron.txt",
+      "report the words count for texts/saffron.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-09",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "marble text.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "count bytes in marble text.txt",
+      "how many bytes are in marble text.txt?",
+      "get the number of bytes in marble text.txt",
+      "report the bytes count for marble text.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-10",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/comet.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "count lines in texts/comet.txt",
+      "how many lines are in texts/comet.txt?",
+      "get the number of lines in texts/comet.txt",
+      "report the lines count for texts/comet.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-11",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/willow.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "count words in texts/willow.txt",
+      "how many words are in texts/willow.txt?",
+      "get the number of words in texts/willow.txt",
+      "report the words count for texts/willow.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-12",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/badger.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "count bytes in texts/badger.txt",
+      "how many bytes are in texts/badger.txt?",
+      "get the number of bytes in texts/badger.txt",
+      "report the bytes count for texts/badger.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-13",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "quartz text.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "count lines in quartz text.txt",
+      "how many lines are in quartz text.txt?",
+      "get the number of lines in quartz text.txt",
+      "report the lines count for quartz text.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-14",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/hazel.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "count words in texts/hazel.txt",
+      "how many words are in texts/hazel.txt?",
+      "get the number of words in texts/hazel.txt",
+      "report the words count for texts/hazel.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-15",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/maple.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "count bytes in texts/maple.txt",
+      "how many bytes are in texts/maple.txt?",
+      "get the number of bytes in texts/maple.txt",
+      "report the bytes count for texts/maple.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-16",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/raven.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "count lines in texts/raven.txt",
+      "how many lines are in texts/raven.txt?",
+      "get the number of lines in texts/raven.txt",
+      "report the lines count for texts/raven.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-17",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "lotus text.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "count words in lotus text.txt",
+      "how many words are in lotus text.txt?",
+      "get the number of words in lotus text.txt",
+      "report the words count for lotus text.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-18",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/birch.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "count bytes in texts/birch.txt",
+      "how many bytes are in texts/birch.txt?",
+      "get the number of bytes in texts/birch.txt",
+      "report the bytes count for texts/birch.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-19",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "texts/tundra.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "count lines in texts/tundra.txt",
+      "how many lines are in texts/tundra.txt?",
+      "get the number of lines in texts/tundra.txt",
+      "report the lines count for texts/tundra.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-20",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "texts/zephyr.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "count words in texts/zephyr.txt",
+      "how many words are in texts/zephyr.txt?",
+      "get the number of words in texts/zephyr.txt",
+      "report the words count for texts/zephyr.txt"
+    ]
+  }
+]

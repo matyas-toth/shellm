@@ -1,0 +1,402 @@
+[
+  {
+    "id": "pilot-v1-ls-01",
+    "topic": "filesystem",
+    "family": "ls",
+    "capability": "listing-options",
+    "split": "train",
+    "intent": {
+      "op": "ls",
+      "directory": ".",
+      "all": false,
+      "long": false,
+      "one": false
+    },
+    "requests": [
+      "list the non-hidden entries in this working folder",
+      "show the non-hidden entries inside this working folder",
+      "display the non-hidden entries from this working folder",
+      "give me the non-hidden entries in this working folder"
+    ]
+  },
+  {
+    "id": "pilot-v1-ls-02",
+    "topic": "filesystem",
+    "family": "ls",
+    "capability": "listing-options",
+    "split": "train",
+    "intent": {
+      "op": "ls",
+      "directory": ".",
+      "all": true,
+      "long": false,
+      "one": false
+    },
+    "requests": [
+      "list every entry including hidden entries in this working folder",
+      "show every entry including hidden entries inside this working folder",
+      "display every entry including hidden entries from this working folder",
+      "give me every entry including hidden entries in this working folder"
+    ]
+  },
+  {
+    "id": "pilot-v1-ls-03",
+    "topic": "filesystem",
+    "family": "ls",
+    "capability": "listing-options",
+    "split": "train",
+    "intent": {
+      "op": "ls",
+      "directory": ".",
+      "all": false,
+      "long": true,
+      "one": false
+    },
+    "requests": [
+      "list the non-hidden entries in this working folder with a long detailed listing",
+      "show the non-hidden entries inside this working folder with a long detailed listing",
+      "display the non-hidden entries from this working folder with a long detailed listing",
+      "give me the non-hidden entries in this working folder with a long detailed listing"
+    ]
+  },
+  {
+    "id": "pilot-v1-ls-04",
+    "topic": "filesystem",
+    "family": "ls",
+    "capability": "listing-options",
+    "split": "train",
+    "intent": {
+      "op": "ls",
+      "directory": ".",
+      "all": true,
+      "long": true,
+      "one": false
+    },
+    "requests": [
+      "list every entry including hidden entries in this working folder with a long detailed listing",
+      "show every entry including hidden entries inside this working folder with a long detailed listing",
+      "display every entry including hidden entries from this working folder with a long detailed listing",
+      "give me every entry including hidden entries in this working folder with a long detailed listing"
+    ]
+  },
+  {
+    "id": "pilot-v1-ls-05",
+    "topic": "filesystem",
+    "family": "ls",
+    "capability": "listing-options",
+    "split": "train",
+    "intent": {
+      "op": "ls",
+      "directory": ".",
+      "all": false,
+      "long": false,
+      "one": true
+    },
+    "requests": [
+      "list the non-hidden entries in this working folder with one entry per line",
+      "show the non-hidden entries inside this working folder with one entry per line",
+      "display the non-hidden entries from this working folder with one entry per line",
+      "give me the non-hidden entries in this working folder with one entry per line"
+    ]
+  },
+  {
+    "id": "pilot-v1-ls-06",
+    "topic": "filesystem",
+    "family": "ls",
+    "capability": "listing-options",
+    "split": "train",
+    "intent": {
+      "op": "ls",
+      "directory": "catalog-otter",
+      "all": false,
+      "long": false,
+      "one": false
+    },
+    "requests": [
+      "list the non-hidden entries in catalog-otter",
+      "show the non-hidden entries inside catalog-otter",
+      "display the non-hidden entries from catalog-otter",
+      "give me the non-hidden entries in catalog-otter"
+    ]
+  },
+  {
+    "id": "pilot-v1-ls-07",
+    "topic": "filesystem",
+    "family": "ls",
+    "capability": "listing-options",
+    "split": "train",
+    "intent": {
+      "op": "ls",
+      "directory": "cedar catalog",
+      "all": true,
+      "long": false,
+      "one": false
+    },
+    "requests": [
+      "list every entry including hidden entries in cedar catalog",
+      "show every entry including hidden entries inside cedar catalog",
+      "display every entry including hidden entries from cedar catalog",
+      "give me every entry including hidden entries in cedar catalog"
+    ]
+  },
+  {
+    "id": "pilot-v1-ls-08",
+    "topic": "filesystem",
+    "family": "ls",
+    "capability": "listing-options",
+    "split": "train",
+    "intent": {
+      "op": "ls",
+      "directory": "catalog-saffron",
+      "all": false,
+      "long": true,
+      "one": false
+    },
+    "requests": [
+      "list the non-hidden entries in catalog-saffron with a long detailed listing",
+      "show the non-hidden entries inside catalog-saffron with a long detailed listing",
+      "display the non-hidden entries from catalog-saffron with a long detailed listing",
+      "give me the non-hidden entries in catalog-saffron with a long detailed listing"
+    ]
+  },
+  {
+    "id": "pilot-v1-ls-09",
+    "topic": "filesystem",
+    "family": "ls",
+    "capability": "listing-options",
+    "split": "train",
+    "intent": {
+      "op": "ls",
+      "directory": "catalog-marble",
+      "all": true,
+      "long": true,
+      "one": false
+    },
+    "requests": [
+      "list every entry including hidden entries in catalog-marble with a long detailed listing",
+      "show every entry including hidden entries inside catalog-marble with a long detailed listing",
+      "display every entry including hidden entries from catalog-marble with a long detailed listing",
+      "give me every entry including hidden entries in catalog-marble with a long detailed listing"
+    ]
+  },
+  {
+    "id": "pilot-v1-ls-10",
+    "topic": "filesystem",
+    "family": "ls",
+    "capability": "listing-options",
+    "split": "train",
+    "intent": {
+      "op": "ls",
+      "directory": "comet catalog",
+      "all": false,
+      "long": false,
+      "one": true
+    },
+    "requests": [
+      "list the non-hidden entries in comet catalog with one entry per line",
+      "show the non-hidden entries inside comet catalog with one entry per line",
+      "display the non-hidden entries from comet catalog with one entry per line",
+      "give me the non-hidden entries in comet catalog with one entry per line"
+    ]
+  },
+  {
+    "id": "pilot-v1-ls-11",
+    "topic": "filesystem",
+    "family": "ls",
+    "capability": "listing-options",
+    "split": "train",
+    "intent": {
+      "op": "ls",
+      "directory": "catalog-willow",
+      "all": false,
+      "long": false,
+      "one": false
+    },
+    "requests": [
+      "list the non-hidden entries in catalog-willow",
+      "show the non-hidden entries inside catalog-willow",
+      "display the non-hidden entries from catalog-willow",
+      "give me the non-hidden entries in catalog-willow"
+    ]
+  },
+  {
+    "id": "pilot-v1-ls-12",
+    "topic": "filesystem",
+    "family": "ls",
+    "capability": "listing-options",
+    "split": "train",
+    "intent": {
+      "op": "ls",
+      "directory": "catalog-badger",
+      "all": true,
+      "long": false,
+      "one": false
+    },
+    "requests": [
+      "list every entry including hidden entries in catalog-badger",
+      "show every entry including hidden entries inside catalog-badger",
+      "display every entry including hidden entries from catalog-badger",
+      "give me every entry including hidden entries in catalog-badger"
+    ]
+  },
+  {
+    "id": "pilot-v1-ls-13",
+    "topic": "filesystem",
+    "family": "ls",
+    "capability": "listing-options",
+    "split": "train",
+    "intent": {
+      "op": "ls",
+      "directory": "quartz catalog",
+      "all": false,
+      "long": true,
+      "one": false
+    },
+    "requests": [
+      "list the non-hidden entries in quartz catalog with a long detailed listing",
+      "show the non-hidden entries inside quartz catalog with a long detailed listing",
+      "display the non-hidden entries from quartz catalog with a long detailed listing",
+      "give me the non-hidden entries in quartz catalog with a long detailed listing"
+    ]
+  },
+  {
+    "id": "pilot-v1-ls-14",
+    "topic": "filesystem",
+    "family": "ls",
+    "capability": "listing-options",
+    "split": "train",
+    "intent": {
+      "op": "ls",
+      "directory": "catalog-hazel",
+      "all": true,
+      "long": true,
+      "one": false
+    },
+    "requests": [
+      "list every entry including hidden entries in catalog-hazel with a long detailed listing",
+      "show every entry including hidden entries inside catalog-hazel with a long detailed listing",
+      "display every entry including hidden entries from catalog-hazel with a long detailed listing",
+      "give me every entry including hidden entries in catalog-hazel with a long detailed listing"
+    ]
+  },
+  {
+    "id": "pilot-v1-ls-15",
+    "topic": "filesystem",
+    "family": "ls",
+    "capability": "listing-options",
+    "split": "train",
+    "intent": {
+      "op": "ls",
+      "directory": "catalog-maple",
+      "all": false,
+      "long": false,
+      "one": true
+    },
+    "requests": [
+      "list the non-hidden entries in catalog-maple with one entry per line",
+      "show the non-hidden entries inside catalog-maple with one entry per line",
+      "display the non-hidden entries from catalog-maple with one entry per line",
+      "give me the non-hidden entries in catalog-maple with one entry per line"
+    ]
+  },
+  {
+    "id": "pilot-v1-ls-16",
+    "topic": "filesystem",
+    "family": "ls",
+    "capability": "listing-options",
+    "split": "train",
+    "intent": {
+      "op": "ls",
+      "directory": "raven catalog",
+      "all": false,
+      "long": false,
+      "one": false
+    },
+    "requests": [
+      "list the non-hidden entries in raven catalog",
+      "show the non-hidden entries inside raven catalog",
+      "display the non-hidden entries from raven catalog",
+      "give me the non-hidden entries in raven catalog"
+    ]
+  },
+  {
+    "id": "pilot-v1-ls-17",
+    "topic": "filesystem",
+    "family": "ls",
+    "capability": "listing-options",
+    "split": "train",
+    "intent": {
+      "op": "ls",
+      "directory": "catalog-lotus",
+      "all": true,
+      "long": false,
+      "one": false
+    },
+    "requests": [
+      "list every entry including hidden entries in catalog-lotus",
+      "show every entry including hidden entries inside catalog-lotus",
+      "display every entry including hidden entries from catalog-lotus",
+      "give me every entry including hidden entries in catalog-lotus"
+    ]
+  },
+  {
+    "id": "pilot-v1-ls-18",
+    "topic": "filesystem",
+    "family": "ls",
+    "capability": "listing-options",
+    "split": "train",
+    "intent": {
+      "op": "ls",
+      "directory": "catalog-birch",
+      "all": false,
+      "long": true,
+      "one": false
+    },
+    "requests": [
+      "list the non-hidden entries in catalog-birch with a long detailed listing",
+      "show the non-hidden entries inside catalog-birch with a long detailed listing",
+      "display the non-hidden entries from catalog-birch with a long detailed listing",
+      "give me the non-hidden entries in catalog-birch with a long detailed listing"
+    ]
+  },
+  {
+    "id": "pilot-v1-ls-19",
+    "topic": "filesystem",
+    "family": "ls",
+    "capability": "listing-options",
+    "split": "validation",
+    "intent": {
+      "op": "ls",
+      "directory": "tundra catalog",
+      "all": true,
+      "long": true,
+      "one": false
+    },
+    "requests": [
+      "list every entry including hidden entries in tundra catalog with a long detailed listing",
+      "show every entry including hidden entries inside tundra catalog with a long detailed listing",
+      "display every entry including hidden entries from tundra catalog with a long detailed listing",
+      "give me every entry including hidden entries in tundra catalog with a long detailed listing"
+    ]
+  },
+  {
+    "id": "pilot-v1-ls-20",
+    "topic": "filesystem",
+    "family": "ls",
+    "capability": "listing-options",
+    "split": "validation",
+    "intent": {
+      "op": "ls",
+      "directory": "catalog-zephyr",
+      "all": false,
+      "long": false,
+      "one": true
+    },
+    "requests": [
+      "list the non-hidden entries in catalog-zephyr with one entry per line",
+      "show the non-hidden entries inside catalog-zephyr with one entry per line",
+      "display the non-hidden entries from catalog-zephyr with one entry per line",
+      "give me the non-hidden entries in catalog-zephyr with one entry per line"
+    ]
+  }
+]

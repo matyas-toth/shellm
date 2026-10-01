@@ -1,0 +1,418 @@
+[
+  {
+    "id": "pilot-v1-mv-01",
+    "topic": "filesystem",
+    "family": "mv",
+    "capability": "move-or-rename",
+    "split": "train",
+    "intent": {
+      "op": "mv",
+      "sources": [
+        "inputs/copper.txt"
+      ],
+      "destination": "outputs/copper-saved.txt"
+    },
+    "requests": [
+      "move the file inputs/copper.txt to outputs/copper-saved.txt",
+      "relocate the file inputs/copper.txt to outputs/copper-saved.txt",
+      "put the file inputs/copper.txt to outputs/copper-saved.txt and remove the original location",
+      "transfer the file inputs/copper.txt to outputs/copper-saved.txt without keeping the original"
+    ]
+  },
+  {
+    "id": "pilot-v1-mv-02",
+    "topic": "filesystem",
+    "family": "mv",
+    "capability": "move-or-rename",
+    "split": "train",
+    "intent": {
+      "op": "mv",
+      "sources": [
+        "mango reading notes.txt"
+      ],
+      "destination": "mango saved notes.txt"
+    },
+    "requests": [
+      "move the file mango reading notes.txt to mango saved notes.txt",
+      "relocate the file mango reading notes.txt to mango saved notes.txt",
+      "put the file mango reading notes.txt to mango saved notes.txt and remove the original location",
+      "transfer the file mango reading notes.txt to mango saved notes.txt without keeping the original"
+    ]
+  },
+  {
+    "id": "pilot-v1-mv-03",
+    "topic": "filesystem",
+    "family": "mv",
+    "capability": "move-or-rename",
+    "split": "train",
+    "intent": {
+      "op": "mv",
+      "into": true,
+      "sources": [
+        "inputs/falcon.txt"
+      ],
+      "destination": "stash-falcon"
+    },
+    "requests": [
+      "move the file inputs/falcon.txt into stash-falcon",
+      "relocate the file inputs/falcon.txt into stash-falcon",
+      "put the file inputs/falcon.txt into stash-falcon and remove the original location",
+      "transfer the file inputs/falcon.txt into stash-falcon without keeping the original"
+    ]
+  },
+  {
+    "id": "pilot-v1-mv-04",
+    "topic": "filesystem",
+    "family": "mv",
+    "capability": "move-or-rename",
+    "split": "train",
+    "intent": {
+      "op": "mv",
+      "into": true,
+      "sources": [
+        "inputs/orchid.txt",
+        "inputs/orchid-extra.txt"
+      ],
+      "destination": "stash-orchid"
+    },
+    "requests": [
+      "move the files inputs/orchid.txt and inputs/orchid-extra.txt into stash-orchid",
+      "relocate the files inputs/orchid.txt and inputs/orchid-extra.txt into stash-orchid",
+      "put the files inputs/orchid.txt and inputs/orchid-extra.txt into stash-orchid and remove the original location",
+      "transfer the files inputs/orchid.txt and inputs/orchid-extra.txt into stash-orchid without keeping the original"
+    ]
+  },
+  {
+    "id": "pilot-v1-mv-05",
+    "topic": "filesystem",
+    "family": "mv",
+    "capability": "move-or-rename",
+    "split": "train",
+    "intent": {
+      "op": "mv",
+      "directory_source": true,
+      "sources": [
+        "bundle-nebula"
+      ],
+      "destination": "saved-nebula"
+    },
+    "requests": [
+      "move the directory bundle-nebula and all its contents to saved-nebula",
+      "relocate the directory bundle-nebula and all its contents to saved-nebula",
+      "put the directory bundle-nebula and all its contents to saved-nebula and remove the original location",
+      "transfer the directory bundle-nebula and all its contents to saved-nebula without keeping the original"
+    ]
+  },
+  {
+    "id": "pilot-v1-mv-06",
+    "topic": "filesystem",
+    "family": "mv",
+    "capability": "move-or-rename",
+    "split": "train",
+    "intent": {
+      "op": "mv",
+      "sources": [
+        "inputs/otter.txt"
+      ],
+      "destination": "outputs/otter-saved.txt"
+    },
+    "requests": [
+      "move the file inputs/otter.txt to outputs/otter-saved.txt",
+      "relocate the file inputs/otter.txt to outputs/otter-saved.txt",
+      "put the file inputs/otter.txt to outputs/otter-saved.txt and remove the original location",
+      "transfer the file inputs/otter.txt to outputs/otter-saved.txt without keeping the original"
+    ]
+  },
+  {
+    "id": "pilot-v1-mv-07",
+    "topic": "filesystem",
+    "family": "mv",
+    "capability": "move-or-rename",
+    "split": "train",
+    "intent": {
+      "op": "mv",
+      "sources": [
+        "cedar reading notes.txt"
+      ],
+      "destination": "cedar saved notes.txt"
+    },
+    "requests": [
+      "move the file cedar reading notes.txt to cedar saved notes.txt",
+      "relocate the file cedar reading notes.txt to cedar saved notes.txt",
+      "put the file cedar reading notes.txt to cedar saved notes.txt and remove the original location",
+      "transfer the file cedar reading notes.txt to cedar saved notes.txt without keeping the original"
+    ]
+  },
+  {
+    "id": "pilot-v1-mv-08",
+    "topic": "filesystem",
+    "family": "mv",
+    "capability": "move-or-rename",
+    "split": "train",
+    "intent": {
+      "op": "mv",
+      "into": true,
+      "sources": [
+        "inputs/saffron.txt"
+      ],
+      "destination": "stash-saffron"
+    },
+    "requests": [
+      "move the file inputs/saffron.txt into stash-saffron",
+      "relocate the file inputs/saffron.txt into stash-saffron",
+      "put the file inputs/saffron.txt into stash-saffron and remove the original location",
+      "transfer the file inputs/saffron.txt into stash-saffron without keeping the original"
+    ]
+  },
+  {
+    "id": "pilot-v1-mv-09",
+    "topic": "filesystem",
+    "family": "mv",
+    "capability": "move-or-rename",
+    "split": "train",
+    "intent": {
+      "op": "mv",
+      "into": true,
+      "sources": [
+        "inputs/marble.txt",
+        "inputs/marble-extra.txt"
+      ],
+      "destination": "stash-marble"
+    },
+    "requests": [
+      "move the files inputs/marble.txt and inputs/marble-extra.txt into stash-marble",
+      "relocate the files inputs/marble.txt and inputs/marble-extra.txt into stash-marble",
+      "put the files inputs/marble.txt and inputs/marble-extra.txt into stash-marble and remove the original location",
+      "transfer the files inputs/marble.txt and inputs/marble-extra.txt into stash-marble without keeping the original"
+    ]
+  },
+  {
+    "id": "pilot-v1-mv-10",
+    "topic": "filesystem",
+    "family": "mv",
+    "capability": "move-or-rename",
+    "split": "train",
+    "intent": {
+      "op": "mv",
+      "directory_source": true,
+      "sources": [
+        "bundle-comet"
+      ],
+      "destination": "saved-comet"
+    },
+    "requests": [
+      "move the directory bundle-comet and all its contents to saved-comet",
+      "relocate the directory bundle-comet and all its contents to saved-comet",
+      "put the directory bundle-comet and all its contents to saved-comet and remove the original location",
+      "transfer the directory bundle-comet and all its contents to saved-comet without keeping the original"
+    ]
+  },
+  {
+    "id": "pilot-v1-mv-11",
+    "topic": "filesystem",
+    "family": "mv",
+    "capability": "move-or-rename",
+    "split": "train",
+    "intent": {
+      "op": "mv",
+      "sources": [
+        "-willow-source.txt"
+      ],
+      "destination": "outputs/willow-saved.txt"
+    },
+    "requests": [
+      "move the file -willow-source.txt to outputs/willow-saved.txt",
+      "relocate the file -willow-source.txt to outputs/willow-saved.txt",
+      "put the file -willow-source.txt to outputs/willow-saved.txt and remove the original location",
+      "transfer the file -willow-source.txt to outputs/willow-saved.txt without keeping the original"
+    ]
+  },
+  {
+    "id": "pilot-v1-mv-12",
+    "topic": "filesystem",
+    "family": "mv",
+    "capability": "move-or-rename",
+    "split": "train",
+    "intent": {
+      "op": "mv",
+      "sources": [
+        "badger reading notes.txt"
+      ],
+      "destination": "badger saved notes.txt"
+    },
+    "requests": [
+      "move the file badger reading notes.txt to badger saved notes.txt",
+      "relocate the file badger reading notes.txt to badger saved notes.txt",
+      "put the file badger reading notes.txt to badger saved notes.txt and remove the original location",
+      "transfer the file badger reading notes.txt to badger saved notes.txt without keeping the original"
+    ]
+  },
+  {
+    "id": "pilot-v1-mv-13",
+    "topic": "filesystem",
+    "family": "mv",
+    "capability": "move-or-rename",
+    "split": "train",
+    "intent": {
+      "op": "mv",
+      "into": true,
+      "sources": [
+        "inputs/quartz.txt"
+      ],
+      "destination": "stash-quartz"
+    },
+    "requests": [
+      "move the file inputs/quartz.txt into stash-quartz",
+      "relocate the file inputs/quartz.txt into stash-quartz",
+      "put the file inputs/quartz.txt into stash-quartz and remove the original location",
+      "transfer the file inputs/quartz.txt into stash-quartz without keeping the original"
+    ]
+  },
+  {
+    "id": "pilot-v1-mv-14",
+    "topic": "filesystem",
+    "family": "mv",
+    "capability": "move-or-rename",
+    "split": "train",
+    "intent": {
+      "op": "mv",
+      "into": true,
+      "sources": [
+        "inputs/hazel.txt",
+        "inputs/hazel-extra.txt"
+      ],
+      "destination": "stash-hazel"
+    },
+    "requests": [
+      "move the files inputs/hazel.txt and inputs/hazel-extra.txt into stash-hazel",
+      "relocate the files inputs/hazel.txt and inputs/hazel-extra.txt into stash-hazel",
+      "put the files inputs/hazel.txt and inputs/hazel-extra.txt into stash-hazel and remove the original location",
+      "transfer the files inputs/hazel.txt and inputs/hazel-extra.txt into stash-hazel without keeping the original"
+    ]
+  },
+  {
+    "id": "pilot-v1-mv-15",
+    "topic": "filesystem",
+    "family": "mv",
+    "capability": "move-or-rename",
+    "split": "train",
+    "intent": {
+      "op": "mv",
+      "directory_source": true,
+      "sources": [
+        "bundle-maple"
+      ],
+      "destination": "saved-maple"
+    },
+    "requests": [
+      "move the directory bundle-maple and all its contents to saved-maple",
+      "relocate the directory bundle-maple and all its contents to saved-maple",
+      "put the directory bundle-maple and all its contents to saved-maple and remove the original location",
+      "transfer the directory bundle-maple and all its contents to saved-maple without keeping the original"
+    ]
+  },
+  {
+    "id": "pilot-v1-mv-16",
+    "topic": "filesystem",
+    "family": "mv",
+    "capability": "move-or-rename",
+    "split": "train",
+    "intent": {
+      "op": "mv",
+      "sources": [
+        "inputs/raven.txt"
+      ],
+      "destination": "outputs/raven-saved.txt"
+    },
+    "requests": [
+      "move the file inputs/raven.txt to outputs/raven-saved.txt",
+      "relocate the file inputs/raven.txt to outputs/raven-saved.txt",
+      "put the file inputs/raven.txt to outputs/raven-saved.txt and remove the original location",
+      "transfer the file inputs/raven.txt to outputs/raven-saved.txt without keeping the original"
+    ]
+  },
+  {
+    "id": "pilot-v1-mv-17",
+    "topic": "filesystem",
+    "family": "mv",
+    "capability": "move-or-rename",
+    "split": "train",
+    "intent": {
+      "op": "mv",
+      "sources": [
+        "client's lotus source.txt"
+      ],
+      "destination": "lotus saved notes.txt"
+    },
+    "requests": [
+      "move the file client's lotus source.txt to lotus saved notes.txt",
+      "relocate the file client's lotus source.txt to lotus saved notes.txt",
+      "put the file client's lotus source.txt to lotus saved notes.txt and remove the original location",
+      "transfer the file client's lotus source.txt to lotus saved notes.txt without keeping the original"
+    ]
+  },
+  {
+    "id": "pilot-v1-mv-18",
+    "topic": "filesystem",
+    "family": "mv",
+    "capability": "move-or-rename",
+    "split": "train",
+    "intent": {
+      "op": "mv",
+      "into": true,
+      "sources": [
+        "inputs/birch.txt"
+      ],
+      "destination": "stash-birch"
+    },
+    "requests": [
+      "move the file inputs/birch.txt into stash-birch",
+      "relocate the file inputs/birch.txt into stash-birch",
+      "put the file inputs/birch.txt into stash-birch and remove the original location",
+      "transfer the file inputs/birch.txt into stash-birch without keeping the original"
+    ]
+  },
+  {
+    "id": "pilot-v1-mv-19",
+    "topic": "filesystem",
+    "family": "mv",
+    "capability": "move-or-rename",
+    "split": "validation",
+    "intent": {
+      "op": "mv",
+      "into": true,
+      "sources": [
+        "inputs/tundra.txt",
+        "inputs/tundra-extra.txt"
+      ],
+      "destination": "stash-tundra"
+    },
+    "requests": [
+      "move the files inputs/tundra.txt and inputs/tundra-extra.txt into stash-tundra",
+      "relocate the files inputs/tundra.txt and inputs/tundra-extra.txt into stash-tundra",
+      "put the files inputs/tundra.txt and inputs/tundra-extra.txt into stash-tundra and remove the original location",
+      "transfer the files inputs/tundra.txt and inputs/tundra-extra.txt into stash-tundra without keeping the original"
+    ]
+  },
+  {
+    "id": "pilot-v1-mv-20",
+    "topic": "filesystem",
+    "family": "mv",
+    "capability": "move-or-rename",
+    "split": "validation",
+    "intent": {
+      "op": "mv",
+      "directory_source": true,
+      "sources": [
+        "bundle-zephyr"
+      ],
+      "destination": "saved-zephyr"
+    },
+    "requests": [
+      "move the directory bundle-zephyr and all its contents to saved-zephyr",
+      "relocate the directory bundle-zephyr and all its contents to saved-zephyr",
+      "put the directory bundle-zephyr and all its contents to saved-zephyr and remove the original location",
+      "transfer the directory bundle-zephyr and all its contents to saved-zephyr without keeping the original"
+    ]
+  }
+]

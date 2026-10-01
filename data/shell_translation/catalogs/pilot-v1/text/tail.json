@@ -1,0 +1,382 @@
+[
+  {
+    "id": "pilot-v1-tail-01",
+    "topic": "text",
+    "family": "tail",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "tail",
+      "source": "copper text.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "print the last 1 lines of copper text.txt",
+      "show only the last 1 lines from copper text.txt",
+      "display the last 1 lines in copper text.txt",
+      "give me the last 1 lines of the file copper text.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-tail-02",
+    "topic": "text",
+    "family": "tail",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "tail",
+      "source": "texts/mango.txt",
+      "count": 2,
+      "bytes": false
+    },
+    "requests": [
+      "print the last 2 lines of texts/mango.txt",
+      "show only the last 2 lines from texts/mango.txt",
+      "display the last 2 lines in texts/mango.txt",
+      "give me the last 2 lines of the file texts/mango.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-tail-03",
+    "topic": "text",
+    "family": "tail",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "tail",
+      "source": "texts/falcon.txt",
+      "count": 3,
+      "bytes": false
+    },
+    "requests": [
+      "print the last 3 lines of texts/falcon.txt",
+      "show only the last 3 lines from texts/falcon.txt",
+      "display the last 3 lines in texts/falcon.txt",
+      "give me the last 3 lines of the file texts/falcon.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-tail-04",
+    "topic": "text",
+    "family": "tail",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "tail",
+      "source": "texts/orchid.txt",
+      "count": 4,
+      "bytes": false
+    },
+    "requests": [
+      "print the last 4 lines of texts/orchid.txt",
+      "show only the last 4 lines from texts/orchid.txt",
+      "display the last 4 lines in texts/orchid.txt",
+      "give me the last 4 lines of the file texts/orchid.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-tail-05",
+    "topic": "text",
+    "family": "tail",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "tail",
+      "source": "nebula text.txt",
+      "count": 5,
+      "bytes": false
+    },
+    "requests": [
+      "print the last 5 lines of nebula text.txt",
+      "show only the last 5 lines from nebula text.txt",
+      "display the last 5 lines in nebula text.txt",
+      "give me the last 5 lines of the file nebula text.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-tail-06",
+    "topic": "text",
+    "family": "tail",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "tail",
+      "source": "texts/otter.txt",
+      "count": 6,
+      "bytes": true
+    },
+    "requests": [
+      "print the last 6 bytes of texts/otter.txt",
+      "show only the last 6 bytes from texts/otter.txt",
+      "display the last 6 bytes in texts/otter.txt",
+      "give me the last 6 bytes of the file texts/otter.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-tail-07",
+    "topic": "text",
+    "family": "tail",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "tail",
+      "source": "texts/cedar.txt",
+      "count": 7,
+      "bytes": false
+    },
+    "requests": [
+      "print the last 7 lines of texts/cedar.txt",
+      "show only the last 7 lines from texts/cedar.txt",
+      "display the last 7 lines in texts/cedar.txt",
+      "give me the last 7 lines of the file texts/cedar.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-tail-08",
+    "topic": "text",
+    "family": "tail",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "tail",
+      "source": "texts/saffron.txt",
+      "count": 8,
+      "bytes": false
+    },
+    "requests": [
+      "print the last 8 lines of texts/saffron.txt",
+      "show only the last 8 lines from texts/saffron.txt",
+      "display the last 8 lines in texts/saffron.txt",
+      "give me the last 8 lines of the file texts/saffron.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-tail-09",
+    "topic": "text",
+    "family": "tail",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "tail",
+      "source": "marble text.txt",
+      "count": 9,
+      "bytes": false
+    },
+    "requests": [
+      "print the last 9 lines of marble text.txt",
+      "show only the last 9 lines from marble text.txt",
+      "display the last 9 lines in marble text.txt",
+      "give me the last 9 lines of the file marble text.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-tail-10",
+    "topic": "text",
+    "family": "tail",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "tail",
+      "source": "texts/comet.txt",
+      "count": 10,
+      "bytes": false
+    },
+    "requests": [
+      "print the last 10 lines of texts/comet.txt",
+      "show only the last 10 lines from texts/comet.txt",
+      "display the last 10 lines in texts/comet.txt",
+      "give me the last 10 lines of the file texts/comet.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-tail-11",
+    "topic": "text",
+    "family": "tail",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "tail",
+      "source": "texts/willow.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "print the last 1 lines of texts/willow.txt",
+      "show only the last 1 lines from texts/willow.txt",
+      "display the last 1 lines in texts/willow.txt",
+      "give me the last 1 lines of the file texts/willow.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-tail-12",
+    "topic": "text",
+    "family": "tail",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "tail",
+      "source": "texts/badger.txt",
+      "count": 2,
+      "bytes": false
+    },
+    "requests": [
+      "print the last 2 lines of texts/badger.txt",
+      "show only the last 2 lines from texts/badger.txt",
+      "display the last 2 lines in texts/badger.txt",
+      "give me the last 2 lines of the file texts/badger.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-tail-13",
+    "topic": "text",
+    "family": "tail",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "tail",
+      "source": "quartz text.txt",
+      "count": 3,
+      "bytes": false
+    },
+    "requests": [
+      "print the last 3 lines of quartz text.txt",
+      "show only the last 3 lines from quartz text.txt",
+      "display the last 3 lines in quartz text.txt",
+      "give me the last 3 lines of the file quartz text.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-tail-14",
+    "topic": "text",
+    "family": "tail",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "tail",
+      "source": "texts/hazel.txt",
+      "count": 4,
+      "bytes": false
+    },
+    "requests": [
+      "print the last 4 lines of texts/hazel.txt",
+      "show only the last 4 lines from texts/hazel.txt",
+      "display the last 4 lines in texts/hazel.txt",
+      "give me the last 4 lines of the file texts/hazel.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-tail-15",
+    "topic": "text",
+    "family": "tail",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "tail",
+      "source": "texts/maple.txt",
+      "count": 5,
+      "bytes": false
+    },
+    "requests": [
+      "print the last 5 lines of texts/maple.txt",
+      "show only the last 5 lines from texts/maple.txt",
+      "display the last 5 lines in texts/maple.txt",
+      "give me the last 5 lines of the file texts/maple.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-tail-16",
+    "topic": "text",
+    "family": "tail",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "tail",
+      "source": "texts/raven.txt",
+      "count": 6,
+      "bytes": true
+    },
+    "requests": [
+      "print the last 6 bytes of texts/raven.txt",
+      "show only the last 6 bytes from texts/raven.txt",
+      "display the last 6 bytes in texts/raven.txt",
+      "give me the last 6 bytes of the file texts/raven.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-tail-17",
+    "topic": "text",
+    "family": "tail",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "tail",
+      "source": "lotus text.txt",
+      "count": 7,
+      "bytes": false
+    },
+    "requests": [
+      "print the last 7 lines of lotus text.txt",
+      "show only the last 7 lines from lotus text.txt",
+      "display the last 7 lines in lotus text.txt",
+      "give me the last 7 lines of the file lotus text.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-tail-18",
+    "topic": "text",
+    "family": "tail",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "tail",
+      "source": "texts/birch.txt",
+      "count": 8,
+      "bytes": false
+    },
+    "requests": [
+      "print the last 8 lines of texts/birch.txt",
+      "show only the last 8 lines from texts/birch.txt",
+      "display the last 8 lines in texts/birch.txt",
+      "give me the last 8 lines of the file texts/birch.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-tail-19",
+    "topic": "text",
+    "family": "tail",
+    "capability": "text-slicing",
+    "split": "validation",
+    "intent": {
+      "op": "tail",
+      "source": "texts/tundra.txt",
+      "count": 9,
+      "bytes": false
+    },
+    "requests": [
+      "print the last 9 lines of texts/tundra.txt",
+      "show only the last 9 lines from texts/tundra.txt",
+      "display the last 9 lines in texts/tundra.txt",
+      "give me the last 9 lines of the file texts/tundra.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-tail-20",
+    "topic": "text",
+    "family": "tail",
+    "capability": "text-slicing",
+    "split": "validation",
+    "intent": {
+      "op": "tail",
+      "source": "texts/zephyr.txt",
+      "count": 10,
+      "bytes": false
+    },
+    "requests": [
+      "print the last 10 lines of texts/zephyr.txt",
+      "show only the last 10 lines from texts/zephyr.txt",
+      "display the last 10 lines in texts/zephyr.txt",
+      "give me the last 10 lines of the file texts/zephyr.txt"
+    ]
+  }
+]

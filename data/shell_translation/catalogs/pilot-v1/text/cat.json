@@ -1,0 +1,387 @@
+[
+  {
+    "id": "pilot-v1-cat-01",
+    "topic": "text",
+    "family": "cat",
+    "capability": "read-full-files",
+    "split": "train",
+    "intent": {
+      "op": "cat",
+      "sources": [
+        "copper text.txt"
+      ]
+    },
+    "requests": [
+      "print the entire contents of copper text.txt",
+      "display the entire contents of copper text.txt",
+      "show me the entire contents of copper text.txt",
+      "write the entire contents of copper text.txt to standard output"
+    ]
+  },
+  {
+    "id": "pilot-v1-cat-02",
+    "topic": "text",
+    "family": "cat",
+    "capability": "read-full-files",
+    "split": "train",
+    "intent": {
+      "op": "cat",
+      "sources": [
+        "texts/mango.txt"
+      ]
+    },
+    "requests": [
+      "print the entire contents of texts/mango.txt",
+      "display the entire contents of texts/mango.txt",
+      "show me the entire contents of texts/mango.txt",
+      "write the entire contents of texts/mango.txt to standard output"
+    ]
+  },
+  {
+    "id": "pilot-v1-cat-03",
+    "topic": "text",
+    "family": "cat",
+    "capability": "read-full-files",
+    "split": "train",
+    "intent": {
+      "op": "cat",
+      "sources": [
+        "texts/falcon.txt",
+        "texts/falcon-extra.txt"
+      ]
+    },
+    "requests": [
+      "print the entire contents of texts/falcon.txt then texts/falcon-extra.txt in that order",
+      "display the entire contents of texts/falcon.txt then texts/falcon-extra.txt in that order",
+      "show me the entire contents of texts/falcon.txt then texts/falcon-extra.txt in that order",
+      "write the entire contents of texts/falcon.txt then texts/falcon-extra.txt in that order to standard output"
+    ]
+  },
+  {
+    "id": "pilot-v1-cat-04",
+    "topic": "text",
+    "family": "cat",
+    "capability": "read-full-files",
+    "split": "train",
+    "intent": {
+      "op": "cat",
+      "sources": [
+        "texts/orchid.txt"
+      ]
+    },
+    "requests": [
+      "print the entire contents of texts/orchid.txt",
+      "display the entire contents of texts/orchid.txt",
+      "show me the entire contents of texts/orchid.txt",
+      "write the entire contents of texts/orchid.txt to standard output"
+    ]
+  },
+  {
+    "id": "pilot-v1-cat-05",
+    "topic": "text",
+    "family": "cat",
+    "capability": "read-full-files",
+    "split": "train",
+    "intent": {
+      "op": "cat",
+      "sources": [
+        "nebula text.txt"
+      ]
+    },
+    "requests": [
+      "print the entire contents of nebula text.txt",
+      "display the entire contents of nebula text.txt",
+      "show me the entire contents of nebula text.txt",
+      "write the entire contents of nebula text.txt to standard output"
+    ]
+  },
+  {
+    "id": "pilot-v1-cat-06",
+    "topic": "text",
+    "family": "cat",
+    "capability": "read-full-files",
+    "split": "train",
+    "intent": {
+      "op": "cat",
+      "sources": [
+        "texts/otter.txt"
+      ]
+    },
+    "requests": [
+      "print the entire contents of texts/otter.txt",
+      "display the entire contents of texts/otter.txt",
+      "show me the entire contents of texts/otter.txt",
+      "write the entire contents of texts/otter.txt to standard output"
+    ]
+  },
+  {
+    "id": "pilot-v1-cat-07",
+    "topic": "text",
+    "family": "cat",
+    "capability": "read-full-files",
+    "split": "train",
+    "intent": {
+      "op": "cat",
+      "sources": [
+        "texts/cedar.txt",
+        "texts/cedar-extra.txt"
+      ]
+    },
+    "requests": [
+      "print the entire contents of texts/cedar.txt then texts/cedar-extra.txt in that order",
+      "display the entire contents of texts/cedar.txt then texts/cedar-extra.txt in that order",
+      "show me the entire contents of texts/cedar.txt then texts/cedar-extra.txt in that order",
+      "write the entire contents of texts/cedar.txt then texts/cedar-extra.txt in that order to standard output"
+    ]
+  },
+  {
+    "id": "pilot-v1-cat-08",
+    "topic": "text",
+    "family": "cat",
+    "capability": "read-full-files",
+    "split": "train",
+    "intent": {
+      "op": "cat",
+      "sources": [
+        "client's saffron text.txt"
+      ]
+    },
+    "requests": [
+      "print the entire contents of client's saffron text.txt",
+      "display the entire contents of client's saffron text.txt",
+      "show me the entire contents of client's saffron text.txt",
+      "write the entire contents of client's saffron text.txt to standard output"
+    ]
+  },
+  {
+    "id": "pilot-v1-cat-09",
+    "topic": "text",
+    "family": "cat",
+    "capability": "read-full-files",
+    "split": "train",
+    "intent": {
+      "op": "cat",
+      "sources": [
+        "marble text.txt"
+      ]
+    },
+    "requests": [
+      "print the entire contents of marble text.txt",
+      "display the entire contents of marble text.txt",
+      "show me the entire contents of marble text.txt",
+      "write the entire contents of marble text.txt to standard output"
+    ]
+  },
+  {
+    "id": "pilot-v1-cat-10",
+    "topic": "text",
+    "family": "cat",
+    "capability": "read-full-files",
+    "split": "train",
+    "intent": {
+      "op": "cat",
+      "sources": [
+        "texts/comet.txt"
+      ]
+    },
+    "requests": [
+      "print the entire contents of texts/comet.txt",
+      "display the entire contents of texts/comet.txt",
+      "show me the entire contents of texts/comet.txt",
+      "write the entire contents of texts/comet.txt to standard output"
+    ]
+  },
+  {
+    "id": "pilot-v1-cat-11",
+    "topic": "text",
+    "family": "cat",
+    "capability": "read-full-files",
+    "split": "train",
+    "intent": {
+      "op": "cat",
+      "sources": [
+        "texts/willow.txt",
+        "texts/willow-extra.txt"
+      ]
+    },
+    "requests": [
+      "print the entire contents of texts/willow.txt then texts/willow-extra.txt in that order",
+      "display the entire contents of texts/willow.txt then texts/willow-extra.txt in that order",
+      "show me the entire contents of texts/willow.txt then texts/willow-extra.txt in that order",
+      "write the entire contents of texts/willow.txt then texts/willow-extra.txt in that order to standard output"
+    ]
+  },
+  {
+    "id": "pilot-v1-cat-12",
+    "topic": "text",
+    "family": "cat",
+    "capability": "read-full-files",
+    "split": "train",
+    "intent": {
+      "op": "cat",
+      "sources": [
+        "-badger-text.txt"
+      ]
+    },
+    "requests": [
+      "print the entire contents of -badger-text.txt",
+      "display the entire contents of -badger-text.txt",
+      "show me the entire contents of -badger-text.txt",
+      "write the entire contents of -badger-text.txt to standard output"
+    ]
+  },
+  {
+    "id": "pilot-v1-cat-13",
+    "topic": "text",
+    "family": "cat",
+    "capability": "read-full-files",
+    "split": "train",
+    "intent": {
+      "op": "cat",
+      "sources": [
+        "quartz text.txt"
+      ]
+    },
+    "requests": [
+      "print the entire contents of quartz text.txt",
+      "display the entire contents of quartz text.txt",
+      "show me the entire contents of quartz text.txt",
+      "write the entire contents of quartz text.txt to standard output"
+    ]
+  },
+  {
+    "id": "pilot-v1-cat-14",
+    "topic": "text",
+    "family": "cat",
+    "capability": "read-full-files",
+    "split": "train",
+    "intent": {
+      "op": "cat",
+      "sources": [
+        "texts/hazel.txt"
+      ]
+    },
+    "requests": [
+      "print the entire contents of texts/hazel.txt",
+      "display the entire contents of texts/hazel.txt",
+      "show me the entire contents of texts/hazel.txt",
+      "write the entire contents of texts/hazel.txt to standard output"
+    ]
+  },
+  {
+    "id": "pilot-v1-cat-15",
+    "topic": "text",
+    "family": "cat",
+    "capability": "read-full-files",
+    "split": "train",
+    "intent": {
+      "op": "cat",
+      "sources": [
+        "texts/maple.txt",
+        "texts/maple-extra.txt"
+      ]
+    },
+    "requests": [
+      "print the entire contents of texts/maple.txt then texts/maple-extra.txt in that order",
+      "display the entire contents of texts/maple.txt then texts/maple-extra.txt in that order",
+      "show me the entire contents of texts/maple.txt then texts/maple-extra.txt in that order",
+      "write the entire contents of texts/maple.txt then texts/maple-extra.txt in that order to standard output"
+    ]
+  },
+  {
+    "id": "pilot-v1-cat-16",
+    "topic": "text",
+    "family": "cat",
+    "capability": "read-full-files",
+    "split": "train",
+    "intent": {
+      "op": "cat",
+      "sources": [
+        "texts/raven.txt"
+      ]
+    },
+    "requests": [
+      "print the entire contents of texts/raven.txt",
+      "display the entire contents of texts/raven.txt",
+      "show me the entire contents of texts/raven.txt",
+      "write the entire contents of texts/raven.txt to standard output"
+    ]
+  },
+  {
+    "id": "pilot-v1-cat-17",
+    "topic": "text",
+    "family": "cat",
+    "capability": "read-full-files",
+    "split": "train",
+    "intent": {
+      "op": "cat",
+      "sources": [
+        "lotus text.txt"
+      ]
+    },
+    "requests": [
+      "print the entire contents of lotus text.txt",
+      "display the entire contents of lotus text.txt",
+      "show me the entire contents of lotus text.txt",
+      "write the entire contents of lotus text.txt to standard output"
+    ]
+  },
+  {
+    "id": "pilot-v1-cat-18",
+    "topic": "text",
+    "family": "cat",
+    "capability": "read-full-files",
+    "split": "train",
+    "intent": {
+      "op": "cat",
+      "sources": [
+        "texts/birch.txt"
+      ]
+    },
+    "requests": [
+      "print the entire contents of texts/birch.txt",
+      "display the entire contents of texts/birch.txt",
+      "show me the entire contents of texts/birch.txt",
+      "write the entire contents of texts/birch.txt to standard output"
+    ]
+  },
+  {
+    "id": "pilot-v1-cat-19",
+    "topic": "text",
+    "family": "cat",
+    "capability": "read-full-files",
+    "split": "validation",
+    "intent": {
+      "op": "cat",
+      "sources": [
+        "texts/tundra.txt",
+        "texts/tundra-extra.txt"
+      ]
+    },
+    "requests": [
+      "print the entire contents of texts/tundra.txt then texts/tundra-extra.txt in that order",
+      "display the entire contents of texts/tundra.txt then texts/tundra-extra.txt in that order",
+      "show me the entire contents of texts/tundra.txt then texts/tundra-extra.txt in that order",
+      "write the entire contents of texts/tundra.txt then texts/tundra-extra.txt in that order to standard output"
+    ]
+  },
+  {
+    "id": "pilot-v1-cat-20",
+    "topic": "text",
+    "family": "cat",
+    "capability": "read-full-files",
+    "split": "validation",
+    "intent": {
+      "op": "cat",
+      "sources": [
+        "texts/zephyr.txt"
+      ]
+    },
+    "requests": [
+      "print the entire contents of texts/zephyr.txt",
+      "display the entire contents of texts/zephyr.txt",
+      "show me the entire contents of texts/zephyr.txt",
+      "write the entire contents of texts/zephyr.txt to standard output"
+    ]
+  }
+]

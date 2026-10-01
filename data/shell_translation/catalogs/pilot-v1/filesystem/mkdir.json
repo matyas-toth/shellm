@@ -1,0 +1,394 @@
+[
+  {
+    "id": "pilot-v1-mkdir-01",
+    "topic": "filesystem",
+    "family": "mkdir",
+    "capability": "directory-creation",
+    "split": "train",
+    "intent": {
+      "op": "mkdir",
+      "targets": [
+        "copper-folder"
+      ]
+    },
+    "requests": [
+      "create a directory named copper-folder",
+      "make a directory named copper-folder",
+      "I need a directory named copper-folder",
+      "set up a directory named copper-folder"
+    ]
+  },
+  {
+    "id": "pilot-v1-mkdir-02",
+    "topic": "filesystem",
+    "family": "mkdir",
+    "capability": "directory-creation",
+    "split": "train",
+    "intent": {
+      "op": "mkdir",
+      "targets": [
+        "mango drafts"
+      ]
+    },
+    "requests": [
+      "create a directory named mango drafts",
+      "make a directory named mango drafts",
+      "I need a directory named mango drafts",
+      "set up a directory named mango drafts"
+    ]
+  },
+  {
+    "id": "pilot-v1-mkdir-03",
+    "topic": "filesystem",
+    "family": "mkdir",
+    "capability": "directory-creation",
+    "split": "train",
+    "intent": {
+      "op": "mkdir",
+      "parents": true,
+      "targets": [
+        "build-falcon/cache/results"
+      ]
+    },
+    "requests": [
+      "create a directory named build-falcon/cache/results and create any missing parents",
+      "make a directory named build-falcon/cache/results and create any missing parents",
+      "I need a directory named build-falcon/cache/results and create any missing parents",
+      "set up a directory named build-falcon/cache/results and create any missing parents"
+    ]
+  },
+  {
+    "id": "pilot-v1-mkdir-04",
+    "topic": "filesystem",
+    "family": "mkdir",
+    "capability": "directory-creation",
+    "split": "train",
+    "intent": {
+      "op": "mkdir",
+      "targets": [
+        "orchid-one",
+        "orchid-two"
+      ]
+    },
+    "requests": [
+      "create directories named orchid-one and orchid-two",
+      "make directories named orchid-one and orchid-two",
+      "I need directories named orchid-one and orchid-two",
+      "set up directories named orchid-one and orchid-two"
+    ]
+  },
+  {
+    "id": "pilot-v1-mkdir-05",
+    "topic": "filesystem",
+    "family": "mkdir",
+    "capability": "directory-creation",
+    "split": "train",
+    "intent": {
+      "op": "mkdir",
+      "mode": "700",
+      "targets": [
+        "nebula-folder"
+      ]
+    },
+    "requests": [
+      "create a directory named nebula-folder with permissions 700",
+      "make a directory named nebula-folder with permissions 700",
+      "I need a directory named nebula-folder with permissions 700",
+      "set up a directory named nebula-folder with permissions 700"
+    ]
+  },
+  {
+    "id": "pilot-v1-mkdir-06",
+    "topic": "filesystem",
+    "family": "mkdir",
+    "capability": "directory-creation",
+    "split": "train",
+    "intent": {
+      "op": "mkdir",
+      "targets": [
+        "-otter-folder"
+      ]
+    },
+    "requests": [
+      "create a directory named -otter-folder",
+      "make a directory named -otter-folder",
+      "I need a directory named -otter-folder",
+      "set up a directory named -otter-folder"
+    ]
+  },
+  {
+    "id": "pilot-v1-mkdir-07",
+    "topic": "filesystem",
+    "family": "mkdir",
+    "capability": "directory-creation",
+    "split": "train",
+    "intent": {
+      "op": "mkdir",
+      "targets": [
+        "cedar drafts"
+      ]
+    },
+    "requests": [
+      "create a directory named cedar drafts",
+      "make a directory named cedar drafts",
+      "I need a directory named cedar drafts",
+      "set up a directory named cedar drafts"
+    ]
+  },
+  {
+    "id": "pilot-v1-mkdir-08",
+    "topic": "filesystem",
+    "family": "mkdir",
+    "capability": "directory-creation",
+    "split": "train",
+    "intent": {
+      "op": "mkdir",
+      "parents": true,
+      "targets": [
+        "build-saffron/cache/results"
+      ]
+    },
+    "requests": [
+      "create a directory named build-saffron/cache/results and create any missing parents",
+      "make a directory named build-saffron/cache/results and create any missing parents",
+      "I need a directory named build-saffron/cache/results and create any missing parents",
+      "set up a directory named build-saffron/cache/results and create any missing parents"
+    ]
+  },
+  {
+    "id": "pilot-v1-mkdir-09",
+    "topic": "filesystem",
+    "family": "mkdir",
+    "capability": "directory-creation",
+    "split": "train",
+    "intent": {
+      "op": "mkdir",
+      "targets": [
+        "marble-one",
+        "marble-two"
+      ]
+    },
+    "requests": [
+      "create directories named marble-one and marble-two",
+      "make directories named marble-one and marble-two",
+      "I need directories named marble-one and marble-two",
+      "set up directories named marble-one and marble-two"
+    ]
+  },
+  {
+    "id": "pilot-v1-mkdir-10",
+    "topic": "filesystem",
+    "family": "mkdir",
+    "capability": "directory-creation",
+    "split": "train",
+    "intent": {
+      "op": "mkdir",
+      "mode": "700",
+      "targets": [
+        "comet-folder"
+      ]
+    },
+    "requests": [
+      "create a directory named comet-folder with permissions 700",
+      "make a directory named comet-folder with permissions 700",
+      "I need a directory named comet-folder with permissions 700",
+      "set up a directory named comet-folder with permissions 700"
+    ]
+  },
+  {
+    "id": "pilot-v1-mkdir-11",
+    "topic": "filesystem",
+    "family": "mkdir",
+    "capability": "directory-creation",
+    "split": "train",
+    "intent": {
+      "op": "mkdir",
+      "targets": [
+        "willow-folder"
+      ]
+    },
+    "requests": [
+      "create a directory named willow-folder",
+      "make a directory named willow-folder",
+      "I need a directory named willow-folder",
+      "set up a directory named willow-folder"
+    ]
+  },
+  {
+    "id": "pilot-v1-mkdir-12",
+    "topic": "filesystem",
+    "family": "mkdir",
+    "capability": "directory-creation",
+    "split": "train",
+    "intent": {
+      "op": "mkdir",
+      "targets": [
+        "badger drafts"
+      ]
+    },
+    "requests": [
+      "create a directory named badger drafts",
+      "make a directory named badger drafts",
+      "I need a directory named badger drafts",
+      "set up a directory named badger drafts"
+    ]
+  },
+  {
+    "id": "pilot-v1-mkdir-13",
+    "topic": "filesystem",
+    "family": "mkdir",
+    "capability": "directory-creation",
+    "split": "train",
+    "intent": {
+      "op": "mkdir",
+      "parents": true,
+      "targets": [
+        "build-quartz/cache/results"
+      ]
+    },
+    "requests": [
+      "create a directory named build-quartz/cache/results and create any missing parents",
+      "make a directory named build-quartz/cache/results and create any missing parents",
+      "I need a directory named build-quartz/cache/results and create any missing parents",
+      "set up a directory named build-quartz/cache/results and create any missing parents"
+    ]
+  },
+  {
+    "id": "pilot-v1-mkdir-14",
+    "topic": "filesystem",
+    "family": "mkdir",
+    "capability": "directory-creation",
+    "split": "train",
+    "intent": {
+      "op": "mkdir",
+      "targets": [
+        "hazel-one",
+        "hazel-two"
+      ]
+    },
+    "requests": [
+      "create directories named hazel-one and hazel-two",
+      "make directories named hazel-one and hazel-two",
+      "I need directories named hazel-one and hazel-two",
+      "set up directories named hazel-one and hazel-two"
+    ]
+  },
+  {
+    "id": "pilot-v1-mkdir-15",
+    "topic": "filesystem",
+    "family": "mkdir",
+    "capability": "directory-creation",
+    "split": "train",
+    "intent": {
+      "op": "mkdir",
+      "mode": "700",
+      "targets": [
+        "maple-folder"
+      ]
+    },
+    "requests": [
+      "create a directory named maple-folder with permissions 700",
+      "make a directory named maple-folder with permissions 700",
+      "I need a directory named maple-folder with permissions 700",
+      "set up a directory named maple-folder with permissions 700"
+    ]
+  },
+  {
+    "id": "pilot-v1-mkdir-16",
+    "topic": "filesystem",
+    "family": "mkdir",
+    "capability": "directory-creation",
+    "split": "train",
+    "intent": {
+      "op": "mkdir",
+      "targets": [
+        "raven-folder"
+      ]
+    },
+    "requests": [
+      "create a directory named raven-folder",
+      "make a directory named raven-folder",
+      "I need a directory named raven-folder",
+      "set up a directory named raven-folder"
+    ]
+  },
+  {
+    "id": "pilot-v1-mkdir-17",
+    "topic": "filesystem",
+    "family": "mkdir",
+    "capability": "directory-creation",
+    "split": "train",
+    "intent": {
+      "op": "mkdir",
+      "targets": [
+        "lotus drafts"
+      ]
+    },
+    "requests": [
+      "create a directory named lotus drafts",
+      "make a directory named lotus drafts",
+      "I need a directory named lotus drafts",
+      "set up a directory named lotus drafts"
+    ]
+  },
+  {
+    "id": "pilot-v1-mkdir-18",
+    "topic": "filesystem",
+    "family": "mkdir",
+    "capability": "directory-creation",
+    "split": "train",
+    "intent": {
+      "op": "mkdir",
+      "parents": true,
+      "targets": [
+        "build-birch/cache/results"
+      ]
+    },
+    "requests": [
+      "create a directory named build-birch/cache/results and create any missing parents",
+      "make a directory named build-birch/cache/results and create any missing parents",
+      "I need a directory named build-birch/cache/results and create any missing parents",
+      "set up a directory named build-birch/cache/results and create any missing parents"
+    ]
+  },
+  {
+    "id": "pilot-v1-mkdir-19",
+    "topic": "filesystem",
+    "family": "mkdir",
+    "capability": "directory-creation",
+    "split": "validation",
+    "intent": {
+      "op": "mkdir",
+      "targets": [
+        "tundra-one",
+        "tundra-two"
+      ]
+    },
+    "requests": [
+      "create directories named tundra-one and tundra-two",
+      "make directories named tundra-one and tundra-two",
+      "I need directories named tundra-one and tundra-two",
+      "set up directories named tundra-one and tundra-two"
+    ]
+  },
+  {
+    "id": "pilot-v1-mkdir-20",
+    "topic": "filesystem",
+    "family": "mkdir",
+    "capability": "directory-creation",
+    "split": "validation",
+    "intent": {
+      "op": "mkdir",
+      "mode": "700",
+      "targets": [
+        "zephyr-folder"
+      ]
+    },
+    "requests": [
+      "create a directory named zephyr-folder with permissions 700",
+      "make a directory named zephyr-folder with permissions 700",
+      "I need a directory named zephyr-folder with permissions 700",
+      "set up a directory named zephyr-folder with permissions 700"
+    ]
+  }
+]

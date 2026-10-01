@@ -13,7 +13,7 @@ Output: cd /
 
 The project has two learning goals: understand model training and build inference software, eventually including WebGPU kernels that run the model in a browser. We start from a pretrained model so the experiments can focus on adapting existing language knowledge to this task.
 
-The initial candidate is `Qwen/Qwen3-0.6B-Base`. Supervised fine-tuning with LoRA or QLoRA is planned; neither has been installed or run yet. The intended interface returns a command as text. Executing that command is a separate concern. In particular, `cd` changes the directory of the shell that executes it.
+The initial candidate is `Qwen/Qwen3-0.6B-Base`. The first supervised LoRA experiment has now run on the RTX 2060; QLoRA remains an optional future experiment. The intended interface returns a command as text. Executing that command is a separate concern. In particular, `cd` changes the directory of the shell that executes it.
 
 ## Completed work
 
@@ -24,14 +24,15 @@ The initial candidate is `Qwen/Qwen3-0.6B-Base`. Supervised fine-tuning with LoR
 5. Discussed smaller pretrained models as future experiments.
 6. Created this documentation notebook and repository instructions for keeping it updated.
 7. On 2026-10-01, established the task contract, built a 112-case Docker functional evaluation suite, validated its references and scoring behavior, and recorded a reproducible Base-model baseline.
+8. On 2026-10-01, built a versioned dataset with 1,008 training and 112 validation examples, validated 280 command scenarios on two fixtures, and completed a three-epoch LoRA training run. Checkpoint evaluations and report history preserve progress for future charts.
 
 ## Proposed progression
 
 | Milestone | Result we want |
 | --- | --- |
 | Define scope and build evaluation cases (completed) | A task contract, 112 checked cases, Docker runner, and baseline |
-| Build a small validated training dataset | Hundreds to a few thousand examples with checked commands and paraphrases |
-| Run a first LoRA training experiment | A saved adapter and before/after evaluation on held-out requests |
+| Build a small validated training dataset (completed) | 1,008 training examples plus 112 validation examples, editable catalogs, and checked JSONL releases |
+| Run a first LoRA training experiment (completed) | Three epoch adapters; functional accuracy improved from 26.8% to 80.4% |
 | Improve coverage and generalization | Data changes guided by failures, including quoting, composition, and unusual wording |
 | Study inference and tokenization | Understand the model's tensors and tokenizer; reproduce reference outputs |
 | Quantize and build browser inference | Smaller weights and WebGPU operations checked against a reference implementation |
@@ -43,4 +44,4 @@ These are milestone boundaries, not a commitment to implement everything in one 
 
 Construct commands from checked templates, then write diverse English requests for them. Cover simple commands, paraphrases, arguments, compositions, informal wording, and eventually ambiguous requests. Keep related paraphrases together when splitting data and use dedicated argument and composition holdouts.
 
-A valid command does not guarantee that a generated paraphrase describes it correctly. Both the command and the meaning of its English request need review. Large synthetic datasets and Docker-based functional evaluation remain future work.
+A valid command does not guarantee that a generated paraphrase describes it correctly. Both the command and the meaning of its English request need review. Docker functional evaluation and the small synthetic pilot are implemented. Broader linguistic diversity, stronger composition holdouts, and a separate blinded test set remain future work.

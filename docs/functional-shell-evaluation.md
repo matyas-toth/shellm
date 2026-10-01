@@ -55,10 +55,13 @@ uv run python -m shellbench validate
 uv run python -m unittest discover -s tests -v
 uv run python -m shellbench generate
 uv run python -m shellbench evaluate \
-  --predictions reports/base-functional-baseline/predictions.jsonl
+  --predictions reports/base-functional-baseline/predictions.jsonl \
+  --output reports/baseline-replay.json
 ```
 
 `generate` resolves the model revision to a commit before loading. For an exact repeat of the recorded run, pass `--revision da87bfb608c14b7cf20ba1ce41287e8de496c0cd`. Use a new `--output` directory to preserve the original predictions, then supply that file and a new evaluation `--output` path when scoring.
+
+Since the LoRA milestone, prediction generation accepts `--adapter checkpoints/<run-id>/epoch-N` and verifies its base model and pinned revision. The default generation directory includes a Budapest timestamp; evaluation defaults to `evaluation.json` beside the predictions. Both refuse to overwrite existing results. Specify a new file for a replay.
 
 Model predictions, generation settings, suite hash, evaluation-code hash, and detailed per-case checks are retained under `reports/`. Scoring existing predictions needs Docker and standard Python, but no GPU or new model download.
 

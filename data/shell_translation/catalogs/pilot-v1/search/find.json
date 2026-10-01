@@ -1,0 +1,382 @@
+[
+  {
+    "id": "pilot-v1-find-01",
+    "topic": "search",
+    "family": "find",
+    "capability": "filesystem-search",
+    "split": "train",
+    "intent": {
+      "op": "find",
+      "directory": "tree copper",
+      "type": "f",
+      "pattern": "*.cfg"
+    },
+    "requests": [
+      "find regular files ending in .cfg recursively starting at tree copper",
+      "list regular files ending in .cfg recursively starting at tree copper",
+      "show the paths of regular files ending in .cfg recursively starting at tree copper",
+      "locate regular files ending in .cfg recursively starting at tree copper"
+    ]
+  },
+  {
+    "id": "pilot-v1-find-02",
+    "topic": "search",
+    "family": "find",
+    "capability": "filesystem-search",
+    "split": "train",
+    "intent": {
+      "op": "find",
+      "directory": "tree-mango",
+      "type": "d"
+    },
+    "requests": [
+      "find all directories including the starting directory recursively starting at tree-mango",
+      "list all directories including the starting directory recursively starting at tree-mango",
+      "show the paths of all directories including the starting directory recursively starting at tree-mango",
+      "locate all directories including the starting directory recursively starting at tree-mango"
+    ]
+  },
+  {
+    "id": "pilot-v1-find-03",
+    "topic": "search",
+    "family": "find",
+    "capability": "filesystem-search",
+    "split": "train",
+    "intent": {
+      "op": "find",
+      "directory": "tree-falcon",
+      "type": "f",
+      "maxdepth": 1
+    },
+    "requests": [
+      "find regular files directly inside tree-falcon without searching subdirectories",
+      "list regular files directly inside tree-falcon without searching subdirectories",
+      "show the paths of regular files directly inside tree-falcon without searching subdirectories",
+      "locate regular files directly inside tree-falcon without searching subdirectories"
+    ]
+  },
+  {
+    "id": "pilot-v1-find-04",
+    "topic": "search",
+    "family": "find",
+    "capability": "filesystem-search",
+    "split": "train",
+    "intent": {
+      "op": "find",
+      "directory": "tree orchid",
+      "type": "f",
+      "empty": true
+    },
+    "requests": [
+      "find empty regular files recursively starting at tree orchid",
+      "list empty regular files recursively starting at tree orchid",
+      "show the paths of empty regular files recursively starting at tree orchid",
+      "locate empty regular files recursively starting at tree orchid"
+    ]
+  },
+  {
+    "id": "pilot-v1-find-05",
+    "topic": "search",
+    "family": "find",
+    "capability": "filesystem-search",
+    "split": "train",
+    "intent": {
+      "op": "find",
+      "directory": "tree-nebula",
+      "type": "f",
+      "pattern": "*.log",
+      "size_gt": 125
+    },
+    "requests": [
+      "find regular files ending in .log larger than 125 bytes recursively starting at tree-nebula",
+      "list regular files ending in .log larger than 125 bytes recursively starting at tree-nebula",
+      "show the paths of regular files ending in .log larger than 125 bytes recursively starting at tree-nebula",
+      "locate regular files ending in .log larger than 125 bytes recursively starting at tree-nebula"
+    ]
+  },
+  {
+    "id": "pilot-v1-find-06",
+    "topic": "search",
+    "family": "find",
+    "capability": "filesystem-search",
+    "split": "train",
+    "intent": {
+      "op": "find",
+      "directory": "tree-otter",
+      "type": "f",
+      "pattern": "*.cfg"
+    },
+    "requests": [
+      "find regular files ending in .cfg recursively starting at tree-otter",
+      "list regular files ending in .cfg recursively starting at tree-otter",
+      "show the paths of regular files ending in .cfg recursively starting at tree-otter",
+      "locate regular files ending in .cfg recursively starting at tree-otter"
+    ]
+  },
+  {
+    "id": "pilot-v1-find-07",
+    "topic": "search",
+    "family": "find",
+    "capability": "filesystem-search",
+    "split": "train",
+    "intent": {
+      "op": "find",
+      "directory": "tree cedar",
+      "type": "d"
+    },
+    "requests": [
+      "find all directories including the starting directory recursively starting at tree cedar",
+      "list all directories including the starting directory recursively starting at tree cedar",
+      "show the paths of all directories including the starting directory recursively starting at tree cedar",
+      "locate all directories including the starting directory recursively starting at tree cedar"
+    ]
+  },
+  {
+    "id": "pilot-v1-find-08",
+    "topic": "search",
+    "family": "find",
+    "capability": "filesystem-search",
+    "split": "train",
+    "intent": {
+      "op": "find",
+      "directory": "tree-saffron",
+      "type": "f",
+      "maxdepth": 1
+    },
+    "requests": [
+      "find regular files directly inside tree-saffron without searching subdirectories",
+      "list regular files directly inside tree-saffron without searching subdirectories",
+      "show the paths of regular files directly inside tree-saffron without searching subdirectories",
+      "locate regular files directly inside tree-saffron without searching subdirectories"
+    ]
+  },
+  {
+    "id": "pilot-v1-find-09",
+    "topic": "search",
+    "family": "find",
+    "capability": "filesystem-search",
+    "split": "train",
+    "intent": {
+      "op": "find",
+      "directory": "tree-marble",
+      "type": "f",
+      "empty": true
+    },
+    "requests": [
+      "find empty regular files recursively starting at tree-marble",
+      "list empty regular files recursively starting at tree-marble",
+      "show the paths of empty regular files recursively starting at tree-marble",
+      "locate empty regular files recursively starting at tree-marble"
+    ]
+  },
+  {
+    "id": "pilot-v1-find-10",
+    "topic": "search",
+    "family": "find",
+    "capability": "filesystem-search",
+    "split": "train",
+    "intent": {
+      "op": "find",
+      "directory": "tree comet",
+      "type": "f",
+      "pattern": "*.log",
+      "size_gt": 100
+    },
+    "requests": [
+      "find regular files ending in .log larger than 100 bytes recursively starting at tree comet",
+      "list regular files ending in .log larger than 100 bytes recursively starting at tree comet",
+      "show the paths of regular files ending in .log larger than 100 bytes recursively starting at tree comet",
+      "locate regular files ending in .log larger than 100 bytes recursively starting at tree comet"
+    ]
+  },
+  {
+    "id": "pilot-v1-find-11",
+    "topic": "search",
+    "family": "find",
+    "capability": "filesystem-search",
+    "split": "train",
+    "intent": {
+      "op": "find",
+      "directory": "tree-willow",
+      "type": "f",
+      "pattern": "*.cfg"
+    },
+    "requests": [
+      "find regular files ending in .cfg recursively starting at tree-willow",
+      "list regular files ending in .cfg recursively starting at tree-willow",
+      "show the paths of regular files ending in .cfg recursively starting at tree-willow",
+      "locate regular files ending in .cfg recursively starting at tree-willow"
+    ]
+  },
+  {
+    "id": "pilot-v1-find-12",
+    "topic": "search",
+    "family": "find",
+    "capability": "filesystem-search",
+    "split": "train",
+    "intent": {
+      "op": "find",
+      "directory": "tree-badger",
+      "type": "d"
+    },
+    "requests": [
+      "find all directories including the starting directory recursively starting at tree-badger",
+      "list all directories including the starting directory recursively starting at tree-badger",
+      "show the paths of all directories including the starting directory recursively starting at tree-badger",
+      "locate all directories including the starting directory recursively starting at tree-badger"
+    ]
+  },
+  {
+    "id": "pilot-v1-find-13",
+    "topic": "search",
+    "family": "find",
+    "capability": "filesystem-search",
+    "split": "train",
+    "intent": {
+      "op": "find",
+      "directory": "tree quartz",
+      "type": "f",
+      "maxdepth": 1
+    },
+    "requests": [
+      "find regular files directly inside tree quartz without searching subdirectories",
+      "list regular files directly inside tree quartz without searching subdirectories",
+      "show the paths of regular files directly inside tree quartz without searching subdirectories",
+      "locate regular files directly inside tree quartz without searching subdirectories"
+    ]
+  },
+  {
+    "id": "pilot-v1-find-14",
+    "topic": "search",
+    "family": "find",
+    "capability": "filesystem-search",
+    "split": "train",
+    "intent": {
+      "op": "find",
+      "directory": "tree-hazel",
+      "type": "f",
+      "empty": true
+    },
+    "requests": [
+      "find empty regular files recursively starting at tree-hazel",
+      "list empty regular files recursively starting at tree-hazel",
+      "show the paths of empty regular files recursively starting at tree-hazel",
+      "locate empty regular files recursively starting at tree-hazel"
+    ]
+  },
+  {
+    "id": "pilot-v1-find-15",
+    "topic": "search",
+    "family": "find",
+    "capability": "filesystem-search",
+    "split": "train",
+    "intent": {
+      "op": "find",
+      "directory": "tree-maple",
+      "type": "f",
+      "pattern": "*.log",
+      "size_gt": 150
+    },
+    "requests": [
+      "find regular files ending in .log larger than 150 bytes recursively starting at tree-maple",
+      "list regular files ending in .log larger than 150 bytes recursively starting at tree-maple",
+      "show the paths of regular files ending in .log larger than 150 bytes recursively starting at tree-maple",
+      "locate regular files ending in .log larger than 150 bytes recursively starting at tree-maple"
+    ]
+  },
+  {
+    "id": "pilot-v1-find-16",
+    "topic": "search",
+    "family": "find",
+    "capability": "filesystem-search",
+    "split": "train",
+    "intent": {
+      "op": "find",
+      "directory": "tree raven",
+      "type": "f",
+      "pattern": "*.cfg"
+    },
+    "requests": [
+      "find regular files ending in .cfg recursively starting at tree raven",
+      "list regular files ending in .cfg recursively starting at tree raven",
+      "show the paths of regular files ending in .cfg recursively starting at tree raven",
+      "locate regular files ending in .cfg recursively starting at tree raven"
+    ]
+  },
+  {
+    "id": "pilot-v1-find-17",
+    "topic": "search",
+    "family": "find",
+    "capability": "filesystem-search",
+    "split": "train",
+    "intent": {
+      "op": "find",
+      "directory": "tree-lotus",
+      "type": "d"
+    },
+    "requests": [
+      "find all directories including the starting directory recursively starting at tree-lotus",
+      "list all directories including the starting directory recursively starting at tree-lotus",
+      "show the paths of all directories including the starting directory recursively starting at tree-lotus",
+      "locate all directories including the starting directory recursively starting at tree-lotus"
+    ]
+  },
+  {
+    "id": "pilot-v1-find-18",
+    "topic": "search",
+    "family": "find",
+    "capability": "filesystem-search",
+    "split": "train",
+    "intent": {
+      "op": "find",
+      "directory": "tree-birch",
+      "type": "f",
+      "maxdepth": 1
+    },
+    "requests": [
+      "find regular files directly inside tree-birch without searching subdirectories",
+      "list regular files directly inside tree-birch without searching subdirectories",
+      "show the paths of regular files directly inside tree-birch without searching subdirectories",
+      "locate regular files directly inside tree-birch without searching subdirectories"
+    ]
+  },
+  {
+    "id": "pilot-v1-find-19",
+    "topic": "search",
+    "family": "find",
+    "capability": "filesystem-search",
+    "split": "validation",
+    "intent": {
+      "op": "find",
+      "directory": "tree tundra",
+      "type": "f",
+      "empty": true
+    },
+    "requests": [
+      "find empty regular files recursively starting at tree tundra",
+      "list empty regular files recursively starting at tree tundra",
+      "show the paths of empty regular files recursively starting at tree tundra",
+      "locate empty regular files recursively starting at tree tundra"
+    ]
+  },
+  {
+    "id": "pilot-v1-find-20",
+    "topic": "search",
+    "family": "find",
+    "capability": "filesystem-search",
+    "split": "validation",
+    "intent": {
+      "op": "find",
+      "directory": "tree-zephyr",
+      "type": "f",
+      "pattern": "*.log",
+      "size_gt": 125
+    },
+    "requests": [
+      "find regular files ending in .log larger than 125 bytes recursively starting at tree-zephyr",
+      "list regular files ending in .log larger than 125 bytes recursively starting at tree-zephyr",
+      "show the paths of regular files ending in .log larger than 125 bytes recursively starting at tree-zephyr",
+      "locate regular files ending in .log larger than 125 bytes recursively starting at tree-zephyr"
+    ]
+  }
+]

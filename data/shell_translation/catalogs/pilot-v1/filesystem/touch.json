@@ -1,0 +1,387 @@
+[
+  {
+    "id": "pilot-v1-touch-01",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "copper scratch.txt"
+      ]
+    },
+    "requests": [
+      "create an empty file named copper scratch.txt",
+      "make an empty file named copper scratch.txt",
+      "I need an empty file named copper scratch.txt",
+      "add an empty file named copper scratch.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-02",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "blanks/mango.txt"
+      ]
+    },
+    "requests": [
+      "create an empty file named blanks/mango.txt",
+      "make an empty file named blanks/mango.txt",
+      "I need an empty file named blanks/mango.txt",
+      "add an empty file named blanks/mango.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-03",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "falcon-a.txt",
+        "falcon-b.txt"
+      ]
+    },
+    "requests": [
+      "create empty files named falcon-a.txt and falcon-b.txt",
+      "make empty files named falcon-a.txt and falcon-b.txt",
+      "I need empty files named falcon-a.txt and falcon-b.txt",
+      "add empty files named falcon-a.txt and falcon-b.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-04",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "orchid.new"
+      ]
+    },
+    "requests": [
+      "create an empty file named orchid.new",
+      "make an empty file named orchid.new",
+      "I need an empty file named orchid.new",
+      "add an empty file named orchid.new to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-05",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "nebula scratch.txt"
+      ]
+    },
+    "requests": [
+      "create an empty file named nebula scratch.txt",
+      "make an empty file named nebula scratch.txt",
+      "I need an empty file named nebula scratch.txt",
+      "add an empty file named nebula scratch.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-06",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "blanks/otter.txt"
+      ]
+    },
+    "requests": [
+      "create an empty file named blanks/otter.txt",
+      "make an empty file named blanks/otter.txt",
+      "I need an empty file named blanks/otter.txt",
+      "add an empty file named blanks/otter.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-07",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "cedar-a.txt",
+        "cedar-b.txt"
+      ]
+    },
+    "requests": [
+      "create empty files named cedar-a.txt and cedar-b.txt",
+      "make empty files named cedar-a.txt and cedar-b.txt",
+      "I need empty files named cedar-a.txt and cedar-b.txt",
+      "add empty files named cedar-a.txt and cedar-b.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-08",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "client's saffron scratch.txt"
+      ]
+    },
+    "requests": [
+      "create an empty file named client's saffron scratch.txt",
+      "make an empty file named client's saffron scratch.txt",
+      "I need an empty file named client's saffron scratch.txt",
+      "add an empty file named client's saffron scratch.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-09",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "marble scratch.txt"
+      ]
+    },
+    "requests": [
+      "create an empty file named marble scratch.txt",
+      "make an empty file named marble scratch.txt",
+      "I need an empty file named marble scratch.txt",
+      "add an empty file named marble scratch.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-10",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "blanks/comet.txt"
+      ]
+    },
+    "requests": [
+      "create an empty file named blanks/comet.txt",
+      "make an empty file named blanks/comet.txt",
+      "I need an empty file named blanks/comet.txt",
+      "add an empty file named blanks/comet.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-11",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "willow-a.txt",
+        "willow-b.txt"
+      ]
+    },
+    "requests": [
+      "create empty files named willow-a.txt and willow-b.txt",
+      "make empty files named willow-a.txt and willow-b.txt",
+      "I need empty files named willow-a.txt and willow-b.txt",
+      "add empty files named willow-a.txt and willow-b.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-12",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "-badger.new"
+      ]
+    },
+    "requests": [
+      "create an empty file named -badger.new",
+      "make an empty file named -badger.new",
+      "I need an empty file named -badger.new",
+      "add an empty file named -badger.new to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-13",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "quartz scratch.txt"
+      ]
+    },
+    "requests": [
+      "create an empty file named quartz scratch.txt",
+      "make an empty file named quartz scratch.txt",
+      "I need an empty file named quartz scratch.txt",
+      "add an empty file named quartz scratch.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-14",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "blanks/hazel.txt"
+      ]
+    },
+    "requests": [
+      "create an empty file named blanks/hazel.txt",
+      "make an empty file named blanks/hazel.txt",
+      "I need an empty file named blanks/hazel.txt",
+      "add an empty file named blanks/hazel.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-15",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "maple-a.txt",
+        "maple-b.txt"
+      ]
+    },
+    "requests": [
+      "create empty files named maple-a.txt and maple-b.txt",
+      "make empty files named maple-a.txt and maple-b.txt",
+      "I need empty files named maple-a.txt and maple-b.txt",
+      "add empty files named maple-a.txt and maple-b.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-16",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "raven.new"
+      ]
+    },
+    "requests": [
+      "create an empty file named raven.new",
+      "make an empty file named raven.new",
+      "I need an empty file named raven.new",
+      "add an empty file named raven.new to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-17",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "lotus scratch.txt"
+      ]
+    },
+    "requests": [
+      "create an empty file named lotus scratch.txt",
+      "make an empty file named lotus scratch.txt",
+      "I need an empty file named lotus scratch.txt",
+      "add an empty file named lotus scratch.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-18",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "blanks/birch.txt"
+      ]
+    },
+    "requests": [
+      "create an empty file named blanks/birch.txt",
+      "make an empty file named blanks/birch.txt",
+      "I need an empty file named blanks/birch.txt",
+      "add an empty file named blanks/birch.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-19",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "tundra-a.txt",
+        "tundra-b.txt"
+      ]
+    },
+    "requests": [
+      "create empty files named tundra-a.txt and tundra-b.txt",
+      "make empty files named tundra-a.txt and tundra-b.txt",
+      "I need empty files named tundra-a.txt and tundra-b.txt",
+      "add empty files named tundra-a.txt and tundra-b.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-20",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "zephyr.new"
+      ]
+    },
+    "requests": [
+      "create an empty file named zephyr.new",
+      "make an empty file named zephyr.new",
+      "I need an empty file named zephyr.new",
+      "add an empty file named zephyr.new to the filesystem"
+    ]
+  }
+]

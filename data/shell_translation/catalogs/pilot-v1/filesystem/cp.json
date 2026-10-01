@@ -1,0 +1,418 @@
+[
+  {
+    "id": "pilot-v1-cp-01",
+    "topic": "filesystem",
+    "family": "cp",
+    "capability": "copy",
+    "split": "train",
+    "intent": {
+      "op": "cp",
+      "sources": [
+        "inputs/copper.txt"
+      ],
+      "destination": "outputs/copper-saved.txt"
+    },
+    "requests": [
+      "copy the file inputs/copper.txt to outputs/copper-saved.txt",
+      "make a copy of the file inputs/copper.txt to outputs/copper-saved.txt",
+      "duplicate the file inputs/copper.txt to outputs/copper-saved.txt",
+      "put a copy of the file inputs/copper.txt to outputs/copper-saved.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-cp-02",
+    "topic": "filesystem",
+    "family": "cp",
+    "capability": "copy",
+    "split": "train",
+    "intent": {
+      "op": "cp",
+      "sources": [
+        "mango reading notes.txt"
+      ],
+      "destination": "mango saved notes.txt"
+    },
+    "requests": [
+      "copy the file mango reading notes.txt to mango saved notes.txt",
+      "make a copy of the file mango reading notes.txt to mango saved notes.txt",
+      "duplicate the file mango reading notes.txt to mango saved notes.txt",
+      "put a copy of the file mango reading notes.txt to mango saved notes.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-cp-03",
+    "topic": "filesystem",
+    "family": "cp",
+    "capability": "copy",
+    "split": "train",
+    "intent": {
+      "op": "cp",
+      "into": true,
+      "sources": [
+        "inputs/falcon.txt"
+      ],
+      "destination": "stash-falcon"
+    },
+    "requests": [
+      "copy the file inputs/falcon.txt into stash-falcon",
+      "make a copy of the file inputs/falcon.txt into stash-falcon",
+      "duplicate the file inputs/falcon.txt into stash-falcon",
+      "put a copy of the file inputs/falcon.txt into stash-falcon"
+    ]
+  },
+  {
+    "id": "pilot-v1-cp-04",
+    "topic": "filesystem",
+    "family": "cp",
+    "capability": "copy",
+    "split": "train",
+    "intent": {
+      "op": "cp",
+      "into": true,
+      "sources": [
+        "inputs/orchid.txt",
+        "inputs/orchid-extra.txt"
+      ],
+      "destination": "stash-orchid"
+    },
+    "requests": [
+      "copy the files inputs/orchid.txt and inputs/orchid-extra.txt into stash-orchid",
+      "make a copy of the files inputs/orchid.txt and inputs/orchid-extra.txt into stash-orchid",
+      "duplicate the files inputs/orchid.txt and inputs/orchid-extra.txt into stash-orchid",
+      "put a copy of the files inputs/orchid.txt and inputs/orchid-extra.txt into stash-orchid"
+    ]
+  },
+  {
+    "id": "pilot-v1-cp-05",
+    "topic": "filesystem",
+    "family": "cp",
+    "capability": "copy",
+    "split": "train",
+    "intent": {
+      "op": "cp",
+      "directory_source": true,
+      "sources": [
+        "bundle-nebula"
+      ],
+      "destination": "saved-nebula"
+    },
+    "requests": [
+      "copy the directory bundle-nebula and all its contents to saved-nebula",
+      "make a copy of the directory bundle-nebula and all its contents to saved-nebula",
+      "duplicate the directory bundle-nebula and all its contents to saved-nebula",
+      "put a copy of the directory bundle-nebula and all its contents to saved-nebula"
+    ]
+  },
+  {
+    "id": "pilot-v1-cp-06",
+    "topic": "filesystem",
+    "family": "cp",
+    "capability": "copy",
+    "split": "train",
+    "intent": {
+      "op": "cp",
+      "sources": [
+        "inputs/otter.txt"
+      ],
+      "destination": "outputs/otter-saved.txt"
+    },
+    "requests": [
+      "copy the file inputs/otter.txt to outputs/otter-saved.txt",
+      "make a copy of the file inputs/otter.txt to outputs/otter-saved.txt",
+      "duplicate the file inputs/otter.txt to outputs/otter-saved.txt",
+      "put a copy of the file inputs/otter.txt to outputs/otter-saved.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-cp-07",
+    "topic": "filesystem",
+    "family": "cp",
+    "capability": "copy",
+    "split": "train",
+    "intent": {
+      "op": "cp",
+      "sources": [
+        "cedar reading notes.txt"
+      ],
+      "destination": "cedar saved notes.txt"
+    },
+    "requests": [
+      "copy the file cedar reading notes.txt to cedar saved notes.txt",
+      "make a copy of the file cedar reading notes.txt to cedar saved notes.txt",
+      "duplicate the file cedar reading notes.txt to cedar saved notes.txt",
+      "put a copy of the file cedar reading notes.txt to cedar saved notes.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-cp-08",
+    "topic": "filesystem",
+    "family": "cp",
+    "capability": "copy",
+    "split": "train",
+    "intent": {
+      "op": "cp",
+      "into": true,
+      "sources": [
+        "inputs/saffron.txt"
+      ],
+      "destination": "stash-saffron"
+    },
+    "requests": [
+      "copy the file inputs/saffron.txt into stash-saffron",
+      "make a copy of the file inputs/saffron.txt into stash-saffron",
+      "duplicate the file inputs/saffron.txt into stash-saffron",
+      "put a copy of the file inputs/saffron.txt into stash-saffron"
+    ]
+  },
+  {
+    "id": "pilot-v1-cp-09",
+    "topic": "filesystem",
+    "family": "cp",
+    "capability": "copy",
+    "split": "train",
+    "intent": {
+      "op": "cp",
+      "into": true,
+      "sources": [
+        "inputs/marble.txt",
+        "inputs/marble-extra.txt"
+      ],
+      "destination": "stash-marble"
+    },
+    "requests": [
+      "copy the files inputs/marble.txt and inputs/marble-extra.txt into stash-marble",
+      "make a copy of the files inputs/marble.txt and inputs/marble-extra.txt into stash-marble",
+      "duplicate the files inputs/marble.txt and inputs/marble-extra.txt into stash-marble",
+      "put a copy of the files inputs/marble.txt and inputs/marble-extra.txt into stash-marble"
+    ]
+  },
+  {
+    "id": "pilot-v1-cp-10",
+    "topic": "filesystem",
+    "family": "cp",
+    "capability": "copy",
+    "split": "train",
+    "intent": {
+      "op": "cp",
+      "directory_source": true,
+      "sources": [
+        "bundle-comet"
+      ],
+      "destination": "saved-comet"
+    },
+    "requests": [
+      "copy the directory bundle-comet and all its contents to saved-comet",
+      "make a copy of the directory bundle-comet and all its contents to saved-comet",
+      "duplicate the directory bundle-comet and all its contents to saved-comet",
+      "put a copy of the directory bundle-comet and all its contents to saved-comet"
+    ]
+  },
+  {
+    "id": "pilot-v1-cp-11",
+    "topic": "filesystem",
+    "family": "cp",
+    "capability": "copy",
+    "split": "train",
+    "intent": {
+      "op": "cp",
+      "sources": [
+        "-willow-source.txt"
+      ],
+      "destination": "outputs/willow-saved.txt"
+    },
+    "requests": [
+      "copy the file -willow-source.txt to outputs/willow-saved.txt",
+      "make a copy of the file -willow-source.txt to outputs/willow-saved.txt",
+      "duplicate the file -willow-source.txt to outputs/willow-saved.txt",
+      "put a copy of the file -willow-source.txt to outputs/willow-saved.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-cp-12",
+    "topic": "filesystem",
+    "family": "cp",
+    "capability": "copy",
+    "split": "train",
+    "intent": {
+      "op": "cp",
+      "sources": [
+        "badger reading notes.txt"
+      ],
+      "destination": "badger saved notes.txt"
+    },
+    "requests": [
+      "copy the file badger reading notes.txt to badger saved notes.txt",
+      "make a copy of the file badger reading notes.txt to badger saved notes.txt",
+      "duplicate the file badger reading notes.txt to badger saved notes.txt",
+      "put a copy of the file badger reading notes.txt to badger saved notes.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-cp-13",
+    "topic": "filesystem",
+    "family": "cp",
+    "capability": "copy",
+    "split": "train",
+    "intent": {
+      "op": "cp",
+      "into": true,
+      "sources": [
+        "inputs/quartz.txt"
+      ],
+      "destination": "stash-quartz"
+    },
+    "requests": [
+      "copy the file inputs/quartz.txt into stash-quartz",
+      "make a copy of the file inputs/quartz.txt into stash-quartz",
+      "duplicate the file inputs/quartz.txt into stash-quartz",
+      "put a copy of the file inputs/quartz.txt into stash-quartz"
+    ]
+  },
+  {
+    "id": "pilot-v1-cp-14",
+    "topic": "filesystem",
+    "family": "cp",
+    "capability": "copy",
+    "split": "train",
+    "intent": {
+      "op": "cp",
+      "into": true,
+      "sources": [
+        "inputs/hazel.txt",
+        "inputs/hazel-extra.txt"
+      ],
+      "destination": "stash-hazel"
+    },
+    "requests": [
+      "copy the files inputs/hazel.txt and inputs/hazel-extra.txt into stash-hazel",
+      "make a copy of the files inputs/hazel.txt and inputs/hazel-extra.txt into stash-hazel",
+      "duplicate the files inputs/hazel.txt and inputs/hazel-extra.txt into stash-hazel",
+      "put a copy of the files inputs/hazel.txt and inputs/hazel-extra.txt into stash-hazel"
+    ]
+  },
+  {
+    "id": "pilot-v1-cp-15",
+    "topic": "filesystem",
+    "family": "cp",
+    "capability": "copy",
+    "split": "train",
+    "intent": {
+      "op": "cp",
+      "directory_source": true,
+      "sources": [
+        "bundle-maple"
+      ],
+      "destination": "saved-maple"
+    },
+    "requests": [
+      "copy the directory bundle-maple and all its contents to saved-maple",
+      "make a copy of the directory bundle-maple and all its contents to saved-maple",
+      "duplicate the directory bundle-maple and all its contents to saved-maple",
+      "put a copy of the directory bundle-maple and all its contents to saved-maple"
+    ]
+  },
+  {
+    "id": "pilot-v1-cp-16",
+    "topic": "filesystem",
+    "family": "cp",
+    "capability": "copy",
+    "split": "train",
+    "intent": {
+      "op": "cp",
+      "sources": [
+        "inputs/raven.txt"
+      ],
+      "destination": "outputs/raven-saved.txt"
+    },
+    "requests": [
+      "copy the file inputs/raven.txt to outputs/raven-saved.txt",
+      "make a copy of the file inputs/raven.txt to outputs/raven-saved.txt",
+      "duplicate the file inputs/raven.txt to outputs/raven-saved.txt",
+      "put a copy of the file inputs/raven.txt to outputs/raven-saved.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-cp-17",
+    "topic": "filesystem",
+    "family": "cp",
+    "capability": "copy",
+    "split": "train",
+    "intent": {
+      "op": "cp",
+      "sources": [
+        "client's lotus source.txt"
+      ],
+      "destination": "lotus saved notes.txt"
+    },
+    "requests": [
+      "copy the file client's lotus source.txt to lotus saved notes.txt",
+      "make a copy of the file client's lotus source.txt to lotus saved notes.txt",
+      "duplicate the file client's lotus source.txt to lotus saved notes.txt",
+      "put a copy of the file client's lotus source.txt to lotus saved notes.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-cp-18",
+    "topic": "filesystem",
+    "family": "cp",
+    "capability": "copy",
+    "split": "train",
+    "intent": {
+      "op": "cp",
+      "into": true,
+      "sources": [
+        "inputs/birch.txt"
+      ],
+      "destination": "stash-birch"
+    },
+    "requests": [
+      "copy the file inputs/birch.txt into stash-birch",
+      "make a copy of the file inputs/birch.txt into stash-birch",
+      "duplicate the file inputs/birch.txt into stash-birch",
+      "put a copy of the file inputs/birch.txt into stash-birch"
+    ]
+  },
+  {
+    "id": "pilot-v1-cp-19",
+    "topic": "filesystem",
+    "family": "cp",
+    "capability": "copy",
+    "split": "validation",
+    "intent": {
+      "op": "cp",
+      "into": true,
+      "sources": [
+        "inputs/tundra.txt",
+        "inputs/tundra-extra.txt"
+      ],
+      "destination": "stash-tundra"
+    },
+    "requests": [
+      "copy the files inputs/tundra.txt and inputs/tundra-extra.txt into stash-tundra",
+      "make a copy of the files inputs/tundra.txt and inputs/tundra-extra.txt into stash-tundra",
+      "duplicate the files inputs/tundra.txt and inputs/tundra-extra.txt into stash-tundra",
+      "put a copy of the files inputs/tundra.txt and inputs/tundra-extra.txt into stash-tundra"
+    ]
+  },
+  {
+    "id": "pilot-v1-cp-20",
+    "topic": "filesystem",
+    "family": "cp",
+    "capability": "copy",
+    "split": "validation",
+    "intent": {
+      "op": "cp",
+      "directory_source": true,
+      "sources": [
+        "bundle-zephyr"
+      ],
+      "destination": "saved-zephyr"
+    },
+    "requests": [
+      "copy the directory bundle-zephyr and all its contents to saved-zephyr",
+      "make a copy of the directory bundle-zephyr and all its contents to saved-zephyr",
+      "duplicate the directory bundle-zephyr and all its contents to saved-zephyr",
+      "put a copy of the directory bundle-zephyr and all its contents to saved-zephyr"
+    ]
+  }
+]

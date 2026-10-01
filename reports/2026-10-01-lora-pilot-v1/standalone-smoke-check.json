@@ -1,0 +1,14 @@
+{
+  "run_id": "2026-10-01-lora-pilot-v1",
+  "date": "2026-10-01",
+  "timezone": "Europe/Budapest",
+  "checkpoint": "checkpoints/2026-10-01-lora-pilot-v1/epoch-3",
+  "adapter_sha256": "bb032f9c26f9d7cc0f82a55ba768ad19594cca9cb6738e08737c7bf143178968",
+  "request": "enter the root directory",
+  "expected_command": "cd /",
+  "printed_command": "pwd",
+  "matches_expected_command": false,
+  "observation": "Standalone translate.py invocation printed pwd; this does not perform the requested directory change.",
+  "execution": "Printed only; no shell command execution or Docker functional scoring for this additional probe.",
+  "included_in_112_case_score": false
+}

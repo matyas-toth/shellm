@@ -26,12 +26,26 @@ def generate(args, cases):
     from huggingface_hub import model_info
     from transformers import AutoModelForCausalLM, AutoTokenizer
 
+    output_dir = Path(args.output) if args.output else Path("reports") / datetime.now(ZoneInfo("Europe/Budapest")).strftime("%Y-%m-%d-%H%M%S-predictions")
+    if output_dir.exists():
+        raise SystemExit("Prediction output directory already exists; choose a new directory to preserve history")
     if not torch.cuda.is_available():
         raise SystemExit("CUDA unavailable")
-    revision = model_info(args.model, revision=args.revision).sha
+    adapter_config = None
+    if args.adapter:
+        from peft import PeftConfig, PeftModel
+        adapter_config = PeftConfig.from_pretrained(args.adapter)
+        if adapter_config.base_model_name_or_path != args.model:
+            raise SystemExit("Adapter base model does not match --model")
+    requested_revision = adapter_config.revision if adapter_config and args.revision == "main" else args.revision
+    revision = model_info(args.model, revision=requested_revision).sha
+    if adapter_config and adapter_config.revision and adapter_config.revision != revision:
+        raise SystemExit("Adapter base revision mismatch")
     print(f"Loading {args.model} at {revision}", flush=True)
     tokenizer = AutoTokenizer.from_pretrained(args.model, revision=revision)
     model = AutoModelForCausalLM.from_pretrained(args.model, revision=revision, dtype=torch.float16).to("cuda").eval()
+    if args.adapter:
+        model = PeftModel.from_pretrained(model, args.adapter).eval()
     records = []
     started = time.perf_counter()
     for index, case in enumerate(cases, 1):
@@ -47,8 +61,7 @@ def generate(args, cases):
                         "generated_tokens": len(new_ids), "seconds": time.perf_counter() - step})
         if index % 14 == 0 or index == len(cases):
             print(f"Generated {index}/{len(cases)}", flush=True)
-    output_dir = Path(args.output)
-    output_dir.mkdir(parents=True, exist_ok=True)
+    output_dir.mkdir(parents=True, exist_ok=False)
     (output_dir / "predictions.jsonl").write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in records), encoding="utf-8")
     metadata = {
         "date": datetime.now(ZoneInfo("Europe/Budapest")).isoformat(), "model": args.model, "revision": revision,
@@ -58,6 +71,12 @@ def generate(args, cases):
         "stop_strings": ["\n"], "prompt_style": "raw", "cases": len(cases),
         "generation_seconds": time.perf_counter() - started, "peak_pytorch_gib": torch.cuda.max_memory_allocated() / 1024**3,
     }
+    if args.adapter:
+        adapter = Path(args.adapter)
+        metadata["adapter"] = args.adapter
+        metadata["adapter_sha256"] = hashlib.sha256((adapter / "adapter_model.safetensors").read_bytes()).hexdigest()
+        if (adapter / "training-metadata.json").exists():
+            metadata["training"] = json.loads((adapter / "training-metadata.json").read_text())
     save_json(output_dir / "generation-metadata.json", metadata)
     print(f"Saved predictions to {output_dir}", flush=True)
 
@@ -70,16 +89,21 @@ def main():
     gen = sub.add_parser("generate")
     gen.add_argument("--model", default="Qwen/Qwen3-0.6B-Base")
     gen.add_argument("--revision", default="main")
-    gen.add_argument("--output", default="reports/base-functional-baseline")
+    gen.add_argument("--output")
+    gen.add_argument("--adapter", help="Saved LoRA adapter directory")
     ev = sub.add_parser("evaluate")
     ev.add_argument("--predictions", required=True)
-    ev.add_argument("--output", default="reports/base-functional-baseline/evaluation.json")
+    ev.add_argument("--output")
     ev.add_argument("--workers", type=int, choices=range(1, 5), default=4)
     args = parser.parse_args()
     cases = load_cases()
     if args.action == "generate":
         generate(args, cases)
         return
+    if args.action == "evaluate":
+        args.output = args.output or str(Path(args.predictions).parent / "evaluation.json")
+        if Path(args.output).exists():
+            raise SystemExit("Evaluation output already exists; choose a new file to preserve history")
     cli = docker_cli()
     if args.action == "build":
         print(build_image(cli), flush=True)

@@ -111,7 +111,7 @@ def main():
     payload = json.load(sys.stdin)
     results = {}
     for item in payload["items"]:
-        results[item["id"]] = [execute(item["command"], spec) for spec in payload["fixtures"]]
+        results[item["id"]] = [execute(item["command"], spec) for spec in item.get("fixtures", payload["fixtures"])]
     json.dump(results, sys.stdout)
 
 

@@ -1,0 +1,185 @@
+{
+  "run_id": "2026-10-01-lora-pilot-v1",
+  "started": "2026-10-01T12:59:10.205097+02:00",
+  "config": {
+    "model": "Qwen/Qwen3-0.6B-Base",
+    "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+    "dataset_release": "pilot-v1",
+    "seed": 42,
+    "epochs": 3,
+    "micro_batch_size": 2,
+    "effective_batch_size": 16,
+    "max_length": 128,
+    "learning_rate": 0.0002,
+    "warmup_steps": 10,
+    "weight_decay": 0.0,
+    "max_grad_norm": 1.0,
+    "lora": {
+      "r": 8,
+      "lora_alpha": 16,
+      "lora_dropout": 0.05,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ],
+      "bias": "none",
+      "task_type": "CAUSAL_LM"
+    }
+  },
+  "dataset_sha256": "57653a7992e7186acbf7e6a25c496a85e335b30915dd823a2cb681ef5a5f1594",
+  "train_examples": 1008,
+  "validation_examples": 112,
+  "trainable_parameters": 5046272,
+  "total_parameters": 601096192,
+  "gpu": "NVIDIA GeForce RTX 2060",
+  "max_example_tokens": 50,
+  "packages": {
+    "torch": "2.11.0+cu130",
+    "transformers": "4.57.6",
+    "peft": "0.18.1",
+    "accelerate": "1.15.0"
+  },
+  "trainer_sha256": "5d65c2671fc1e566143f7c93220eafb77585643bbeeef89b5e8a68db1bb0c92a",
+  "precision": "FP16 frozen base and autocast, FP32 adapters and optimizer",
+  "status": "complete",
+  "optimizer_steps": 189,
+  "examples_seen": 3024,
+  "skipped_updates": 0,
+  "initial_validation_loss": 1.2514241898501361,
+  "checkpoints": [
+    {
+      "run_id": "2026-10-01-lora-pilot-v1",
+      "epoch": 1,
+      "step": 63,
+      "examples_seen": 1008,
+      "validation_loss": 0.007686159257934411,
+      "dataset_sha256": "57653a7992e7186acbf7e6a25c496a85e335b30915dd823a2cb681ef5a5f1594",
+      "base_model": "Qwen/Qwen3-0.6B-Base",
+      "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+      "config": {
+        "model": "Qwen/Qwen3-0.6B-Base",
+        "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+        "dataset_release": "pilot-v1",
+        "seed": 42,
+        "epochs": 3,
+        "micro_batch_size": 2,
+        "effective_batch_size": 16,
+        "max_length": 128,
+        "learning_rate": 0.0002,
+        "warmup_steps": 10,
+        "weight_decay": 0.0,
+        "max_grad_norm": 1.0,
+        "lora": {
+          "r": 8,
+          "lora_alpha": 16,
+          "lora_dropout": 0.05,
+          "target_modules": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj",
+            "gate_proj",
+            "up_proj",
+            "down_proj"
+          ],
+          "bias": "none",
+          "task_type": "CAUSAL_LM"
+        }
+      },
+      "adapter_sha256": "c542734f0bf4a7cbb717d71264bbe49d2a7aa2543fa9093f2bb4a9be705191f5",
+      "checkpoint": "checkpoints/2026-10-01-lora-pilot-v1/epoch-1"
+    },
+    {
+      "run_id": "2026-10-01-lora-pilot-v1",
+      "epoch": 2,
+      "step": 126,
+      "examples_seen": 2016,
+      "validation_loss": 0.007499350007185933,
+      "dataset_sha256": "57653a7992e7186acbf7e6a25c496a85e335b30915dd823a2cb681ef5a5f1594",
+      "base_model": "Qwen/Qwen3-0.6B-Base",
+      "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+      "config": {
+        "model": "Qwen/Qwen3-0.6B-Base",
+        "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+        "dataset_release": "pilot-v1",
+        "seed": 42,
+        "epochs": 3,
+        "micro_batch_size": 2,
+        "effective_batch_size": 16,
+        "max_length": 128,
+        "learning_rate": 0.0002,
+        "warmup_steps": 10,
+        "weight_decay": 0.0,
+        "max_grad_norm": 1.0,
+        "lora": {
+          "r": 8,
+          "lora_alpha": 16,
+          "lora_dropout": 0.05,
+          "target_modules": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj",
+            "gate_proj",
+            "up_proj",
+            "down_proj"
+          ],
+          "bias": "none",
+          "task_type": "CAUSAL_LM"
+        }
+      },
+      "adapter_sha256": "4c80abaae292cde1ecc3fe584d21401fcd63cf9df7acce9b68e588c4a7cffe22",
+      "checkpoint": "checkpoints/2026-10-01-lora-pilot-v1/epoch-2"
+    },
+    {
+      "run_id": "2026-10-01-lora-pilot-v1",
+      "epoch": 3,
+      "step": 189,
+      "examples_seen": 3024,
+      "validation_loss": 0.00727518623129476,
+      "dataset_sha256": "57653a7992e7186acbf7e6a25c496a85e335b30915dd823a2cb681ef5a5f1594",
+      "base_model": "Qwen/Qwen3-0.6B-Base",
+      "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+      "config": {
+        "model": "Qwen/Qwen3-0.6B-Base",
+        "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+        "dataset_release": "pilot-v1",
+        "seed": 42,
+        "epochs": 3,
+        "micro_batch_size": 2,
+        "effective_batch_size": 16,
+        "max_length": 128,
+        "learning_rate": 0.0002,
+        "warmup_steps": 10,
+        "weight_decay": 0.0,
+        "max_grad_norm": 1.0,
+        "lora": {
+          "r": 8,
+          "lora_alpha": 16,
+          "lora_dropout": 0.05,
+          "target_modules": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj",
+            "gate_proj",
+            "up_proj",
+            "down_proj"
+          ],
+          "bias": "none",
+          "task_type": "CAUSAL_LM"
+        }
+      },
+      "adapter_sha256": "bb032f9c26f9d7cc0f82a55ba768ad19594cca9cb6738e08737c7bf143178968",
+      "checkpoint": "checkpoints/2026-10-01-lora-pilot-v1/epoch-3"
+    }
+  ],
+  "adapter_weights_changed": true,
+  "training_seconds": 917.2661855820002,
+  "peak_pytorch_gib": 1.3957982063293457
+}

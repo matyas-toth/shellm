@@ -1,0 +1,342 @@
+[
+  {
+    "id": "pilot-v1-cd-01",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/"
+    },
+    "requests": [
+      "change the working directory to the filesystem's top-level directory",
+      "navigate into the filesystem's top-level directory",
+      "switch folders to the filesystem's top-level directory",
+      "take this shell to the filesystem's top-level directory"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-02",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "~"
+    },
+    "requests": [
+      "change the working directory to my user's home folder",
+      "navigate into my user's home folder",
+      "switch folders to my user's home folder",
+      "take this shell to my user's home folder"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-03",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": ".."
+    },
+    "requests": [
+      "change the working directory to the parent of this directory",
+      "navigate into the parent of this directory",
+      "switch folders to the parent of this directory",
+      "take this shell to the parent of this directory"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-04",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "orchid workspace"
+    },
+    "requests": [
+      "change the working directory to the directory named orchid workspace",
+      "navigate into the directory named orchid workspace",
+      "switch folders to the directory named orchid workspace",
+      "take this shell to the directory named orchid workspace"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-05",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/nebula-area"
+    },
+    "requests": [
+      "change the working directory to the directory named /workspace/nebula-area",
+      "navigate into the directory named /workspace/nebula-area",
+      "switch folders to the directory named /workspace/nebula-area",
+      "take this shell to the directory named /workspace/nebula-area"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-06",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "otter-area"
+    },
+    "requests": [
+      "change the working directory to the directory named otter-area",
+      "navigate into the directory named otter-area",
+      "switch folders to the directory named otter-area",
+      "take this shell to the directory named otter-area"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-07",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "cedar workspace"
+    },
+    "requests": [
+      "change the working directory to the directory named cedar workspace",
+      "navigate into the directory named cedar workspace",
+      "switch folders to the directory named cedar workspace",
+      "take this shell to the directory named cedar workspace"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-08",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "client's saffron folder"
+    },
+    "requests": [
+      "change the working directory to the directory named client's saffron folder",
+      "navigate into the directory named client's saffron folder",
+      "switch folders to the directory named client's saffron folder",
+      "take this shell to the directory named client's saffron folder"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-09",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/marble-area"
+    },
+    "requests": [
+      "change the working directory to the directory named /workspace/marble-area",
+      "navigate into the directory named /workspace/marble-area",
+      "switch folders to the directory named /workspace/marble-area",
+      "take this shell to the directory named /workspace/marble-area"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-10",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "comet workspace"
+    },
+    "requests": [
+      "change the working directory to the directory named comet workspace",
+      "navigate into the directory named comet workspace",
+      "switch folders to the directory named comet workspace",
+      "take this shell to the directory named comet workspace"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-11",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "-willow-area"
+    },
+    "requests": [
+      "change the working directory to the directory named -willow-area",
+      "navigate into the directory named -willow-area",
+      "switch folders to the directory named -willow-area",
+      "take this shell to the directory named -willow-area"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-12",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "badger-area"
+    },
+    "requests": [
+      "change the working directory to the directory named badger-area",
+      "navigate into the directory named badger-area",
+      "switch folders to the directory named badger-area",
+      "take this shell to the directory named badger-area"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-13",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/quartz workspace"
+    },
+    "requests": [
+      "change the working directory to the directory named /workspace/quartz workspace",
+      "navigate into the directory named /workspace/quartz workspace",
+      "switch folders to the directory named /workspace/quartz workspace",
+      "take this shell to the directory named /workspace/quartz workspace"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-14",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "hazel-area"
+    },
+    "requests": [
+      "change the working directory to the directory named hazel-area",
+      "navigate into the directory named hazel-area",
+      "switch folders to the directory named hazel-area",
+      "take this shell to the directory named hazel-area"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-15",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "maple-area"
+    },
+    "requests": [
+      "change the working directory to the directory named maple-area",
+      "navigate into the directory named maple-area",
+      "switch folders to the directory named maple-area",
+      "take this shell to the directory named maple-area"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-16",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "raven workspace"
+    },
+    "requests": [
+      "change the working directory to the directory named raven workspace",
+      "navigate into the directory named raven workspace",
+      "switch folders to the directory named raven workspace",
+      "take this shell to the directory named raven workspace"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-17",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/lotus-area"
+    },
+    "requests": [
+      "change the working directory to the directory named /workspace/lotus-area",
+      "navigate into the directory named /workspace/lotus-area",
+      "switch folders to the directory named /workspace/lotus-area",
+      "take this shell to the directory named /workspace/lotus-area"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-18",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "birch-area"
+    },
+    "requests": [
+      "change the working directory to the directory named birch-area",
+      "navigate into the directory named birch-area",
+      "switch folders to the directory named birch-area",
+      "take this shell to the directory named birch-area"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-19",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "tundra workspace"
+    },
+    "requests": [
+      "change the working directory to the directory named tundra workspace",
+      "navigate into the directory named tundra workspace",
+      "switch folders to the directory named tundra workspace",
+      "take this shell to the directory named tundra workspace"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-20",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "zephyr-area"
+    },
+    "requests": [
+      "change the working directory to the directory named zephyr-area",
+      "navigate into the directory named zephyr-area",
+      "switch folders to the directory named zephyr-area",
+      "take this shell to the directory named zephyr-area"
+    ]
+  }
+]
