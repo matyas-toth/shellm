@@ -1,14 +1,15 @@
 {
   "schema_version": 1,
   "release": "pilot-v1",
-  "examples": 1120,
-  "groups": 280,
-  "unique_commands": 261,
+  "examples": 1264,
+  "groups": 316,
+  "unique_commands": 297,
   "splits": {
-    "train": 1008,
-    "validation": 112
+    "train": 1128,
+    "validation": 136
   },
   "families": {
+    "chmod": 144,
     "cp": 80,
     "ls": 80,
     "mkdir": 80,
@@ -25,8 +26,13 @@
     "wc": 80
   },
   "evaluation_request_overlap": 0,
-  "dataset_sha256": "57653a7992e7186acbf7e6a25c496a85e335b30915dd823a2cb681ef5a5f1594",
+  "dataset_sha256": "2407ee3d77fa8d3671454a621177e1f49f52f94ad21db45ccaa3935bd8fc78fa",
   "files": [
+    {
+      "path": "families/filesystem/chmod.jsonl",
+      "examples": 144,
+      "sha256": "8baa9d7c47021c95cfbe167b0049251f76e4a311176640c0801db3731d67c770"
+    },
     {
       "path": "families/filesystem/cp.jsonl",
       "examples": 80,

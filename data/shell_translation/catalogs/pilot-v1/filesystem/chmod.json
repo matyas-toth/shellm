@@ -1,0 +1,849 @@
+[
+  {
+    "id": "pilot-v1-chmod-01",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "script-copper.sh"
+      ],
+      "mode": "755"
+    },
+    "requests": [
+      "set the permissions of script-copper.sh to 755",
+      "change the permissions of script-copper.sh to 755",
+      "update the permissions of script-copper.sh to 755",
+      "make the permissions of script-copper.sh 755"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-02",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "secrets mango.env"
+      ],
+      "mode": "600"
+    },
+    "requests": [
+      "set the permissions of secrets mango.env to 600",
+      "change the permissions of secrets mango.env to 600",
+      "update the permissions of secrets mango.env to 600",
+      "make the permissions of secrets mango.env 600"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-03",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "falcon-a.sh",
+        "falcon-b.sh"
+      ],
+      "mode": "755"
+    },
+    "requests": [
+      "set the permissions of falcon-a.sh and falcon-b.sh to 755",
+      "change the permissions of falcon-a.sh and falcon-b.sh to 755",
+      "update the permissions of falcon-a.sh and falcon-b.sh to 755",
+      "make the permissions of falcon-a.sh and falcon-b.sh 755"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-04",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "shared-otter"
+      ],
+      "mode": "755",
+      "recursive": true
+    },
+    "requests": [
+      "set the permissions of shared-otter and everything inside it to 755",
+      "change the permissions of shared-otter and everything inside it to 755",
+      "update the permissions of shared-otter and everything inside it to 755",
+      "make the permissions of shared-otter and everything inside it 755"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-05",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "orchid.key"
+      ],
+      "mode": "400"
+    },
+    "requests": [
+      "set the permissions of orchid.key to 400",
+      "change the permissions of orchid.key to 400",
+      "update the permissions of orchid.key to 400",
+      "make the permissions of orchid.key 400"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-06",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "-nebula.sh"
+      ],
+      "mode": "755"
+    },
+    "requests": [
+      "set the permissions of -nebula.sh to 755",
+      "change the permissions of -nebula.sh to 755",
+      "update the permissions of -nebula.sh to 755",
+      "make the permissions of -nebula.sh 755"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-07",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "discard-marble"
+      ],
+      "mode": "700",
+      "recursive": true
+    },
+    "requests": [
+      "set the permissions of discard-marble and everything inside it to 700",
+      "change the permissions of discard-marble and everything inside it to 700",
+      "update the permissions of discard-marble and everything inside it to 700",
+      "make the permissions of discard-marble and everything inside it 700"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-08",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "willow-a.conf",
+        "willow-b.conf"
+      ],
+      "mode": "644"
+    },
+    "requests": [
+      "set the permissions of willow-a.conf and willow-b.conf to 644",
+      "change the permissions of willow-a.conf and willow-b.conf to 644",
+      "update the permissions of willow-a.conf and willow-b.conf to 644",
+      "make the permissions of willow-a.conf and willow-b.conf 644"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-09",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "client's cedar notes.txt"
+      ],
+      "mode": "600"
+    },
+    "requests": [
+      "set the permissions of client's cedar notes.txt to 600",
+      "change the permissions of client's cedar notes.txt to 600",
+      "update the permissions of client's cedar notes.txt to 600",
+      "make the permissions of client's cedar notes.txt 600"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-10",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "comet.sh"
+      ],
+      "mode": "750"
+    },
+    "requests": [
+      "set the permissions of comet.sh to 750",
+      "change the permissions of comet.sh to 750",
+      "update the permissions of comet.sh to 750",
+      "make the permissions of comet.sh 750"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-11",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "build-saffron"
+      ],
+      "mode": "755",
+      "recursive": true
+    },
+    "requests": [
+      "set the permissions of build-saffron and everything inside it to 755",
+      "change the permissions of build-saffron and everything inside it to 755",
+      "update the permissions of build-saffron and everything inside it to 755",
+      "make the permissions of build-saffron and everything inside it 755"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-12",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "quartz secrets.env"
+      ],
+      "mode": "600"
+    },
+    "requests": [
+      "set the permissions of quartz secrets.env to 600",
+      "change the permissions of quartz secrets.env to 600",
+      "update the permissions of quartz secrets.env to 600",
+      "make the permissions of quartz secrets.env 600"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-13",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "hazel-a.sh",
+        "hazel-b.sh"
+      ],
+      "mode": "700"
+    },
+    "requests": [
+      "set the permissions of hazel-a.sh and hazel-b.sh to 700",
+      "change the permissions of hazel-a.sh and hazel-b.sh to 700",
+      "update the permissions of hazel-a.sh and hazel-b.sh to 700",
+      "make the permissions of hazel-a.sh and hazel-b.sh 700"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-14",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "maple.key"
+      ],
+      "mode": "400"
+    },
+    "requests": [
+      "set the permissions of maple.key to 400",
+      "change the permissions of maple.key to 400",
+      "update the permissions of maple.key to 400",
+      "make the permissions of maple.key 400"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-15",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "shared-raven"
+      ],
+      "mode": "775",
+      "recursive": true
+    },
+    "requests": [
+      "set the permissions of shared-raven and everything inside it to 775",
+      "change the permissions of shared-raven and everything inside it to 775",
+      "update the permissions of shared-raven and everything inside it to 775",
+      "make the permissions of shared-raven and everything inside it 775"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-16",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "-birch.conf"
+      ],
+      "mode": "644"
+    },
+    "requests": [
+      "set the permissions of -birch.conf to 644",
+      "change the permissions of -birch.conf to 644",
+      "update the permissions of -birch.conf to 644",
+      "make the permissions of -birch.conf 644"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-17",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "lotus script.sh"
+      ],
+      "mode": "755"
+    },
+    "requests": [
+      "set the permissions of lotus script.sh to 755",
+      "change the permissions of lotus script.sh to 755",
+      "update the permissions of lotus script.sh to 755",
+      "make the permissions of lotus script.sh 755"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-18",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "badger-a.key",
+        "badger-b.key"
+      ],
+      "mode": "400"
+    },
+    "requests": [
+      "set the permissions of badger-a.key and badger-b.key to 400",
+      "change the permissions of badger-a.key and badger-b.key to 400",
+      "update the permissions of badger-a.key and badger-b.key to 400",
+      "make the permissions of badger-a.key and badger-b.key 400"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-19",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "validation",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "tundra-a.sh",
+        "tundra-b.sh"
+      ],
+      "mode": "755"
+    },
+    "requests": [
+      "set the permissions of tundra-a.sh and tundra-b.sh to 755",
+      "change the permissions of tundra-a.sh and tundra-b.sh to 755",
+      "update the permissions of tundra-a.sh and tundra-b.sh to 755",
+      "make the permissions of tundra-a.sh and tundra-b.sh 755"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-20",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "validation",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "zephyr-shared"
+      ],
+      "mode": "700",
+      "recursive": true
+    },
+    "requests": [
+      "set the permissions of zephyr-shared and everything inside it to 700",
+      "change the permissions of zephyr-shared and everything inside it to 700",
+      "update the permissions of zephyr-shared and everything inside it to 700",
+      "make the permissions of zephyr-shared and everything inside it 700"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-21",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "run-copper.sh"
+      ],
+      "changes": [
+        {
+          "who": "u",
+          "op": "+",
+          "perms": "x"
+        }
+      ]
+    },
+    "requests": [
+      "add execute permission for the owner of run-copper.sh",
+      "give the owner of run-copper.sh execute permission",
+      "let the owner execute run-copper.sh",
+      "grant the owner execute access to run-copper.sh"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-22",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "settings mango.conf"
+      ],
+      "changes": [
+        {
+          "who": "go",
+          "op": "-",
+          "perms": "w"
+        }
+      ]
+    },
+    "requests": [
+      "remove write permission for the group and others on settings mango.conf",
+      "take away write permission from the group and others on settings mango.conf",
+      "revoke write access for the group and others on settings mango.conf",
+      "stop the group and others from writing to settings mango.conf"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-23",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "orchid.txt"
+      ],
+      "changes": [
+        {
+          "who": "a",
+          "op": "=",
+          "perms": "r"
+        }
+      ]
+    },
+    "requests": [
+      "make orchid.txt read-only for everyone",
+      "set orchid.txt so everyone has read permission only",
+      "allow everyone to only read orchid.txt",
+      "restrict orchid.txt to read-only for all users"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-24",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "nebula.log"
+      ],
+      "changes": [
+        {
+          "who": "g",
+          "op": "+",
+          "perms": "w"
+        }
+      ]
+    },
+    "requests": [
+      "give the group write permission on nebula.log",
+      "add write permission for the group on nebula.log",
+      "allow the group to write to nebula.log",
+      "grant group write access to nebula.log"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-25",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "private otter.txt"
+      ],
+      "changes": [
+        {
+          "who": "o",
+          "op": "-",
+          "perms": "rwx"
+        }
+      ]
+    },
+    "requests": [
+      "remove all permissions for others on private otter.txt",
+      "take away every permission from others on private otter.txt",
+      "deny others all access to private otter.txt",
+      "revoke all access for other users on private otter.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-26",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "falcon.key"
+      ],
+      "changes": [
+        {
+          "who": "u",
+          "op": "=",
+          "perms": "rw"
+        },
+        {
+          "who": "g",
+          "op": "=",
+          "perms": "r"
+        },
+        {
+          "who": "o",
+          "op": "=",
+          "perms": ""
+        }
+      ]
+    },
+    "requests": [
+      "set falcon.key so the owner can read and write, the group can only read, and others have no access",
+      "change falcon.key to owner read and write, group read only, others nothing",
+      "make falcon.key readable and writable by the owner, readable by the group, and inaccessible to others",
+      "configure falcon.key with owner read and write, group read, and no permissions for others"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-27",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "shared-willow"
+      ],
+      "changes": [
+        {
+          "who": "g",
+          "op": "+",
+          "perms": "w"
+        }
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "give the group write permission on shared-willow and everything inside it",
+      "add write permission for the group on shared-willow and everything inside it",
+      "allow the group to write to shared-willow and everything inside it",
+      "grant group write access to shared-willow and everything inside it"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-28",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "shared-marble"
+      ],
+      "changes": [
+        {
+          "who": "o",
+          "op": "-",
+          "perms": "rwx"
+        }
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "remove all permissions for others on shared-marble and everything inside it",
+      "take away every permission from others on shared-marble and everything inside it",
+      "deny others all access to shared-marble and everything inside it",
+      "revoke all access for other users on shared-marble and everything inside it"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-29",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "cedar-a.sh",
+        "cedar-b.sh"
+      ],
+      "changes": [
+        {
+          "who": "u",
+          "op": "+",
+          "perms": "x"
+        }
+      ]
+    },
+    "requests": [
+      "add execute permission for the owner of cedar-a.sh and cedar-b.sh",
+      "give the owner of cedar-a.sh and cedar-b.sh execute permission",
+      "let the owner execute cedar-a.sh and cedar-b.sh",
+      "grant the owner execute access to cedar-a.sh and cedar-b.sh"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-30",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "tool-comet.sh"
+      ],
+      "changes": [
+        {
+          "who": "a",
+          "op": "+",
+          "perms": "x"
+        }
+      ]
+    },
+    "requests": [
+      "make tool-comet.sh executable by everyone",
+      "allow everyone to execute tool-comet.sh",
+      "add execute permission for all users on tool-comet.sh",
+      "give every user execute access to tool-comet.sh"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-31",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "quartz-folder"
+      ],
+      "mode": "750",
+      "directory_target": true
+    },
+    "requests": [
+      "set the permissions of the directory quartz-folder itself to 750",
+      "change the permissions of the directory quartz-folder itself to 750",
+      "update the permissions of the directory quartz-folder itself to 750",
+      "make the permissions of the directory quartz-folder itself 750"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-32",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "train",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "hazel-folder"
+      ],
+      "changes": [
+        {
+          "who": "g",
+          "op": "+",
+          "perms": "w"
+        }
+      ],
+      "directory_target": true
+    },
+    "requests": [
+      "give the group write permission on the directory hazel-folder itself",
+      "add write permission for the group on the directory hazel-folder itself",
+      "allow the group to write to the directory hazel-folder itself",
+      "grant group write access to the directory hazel-folder itself"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-33",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "validation",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "tundra-a.sh",
+        "tundra-b.sh"
+      ],
+      "changes": [
+        {
+          "who": "u",
+          "op": "+",
+          "perms": "x"
+        }
+      ]
+    },
+    "requests": [
+      "add execute permission for the owner of tundra-a.sh and tundra-b.sh",
+      "give the owner of tundra-a.sh and tundra-b.sh execute permission",
+      "let the owner execute tundra-a.sh and tundra-b.sh",
+      "grant the owner execute access to tundra-a.sh and tundra-b.sh"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-34",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "validation",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "zephyr.conf"
+      ],
+      "changes": [
+        {
+          "who": "go",
+          "op": "-",
+          "perms": "w"
+        }
+      ]
+    },
+    "requests": [
+      "remove write permission for the group and others on zephyr.conf",
+      "take away write permission from the group and others on zephyr.conf",
+      "revoke write access for the group and others on zephyr.conf",
+      "stop the group and others from writing to zephyr.conf"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-35",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "validation",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "tundra-shared"
+      ],
+      "changes": [
+        {
+          "who": "g",
+          "op": "+",
+          "perms": "w"
+        }
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "give the group write permission on tundra-shared and everything inside it",
+      "add write permission for the group on tundra-shared and everything inside it",
+      "allow the group to write to tundra-shared and everything inside it",
+      "grant group write access to tundra-shared and everything inside it"
+    ]
+  },
+  {
+    "id": "pilot-v1-chmod-36",
+    "topic": "filesystem",
+    "family": "chmod",
+    "capability": "permission-change",
+    "split": "validation",
+    "intent": {
+      "op": "chmod",
+      "targets": [
+        "zephyr.key"
+      ],
+      "changes": [
+        {
+          "who": "u",
+          "op": "=",
+          "perms": "rw"
+        },
+        {
+          "who": "g",
+          "op": "=",
+          "perms": "r"
+        },
+        {
+          "who": "o",
+          "op": "=",
+          "perms": ""
+        }
+      ]
+    },
+    "requests": [
+      "set zephyr.key so the owner can read and write, the group can only read, and others have no access",
+      "change zephyr.key to owner read and write, group read only, others nothing",
+      "make zephyr.key readable and writable by the owner, readable by the group, and inaccessible to others",
+      "configure zephyr.key with owner read and write, group read, and no permissions for others"
+    ]
+  }
+]

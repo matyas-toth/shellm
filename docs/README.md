@@ -20,5 +20,6 @@ Created on 2026-10-01. This notebook backfills the work performed on 2026-09-28 
 | [ShellBench v1 comparison chart](shellbench-v1-comparison-chart.md) | Column chart comparing Base and three LoRA epochs, with PNG/SVG/CSV exports | Completed |
 | [Dataset fields, splits, and tests explained](dataset-fields-splits-and-tests-explained.md) | Collaborator explanation of metadata, intent, grouped splits, and distinct checks | Reference |
 | [ShellBench Extra v1](shellbench-extra-v1.md) | 300 separate long-term progress cases, 600 reference checks, and 6.7% to 21.7% model comparisons | Completed |
+| [chmod command family](chmod-family.md) | Octal-only chmod added to pilot-v1: schema, 20 scenarios, tests, rebuilt release | Completed; untrained |
 
 Each topic should explain what we did, why, how to repeat it, what we observed, and what remains uncertain. Experiment dates and documentation dates are recorded separately when backfilling. Plans are not recorded as completed experiments.

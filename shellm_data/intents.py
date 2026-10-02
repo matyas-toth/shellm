@@ -35,7 +35,43 @@ INTENT_FIELDS = {
     "wc": ({"source", "unit"}, set()),
     "grep": ({"pattern", "source"}, {"ignore_case", "invert", "line_numbers", "count", "recursive"}),
     "find": ({"directory"}, {"maxdepth", "type", "pattern", "empty", "size_gt"}),
+    "chmod": ({"targets"}, {"mode", "changes", "recursive", "directory_target"}),
 }
+
+PERM_BITS = {"r": 4, "w": 2, "x": 1}
+CLASS_SHIFT = {"u": 6, "g": 3, "o": 0}
+
+
+def classes(who):
+    return "ugo" if who == "a" else who
+
+
+def validate_changes(changes):
+    if not isinstance(changes, list) or not changes:
+        raise ValueError("Expected nonempty changes")
+    for change in changes:
+        if not isinstance(change, dict) or change.keys() != {"who", "op", "perms"}:
+            raise ValueError(f"Invalid chmod change: {change}")
+        if not all(isinstance(change[k], str) for k in change) or not re.fullmatch(r"a|u?g?o?", change["who"]) or not change["who"]:
+            raise ValueError(f"Invalid chmod who: {change}")
+        if change["op"] not in ("+", "-", "=") or not re.fullmatch(r"r?w?x?", change["perms"]):
+            raise ValueError(f"Invalid chmod operation or permissions: {change}")
+        if change["op"] != "=" and not change["perms"]:
+            raise ValueError(f"Empty permissions need '=': {change}")
+
+
+def apply_changes(mode, changes):
+    for change in changes:
+        value = sum(PERM_BITS[p] for p in change["perms"])
+        for cls in classes(change["who"]):
+            shift = CLASS_SHIFT[cls]
+            if change["op"] == "+":
+                mode |= value << shift
+            elif change["op"] == "-":
+                mode &= ~(value << shift)
+            else:
+                mode = (mode & ~(7 << shift)) | (value << shift)
+    return mode
 
 
 def validate_intent(intent):
@@ -57,10 +93,21 @@ def validate_intent(intent):
         elif name in ("maxdepth", "size_gt") or (name == "count" and intent["op"] in ("head", "tail")):
             if type(value) is not int or value < 1:
                 raise ValueError(f"Expected positive integer {name}")
+        elif name == "changes":
+            validate_changes(value)
         elif name != "op" and type(value) is not bool:
             raise ValueError(f"Expected boolean {name}")
     if "mode" in intent and not re.fullmatch(r"[0-7]{3}", intent["mode"]):
         raise ValueError("Expected three octal permission digits")
+    if intent["op"] == "chmod":
+        if ("mode" in intent) == ("changes" in intent):
+            raise ValueError("chmod needs exactly one of mode or changes")
+        if intent.get("directory_target") and intent.get("recursive"):
+            raise ValueError("directory_target and recursive are exclusive")
+        for change in intent.get("changes", []) if intent.get("recursive") else []:
+            cleared = change["perms"] if change["op"] == "-" else "rwx".translate({ord(c): None for c in change["perms"]}) if change["op"] == "=" else ""
+            if set(classes(change["who"])) & {"u"} and set(cleared) & {"r", "x"}:
+                raise ValueError("Recursive changes must keep owner read and execute so chmod can descend")
     if intent.get("unit", "lines") not in ("lines", "words", "bytes") or intent.get("type", "f") not in ("f", "d"):
         raise ValueError("Unsupported unit or file type")
     if intent["op"] in ("cp", "mv") and len(intent["sources"]) > 1 and not intent.get("into"):
@@ -89,6 +136,9 @@ def render(intent):
         return op + options + " " + arguments(intent["sources"] + [intent["destination"]])
     if op == "rm":
         return "rm" + (" -r" if intent.get("recursive") else "") + " " + arguments(intent["targets"])
+    if op == "chmod":
+        spec = intent["mode"] if "mode" in intent else ",".join(c["who"] + c["op"] + c["perms"] for c in intent["changes"])
+        return "chmod" + (" -R" if intent.get("recursive") else "") + " " + spec + " " + arguments(intent["targets"])
     if op == "cat":
         return "cat " + arguments(intent["sources"])
     if op in ("head", "tail"):
@@ -171,6 +221,12 @@ def make_fixture(intent, seed):
                 file(posixpath.join(target, "inside", "item.txt"))
             else:
                 file(target)
+    elif op == "chmod":
+        for target in intent["targets"]:
+            if intent.get("recursive") or intent.get("directory_target"):
+                file(posixpath.join(target, "inside", "item.txt"))
+            else:
+                file(target)
     elif op == "cat":
         for source in intent["sources"]:
             file(source)
@@ -231,6 +287,13 @@ def check_intent(intent, spec, outcome):
     elif op == "rm":
         for target in intent["targets"]:
             state = {name: info for name, info in state.items() if name != path(target) and not name.startswith(path(target) + "/")}
+    elif op == "chmod":
+        for target in intent["targets"]:
+            base = path(target)
+            for name in state:
+                if (name == base or (intent.get("recursive") and name.startswith(base + "/"))) and state[name]["type"] != "symlink":
+                    mode = int(intent["mode"], 8) if "mode" in intent else apply_changes(state[name]["mode"], intent["changes"])
+                    state[name] = {**state[name], "mode": mode}
     if outcome["state"] != state or outcome["cwd"] != expected_cwd:
         raise ValueError(f"Wrong filesystem/cwd effect for {intent}")
     expected, mode = "", "exact"
