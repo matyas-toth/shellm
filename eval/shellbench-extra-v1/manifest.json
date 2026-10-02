@@ -1,0 +1,51 @@
+{
+  "name": "ShellBench Extra v1",
+  "suite": "shellbench-extra-v1",
+  "created": "2026-10-02",
+  "role": "long-term progress benchmark; separate from training and loss validation",
+  "cases": 300,
+  "families": {
+    "navigation": 15,
+    "listing": 15,
+    "mkdir": 15,
+    "touch": 15,
+    "copy": 15,
+    "move": 15,
+    "remove": 15,
+    "read": 15,
+    "slice": 15,
+    "count": 15,
+    "grep": 15,
+    "find": 15,
+    "sort": 15,
+    "transform": 15,
+    "fields": 15,
+    "write": 15,
+    "permissions": 15,
+    "links": 15,
+    "pipeline": 15,
+    "conditional": 15
+  },
+  "coverage": {
+    "wording": 5,
+    "multi-step": 18,
+    "quoting": 32,
+    "path-interpretation": 7,
+    "composition": 63,
+    "symlinks": 21,
+    "precision": 51,
+    "permissions": 10,
+    "literal-filenames": 34,
+    "recursive": 3,
+    "pipeline": 32,
+    "regex": 11,
+    "conditional": 13
+  },
+  "difficulty": {
+    "practical": 69,
+    "composition": 126,
+    "edge": 105
+  },
+  "cases_sha256": "ccdaa672f1112f9793f0f761ad980f22f6f591100c9bc3c11285b3ce26f8f7e4",
+  "authoring": "300 authored request/reference/expectation triples; no training catalog imports"
+}

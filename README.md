@@ -77,3 +77,19 @@ uv run python translate.py "enter the root directory" \
 `translate.py` prints the command. Use `uv run python tools/evaluate_checkpoints.py --run-id my-lora-experiment` to generate and evaluate every saved epoch of another completed run.
 
 Use a fresh run ID for each experiment. Checkpoints are ignored by Git; dataset releases, configurations, training logs, and evaluation reports are intended to be tracked. New prediction directories and evaluation files refuse overwrites to preserve history. `reports/history.csv` is a regenerable chart index; original reports remain authoritative.
+
+## Milestone 5: ShellBench Extra v1
+
+[ShellBench Extra v1](eval/shellbench-extra-v1/README.md) is a separate, frozen benchmark of 300 new requests across 20 categories. It covers compositions, pipelines, unusual filenames, precise text processing, recursive exclusions, permissions, links, and conditional commands. All reference commands passed independent expectations in two new filesystem worlds (600 executions). Its requests and concrete reference commands have no exact overlap with the pilot data or original benchmark.
+
+Use training validation splits for primary development and checkpoint decisions. Measure Extra periodically at completed milestones to track broader progress; keep its cases out of training and validation.
+
+```bash
+uv run python tools/evaluate_extra.py \
+  --training-run 2026-10-01-lora-pilot-v1 \
+  --report-id my-extra-benchmark-snapshot --batch-size 8
+```
+
+The [construction and initial measurements](docs/shellbench-extra-v1.md) document the evaluation protocol and limitations. Predictions, results, chart data, and exported PNG/SVG charts are archived separately in `reports/2026-10-02-shellbench-extra-v1/`.
+
+The first Extra comparison scored Base 20/300 (6.7%), epoch 1 51/300 (17.0%), epoch 2 64/300 (21.3%), and epoch 3 65/300 (21.7%) on both fixtures. The final test suite passed 29 tests. These broader cases give a starting point for measuring later milestones independently of the original pilot score.

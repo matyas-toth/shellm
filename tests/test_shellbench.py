@@ -88,6 +88,19 @@ class DockerIntegrationTests(unittest.TestCase):
         outcome = run_container(self.cli, self.image, [{"id": "root", "command": "touch /etc/shellm-test"}], [fixture(0)])["root"][0]
         self.assertNotEqual(outcome["returncode"], 0)
 
+    def test_restrictive_modes_are_recorded_and_next_fixture_resets(self):
+        command = "mkdir -p locked/nested; printf secret > locked/nested/data; chmod 000 locked/nested/data locked/nested locked"
+        outputs = run_container(self.cli, self.image, [{"id": "locked", "command": command},
+                                {"id": "reset", "command": "test ! -e locked"}], self.fixtures)
+        for outcome in outputs["locked"]:
+            self.assertEqual(outcome["returncode"], 0)
+            self.assertEqual(outcome["state"]["/workspace/locked"]["mode"], 0)
+            self.assertEqual(outcome["state"]["/workspace/locked/nested"]["mode"], 0)
+            self.assertEqual(outcome["state"]["/workspace/locked/nested/data"]["mode"], 0)
+            self.assertEqual(outcome["state"]["/workspace/locked/nested/data"]["sha256"],
+                             "2bb80d537b1da3e38bd30361aa855686bde0eacd7162fef6a25fe97bf527a25b")
+        self.assertTrue(all(outcome["returncode"] == 0 for outcome in outputs["reset"]))
+
     def test_fixtures_change_expected_counts(self):
         outputs = self.references["wc-01"]
         self.assertNotEqual(outputs[0]["stdout"], outputs[1]["stdout"])

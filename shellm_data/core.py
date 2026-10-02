@@ -58,7 +58,11 @@ def compile_examples(groups, release):
 
 
 def check_records(records):
-    eval_requests = {normalize_request(json.loads(line)["request"]) for line in SUITE.read_text().splitlines() if line.strip()}
+    reserved_suites = [SUITE, *sorted((ROOT / "eval").glob("*/cases.jsonl"))]
+    eval_requests = {normalize_request(json.loads(line)["request"]) for suite in reserved_suites
+                     for line in suite.read_text(encoding="utf-8").splitlines() if line.strip()}
+    extra_commands = {json.loads(line)["reference"] for suite in reserved_suites if suite != SUITE
+                      for line in suite.read_text(encoding="utf-8").splitlines() if line.strip()}
     seen, requests, groups = set(), set(), {}
     for row in records:
         if row["id"] in seen:
@@ -68,6 +72,8 @@ def check_records(records):
         if request in requests or request in eval_requests:
             raise ValueError(f"Duplicate or evaluation-overlapping request: {row['request']}")
         requests.add(request)
+        if row["command"] in extra_commands:
+            raise ValueError(f"Command label reserved by separate evaluation: {row['id']}")
         if not row["request"].strip() or not row["command"].strip() or any(c in row["request"] + row["command"] for c in "\n\r\0"):
             raise ValueError("Requests and commands must be nonempty single lines")
         if row["split"] not in ("train", "validation") or row["schema_version"] != 1:

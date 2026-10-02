@@ -2,6 +2,8 @@
 
 Date: 2026-10-01 (Europe/Budapest).
 
+Updated: 2026-10-02 to reserve ShellBench Extra v1 requests and exact reference labels outside training/validation.
+
 ## Purpose
 
 Make data changes reviewable, reproducible, and usable by future contributors without editing the training loop. Source catalogs, rendered examples, and validation reports all live in Git.
@@ -12,7 +14,7 @@ Make data changes reviewable, reproducible, and usable by future contributors wi
 2. Add a scenario to the appropriate topic/family JSON file. Use the seven fields shown in the dataset README: `id`, `topic`, `family`, `capability`, `split`, `intent`, and `requests`. IDs and tags use lowercase letters, digits, hyphens, or underscores.
 3. Specify the intent first. Supported operation fields and types are defined in `shellm_data/intents.py` under `INTENT_FIELDS` and `validate_intent`. The family must equal `intent.op`. Unknown fields are rejected so option typos cannot silently change labels.
 4. Write natural requests that describe exactly that intent. State relevant distinctions: literal versus regex search, bytes versus lines, copying versus moving, hidden entries, recursion, destination directory, and requested permissions. Review every paraphrase; the compiler cannot judge English meaning.
-5. Keep all paraphrases for a scenario in the same split. Use validation examples with reserved arguments or new phrasings. Do not copy requests from `eval/cases.jsonl` or use the evaluation suite as a paraphrase source.
+5. Keep all paraphrases for a scenario in the same split. Use validation examples with reserved arguments or new phrasings. Do not copy requests from `eval/cases.jsonl` or `eval/shellbench-extra-v1/cases.jsonl`, or use those suites as paraphrase sources. Extra v1 is a periodic long-term progress snapshot, outside validation; primarily develop using the validation splits. Its exact request/reference labels are guarded against reuse in future releases.
 6. Compile and validate the new release, then review the JSONL diff and validation report:
 
 ```bash

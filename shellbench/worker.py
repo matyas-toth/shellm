@@ -18,8 +18,17 @@ ENV = {"PATH": "/usr/local/bin:/usr/bin:/bin", "HOME": str(HOME),
        "LC_ALL": "C", "LANG": "C", "TZ": "UTC", "TERM": "dumb"}
 
 
+def unlock_directories(path):
+    """Restore cleanup access within fixture roots; never follow symbolic links."""
+    path.chmod(0o700)
+    for child in path.iterdir():
+        if child.is_dir() and not child.is_symlink():
+            unlock_directories(child)
+
+
 def reset(spec):
     for root in (WORK, HOME):
+        unlock_directories(root)
         for child in root.iterdir():
             if child.is_dir() and not child.is_symlink():
                 shutil.rmtree(child)
@@ -44,23 +53,38 @@ def reset(spec):
 
 def snapshot():
     result = {}
-    for root in (WORK, HOME):
-        for current, directories, files in os.walk(root, followlinks=False):
-            for name in directories + files:
-                path = Path(current) / name
-                info = path.lstat()
-                record = {"mode": stat.S_IMODE(info.st_mode)}
-                if stat.S_ISLNK(info.st_mode):
-                    record.update(type="symlink", target=os.readlink(path))
-                elif stat.S_ISDIR(info.st_mode):
-                    record.update(type="directory")
-                elif stat.S_ISREG(info.st_mode):
-                    with path.open("rb") as stream:
-                        digest = hashlib.file_digest(stream, "sha256").hexdigest()
-                    record.update(type="file", size=info.st_size, sha256=digest)
-                else:
-                    record.update(type="special")
-                result[str(path)] = record
+    restore = []
+    try:
+        for root in (WORK, HOME):
+            mode = stat.S_IMODE(root.stat().st_mode)
+            restore.append((root, mode))
+            root.chmod(mode | 0o500)
+            for current, directories, files in os.walk(root, followlinks=False):
+                for name in directories + files:
+                    path = Path(current) / name
+                    info = path.lstat()
+                    mode = stat.S_IMODE(info.st_mode)
+                    record = {"mode": mode}
+                    if stat.S_ISLNK(info.st_mode):
+                        record.update(type="symlink", target=os.readlink(path))
+                    elif stat.S_ISDIR(info.st_mode):
+                        record.update(type="directory")
+                        restore.append((path, mode))
+                        path.chmod(mode | 0o500)
+                    elif stat.S_ISREG(info.st_mode):
+                        path.chmod(mode | 0o400)
+                        try:
+                            with path.open("rb") as stream:
+                                digest = hashlib.file_digest(stream, "sha256").hexdigest()
+                        finally:
+                            path.chmod(mode)
+                        record.update(type="file", size=info.st_size, sha256=digest)
+                    else:
+                        record.update(type="special")
+                    result[str(path)] = record
+    finally:
+        for path, mode in reversed(restore):
+            path.chmod(mode)
     return result
 
 

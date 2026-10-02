@@ -70,6 +70,9 @@ def intended_state(case_id, spec):
 
 
 def check_reference(case, spec, outcome):
+    if "expectation" in case:
+        from .extra_oracle import check_reference as check_extra
+        return check_extra(case, spec, outcome)
     ident, family = case["id"], case["family"]
     number = int(ident.split("-")[1])
     files = spec["files"]

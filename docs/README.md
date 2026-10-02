@@ -18,5 +18,7 @@ Created on 2026-10-01. This notebook backfills the work performed on 2026-09-28 
 | [Experiment report history](experiment-report-history.md) | Preserved runs, per-epoch reports, and chart-ready history export | Implemented |
 | [First LoRA training experiment](first-lora-training-experiment.md) | Three saved adapters, 26.8% to 80.4% functional accuracy, and failure analysis | Completed |
 | [ShellBench v1 comparison chart](shellbench-v1-comparison-chart.md) | Column chart comparing Base and three LoRA epochs, with PNG/SVG/CSV exports | Completed |
+| [Dataset fields, splits, and tests explained](dataset-fields-splits-and-tests-explained.md) | Collaborator explanation of metadata, intent, grouped splits, and distinct checks | Reference |
+| [ShellBench Extra v1](shellbench-extra-v1.md) | 300 separate long-term progress cases, 600 reference checks, and 6.7% to 21.7% model comparisons | Completed |
 
 Each topic should explain what we did, why, how to repeat it, what we observed, and what remains uncertain. Experiment dates and documentation dates are recorded separately when backfilling. Plans are not recorded as completed experiments.

@@ -26,7 +26,7 @@ def load_cases(path=SUITE):
     for case in cases:
         if not all(case.get(key) for key in ("id", "family", "request", "reference", "comparison", "coverage")):
             raise ValueError(f"Incomplete case: {case}")
-        if case["comparison"] not in ("exact", "lines", "count", "listing"):
+        if case["comparison"] not in ("exact", "lines", "count", "number", "listing"):
             raise ValueError(f"Unknown comparison mode: {case['id']}")
     return cases
 
@@ -126,9 +126,9 @@ def same_stdout(actual, expected, mode):
         return a is not None and b is not None and a == b
     if mode == "lines":
         return sorted(actual.splitlines()) == sorted(expected.splitlines())
-    if mode == "count":
+    if mode in ("count", "number"):
         # A count alone and GNU wc's count followed by a filename are both acceptable.
-        pattern = r"\s*(\d+)(?:[ \t]+[^\n]+)?[ \t]*\n?"
+        pattern = r"\s*(\d+)" + (r"(?:[ \t]+[^\n]+)?" if mode == "count" else "") + r"[ \t]*\n?"
         a, b = re.fullmatch(pattern, actual), re.fullmatch(pattern, expected)
         return bool(a and b and int(a.group(1)) == int(b.group(1)))
     return actual == expected

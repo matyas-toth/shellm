@@ -45,3 +45,11 @@ uv run python tools/evaluate_checkpoints.py --run-id <completed-run-id>
 The script checks the completed training record and saved adapter hashes, generates predictions for each saved epoch, runs functional evaluation, and updates the history index. It can continue if earlier epochs already have matching predictions/results; it never replaces those files.
 
 These reports make later learning curves possible. They do not yet establish a broad shell-command benchmark or controlled inference throughput measurements.
+
+## Separate benchmark snapshots — 2026-10-02
+
+ShellBench Extra v1 adds an explicit periodic measurement of completed runs. Use `tools/evaluate_extra.py --training-run <completed-run-id> --report-id <fresh-report-id>`; the ordinary training and checkpoint evaluation commands retain their existing defaults. Extra predictions and evaluations are stored under `reports/<fresh-report-id>/{baseline,epoch-1,epoch-2,epoch-3}/` with embedded training/checkpoint metadata.
+
+The history CSV now exports `suite` and `benchmark_run` alongside the existing fingerprints. Keep ShellBench v1 and Extra v1 as separate chart series: their case counts and capability distributions differ. The initial Extra charts include their source CSV and leave the original pilot reports intact. All new Extra measurements use batch size eight; per-request generation times are amortized batch times and should not be compared with the old serial measurements as throughput results.
+
+Primary development and checkpoint choices remain based on training validation splits. Extra is a milestone progress gauge. See [ShellBench Extra v1](shellbench-extra-v1.md) for construction, verification, initial scores, and remaining limitations.
