@@ -52,3 +52,7 @@ All 316 groups passed on two fixtures each (632 executions). `--check` passed an
 ## Limits and next step
 
 On 2026-10-03 the requests were rewritten in the [quality pass](utility-command-families.md#quality-pass-2026-10-03). Each scenario now uses at least three sentence structures, the validation scenarios use sentence templates no training scenario uses, and capability tags distinguish octal, multiple, recursive, symbolic add/remove/set and directory-itself cases. Labels for names with apostrophes are now double-quoted (`chmod 600 "client's cedar notes.txt"`). ShellBench Extra v1's `permissions` family phrases requests more loosely ("accessible only to its owner") and mixes in other commands (`touch ... && chmod`, `stat`, `cp ... && chmod`), which this family does not teach. Next: train on the rebuilt `pilot-v1` (needs a CUDA GPU) and compare on that `permissions` family.
+
+## Training update — 2026-10-03
+
+The fresh expanded-data LoRA experiment completed three epochs. Its final checkpoint passed 13/15 Extra permissions cases (86.7%), compared with matched Base's 4/15 (26.7%). This run includes chmod and the new utility families together, so the result does not isolate chmod's contribution. Full scores, settings, limitations, and charts are in [the expanded-data experiment](csanad-expanded-data-lora-experiment.md).

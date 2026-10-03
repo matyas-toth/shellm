@@ -20,7 +20,9 @@ Created on 2026-10-01. This notebook backfills the work performed on 2026-09-28 
 | [ShellBench v1 comparison chart](shellbench-v1-comparison-chart.md) | Column chart comparing Base and three LoRA epochs, with PNG/SVG/CSV exports | Completed |
 | [Dataset fields, splits, and tests explained](dataset-fields-splits-and-tests-explained.md) | Collaborator explanation of metadata, intent, grouped splits, and distinct checks | Reference |
 | [ShellBench Extra v1](shellbench-extra-v1.md) | 300 separate long-term progress cases, 600 reference checks, and 6.7% to 21.7% model comparisons | Completed |
-| [chmod command family](chmod-family.md) | chmod added to pilot-v1: octal and symbolic modes, recursion, directory targets, 36 scenarios, tests | Completed; untrained |
-| [Utility command families](utility-command-families.md) | 61 tier-A commands (text, files, shell utilities) with spec registry, oracles, tests, the request quality pass, linter, and shared-infrastructure changes | Completed; untrained |
+| [chmod command family](chmod-family.md) | chmod added to pilot-v1: octal and symbolic modes, recursion, directory targets, 36 scenarios, tests | Implemented; included in expanded-data training |
+| [Utility command families](utility-command-families.md) | 61 tier-A commands (text, files, shell utilities) with spec registry, oracles, tests, the request quality pass, linter, and shared-infrastructure changes | Implemented; included in expanded-data training |
+| [Dataset releases and continuing LoRA training](dataset-releases-and-continuing-lora-training.md) | Complete data snapshots, fresh adapters, continued training, and replay | Explained; next experiment proposed |
+| [Expanded-data LoRA experiment on csanad-shenanigans](csanad-expanded-data-lora-experiment.md) | Fresh adapter on 2,072 training examples, 84.8% original / 25.7% Extra, and Base comparison charts | Completed |
 
 Each topic should explain what we did, why, how to repeat it, what we observed, and what remains uncertain. Experiment dates and documentation dates are recorded separately when backfilling. Plans are not recorded as completed experiments.

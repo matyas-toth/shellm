@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-03T21:47:15.358182+02:00",
+  "model": "Qwen/Qwen3-0.6B-Base",
+  "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+  "suite": "shellbench-v1",
+  "suite_sha256": "0b0ad3c730398c7473e0f40e99ee1588e497c1cbf1c3df1c906466177240240c",
+  "python": "3.12.3",
+  "packages": {
+    "torch": "2.11.0+cu130",
+    "transformers": "4.57.6",
+    "huggingface-hub": "0.36.2"
+  },
+  "gpu": "NVIDIA GeForce RTX 2060",
+  "dtype": "float16",
+  "do_sample": false,
+  "max_new_tokens": 64,
+  "batch_size": 8,
+  "padding_side": "left",
+  "timing": "amortized batch wall time per request",
+  "stop_strings": [
+    "\n"
+  ],
+  "prompt_style": "raw",
+  "cases": 112,
+  "generation_seconds": 25.786597020000045,
+  "peak_pytorch_gib": 1.2207283973693848
+}

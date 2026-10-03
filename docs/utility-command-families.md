@@ -1,6 +1,6 @@
 # Utility command families (tier A)
 
-Completed: 2026-10-02, quality pass 2026-10-03 (Europe/Budapest). Not yet used in a training run.
+Implemented: 2026-10-02, quality pass and first expanded-data training run: 2026-10-03 (Europe/Budapest). See the training update below for observed benchmark results.
 
 ## What we added
 
@@ -83,3 +83,7 @@ python -m unittest discover -s tests
 ## Next step
 
 Train on the rebuilt `pilot-v1` (needs a CUDA GPU) and compare. Tier B and C commands remain out of scope.
+
+## Training update — 2026-10-03
+
+The expanded release was used in a fresh three-epoch LoRA run on the RTX 2060. All 611 data scenarios were revalidated on two fixtures, and the final model scored 95/112 (84.8%) on ShellBench v1 and 77/300 (25.7%) on Extra v1. The matched fresh Base scored 30/112 and 20/300. This is an aggregate evaluation of the expanded model, not a per-family quality guarantee or an ablation of the utility additions. See [the experiment, preserved reports, and charts](csanad-expanded-data-lora-experiment.md).

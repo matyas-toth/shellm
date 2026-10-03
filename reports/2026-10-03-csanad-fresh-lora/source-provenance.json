@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-03",
+  "timezone": "Europe/Budapest",
+  "branch": "csanad-shenanigans",
+  "source_commit": "d311ced744a6edc91cc31cbc9915fb9ffea9845f",
+  "dataset_release": "pilot-v1",
+  "dataset_sha256": "efa33aaf614619ff4f83eaa9ce1ac4a65e53aff431f782269d458e676346d073",
+  "initialization": "Pinned Qwen Base plus fresh LoRA; no earlier adapter loaded",
+  "config": "configs/training/lora-csanad-2026-10-03.json",
+  "selected_epoch": 3,
+  "selection": "Final checkpoint selected before benchmark scores",
+  "verification": {
+    "catalog_reproduction": "passed",
+    "request_lint": {
+      "groups": 331,
+      "problems": 0
+    },
+    "training_reference_executions": 1222,
+    "shellbench_reference_executions": 224,
+    "extra_reference_executions": 600,
+    "training_and_evaluator_tests": {
+      "tests": 29,
+      "seconds": 92.049,
+      "passed": true
+    }
+  }
+}
