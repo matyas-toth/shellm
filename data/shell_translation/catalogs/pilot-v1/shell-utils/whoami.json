@@ -1,0 +1,82 @@
+[
+  {
+    "id": "pilot-v1-whoami-01",
+    "topic": "shell-utils",
+    "family": "whoami",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "whoami"
+    },
+    "requests": [
+      "who am I logged in as?",
+      "print the name of the current user",
+      "I want to know which user account I'm using",
+      "show my username"
+    ]
+  },
+  {
+    "id": "pilot-v1-whoami-02",
+    "topic": "shell-utils",
+    "family": "whoami",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "whoami"
+    },
+    "requests": [
+      "what is my user name?",
+      "display the login name of whoever is running this shell",
+      "I need the name of the account this session runs under",
+      "tell me which user I am"
+    ]
+  },
+  {
+    "id": "pilot-v1-whoami-03",
+    "topic": "shell-utils",
+    "family": "whoami",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "whoami"
+    },
+    "requests": [
+      "which user is running this shell?",
+      "output the effective user name",
+      "I'd like to see my own username printed",
+      "give me the name of the current account"
+    ]
+  },
+  {
+    "id": "pilot-v1-whoami-04",
+    "topic": "shell-utils",
+    "family": "whoami",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "whoami"
+    },
+    "requests": [
+      "what account am I using right now?",
+      "print my login name",
+      "I'm not sure which user I am, can you show me?",
+      "report the user name of the active session"
+    ]
+  },
+  {
+    "id": "pilot-v1-whoami-05",
+    "topic": "shell-utils",
+    "family": "whoami",
+    "capability": "phrasing",
+    "split": "validation",
+    "intent": {
+      "op": "whoami"
+    },
+    "requests": [
+      "whose account is this terminal session using?",
+      "reveal the current user's name",
+      "could you tell me my username?",
+      "the name of the user I'm operating as, please"
+    ]
+  }
+]

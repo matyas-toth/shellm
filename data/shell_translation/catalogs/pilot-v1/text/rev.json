@@ -1,0 +1,90 @@
+[
+  {
+    "id": "pilot-v1-rev-01",
+    "topic": "text",
+    "family": "rev",
+    "capability": "reverse-each-line",
+    "split": "train",
+    "intent": {
+      "op": "rev",
+      "source": "words.txt"
+    },
+    "requests": [
+      "reverse the characters of each line in words.txt",
+      "how do I print every line of words.txt spelled backwards?",
+      "I want each line of words.txt mirrored so that its characters run right to left",
+      "print words.txt with the characters on every line in reverse order"
+    ]
+  },
+  {
+    "id": "pilot-v1-rev-02",
+    "topic": "text",
+    "family": "rev",
+    "capability": "reverse-each-line",
+    "split": "train",
+    "intent": {
+      "op": "rev",
+      "source": "my words.txt"
+    },
+    "requests": [
+      "spell each line of my words.txt backwards",
+      "how can I flip the characters within every line of my words.txt?",
+      "I need the text on each line of my words.txt reversed character by character",
+      "show my words.txt with each line written from its last character to its first"
+    ]
+  },
+  {
+    "id": "pilot-v1-rev-03",
+    "topic": "text",
+    "family": "rev",
+    "capability": "dash-file-name",
+    "split": "train",
+    "intent": {
+      "op": "rev",
+      "source": "-names.txt"
+    },
+    "requests": [
+      "print each line of -names.txt with its characters reversed",
+      "how do I mirror the characters of every line in the file -names.txt?",
+      "I want the file named -names.txt shown with every line spelled backwards",
+      "for each line of -names.txt, output its characters in reverse order"
+    ]
+  },
+  {
+    "id": "pilot-v1-rev-04",
+    "topic": "text",
+    "family": "rev",
+    "capability": "multiple-files",
+    "split": "train",
+    "intent": {
+      "op": "rev",
+      "sources": [
+        "list1.txt",
+        "list2.txt"
+      ]
+    },
+    "requests": [
+      "reverse the characters on every line of list1.txt and then of list2.txt",
+      "how can I print list1.txt followed by list2.txt with each line spelled backwards?",
+      "I need both list1.txt and list2.txt, in that order, with the characters of each line reversed",
+      "show every line of list1.txt and list2.txt backwards, character by character, file by file"
+    ]
+  },
+  {
+    "id": "pilot-v1-rev-05",
+    "topic": "text",
+    "family": "rev",
+    "capability": "nested-path",
+    "split": "validation",
+    "intent": {
+      "op": "rev",
+      "source": "tundra/zephyr words.txt"
+    },
+    "requests": [
+      "could you write out every line of tundra/zephyr words.txt from right to left?",
+      "what does each line of tundra/zephyr words.txt read like backwards?",
+      "turn each line of tundra/zephyr words.txt around so that its last character comes first",
+      "display tundra/zephyr words.txt mirrored line by line"
+    ]
+  }
+]

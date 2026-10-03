@@ -1,0 +1,96 @@
+[
+  {
+    "id": "pilot-v1-du-01",
+    "topic": "filesystem",
+    "family": "du",
+    "capability": "total-size-human",
+    "split": "train",
+    "intent": {
+      "op": "du",
+      "source": "docs",
+      "summary": true,
+      "human": true
+    },
+    "requests": [
+      "how much disk space does docs use?",
+      "show the total disk usage of docs in a human-readable size",
+      "I want a single human-readable total of the space docs takes up on disk",
+      "summarize how big docs is on disk, in K, M or G units"
+    ]
+  },
+  {
+    "id": "pilot-v1-du-02",
+    "topic": "filesystem",
+    "family": "du",
+    "capability": "total-size-kilobytes",
+    "split": "train",
+    "intent": {
+      "op": "du",
+      "source": "projects",
+      "summary": true
+    },
+    "requests": [
+      "print the total disk space used by projects in kilobytes",
+      "how many kilobytes of disk does the projects directory occupy in total?",
+      "I need the disk usage of projects as a single number of 1K blocks",
+      "report the combined on-disk size of projects, counted in kibibytes"
+    ]
+  },
+  {
+    "id": "pilot-v1-du-03",
+    "topic": "filesystem",
+    "family": "du",
+    "capability": "per-subdirectory",
+    "split": "train",
+    "intent": {
+      "op": "du",
+      "source": "site",
+      "max_depth": 1,
+      "human": true
+    },
+    "requests": [
+      "show in human-readable form how much disk space each subdirectory of site uses, 1 level deep, plus the total",
+      "what is the human-readable disk usage of site and of every folder inside it, limited to a depth of 1?",
+      "I want a per-subdirectory breakdown of the space used by site, going 1 level down, in readable units",
+      "list the disk usage of site and of each directory at most 1 level below it, in K, M or G units"
+    ]
+  },
+  {
+    "id": "pilot-v1-du-04",
+    "topic": "filesystem",
+    "family": "du",
+    "capability": "every-entry",
+    "split": "train",
+    "intent": {
+      "op": "du",
+      "source": "my photos",
+      "all": true,
+      "human": true
+    },
+    "requests": [
+      "list the disk usage of every file and folder under my photos, in human-readable units",
+      "how much space does each individual file and subdirectory in my photos take on disk, in readable sizes?",
+      "I need a human-readable disk usage line for each file and directory inside my photos",
+      "break down the on-disk size of my photos entry by entry, files included, in human-readable units"
+    ]
+  },
+  {
+    "id": "pilot-v1-du-05",
+    "topic": "filesystem",
+    "family": "du",
+    "capability": "total-size-human",
+    "split": "validation",
+    "intent": {
+      "op": "du",
+      "source": "tundra",
+      "summary": true,
+      "human": true
+    },
+    "requests": [
+      "what is the overall disk footprint of the tundra folder, shown in human-friendly units?",
+      "could you give me one easy-to-read figure for the disk space tundra consumes?",
+      "check the space tundra occupies on disk and print just its total in readable units",
+      "my directory tundra is eating disk space; how much in total, in K/M/G terms?"
+    ]
+  }
+]

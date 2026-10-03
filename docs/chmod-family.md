@@ -36,7 +36,7 @@ Chmod now has 144 examples rather than the 80 per family elsewhere, so the earli
 
 We edit `pilot-v1` instead of creating `pilot-v2`, agreed with Reigniteh: Git keeps the history, and the trainer loads exactly one release (`dataset_release` in the config) without merging releases. The release was deleted and rebuilt, since the compiler refuses to overwrite.
 
-Consequences: `pilot-v1` now has 1,264 examples (1,128 train / 136 validation), 316 groups, 297 unique commands. The dataset SHA-256 changed from `57653a79...f1594` to `2407ee3d...78fa`. The existing 14 family shards are byte-identical. The first LoRA run in [first-lora-training-experiment.md](first-lora-training-experiment.md) used the earlier 1,008/112 data, so its numbers do not describe the current release. Figures in older docs are historical.
+Consequences (as of this change; later additions are in [utility-command-families.md](utility-command-families.md)): `pilot-v1` had 1,264 examples (1,128 train / 136 validation), 316 groups, 297 unique commands. The dataset SHA-256 changed from `57653a79...f1594` to `2407ee3d...78fa`. The existing 14 family shards are byte-identical. The first LoRA run in [first-lora-training-experiment.md](first-lora-training-experiment.md) used the earlier 1,008/112 data, so its numbers do not describe the current release. Figures in older docs are historical.
 
 ## Verification
 
@@ -51,4 +51,4 @@ All 316 groups passed on two fixtures each (632 executions). `--check` passed an
 
 ## Limits and next step
 
-Paraphrases follow shared templates, so linguistic variety is modest. ShellBench Extra v1's `permissions` family phrases requests more loosely ("accessible only to its owner") and mixes in other commands (`touch ... && chmod`, `stat`, `cp ... && chmod`), which this family does not teach. Next: train on the rebuilt `pilot-v1` (needs a CUDA GPU) and compare on that `permissions` family.
+On 2026-10-03 the requests were rewritten in the [quality pass](utility-command-families.md#quality-pass-2026-10-03). Each scenario now uses at least three sentence structures, the validation scenarios use sentence templates no training scenario uses, and capability tags distinguish octal, multiple, recursive, symbolic add/remove/set and directory-itself cases. Labels for names with apostrophes are now double-quoted (`chmod 600 "client's cedar notes.txt"`). ShellBench Extra v1's `permissions` family phrases requests more loosely ("accessible only to its owner") and mixes in other commands (`touch ... && chmod`, `stat`, `cp ... && chmod`), which this family does not teach. Next: train on the rebuilt `pilot-v1` (needs a CUDA GPU) and compare on that `permissions` family.

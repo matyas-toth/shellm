@@ -1,0 +1,87 @@
+[
+  {
+    "id": "pilot-v1-sleep-01",
+    "topic": "shell-utils",
+    "family": "sleep",
+    "capability": "whole-seconds",
+    "split": "train",
+    "intent": {
+      "op": "sleep",
+      "seconds": 1
+    },
+    "requests": [
+      "wait 1 second",
+      "pause for 1 second",
+      "I need the shell to do nothing for 1 second",
+      "can you delay for 1 second?"
+    ]
+  },
+  {
+    "id": "pilot-v1-sleep-02",
+    "topic": "shell-utils",
+    "family": "sleep",
+    "capability": "fractional-seconds",
+    "split": "train",
+    "intent": {
+      "op": "sleep",
+      "duration": "0.5"
+    },
+    "requests": [
+      "pause briefly for 0.5 seconds",
+      "I want a 0.5 second pause",
+      "how do I make the terminal idle for 0.5 seconds?",
+      "hold for 0.5 seconds and then return"
+    ]
+  },
+  {
+    "id": "pilot-v1-sleep-03",
+    "topic": "shell-utils",
+    "family": "sleep",
+    "capability": "whole-seconds",
+    "split": "train",
+    "intent": {
+      "op": "sleep",
+      "seconds": 2
+    },
+    "requests": [
+      "wait 2 seconds",
+      "let 2 seconds pass without doing anything",
+      "I'd like to pause execution for 2 seconds",
+      "could you hold off for 2 seconds?"
+    ]
+  },
+  {
+    "id": "pilot-v1-sleep-04",
+    "topic": "shell-utils",
+    "family": "sleep",
+    "capability": "fractional-seconds",
+    "split": "train",
+    "intent": {
+      "op": "sleep",
+      "duration": "0.25"
+    },
+    "requests": [
+      "delay for 0.25 seconds",
+      "I need a short pause of 0.25 seconds",
+      "how can I block for 0.25 seconds?",
+      "sit idle for 0.25 seconds"
+    ]
+  },
+  {
+    "id": "pilot-v1-sleep-05",
+    "topic": "shell-utils",
+    "family": "sleep",
+    "capability": "fractional-seconds",
+    "split": "validation",
+    "intent": {
+      "op": "sleep",
+      "duration": "0.75"
+    },
+    "requests": [
+      "take a 0.75 second break",
+      "the shell should rest for 0.75 seconds",
+      "could you idle 0.75 seconds?",
+      "give me a pause lasting 0.75 seconds"
+    ]
+  }
+]

@@ -1,13 +1,16 @@
 """Render Bash labels and check their intended effects independently."""
 
+import base64
 import fnmatch
 import hashlib
 import posixpath
 import re
-import shlex
+from types import SimpleNamespace
 
 from shellbench.oracle import initial_state
 from shellbench.sandbox import same_stdout
+from .utilities import SPECS as UTILITY_SPECS
+from .utilities.base import quote
 
 
 def path(value):
@@ -17,7 +20,7 @@ def path(value):
 
 
 def arguments(values):
-    return ("-- " if any(v.startswith("-") for v in values) else "") + " ".join(shlex.quote(v) for v in values)
+    return ("-- " if any(v.startswith("-") for v in values) else "") + " ".join(quote(v) for v in values)
 
 
 INTENT_FIELDS = {
@@ -37,6 +40,9 @@ INTENT_FIELDS = {
     "find": ({"directory"}, {"maxdepth", "type", "pattern", "empty", "size_gt"}),
     "chmod": ({"targets"}, {"mode", "changes", "recursive", "directory_target"}),
 }
+if INTENT_FIELDS.keys() & UTILITY_SPECS.keys():
+    raise ValueError(f"Operation defined twice: {sorted(INTENT_FIELDS.keys() & UTILITY_SPECS.keys())}")
+INTENT_FIELDS.update({op: (set(spec.required), spec.optional) for op, spec in UTILITY_SPECS.items()})
 
 PERM_BITS = {"r": 4, "w": 2, "x": 1}
 CLASS_SHIFT = {"u": 6, "g": 3, "o": 0}
@@ -80,6 +86,9 @@ def validate_intent(intent):
     required, optional = INTENT_FIELDS[intent["op"]]
     if not required <= intent.keys() or intent.keys() - required - optional - {"op"}:
         raise ValueError(f"Missing or unknown intent fields: {intent}")
+    if intent["op"] in UTILITY_SPECS:
+        UTILITY_SPECS[intent["op"]].validate(intent)
+        return
     text_fields = {"destination", "directory", "source", "pattern", "mode", "unit", "type"}
     for name, value in intent.items():
         if name in text_fields:
@@ -148,19 +157,21 @@ def render(intent):
     if op == "grep":
         flags = "F" + "".join(letter for key, letter in (("ignore_case", "i"), ("invert", "v"), ("line_numbers", "n"), ("count", "c")) if intent.get(key))
         flags += "rl" if intent.get("recursive") else ""
-        return f"grep -{flags} -- {shlex.quote(intent['pattern'])} {shlex.quote(intent['source'])}"
+        return f"grep -{flags} -- {quote(intent['pattern'])} {quote(intent['source'])}"
     if op == "find":
-        command = "find " + shlex.quote(intent["directory"])
+        command = "find " + quote(intent["directory"])
         if intent.get("maxdepth"):
             command += f" -maxdepth {intent['maxdepth']}"
         command += " -type " + intent.get("type", "f")
         if intent.get("pattern"):
-            command += " -name " + shlex.quote(intent["pattern"])
+            command += " -name " + quote(intent["pattern"])
         if intent.get("empty"):
             command += " -empty"
         if intent.get("size_gt"):
             command += f" -size +{intent['size_gt']}c"
         return command
+    if op in UTILITY_SPECS:
+        return UTILITY_SPECS[op].render(intent)
     raise ValueError(f"Unsupported intent operation: {op}")
 
 
@@ -188,6 +199,18 @@ def make_fixture(intent, seed):
         directory(posixpath.dirname(absolute))
         spec["files"][absolute.removeprefix("/workspace/")] = text if text is not None else "".join(
             f"entry {i:02d} variant {seed} from {posixpath.basename(name)}\n" for i in range(1, 21 + seed))
+    def binary(name, data):
+        absolute = path(name)
+        if not absolute.startswith("/workspace/"):
+            raise ValueError(f"File outside fixture: {name}")
+        directory(posixpath.dirname(absolute))
+        spec.setdefault("binary_files", {})[absolute.removeprefix("/workspace/")] = base64.b64encode(data).decode()
+    def symlink(name, target):
+        absolute = path(name)
+        if not absolute.startswith("/workspace/"):
+            raise ValueError(f"Link outside fixture: {name}")
+        directory(posixpath.dirname(absolute))
+        spec["symlinks"][absolute.removeprefix("/workspace/")] = target
     op = intent["op"]
     if op == "cd":
         directory(intent["destination"])
@@ -253,11 +276,14 @@ def make_fixture(intent, seed):
         file(posixpath.join(base, "empty." + extension), "")
         file(posixpath.join(base, "unrelated.bin"), "z\n")
         directory(posixpath.join(base, "directory." + extension))
+    elif op in UTILITY_SPECS:
+        UTILITY_SPECS[op].fixture(intent, seed, SimpleNamespace(file=file, directory=directory, binary=binary, symlink=symlink, seed=seed))
     return spec
 
 
 def check_intent(intent, spec, outcome):
-    if not outcome["syntax_ok"] or outcome["returncode"] or outcome["stderr"] or outcome["timed_out"] or outcome["output_overflow"]:
+    expected_returncode = UTILITY_SPECS[intent["op"]].returncode if intent["op"] in UTILITY_SPECS else 0
+    if not outcome["syntax_ok"] or outcome["returncode"] != expected_returncode or outcome["stderr"] or outcome["timed_out"] or outcome["output_overflow"]:
         raise ValueError(f"Reference execution failed: {outcome}")
     state = initial_state(spec)
     op = intent["op"]
@@ -294,9 +320,17 @@ def check_intent(intent, spec, outcome):
                 if (name == base or (intent.get("recursive") and name.startswith(base + "/"))) and state[name]["type"] != "symlink":
                     mode = int(intent["mode"], 8) if "mode" in intent else apply_changes(state[name]["mode"], intent["changes"])
                     state[name] = {**state[name], "mode": mode}
+    elif op in UTILITY_SPECS:
+        files_text = {"/workspace/" + name: content for name, content in spec["files"].items()}
+        binaries = {"/workspace/" + name: base64.b64decode(data) for name, data in spec.get("binary_files", {}).items()}
+        context = SimpleNamespace(read=lambda name: files_text[path(name)], files=files_text, binaries=binaries,
+                                  state=state, outcome=outcome, spec=spec)
+        utility_result = UTILITY_SPECS[op].check(intent, context)
     if outcome["state"] != state or outcome["cwd"] != expected_cwd:
         raise ValueError(f"Wrong filesystem/cwd effect for {intent}")
     expected, mode = "", "exact"
+    if op in UTILITY_SPECS:
+        expected, mode = utility_result
     files = {"/workspace/" + name: content for name, content in spec["files"].items()}
     if op == "pwd":
         expected = "/workspace\n"

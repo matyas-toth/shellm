@@ -1,0 +1,87 @@
+[
+  {
+    "id": "pilot-v1-dirname-01",
+    "topic": "filesystem",
+    "family": "dirname",
+    "capability": "parent-directory",
+    "split": "train",
+    "intent": {
+      "op": "dirname",
+      "source": "docs/intro.md"
+    },
+    "requests": [
+      "print the directory part of docs/intro.md",
+      "which directory is the path docs/intro.md in?",
+      "I want docs/intro.md with its final file name stripped off",
+      "show the parent directory portion of the path docs/intro.md"
+    ]
+  },
+  {
+    "id": "pilot-v1-dirname-02",
+    "topic": "filesystem",
+    "family": "dirname",
+    "capability": "absolute-path",
+    "split": "train",
+    "intent": {
+      "op": "dirname",
+      "source": "/usr/local/bin/backup.sh"
+    },
+    "requests": [
+      "strip the file name from /usr/local/bin/backup.sh and print what remains",
+      "what is the parent directory of /usr/local/bin/backup.sh?",
+      "I need the folder path of /usr/local/bin/backup.sh without the file name",
+      "extract the directory from the path /usr/local/bin/backup.sh"
+    ]
+  },
+  {
+    "id": "pilot-v1-dirname-03",
+    "topic": "filesystem",
+    "family": "dirname",
+    "capability": "current-directory",
+    "split": "train",
+    "intent": {
+      "op": "dirname",
+      "source": "notes.txt"
+    },
+    "requests": [
+      "print the directory name of the path notes.txt",
+      "what does the directory part of notes.txt come out as?",
+      "I need the leading directory of notes.txt, even though it has no slash",
+      "show which directory the relative path notes.txt sits in"
+    ]
+  },
+  {
+    "id": "pilot-v1-dirname-04",
+    "topic": "filesystem",
+    "family": "dirname",
+    "capability": "quoted-names",
+    "split": "train",
+    "intent": {
+      "op": "dirname",
+      "source": "my docs/client's notes.txt"
+    },
+    "requests": [
+      "cut the file name off my docs/client's notes.txt and show the directory that remains",
+      "how do I get the folder part of my docs/client's notes.txt?",
+      "I want just the directory portion of the path my docs/client's notes.txt",
+      "everything except the last component of my docs/client's notes.txt, please"
+    ]
+  },
+  {
+    "id": "pilot-v1-dirname-05",
+    "topic": "filesystem",
+    "family": "dirname",
+    "capability": "parent-directory",
+    "split": "validation",
+    "intent": {
+      "op": "dirname",
+      "source": "tundra/zephyr/data.txt"
+    },
+    "requests": [
+      "give me everything before the final slash of tundra/zephyr/data.txt",
+      "in which directory does tundra/zephyr/data.txt live, judging by the path string alone?",
+      "my path is tundra/zephyr/data.txt; print it without the trailing file name",
+      "for tundra/zephyr/data.txt, output only the containing directory path"
+    ]
+  }
+]

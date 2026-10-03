@@ -1,0 +1,91 @@
+[
+  {
+    "id": "pilot-v1-factor-01",
+    "topic": "shell-utils",
+    "family": "factor",
+    "capability": "prime-factorization",
+    "split": "train",
+    "intent": {
+      "op": "factor",
+      "number": 360
+    },
+    "requests": [
+      "what are the prime factors of 360?",
+      "break 360 down into its prime factors",
+      "I need the prime factorization of 360",
+      "show which primes multiply together to give 360"
+    ]
+  },
+  {
+    "id": "pilot-v1-factor-02",
+    "topic": "shell-utils",
+    "family": "factor",
+    "capability": "prime-number",
+    "split": "train",
+    "intent": {
+      "op": "factor",
+      "number": 97
+    },
+    "requests": [
+      "factorize 97 into primes",
+      "is 97 prime? show its factorization",
+      "I want 97 written as a product of primes",
+      "list every prime factor of 97"
+    ]
+  },
+  {
+    "id": "pilot-v1-factor-03",
+    "topic": "shell-utils",
+    "family": "factor",
+    "capability": "composite-number",
+    "split": "train",
+    "intent": {
+      "op": "factor",
+      "number": 1001
+    },
+    "requests": [
+      "print the prime decomposition of 1001",
+      "which primes divide 1001, counted with multiplicity?",
+      "let me see the primes that make up 1001",
+      "I'd like 1001 split into its prime factors"
+    ]
+  },
+  {
+    "id": "pilot-v1-factor-04",
+    "topic": "shell-utils",
+    "family": "factor",
+    "capability": "multiple-numbers",
+    "split": "train",
+    "intent": {
+      "op": "factor",
+      "number": 12,
+      "others": [
+        35,
+        100
+      ]
+    },
+    "requests": [
+      "factorize each of 12, 35 and 100",
+      "show the prime factors of 12, 35 and 100",
+      "I want the prime factorizations of the numbers 12, 35 and 100",
+      "what primes make up 12, 35 and 100, respectively?"
+    ]
+  },
+  {
+    "id": "pilot-v1-factor-05",
+    "topic": "shell-utils",
+    "family": "factor",
+    "capability": "prime-factorization",
+    "split": "validation",
+    "intent": {
+      "op": "factor",
+      "number": 2310
+    },
+    "requests": [
+      "decompose 2310 into primes",
+      "2310 is the product of which prime numbers?",
+      "find all the prime factors of 2310",
+      "could you work out the prime factorization for 2310?"
+    ]
+  }
+]

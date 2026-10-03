@@ -1,0 +1,87 @@
+[
+  {
+    "id": "pilot-v1-id-01",
+    "topic": "shell-utils",
+    "family": "id",
+    "capability": "identity",
+    "split": "train",
+    "intent": {
+      "op": "id"
+    },
+    "requests": [
+      "show my user and group identity",
+      "what are my user id, group id and group memberships?",
+      "I want to see my uid, gid and all the groups I belong to",
+      "print the full identity information of the current user"
+    ]
+  },
+  {
+    "id": "pilot-v1-id-02",
+    "topic": "shell-utils",
+    "family": "id",
+    "capability": "numeric-user-id",
+    "split": "train",
+    "intent": {
+      "op": "id",
+      "option": "u"
+    },
+    "requests": [
+      "what is my numeric user id?",
+      "print only my uid",
+      "I need the user ID number of the current account",
+      "show the numeric ID of the user running this shell"
+    ]
+  },
+  {
+    "id": "pilot-v1-id-03",
+    "topic": "shell-utils",
+    "family": "id",
+    "capability": "primary-group-id",
+    "split": "train",
+    "intent": {
+      "op": "id",
+      "option": "g"
+    },
+    "requests": [
+      "print the numeric id of my primary group",
+      "what is my gid?",
+      "I want just the group ID number of my main group",
+      "show which primary group ID the current user has"
+    ]
+  },
+  {
+    "id": "pilot-v1-id-04",
+    "topic": "shell-utils",
+    "family": "id",
+    "capability": "group-ids",
+    "split": "train",
+    "intent": {
+      "op": "id",
+      "option": "G"
+    },
+    "requests": [
+      "list the numeric ids of all groups I belong to",
+      "which group ID numbers am I a member of?",
+      "I need every group id of the current user, as numbers",
+      "display the numeric IDs of my groups"
+    ]
+  },
+  {
+    "id": "pilot-v1-id-05",
+    "topic": "shell-utils",
+    "family": "id",
+    "capability": "other-user-id",
+    "split": "validation",
+    "intent": {
+      "op": "id",
+      "option": "u",
+      "user": "root"
+    },
+    "requests": [
+      "what user id does root have?",
+      "look up the uid of the root account",
+      "I'd like the numeric user ID of root",
+      "print root's user ID number"
+    ]
+  }
+]

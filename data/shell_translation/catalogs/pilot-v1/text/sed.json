@@ -1,0 +1,100 @@
+[
+  {
+    "id": "pilot-v1-sed-01",
+    "topic": "text",
+    "family": "sed",
+    "capability": "substitute-first",
+    "split": "train",
+    "intent": {
+      "op": "sed",
+      "source": "app.log",
+      "pattern": "error",
+      "replacement": "warning",
+      "global": false
+    },
+    "requests": [
+      "replace only the first error on each line of app.log with warning and print the result",
+      "how do I change the first occurrence of error to warning on every line of app.log without editing the file?",
+      "I want to see app.log with the first error in each line swapped for warning",
+      "print app.log, substituting warning for just the first error found on each line"
+    ]
+  },
+  {
+    "id": "pilot-v1-sed-02",
+    "topic": "text",
+    "family": "sed",
+    "capability": "in-place-edit",
+    "split": "train",
+    "intent": {
+      "op": "sed",
+      "source": "my notes.txt",
+      "pattern": "colour",
+      "replacement": "color",
+      "global": true,
+      "in_place": true
+    },
+    "requests": [
+      "replace every colour with color directly inside my notes.txt",
+      "how can I edit my notes.txt in place so that all occurrences of colour become color?",
+      "I need the file my notes.txt itself updated, with each colour changed to color",
+      "modify my notes.txt and save it with all colour occurrences rewritten as color"
+    ]
+  },
+  {
+    "id": "pilot-v1-sed-03",
+    "topic": "text",
+    "family": "sed",
+    "capability": "delete-comment-lines",
+    "split": "train",
+    "intent": {
+      "op": "sed",
+      "source": "settings.conf",
+      "delete_prefix": "#"
+    },
+    "requests": [
+      "print settings.conf without the lines that start with #",
+      "how do I view settings.conf with every line beginning with # left out?",
+      "I want settings.conf shown minus its comment lines, meaning the lines whose first character is #",
+      "show settings.conf with any line that begins with # removed"
+    ]
+  },
+  {
+    "id": "pilot-v1-sed-04",
+    "topic": "text",
+    "family": "sed",
+    "capability": "print-line-range",
+    "split": "train",
+    "intent": {
+      "op": "sed",
+      "source": "chapters.txt",
+      "start": 3,
+      "end": 5
+    },
+    "requests": [
+      "print lines 3 through 5 of chapters.txt",
+      "how can I see only lines 3 to 5 of chapters.txt?",
+      "I need the lines numbered 3, 4 and 5 from chapters.txt",
+      "show me the part of chapters.txt from line 3 up to and including line 5"
+    ]
+  },
+  {
+    "id": "pilot-v1-sed-05",
+    "topic": "text",
+    "family": "sed",
+    "capability": "substitute-all",
+    "split": "validation",
+    "intent": {
+      "op": "sed",
+      "source": "tundra-notes.txt",
+      "pattern": "draft",
+      "replacement": "final",
+      "global": true
+    },
+    "requests": [
+      "what would tundra-notes.txt look like if every draft were replaced by final?",
+      "output tundra-notes.txt with all occurrences of draft turned into final, leaving the file unchanged",
+      "could you swap each draft for final throughout tundra-notes.txt and just print the result?",
+      "display the text of tundra-notes.txt with draft changed to final everywhere it appears"
+    ]
+  }
+]

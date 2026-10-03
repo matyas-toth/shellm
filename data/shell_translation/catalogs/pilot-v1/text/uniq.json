@@ -1,0 +1,92 @@
+[
+  {
+    "id": "pilot-v1-uniq-01",
+    "topic": "text",
+    "family": "uniq",
+    "capability": "count-adjacent-duplicates",
+    "split": "train",
+    "intent": {
+      "op": "uniq",
+      "source": "visits.txt",
+      "count": true
+    },
+    "requests": [
+      "collapse runs of adjacent identical lines in visits.txt and prefix each with how many times it repeats",
+      "how do I count consecutive duplicate lines in visits.txt, showing each run once with its count?",
+      "I want each group of adjacent repeated lines in visits.txt reduced to one line preceded by its count",
+      "for every run of identical neighbouring lines in visits.txt, print the run length followed by the line"
+    ]
+  },
+  {
+    "id": "pilot-v1-uniq-02",
+    "topic": "text",
+    "family": "uniq",
+    "capability": "dedupe-adjacent",
+    "split": "train",
+    "intent": {
+      "op": "uniq",
+      "source": "tag list.txt"
+    },
+    "requests": [
+      "remove adjacent duplicate lines from tag list.txt, keeping one copy of each run",
+      "how can I squash repeated neighbouring lines in tag list.txt into a single line?",
+      "I need tag list.txt printed with consecutive identical lines merged into one",
+      "print tag list.txt, leaving out any line that is identical to the line right before it"
+    ]
+  },
+  {
+    "id": "pilot-v1-uniq-03",
+    "topic": "text",
+    "family": "uniq",
+    "capability": "duplicates-only",
+    "split": "train",
+    "intent": {
+      "op": "uniq",
+      "source": "error codes.txt",
+      "duplicates": true
+    },
+    "requests": [
+      "show only the lines of error codes.txt that repeat on adjacent lines, once per run",
+      "which lines in error codes.txt appear two or more times in a row?",
+      "I want to list, once each, the lines of error codes.txt that are duplicated on consecutive lines",
+      "how do I print just the adjacent repeated lines of error codes.txt, one per group?"
+    ]
+  },
+  {
+    "id": "pilot-v1-uniq-04",
+    "topic": "text",
+    "family": "uniq",
+    "capability": "unique-only",
+    "split": "train",
+    "intent": {
+      "op": "uniq",
+      "source": "ids.txt",
+      "unique": true
+    },
+    "requests": [
+      "print only the lines of ids.txt that are not identical to an adjacent line",
+      "how can I list the lines in ids.txt that never repeat on consecutive lines?",
+      "I need just the lines of ids.txt that have no identical neighbour directly above or below",
+      "which lines of ids.txt are not part of a run of adjacent duplicates?"
+    ]
+  },
+  {
+    "id": "pilot-v1-uniq-05",
+    "topic": "text",
+    "family": "uniq",
+    "capability": "count-duplicates",
+    "split": "validation",
+    "intent": {
+      "op": "uniq",
+      "source": "tundra-visits.txt",
+      "count": true,
+      "duplicates": true
+    },
+    "requests": [
+      "count the adjacent repeats in tundra-visits.txt, reporting only runs longer than one line",
+      "what are the consecutively repeated lines in tundra-visits.txt, and how long is each run?",
+      "list each line of tundra-visits.txt that occurs several times in a row, preceded by the length of its run",
+      "could you give me repeat counts for the lines of tundra-visits.txt that are duplicated on neighbouring lines, skipping lines that are not repeated?"
+    ]
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "id": "pilot-v1-zcat-01",
+    "topic": "filesystem",
+    "family": "zcat",
+    "capability": "print-compressed-file",
+    "split": "train",
+    "intent": {
+      "op": "zcat",
+      "source": "notes.txt.gz"
+    },
+    "requests": [
+      "print the decompressed contents of notes.txt.gz",
+      "how do I read notes.txt.gz without decompressing it to disk?",
+      "I want to see what's inside notes.txt.gz as plain text",
+      "show notes.txt.gz uncompressed on the terminal"
+    ]
+  },
+  {
+    "id": "pilot-v1-zcat-02",
+    "topic": "filesystem",
+    "family": "zcat",
+    "capability": "nested-path",
+    "split": "train",
+    "intent": {
+      "op": "zcat",
+      "source": "logs/2024/app.log.gz"
+    },
+    "requests": [
+      "display the uncompressed text of logs/2024/app.log.gz",
+      "what does logs/2024/app.log.gz contain once decompressed?",
+      "I need the contents of logs/2024/app.log.gz printed, leaving the file compressed",
+      "dump logs/2024/app.log.gz to standard output in decompressed form"
+    ]
+  },
+  {
+    "id": "pilot-v1-zcat-03",
+    "topic": "filesystem",
+    "family": "zcat",
+    "capability": "quoted-name",
+    "split": "train",
+    "intent": {
+      "op": "zcat",
+      "source": "client's report.txt.gz"
+    },
+    "requests": [
+      "view client's report.txt.gz as plain text without extracting it",
+      "how can I print what's in the gzip file client's report.txt.gz?",
+      "I'd like client's report.txt.gz decompressed straight to the screen",
+      "output the original text stored in client's report.txt.gz"
+    ]
+  },
+  {
+    "id": "pilot-v1-zcat-04",
+    "topic": "filesystem",
+    "family": "zcat",
+    "capability": "first-lines",
+    "split": "train",
+    "intent": {
+      "op": "zcat",
+      "source": "events.log.gz",
+      "lines": 5
+    },
+    "requests": [
+      "show the first 5 lines of the compressed file events.log.gz",
+      "how do I peek at the first 5 lines of events.log.gz without extracting it?",
+      "I only want the first 5 decompressed lines of events.log.gz",
+      "print the top 5 lines of the uncompressed text in events.log.gz"
+    ]
+  },
+  {
+    "id": "pilot-v1-zcat-05",
+    "topic": "filesystem",
+    "family": "zcat",
+    "capability": "first-lines",
+    "split": "validation",
+    "intent": {
+      "op": "zcat",
+      "source": "tundra-events.log.gz",
+      "lines": 3
+    },
+    "requests": [
+      "preview tundra-events.log.gz: just its opening 3 lines, decompressed",
+      "could you list the first 3 lines inside the gzip file tundra-events.log.gz?",
+      "the gzip log tundra-events.log.gz - give me its initial 3 lines in plain text",
+      "I'm after lines 1 to 3 of tundra-events.log.gz after decompression"
+    ]
+  }
+]

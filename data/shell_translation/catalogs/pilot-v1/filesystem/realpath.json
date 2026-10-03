@@ -1,0 +1,90 @@
+[
+  {
+    "id": "pilot-v1-realpath-01",
+    "topic": "filesystem",
+    "family": "realpath",
+    "capability": "absolute-path",
+    "split": "train",
+    "intent": {
+      "op": "realpath",
+      "source": "docs/intro.md"
+    },
+    "requests": [
+      "print the absolute path of docs/intro.md",
+      "what is the full path of docs/intro.md?",
+      "I need the canonical absolute path for docs/intro.md",
+      "resolve docs/intro.md to an absolute path"
+    ]
+  },
+  {
+    "id": "pilot-v1-realpath-02",
+    "topic": "filesystem",
+    "family": "realpath",
+    "capability": "relative-to",
+    "split": "train",
+    "intent": {
+      "op": "realpath",
+      "source": "reports/q1 summary.txt",
+      "relative_to": "reports"
+    },
+    "requests": [
+      "show the path of reports/q1 summary.txt relative to the directory reports",
+      "how do I get the path of reports/q1 summary.txt as seen from reports?",
+      "I want reports/q1 summary.txt expressed as a path relative to reports",
+      "give me the relative path from reports to reports/q1 summary.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-realpath-03",
+    "topic": "filesystem",
+    "family": "realpath",
+    "capability": "dot-segments",
+    "split": "train",
+    "intent": {
+      "op": "realpath",
+      "source": "docs/../notes.txt"
+    },
+    "requests": [
+      "normalize docs/../notes.txt into a clean absolute path",
+      "what absolute path does docs/../notes.txt refer to?",
+      "I'd like docs/../notes.txt turned into a full path with the .. resolved",
+      "print the canonical full path that docs/../notes.txt stands for"
+    ]
+  },
+  {
+    "id": "pilot-v1-realpath-04",
+    "topic": "filesystem",
+    "family": "realpath",
+    "capability": "resolve-symlink",
+    "split": "train",
+    "intent": {
+      "op": "realpath",
+      "source": "links/current",
+      "symlink": true
+    },
+    "requests": [
+      "follow the symbolic link links/current and print the absolute path of the file it leads to",
+      "what is the fully resolved absolute path behind the symlink links/current?",
+      "I need to know which real file links/current ends up at, as an absolute path",
+      "resolve every symlink in links/current and show the final absolute path"
+    ]
+  },
+  {
+    "id": "pilot-v1-realpath-05",
+    "topic": "filesystem",
+    "family": "realpath",
+    "capability": "relative-to",
+    "split": "validation",
+    "intent": {
+      "op": "realpath",
+      "source": "tundra/zephyr/data.txt",
+      "relative_to": "tundra"
+    },
+    "requests": [
+      "express tundra/zephyr/data.txt relative to tundra",
+      "could you print where tundra/zephyr/data.txt is, measured from the tundra directory?",
+      "relative to tundra, what is the path of tundra/zephyr/data.txt?",
+      "my base directory is tundra; show the path of tundra/zephyr/data.txt from there"
+    ]
+  }
+]

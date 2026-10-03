@@ -1,0 +1,93 @@
+[
+  {
+    "id": "pilot-v1-timeout-01",
+    "topic": "shell-utils",
+    "family": "timeout",
+    "capability": "limit-runtime",
+    "split": "train",
+    "intent": {
+      "op": "timeout",
+      "seconds": 1,
+      "sleep_seconds": 5
+    },
+    "requests": [
+      "run sleep 5 but stop it after 1 second",
+      "I want sleep 5 killed if it is still running after 1 second",
+      "how can I limit sleep 5 to 1 second of run time?",
+      "start sleep 5 with a 1 second time limit"
+    ]
+  },
+  {
+    "id": "pilot-v1-timeout-02",
+    "topic": "shell-utils",
+    "family": "timeout",
+    "capability": "fractional-limit",
+    "split": "train",
+    "intent": {
+      "op": "timeout",
+      "duration": "0.5",
+      "sleep_seconds": 3
+    },
+    "requests": [
+      "give sleep 3 at most 0.5 seconds to run",
+      "I need sleep 3 terminated after 0.5 seconds",
+      "can you cap the runtime of sleep 3 at 0.5 seconds?",
+      "abort sleep 3 once 0.5 seconds have passed"
+    ]
+  },
+  {
+    "id": "pilot-v1-timeout-03",
+    "topic": "shell-utils",
+    "family": "timeout",
+    "capability": "follow-log-briefly",
+    "split": "train",
+    "intent": {
+      "op": "timeout",
+      "seconds": 1,
+      "follow": "app.log"
+    },
+    "requests": [
+      "follow app.log for 1 second",
+      "watch app.log for new lines, but only for 1 second",
+      "I'd like to tail app.log for 1 second and then stop",
+      "how do I show the end of app.log and keep following it for just 1 second?"
+    ]
+  },
+  {
+    "id": "pilot-v1-timeout-04",
+    "topic": "shell-utils",
+    "family": "timeout",
+    "capability": "custom-signal",
+    "split": "train",
+    "intent": {
+      "op": "timeout",
+      "seconds": 1,
+      "sleep_seconds": 20,
+      "signal": "HUP"
+    },
+    "requests": [
+      "run sleep 20 and send it a HUP signal after 1 second",
+      "I want sleep 20 ended with the HUP signal once 1 second has elapsed",
+      "how do I stop sleep 20 with HUP after 1 second?",
+      "limit sleep 20 to 1 second, delivering HUP when time runs out"
+    ]
+  },
+  {
+    "id": "pilot-v1-timeout-05",
+    "topic": "shell-utils",
+    "family": "timeout",
+    "capability": "limit-runtime",
+    "split": "validation",
+    "intent": {
+      "op": "timeout",
+      "duration": "0.8",
+      "sleep_seconds": 30
+    },
+    "requests": [
+      "sleep 30 must not run longer than 0.8 seconds",
+      "could you launch sleep 30 and kill it after 0.8 seconds?",
+      "put a 0.8 second deadline on sleep 30",
+      "let sleep 30 run for no more than 0.8 seconds"
+    ]
+  }
+]

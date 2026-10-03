@@ -1,0 +1,88 @@
+[
+  {
+    "id": "pilot-v1-shred-01",
+    "topic": "filesystem",
+    "family": "shred",
+    "capability": "overwrite-and-remove",
+    "split": "train",
+    "intent": {
+      "op": "shred",
+      "target": "secret.txt"
+    },
+    "requests": [
+      "securely delete secret.txt by overwriting its contents before removing it",
+      "how do I wipe secret.txt so its data can't be recovered, and then delete it?",
+      "I want secret.txt overwritten with random data and removed",
+      "destroy secret.txt beyond recovery and remove the file"
+    ]
+  },
+  {
+    "id": "pilot-v1-shred-02",
+    "topic": "filesystem",
+    "family": "shred",
+    "capability": "nested-quoted-path",
+    "split": "train",
+    "intent": {
+      "op": "shred",
+      "target": "private/old keys.txt"
+    },
+    "requests": [
+      "overwrite private/old keys.txt several times and then delete it",
+      "how can I securely erase and remove private/old keys.txt?",
+      "I need private/old keys.txt scrubbed so nobody can recover it, then removed",
+      "wipe the file private/old keys.txt securely and get rid of it"
+    ]
+  },
+  {
+    "id": "pilot-v1-shred-03",
+    "topic": "filesystem",
+    "family": "shred",
+    "capability": "single-pass",
+    "split": "train",
+    "intent": {
+      "op": "shred",
+      "target": "session.key",
+      "passes": 1
+    },
+    "requests": [
+      "remove session.key after overwriting it with only 1 pass",
+      "how do I overwrite session.key with 1 pass of random data and then remove it?",
+      "I want session.key wiped in 1 pass and then deleted",
+      "make 1 overwrite pass over session.key, then delete the file"
+    ]
+  },
+  {
+    "id": "pilot-v1-shred-04",
+    "topic": "filesystem",
+    "family": "shred",
+    "capability": "dash-and-quoted-name",
+    "split": "train",
+    "intent": {
+      "op": "shred",
+      "target": "-client's secrets.txt"
+    },
+    "requests": [
+      "permanently destroy -client's secrets.txt by overwriting it, then remove it",
+      "what's the safe way to delete -client's secrets.txt so its contents can't be recovered?",
+      "I'd like -client's secrets.txt wiped and deleted securely",
+      "erase the contents of -client's secrets.txt securely and remove the file"
+    ]
+  },
+  {
+    "id": "pilot-v1-shred-05",
+    "topic": "filesystem",
+    "family": "shred",
+    "capability": "overwrite-and-remove",
+    "split": "validation",
+    "intent": {
+      "op": "shred",
+      "target": "zephyr/tundra-keys.txt"
+    },
+    "requests": [
+      "zephyr/tundra-keys.txt holds secrets; overwrite it and delete it so it can't be recovered",
+      "could you scrub zephyr/tundra-keys.txt with random data and then remove it?",
+      "before deleting zephyr/tundra-keys.txt, overwrite its contents to make recovery impossible",
+      "get rid of zephyr/tundra-keys.txt in an unrecoverable way"
+    ]
+  }
+]

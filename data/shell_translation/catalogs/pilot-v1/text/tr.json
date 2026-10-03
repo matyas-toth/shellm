@@ -1,0 +1,97 @@
+[
+  {
+    "id": "pilot-v1-tr-01",
+    "topic": "text",
+    "family": "tr",
+    "capability": "translate-chars",
+    "split": "train",
+    "intent": {
+      "op": "tr",
+      "source": "notes.txt",
+      "from": "a-z",
+      "to": "A-Z"
+    },
+    "requests": [
+      "convert all lowercase letters a-z in notes.txt to uppercase A-Z and print the result",
+      "how do I print notes.txt in capitals by mapping a-z to A-Z?",
+      "I want notes.txt shown with every letter in a-z turned into the matching letter in A-Z",
+      "uppercase the text of notes.txt by translating a-z into A-Z"
+    ]
+  },
+  {
+    "id": "pilot-v1-tr-02",
+    "topic": "text",
+    "family": "tr",
+    "capability": "delete-chars",
+    "split": "train",
+    "intent": {
+      "op": "tr",
+      "source": "vowel text.txt",
+      "from": "aeiou",
+      "delete": true
+    },
+    "requests": [
+      "delete all of the characters aeiou from vowel text.txt and print the rest",
+      "how can I print vowel text.txt with the lowercase vowels aeiou stripped out?",
+      "I want vowel text.txt without any of the letters aeiou",
+      "show vowel text.txt after removing every occurrence of a character from aeiou"
+    ]
+  },
+  {
+    "id": "pilot-v1-tr-03",
+    "topic": "text",
+    "family": "tr",
+    "capability": "case-convert",
+    "split": "train",
+    "intent": {
+      "op": "tr",
+      "source": "shout.txt",
+      "from": "A-Z",
+      "to": "a-z"
+    },
+    "requests": [
+      "change every uppercase letter A-Z in shout.txt to lowercase a-z",
+      "how do I print shout.txt in lowercase by mapping A-Z onto a-z?",
+      "I need shout.txt converted so that the letters A-Z become a-z",
+      "print shout.txt with the capitals A-Z replaced by the corresponding small letters a-z"
+    ]
+  },
+  {
+    "id": "pilot-v1-tr-04",
+    "topic": "text",
+    "family": "tr",
+    "capability": "squeeze-repeats",
+    "split": "train",
+    "intent": {
+      "op": "tr",
+      "source": "spaced out.txt",
+      "from": " ",
+      "squeeze": true
+    },
+    "requests": [
+      "squeeze each run of repeated spaces in spaced out.txt down to a single space",
+      "how can I collapse multiple consecutive spaces in spaced out.txt into one?",
+      "I want spaced out.txt printed with runs of spaces reduced to one space each",
+      "print spaced out.txt so that no two spaces appear next to each other"
+    ]
+  },
+  {
+    "id": "pilot-v1-tr-05",
+    "topic": "text",
+    "family": "tr",
+    "capability": "rot13",
+    "split": "validation",
+    "intent": {
+      "op": "tr",
+      "source": "zephyr-secret.txt",
+      "from": "a-zA-Z",
+      "to": "n-za-mN-ZA-M"
+    },
+    "requests": [
+      "decode zephyr-secret.txt with ROT13, mapping a-zA-Z to n-za-mN-ZA-M",
+      "what does zephyr-secret.txt say once its letters are rotated by 13, so that a-zA-Z become n-za-mN-ZA-M?",
+      "apply the ROT13 letter rotation, a-zA-Z to n-za-mN-ZA-M, to zephyr-secret.txt and print it",
+      "could you show zephyr-secret.txt with every letter shifted 13 places, translating a-zA-Z into n-za-mN-ZA-M?"
+    ]
+  }
+]

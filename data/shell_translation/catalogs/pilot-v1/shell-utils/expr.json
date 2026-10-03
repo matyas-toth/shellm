@@ -1,0 +1,95 @@
+[
+  {
+    "id": "pilot-v1-expr-01",
+    "topic": "shell-utils",
+    "family": "expr",
+    "capability": "multiplication",
+    "split": "train",
+    "intent": {
+      "op": "expr",
+      "left": 6,
+      "operator": "*",
+      "right": 7
+    },
+    "requests": [
+      "calculate 6 times 7",
+      "what is 6 multiplied by 7?",
+      "I need the product of 6 and 7",
+      "multiply 6 by 7 and print the result"
+    ]
+  },
+  {
+    "id": "pilot-v1-expr-02",
+    "topic": "shell-utils",
+    "family": "expr",
+    "capability": "integer-division",
+    "split": "train",
+    "intent": {
+      "op": "expr",
+      "left": 100,
+      "operator": "/",
+      "right": 8
+    },
+    "requests": [
+      "divide 100 by 8 and print the whole-number result",
+      "what is 100 divided by 8, rounded down to an integer?",
+      "I want the integer quotient of 100 and 8",
+      "how many whole times does 8 go into 100?"
+    ]
+  },
+  {
+    "id": "pilot-v1-expr-03",
+    "topic": "shell-utils",
+    "family": "expr",
+    "capability": "string-length",
+    "split": "train",
+    "intent": {
+      "op": "expr",
+      "length_of": "hello world"
+    },
+    "requests": [
+      "how long is the string hello world?",
+      "print the length of the text hello world",
+      "I want to know how many characters hello world has",
+      "tell me the character length of hello world"
+    ]
+  },
+  {
+    "id": "pilot-v1-expr-04",
+    "topic": "shell-utils",
+    "family": "expr",
+    "capability": "substring",
+    "split": "train",
+    "intent": {
+      "op": "expr",
+      "substr_of": "release candidate",
+      "start": 1,
+      "count": 7
+    },
+    "requests": [
+      "print the first 7 characters of release candidate",
+      "what are the first 7 characters of the string release candidate?",
+      "I only need the leading 7 characters of release candidate",
+      "take release candidate and show just its first 7 characters"
+    ]
+  },
+  {
+    "id": "pilot-v1-expr-05",
+    "topic": "shell-utils",
+    "family": "expr",
+    "capability": "addition",
+    "split": "validation",
+    "intent": {
+      "op": "expr",
+      "left": 1234,
+      "operator": "+",
+      "right": 4321
+    },
+    "requests": [
+      "add 1234 and 4321",
+      "what do 1234 and 4321 sum to?",
+      "I'd like the total of 1234 plus 4321",
+      "work out the sum of 1234 and 4321"
+    ]
+  }
+]

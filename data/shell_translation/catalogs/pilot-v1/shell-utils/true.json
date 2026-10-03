@@ -1,0 +1,82 @@
+[
+  {
+    "id": "pilot-v1-true-01",
+    "topic": "shell-utils",
+    "family": "true",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "true"
+    },
+    "requests": [
+      "do nothing and succeed",
+      "I need a command that does nothing but report success",
+      "which command just exits with status 0?",
+      "run a no-op that finishes successfully"
+    ]
+  },
+  {
+    "id": "pilot-v1-true-02",
+    "topic": "shell-utils",
+    "family": "true",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "true"
+    },
+    "requests": [
+      "give me a command that always succeeds",
+      "is there a command whose only job is to return exit code 0?",
+      "complete successfully without doing any work",
+      "I want a placeholder command that never fails"
+    ]
+  },
+  {
+    "id": "pilot-v1-true-03",
+    "topic": "shell-utils",
+    "family": "true",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "true"
+    },
+    "requests": [
+      "return a successful exit status",
+      "what command does nothing and succeeds every time?",
+      "I'd like to run something harmless that just succeeds",
+      "finish with a zero exit status and no output"
+    ]
+  },
+  {
+    "id": "pilot-v1-true-04",
+    "topic": "shell-utils",
+    "family": "true",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "true"
+    },
+    "requests": [
+      "succeed immediately without output",
+      "what's the do-nothing command that reports success?",
+      "I just need an exit code of zero",
+      "make the shell report success without running anything"
+    ]
+  },
+  {
+    "id": "pilot-v1-true-05",
+    "topic": "shell-utils",
+    "family": "true",
+    "capability": "phrasing",
+    "split": "validation",
+    "intent": {
+      "op": "true"
+    },
+    "requests": [
+      "signal success with no side effects",
+      "can you run a dummy command whose exit status is 0?",
+      "an empty operation that ends in success, please",
+      "all I want is a guaranteed successful exit"
+    ]
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "pilot-v1-sum-01",
+    "topic": "text",
+    "family": "sum",
+    "capability": "checksum-file",
+    "split": "train",
+    "intent": {
+      "op": "sum",
+      "sources": [
+        "draft.txt"
+      ]
+    },
+    "requests": [
+      "print the BSD checksum and block count of draft.txt",
+      "what is the 16-bit BSD checksum of draft.txt, with its size in 1 KB blocks?",
+      "I need the BSD checksum and number of 1024-byte blocks for draft.txt",
+      "how do I compute the classic BSD checksum of draft.txt?"
+    ]
+  },
+  {
+    "id": "pilot-v1-sum-02",
+    "topic": "text",
+    "family": "sum",
+    "capability": "checksum-multiple",
+    "split": "train",
+    "intent": {
+      "op": "sum",
+      "sources": [
+        "chapter one.txt",
+        "chapter two.txt"
+      ]
+    },
+    "requests": [
+      "show the BSD checksums and block counts of chapter one.txt and chapter two.txt",
+      "how can I get the BSD checksum of both chapter one.txt and chapter two.txt?",
+      "I want BSD checksums with block counts for each of chapter one.txt and chapter two.txt",
+      "what are the BSD checksums of chapter one.txt and chapter two.txt?"
+    ]
+  },
+  {
+    "id": "pilot-v1-sum-03",
+    "topic": "text",
+    "family": "sum",
+    "capability": "sysv-checksum",
+    "split": "train",
+    "intent": {
+      "op": "sum",
+      "sources": [
+        "notes.txt"
+      ],
+      "sysv": true
+    },
+    "requests": [
+      "print the System V checksum and block count of notes.txt",
+      "what is the System V style checksum of notes.txt, with its number of 512-byte blocks?",
+      "I need the SYSV checksum of notes.txt",
+      "how do I compute the System V checksum for notes.txt?"
+    ]
+  },
+  {
+    "id": "pilot-v1-sum-04",
+    "topic": "text",
+    "family": "sum",
+    "capability": "checksum-file",
+    "split": "train",
+    "intent": {
+      "op": "sum",
+      "sources": [
+        "-final draft.txt"
+      ]
+    },
+    "requests": [
+      "calculate the BSD checksum and block count of the file -final draft.txt",
+      "tell me the BSD checksum of -final draft.txt",
+      "I'd like the BSD checksum and 1 KB block count for -final draft.txt",
+      "how can I get the BSD checksum for -final draft.txt?"
+    ]
+  },
+  {
+    "id": "pilot-v1-sum-05",
+    "topic": "text",
+    "family": "sum",
+    "capability": "sysv-checksum",
+    "split": "validation",
+    "intent": {
+      "op": "sum",
+      "sources": [
+        "tundra-draft.txt"
+      ],
+      "sysv": true
+    },
+    "requests": [
+      "could you compute a System V checksum of tundra-draft.txt along with its block count?",
+      "give me the System V checksum and the number of 512-byte blocks in tundra-draft.txt",
+      "which System V checksum does tundra-draft.txt have?",
+      "report the System V style checksum and block count for the file tundra-draft.txt"
+    ]
+  }
+]

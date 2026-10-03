@@ -1,12 +1,12 @@
 {
   "release": "pilot-v1",
-  "dataset_sha256": "2407ee3d77fa8d3671454a621177e1f49f52f94ad21db45ccaa3935bd8fc78fa",
-  "image_id": "sha256:ed08010b0e65531b156796de194f1d055722e23b3f62a27bb6facf511046899d",
-  "examples": 1264,
-  "validated_groups": 316,
+  "dataset_sha256": "efa33aaf614619ff4f83eaa9ce1ac4a65e53aff431f782269d458e676346d073",
+  "image_id": "sha256:917688aab267ebcd2d628305d8423c38d4ef8f7867e4d67dff1a9dced6f9fe9c",
+  "examples": 2444,
+  "validated_groups": 611,
   "fixtures_per_group": 2,
-  "command_executions": 632,
+  "command_executions": 1222,
   "all_passed": true,
   "evaluation_request_overlap": 0,
-  "validator_sha256": "bc40cc1f2a2059b4dcb9dedd18eae97deba47094dca0e6745d90be6cac09985d"
+  "validator_sha256": "bd88449f7410eeb5b96189774e5806de639a3bc3d8e4ee468c12ea229a8684ba"
 }

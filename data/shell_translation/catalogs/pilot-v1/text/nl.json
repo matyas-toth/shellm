@@ -1,0 +1,93 @@
+[
+  {
+    "id": "pilot-v1-nl-01",
+    "topic": "text",
+    "family": "nl",
+    "capability": "number-nonempty",
+    "split": "train",
+    "intent": {
+      "op": "nl",
+      "source": "poem.txt"
+    },
+    "requests": [
+      "number the non-empty lines of poem.txt",
+      "how do I print poem.txt with a line number on every line that is not blank?",
+      "I want poem.txt shown with numbers in front of its non-blank lines, leaving the empty lines unnumbered",
+      "add line numbers to poem.txt, skipping the empty lines"
+    ]
+  },
+  {
+    "id": "pilot-v1-nl-02",
+    "topic": "text",
+    "family": "nl",
+    "capability": "number-all",
+    "split": "train",
+    "intent": {
+      "op": "nl",
+      "source": "todo list.txt",
+      "all": true
+    },
+    "requests": [
+      "number every line of todo list.txt, including the blank ones",
+      "how can I print todo list.txt with a number on each line, empty lines too?",
+      "I need line numbers on all lines of todo list.txt, even the empty lines",
+      "show todo list.txt with each line, blank or not, preceded by its line number"
+    ]
+  },
+  {
+    "id": "pilot-v1-nl-03",
+    "topic": "text",
+    "family": "nl",
+    "capability": "custom-separator",
+    "split": "train",
+    "intent": {
+      "op": "nl",
+      "source": "code.txt",
+      "separator": ": "
+    },
+    "requests": [
+      "print code.txt with its non-blank lines numbered, each number followed by a colon and a space",
+      "how do I number the non-empty lines of code.txt with a colon and a space between each number and the text?",
+      "I want the non-blank lines of code.txt numbered, using a colon plus a space as the separator after the number",
+      "show code.txt with numbers on the lines that have text, where every number is followed by a colon and a space"
+    ]
+  },
+  {
+    "id": "pilot-v1-nl-04",
+    "topic": "text",
+    "family": "nl",
+    "capability": "width-and-start",
+    "split": "train",
+    "intent": {
+      "op": "nl",
+      "source": "menu.txt",
+      "width": 3,
+      "start": 10
+    },
+    "requests": [
+      "number the non-empty lines of menu.txt starting at 10, with the numbers 3 characters wide",
+      "how can I print menu.txt with line numbers that begin at 10 and are right-aligned in a width of 3?",
+      "I need the non-blank lines of menu.txt numbered from 10 upward, in a number column 3 characters wide",
+      "show menu.txt with its non-empty lines numbered starting from 10, padded to a width of 3"
+    ]
+  },
+  {
+    "id": "pilot-v1-nl-05",
+    "topic": "text",
+    "family": "nl",
+    "capability": "number-all",
+    "split": "validation",
+    "intent": {
+      "op": "nl",
+      "source": "tundra poem.txt",
+      "all": true,
+      "separator": " | "
+    },
+    "requests": [
+      "put a line number on every line of tundra poem.txt, blank lines included, followed by a space, a | and a space",
+      "could you display tundra poem.txt with all lines numbered and a space, a pipe symbol | and a space after each number?",
+      "what does tundra poem.txt look like with each line, including empty ones, numbered and separated from its number by a space, a | and a space?",
+      "give every line of tundra poem.txt, even the empty ones, a number, using a space, the | character and a space between number and text"
+    ]
+  }
+]

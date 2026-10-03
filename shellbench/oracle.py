@@ -1,5 +1,6 @@
 """Independent intent checks for the curated references, without executing shell."""
 
+import base64
 import fnmatch
 import hashlib
 from pathlib import PurePosixPath
@@ -17,6 +18,10 @@ def initial_state(spec):
         for relative, text in spec[key].items():
             content = text.encode()
             state[f"{base}/{relative}"] = {"mode": 0o644, "type": "file", "size": len(content),
+                                           "sha256": hashlib.sha256(content).hexdigest()}
+    for relative, encoded in spec.get("binary_files", {}).items():
+        content = base64.b64decode(encoded)
+        state[f"/workspace/{relative}"] = {"mode": 0o644, "type": "file", "size": len(content),
                                            "sha256": hashlib.sha256(content).hexdigest()}
     for relative, target in spec["symlinks"].items():
         state[f"/workspace/{relative}"] = {"mode": 0o777, "type": "symlink", "target": target}

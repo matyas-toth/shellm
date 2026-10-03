@@ -1,0 +1,108 @@
+[
+  {
+    "id": "pilot-v1-printf-01",
+    "topic": "shell-utils",
+    "family": "printf",
+    "capability": "one-per-line",
+    "split": "train",
+    "intent": {
+      "op": "printf",
+      "format": "%s\\n",
+      "arguments": [
+        "alpha",
+        "beta",
+        "gamma"
+      ]
+    },
+    "requests": [
+      "print alpha, beta and gamma on separate lines",
+      "I want alpha, beta and gamma each on a line of their own",
+      "can you list the words alpha, beta and gamma one per line?",
+      "show alpha, beta and gamma with a newline after each word"
+    ]
+  },
+  {
+    "id": "pilot-v1-printf-02",
+    "topic": "shell-utils",
+    "family": "printf",
+    "capability": "tab-separated",
+    "split": "train",
+    "intent": {
+      "op": "printf",
+      "format": "%s\\t%s\\n",
+      "arguments": [
+        "name",
+        "score",
+        "alice",
+        "42"
+      ]
+    },
+    "requests": [
+      "print a two-column tab-separated table with the header name and score and the row alice and 42",
+      "I need tab-separated output: name and score on the first line, alice and 42 on the second",
+      "how do I output name and score, then alice and 42, with a tab between the two values on each line?",
+      "show two lines of tab-separated values, the first holding name and score and the second alice and 42"
+    ]
+  },
+  {
+    "id": "pilot-v1-printf-03",
+    "topic": "shell-utils",
+    "family": "printf",
+    "capability": "zero-padded-number",
+    "split": "train",
+    "intent": {
+      "op": "printf",
+      "format": "%03d\\n",
+      "arguments": [
+        "7"
+      ]
+    },
+    "requests": [
+      "print the number 7 padded with leading zeros to three digits",
+      "I want 7 shown as a three-digit number with leading zeros",
+      "how can I display 7 zero-padded to a width of 3?",
+      "format 7 so that it comes out as three digits, filling with zeros on the left"
+    ]
+  },
+  {
+    "id": "pilot-v1-printf-04",
+    "topic": "shell-utils",
+    "family": "printf",
+    "capability": "fixed-decimals",
+    "split": "train",
+    "intent": {
+      "op": "printf",
+      "format": "%.2f\\n",
+      "arguments": [
+        "3.14159"
+      ]
+    },
+    "requests": [
+      "round 3.14159 to two decimal places and print it",
+      "I need 3.14159 printed with exactly 2 digits after the decimal point",
+      "what is 3.14159 to two decimals? print the rounded value",
+      "show 3.14159 as a fixed-point number with 2 decimals"
+    ]
+  },
+  {
+    "id": "pilot-v1-printf-05",
+    "topic": "shell-utils",
+    "family": "printf",
+    "capability": "one-per-line",
+    "split": "validation",
+    "intent": {
+      "op": "printf",
+      "format": "%s\\n",
+      "arguments": [
+        "tundra",
+        "zephyr"
+      ]
+    },
+    "requests": [
+      "put tundra and zephyr on two lines, one word per line",
+      "each of the words tundra and zephyr should end up on its own line",
+      "could you output tundra and then zephyr on the next line?",
+      "give me tundra and zephyr as two separate output lines"
+    ]
+  }
+]

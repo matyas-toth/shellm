@@ -10,7 +10,7 @@ Make data changes reviewable, reproducible, and usable by future contributors wi
 
 ## Add scenarios to an existing command family
 
-1. Copy `data/shell_translation/catalogs/pilot-v1/` to a new release directory, such as `pilot-v2/`. Published release data is preserved for experiment reproducibility.
+1. Copy `data/shell_translation/catalogs/pilot-v1/` to a new release directory, such as `pilot-v2/`. Published release data is preserved for experiment reproducibility. (Update 2026-10-02: by agreement, `pilot-v1` is currently extended in place and Git keeps its history; see [chmod-family.md](chmod-family.md).)
 2. Add a scenario to the appropriate topic/family JSON file. Use the seven fields shown in the dataset README: `id`, `topic`, `family`, `capability`, `split`, `intent`, and `requests`. IDs and tags use lowercase letters, digits, hyphens, or underscores.
 3. Specify the intent first. Supported operation fields and types are defined in `shellm_data/intents.py` under `INTENT_FIELDS` and `validate_intent`. The family must equal `intent.op`. Unknown fields are rejected so option typos cannot silently change labels.
 4. Write natural requests that describe exactly that intent. State relevant distinctions: literal versus regex search, bytes versus lines, copying versus moving, hidden entries, recursion, destination directory, and requested permissions. Review every paraphrase; the compiler cannot judge English meaning.
@@ -22,8 +22,11 @@ export UV_PROJECT_ENVIRONMENT="$HOME/.venvs/shellm-0.6b"
 uv run python -m shellm_data build --release pilot-v2
 uv run python -m shellm_data validate --release pilot-v2
 uv run python -m shellm_data build --release pilot-v2 --check
+uv run python tools/lint_requests.py --release pilot-v2
 uv run python -m unittest discover -s tests -v
 ```
+
+`tools/lint_requests.py` (added 2026-10-02) catches request problems the compiler cannot: requests that name the program instead of describing the goal, one request skeleton mapped to different families, validation scenarios reusing a training sentence template, and paraphrases that differ only by their first word. It skips the original pilot families by default (`--all` includes them).
 
 The compiler checks normalized request duplicates and evaluation overlap, stable IDs, group split integrity, single-line text, intent fields, and exact agreement between rendered labels and declared intents. The release manifest identifies the concrete dataset by SHA-256. The initial authoring script `tools/seed_pilot_catalog.py` is retained as provenance; contributors edit catalogs directly.
 

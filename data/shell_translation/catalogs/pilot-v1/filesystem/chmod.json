@@ -3,7 +3,7 @@
     "id": "pilot-v1-chmod-01",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "octal-mode",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -14,16 +14,16 @@
     },
     "requests": [
       "set the permissions of script-copper.sh to 755",
-      "change the permissions of script-copper.sh to 755",
-      "update the permissions of script-copper.sh to 755",
-      "make the permissions of script-copper.sh 755"
+      "change the mode of script-copper.sh to 755",
+      "how do I give script-copper.sh the mode 755?",
+      "I want script-copper.sh to have permissions 755"
     ]
   },
   {
     "id": "pilot-v1-chmod-02",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "octal-mode",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -33,17 +33,17 @@
       "mode": "600"
     },
     "requests": [
-      "set the permissions of secrets mango.env to 600",
-      "change the permissions of secrets mango.env to 600",
-      "update the permissions of secrets mango.env to 600",
-      "make the permissions of secrets mango.env 600"
+      "I want secrets mango.env to have permissions 600",
+      "apply permissions 600 to secrets mango.env",
+      "how can I change the permissions of secrets mango.env to 600?",
+      "I need secrets mango.env set to mode 600"
     ]
   },
   {
     "id": "pilot-v1-chmod-03",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "octal-mode-multiple",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -55,16 +55,16 @@
     },
     "requests": [
       "set the permissions of falcon-a.sh and falcon-b.sh to 755",
-      "change the permissions of falcon-a.sh and falcon-b.sh to 755",
-      "update the permissions of falcon-a.sh and falcon-b.sh to 755",
-      "make the permissions of falcon-a.sh and falcon-b.sh 755"
+      "give both falcon-a.sh and falcon-b.sh mode 755",
+      "how do I change falcon-a.sh and falcon-b.sh to permissions 755?",
+      "I want falcon-a.sh and falcon-b.sh to have mode 755"
     ]
   },
   {
     "id": "pilot-v1-chmod-04",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "octal-mode-recursive",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -76,16 +76,16 @@
     },
     "requests": [
       "set the permissions of shared-otter and everything inside it to 755",
-      "change the permissions of shared-otter and everything inside it to 755",
-      "update the permissions of shared-otter and everything inside it to 755",
-      "make the permissions of shared-otter and everything inside it 755"
+      "recursively change the mode of shared-otter to 755",
+      "how do I apply permissions 755 to shared-otter and all of its contents?",
+      "I want shared-otter and every file and folder in it to have mode 755"
     ]
   },
   {
     "id": "pilot-v1-chmod-05",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "octal-mode",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -95,17 +95,17 @@
       "mode": "400"
     },
     "requests": [
-      "set the permissions of orchid.key to 400",
-      "change the permissions of orchid.key to 400",
-      "update the permissions of orchid.key to 400",
-      "make the permissions of orchid.key 400"
+      "I need orchid.key set to mode 400",
+      "give orchid.key permission mode 400",
+      "update the access permissions of orchid.key to 400",
+      "what is the way to set orchid.key to mode 400?"
     ]
   },
   {
     "id": "pilot-v1-chmod-06",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "octal-mode",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -115,17 +115,17 @@
       "mode": "755"
     },
     "requests": [
+      "what is the way to set -nebula.sh to mode 755?",
       "set the permissions of -nebula.sh to 755",
-      "change the permissions of -nebula.sh to 755",
-      "update the permissions of -nebula.sh to 755",
-      "make the permissions of -nebula.sh 755"
+      "change the mode of -nebula.sh to 755",
+      "how do I give -nebula.sh the mode 755?"
     ]
   },
   {
     "id": "pilot-v1-chmod-07",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "octal-mode-recursive",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -136,17 +136,17 @@
       "recursive": true
     },
     "requests": [
-      "set the permissions of discard-marble and everything inside it to 700",
-      "change the permissions of discard-marble and everything inside it to 700",
-      "update the permissions of discard-marble and everything inside it to 700",
-      "make the permissions of discard-marble and everything inside it 700"
+      "how do I apply permissions 700 to discard-marble and all of its contents?",
+      "I want discard-marble and every file and folder in it to have mode 700",
+      "give discard-marble and everything under it mode 700",
+      "I need discard-marble and all its contents set to 700"
     ]
   },
   {
     "id": "pilot-v1-chmod-08",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "octal-mode-multiple",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -157,17 +157,17 @@
       "mode": "644"
     },
     "requests": [
-      "set the permissions of willow-a.conf and willow-b.conf to 644",
-      "change the permissions of willow-a.conf and willow-b.conf to 644",
-      "update the permissions of willow-a.conf and willow-b.conf to 644",
-      "make the permissions of willow-a.conf and willow-b.conf 644"
+      "how do I change willow-a.conf and willow-b.conf to permissions 644?",
+      "I want willow-a.conf and willow-b.conf to have mode 644",
+      "apply mode 644 to willow-a.conf and willow-b.conf",
+      "I need willow-a.conf and willow-b.conf set to permissions 644"
     ]
   },
   {
     "id": "pilot-v1-chmod-09",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "octal-mode",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -177,17 +177,17 @@
       "mode": "600"
     },
     "requests": [
-      "set the permissions of client's cedar notes.txt to 600",
-      "change the permissions of client's cedar notes.txt to 600",
-      "update the permissions of client's cedar notes.txt to 600",
-      "make the permissions of client's cedar notes.txt 600"
+      "how do I give client's cedar notes.txt the mode 600?",
+      "I want client's cedar notes.txt to have permissions 600",
+      "apply permissions 600 to client's cedar notes.txt",
+      "how can I change the permissions of client's cedar notes.txt to 600?"
     ]
   },
   {
     "id": "pilot-v1-chmod-10",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "octal-mode",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -197,17 +197,17 @@
       "mode": "750"
     },
     "requests": [
-      "set the permissions of comet.sh to 750",
-      "change the permissions of comet.sh to 750",
-      "update the permissions of comet.sh to 750",
-      "make the permissions of comet.sh 750"
+      "how can I change the permissions of comet.sh to 750?",
+      "I need comet.sh set to mode 750",
+      "give comet.sh permission mode 750",
+      "update the access permissions of comet.sh to 750"
     ]
   },
   {
     "id": "pilot-v1-chmod-11",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "octal-mode-recursive",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -218,17 +218,17 @@
       "recursive": true
     },
     "requests": [
+      "give build-saffron and everything under it mode 755",
+      "I need build-saffron and all its contents set to 755",
       "set the permissions of build-saffron and everything inside it to 755",
-      "change the permissions of build-saffron and everything inside it to 755",
-      "update the permissions of build-saffron and everything inside it to 755",
-      "make the permissions of build-saffron and everything inside it 755"
+      "recursively change the mode of build-saffron to 755"
     ]
   },
   {
     "id": "pilot-v1-chmod-12",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "octal-mode",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -238,17 +238,17 @@
       "mode": "600"
     },
     "requests": [
+      "update the access permissions of quartz secrets.env to 600",
+      "what is the way to set quartz secrets.env to mode 600?",
       "set the permissions of quartz secrets.env to 600",
-      "change the permissions of quartz secrets.env to 600",
-      "update the permissions of quartz secrets.env to 600",
-      "make the permissions of quartz secrets.env 600"
+      "change the mode of quartz secrets.env to 600"
     ]
   },
   {
     "id": "pilot-v1-chmod-13",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "octal-mode-multiple",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -259,17 +259,17 @@
       "mode": "700"
     },
     "requests": [
+      "apply mode 700 to hazel-a.sh and hazel-b.sh",
+      "I need hazel-a.sh and hazel-b.sh set to permissions 700",
       "set the permissions of hazel-a.sh and hazel-b.sh to 700",
-      "change the permissions of hazel-a.sh and hazel-b.sh to 700",
-      "update the permissions of hazel-a.sh and hazel-b.sh to 700",
-      "make the permissions of hazel-a.sh and hazel-b.sh 700"
+      "give both hazel-a.sh and hazel-b.sh mode 700"
     ]
   },
   {
     "id": "pilot-v1-chmod-14",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "octal-mode",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -279,17 +279,17 @@
       "mode": "400"
     },
     "requests": [
-      "set the permissions of maple.key to 400",
-      "change the permissions of maple.key to 400",
-      "update the permissions of maple.key to 400",
-      "make the permissions of maple.key 400"
+      "change the mode of maple.key to 400",
+      "how do I give maple.key the mode 400?",
+      "I want maple.key to have permissions 400",
+      "apply permissions 400 to maple.key"
     ]
   },
   {
     "id": "pilot-v1-chmod-15",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "octal-mode-recursive",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -301,16 +301,16 @@
     },
     "requests": [
       "set the permissions of shared-raven and everything inside it to 775",
-      "change the permissions of shared-raven and everything inside it to 775",
-      "update the permissions of shared-raven and everything inside it to 775",
-      "make the permissions of shared-raven and everything inside it 775"
+      "recursively change the mode of shared-raven to 775",
+      "how do I apply permissions 775 to shared-raven and all of its contents?",
+      "I want shared-raven and every file and folder in it to have mode 775"
     ]
   },
   {
     "id": "pilot-v1-chmod-16",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "octal-mode",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -320,17 +320,17 @@
       "mode": "644"
     },
     "requests": [
-      "set the permissions of -birch.conf to 644",
-      "change the permissions of -birch.conf to 644",
-      "update the permissions of -birch.conf to 644",
-      "make the permissions of -birch.conf 644"
+      "apply permissions 644 to -birch.conf",
+      "how can I change the permissions of -birch.conf to 644?",
+      "I need -birch.conf set to mode 644",
+      "give -birch.conf permission mode 644"
     ]
   },
   {
     "id": "pilot-v1-chmod-17",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "octal-mode",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -340,17 +340,17 @@
       "mode": "755"
     },
     "requests": [
-      "set the permissions of lotus script.sh to 755",
-      "change the permissions of lotus script.sh to 755",
-      "update the permissions of lotus script.sh to 755",
-      "make the permissions of lotus script.sh 755"
+      "give lotus script.sh permission mode 755",
+      "update the access permissions of lotus script.sh to 755",
+      "what is the way to set lotus script.sh to mode 755?",
+      "set the permissions of lotus script.sh to 755"
     ]
   },
   {
     "id": "pilot-v1-chmod-18",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "octal-mode-multiple",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -362,16 +362,16 @@
     },
     "requests": [
       "set the permissions of badger-a.key and badger-b.key to 400",
-      "change the permissions of badger-a.key and badger-b.key to 400",
-      "update the permissions of badger-a.key and badger-b.key to 400",
-      "make the permissions of badger-a.key and badger-b.key 400"
+      "give both badger-a.key and badger-b.key mode 400",
+      "how do I change badger-a.key and badger-b.key to permissions 400?",
+      "I want badger-a.key and badger-b.key to have mode 400"
     ]
   },
   {
     "id": "pilot-v1-chmod-19",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "octal-mode-multiple",
     "split": "validation",
     "intent": {
       "op": "chmod",
@@ -382,17 +382,17 @@
       "mode": "755"
     },
     "requests": [
-      "set the permissions of tundra-a.sh and tundra-b.sh to 755",
-      "change the permissions of tundra-a.sh and tundra-b.sh to 755",
-      "update the permissions of tundra-a.sh and tundra-b.sh to 755",
-      "make the permissions of tundra-a.sh and tundra-b.sh 755"
+      "tundra-a.sh and tundra-b.sh both need mode 755",
+      "what do I run to put tundra-a.sh and tundra-b.sh on permissions 755?",
+      "please switch tundra-a.sh and tundra-b.sh over to mode 755",
+      "the files tundra-a.sh and tundra-b.sh should end up with permissions 755"
     ]
   },
   {
     "id": "pilot-v1-chmod-20",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "octal-mode-recursive",
     "split": "validation",
     "intent": {
       "op": "chmod",
@@ -403,17 +403,17 @@
       "recursive": true
     },
     "requests": [
-      "set the permissions of zephyr-shared and everything inside it to 700",
-      "change the permissions of zephyr-shared and everything inside it to 700",
-      "update the permissions of zephyr-shared and everything inside it to 700",
-      "make the permissions of zephyr-shared and everything inside it 700"
+      "the whole zephyr-shared directory tree should be mode 700",
+      "what do I run to put zephyr-shared and everything in it on permissions 700?",
+      "please switch zephyr-shared and all of its contents over to mode 700",
+      "zephyr-shared, including every file and folder below it, should end up with permissions 700"
     ]
   },
   {
     "id": "pilot-v1-chmod-21",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "symbolic-add",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -429,17 +429,17 @@
       ]
     },
     "requests": [
-      "add execute permission for the owner of run-copper.sh",
-      "give the owner of run-copper.sh execute permission",
+      "make run-copper.sh executable for its owner",
       "let the owner execute run-copper.sh",
-      "grant the owner execute access to run-copper.sh"
+      "how do I add execute permission for the owner of run-copper.sh?",
+      "I want the owner of run-copper.sh to be able to run it"
     ]
   },
   {
     "id": "pilot-v1-chmod-22",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "symbolic-remove",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -456,16 +456,16 @@
     },
     "requests": [
       "remove write permission for the group and others on settings mango.conf",
-      "take away write permission from the group and others on settings mango.conf",
-      "revoke write access for the group and others on settings mango.conf",
-      "stop the group and others from writing to settings mango.conf"
+      "stop the group and other users from writing to settings mango.conf",
+      "how do I take away write access from the group and others on settings mango.conf?",
+      "I want neither the group nor other users to be able to write to settings mango.conf"
     ]
   },
   {
     "id": "pilot-v1-chmod-23",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "symbolic-set",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -482,16 +482,16 @@
     },
     "requests": [
       "make orchid.txt read-only for everyone",
-      "set orchid.txt so everyone has read permission only",
-      "allow everyone to only read orchid.txt",
-      "restrict orchid.txt to read-only for all users"
+      "set orchid.txt so that every user can read it but nobody can write or execute it",
+      "how do I make orchid.txt readable by all users and nothing else?",
+      "I want orchid.txt to have only read permission for its owner, its group and others"
     ]
   },
   {
     "id": "pilot-v1-chmod-24",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "symbolic-add",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -508,16 +508,16 @@
     },
     "requests": [
       "give the group write permission on nebula.log",
-      "add write permission for the group on nebula.log",
-      "allow the group to write to nebula.log",
-      "grant group write access to nebula.log"
+      "allow members of the file's group to write to nebula.log",
+      "how do I let the group edit nebula.log?",
+      "I want the group to be able to write to nebula.log"
     ]
   },
   {
     "id": "pilot-v1-chmod-25",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "symbolic-remove",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -534,16 +534,16 @@
     },
     "requests": [
       "remove all permissions for others on private otter.txt",
-      "take away every permission from others on private otter.txt",
-      "deny others all access to private otter.txt",
-      "revoke all access for other users on private otter.txt"
+      "make private otter.txt completely inaccessible to other users",
+      "how do I stop other users from reading, writing or executing private otter.txt?",
+      "I want other users to have no access at all to private otter.txt"
     ]
   },
   {
     "id": "pilot-v1-chmod-26",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "symbolic-set",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -570,16 +570,16 @@
     },
     "requests": [
       "set falcon.key so the owner can read and write, the group can only read, and others have no access",
-      "change falcon.key to owner read and write, group read only, others nothing",
-      "make falcon.key readable and writable by the owner, readable by the group, and inaccessible to others",
-      "configure falcon.key with owner read and write, group read, and no permissions for others"
+      "give falcon.key owner read-write, group read-only and no permissions for everyone else",
+      "how do I make falcon.key readable and writable by its owner, readable by its group, and closed to others?",
+      "I want the owner of falcon.key to read and write it, its group to only read it, and others to have no access"
     ]
   },
   {
     "id": "pilot-v1-chmod-27",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "symbolic-recursive",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -597,16 +597,16 @@
     },
     "requests": [
       "give the group write permission on shared-willow and everything inside it",
-      "add write permission for the group on shared-willow and everything inside it",
-      "allow the group to write to shared-willow and everything inside it",
-      "grant group write access to shared-willow and everything inside it"
+      "recursively allow the group to write to shared-willow and all its contents",
+      "how do I let the group write to every file and folder in shared-willow, including shared-willow itself?",
+      "I want the group to be able to modify shared-willow and everything under it"
     ]
   },
   {
     "id": "pilot-v1-chmod-28",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "symbolic-recursive",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -624,16 +624,16 @@
     },
     "requests": [
       "remove all permissions for others on shared-marble and everything inside it",
-      "take away every permission from others on shared-marble and everything inside it",
-      "deny others all access to shared-marble and everything inside it",
-      "revoke all access for other users on shared-marble and everything inside it"
+      "recursively take away every permission other users have on shared-marble",
+      "how do I lock other users out of shared-marble and all of its contents?",
+      "I want shared-marble and everything in it to be inaccessible to other users"
     ]
   },
   {
     "id": "pilot-v1-chmod-29",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "symbolic-add",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -651,16 +651,16 @@
     },
     "requests": [
       "add execute permission for the owner of cedar-a.sh and cedar-b.sh",
-      "give the owner of cedar-a.sh and cedar-b.sh execute permission",
-      "let the owner execute cedar-a.sh and cedar-b.sh",
-      "grant the owner execute access to cedar-a.sh and cedar-b.sh"
+      "make cedar-a.sh and cedar-b.sh executable by their owner",
+      "how do I let the owner run both cedar-a.sh and cedar-b.sh?",
+      "I want the owner to be able to execute cedar-a.sh and cedar-b.sh"
     ]
   },
   {
     "id": "pilot-v1-chmod-30",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "symbolic-add",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -677,16 +677,16 @@
     },
     "requests": [
       "make tool-comet.sh executable by everyone",
-      "allow everyone to execute tool-comet.sh",
-      "add execute permission for all users on tool-comet.sh",
-      "give every user execute access to tool-comet.sh"
+      "allow every user to execute tool-comet.sh",
+      "how do I add execute permission for all users on tool-comet.sh?",
+      "I want anyone to be able to run tool-comet.sh"
     ]
   },
   {
     "id": "pilot-v1-chmod-31",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "directory-itself",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -697,17 +697,17 @@
       "directory_target": true
     },
     "requests": [
-      "set the permissions of the directory quartz-folder itself to 750",
-      "change the permissions of the directory quartz-folder itself to 750",
-      "update the permissions of the directory quartz-folder itself to 750",
-      "make the permissions of the directory quartz-folder itself 750"
+      "set the permissions of the directory quartz-folder itself to 750, without touching its contents",
+      "change only the mode of the quartz-folder directory to 750, not the files inside it",
+      "how do I give the directory quartz-folder mode 750 while leaving its contents alone?",
+      "I want quartz-folder itself, but nothing inside it, to have permissions 750"
     ]
   },
   {
     "id": "pilot-v1-chmod-32",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "directory-itself",
     "split": "train",
     "intent": {
       "op": "chmod",
@@ -724,17 +724,17 @@
       "directory_target": true
     },
     "requests": [
-      "give the group write permission on the directory hazel-folder itself",
-      "add write permission for the group on the directory hazel-folder itself",
-      "allow the group to write to the directory hazel-folder itself",
-      "grant group write access to the directory hazel-folder itself"
+      "give the group write permission on the directory hazel-folder itself, not on its contents",
+      "allow the group to write to the hazel-folder directory without changing the files inside it",
+      "how do I make the directory hazel-folder writable by its group while leaving what's inside alone?",
+      "I want only the directory hazel-folder, not its contents, to be writable by its group"
     ]
   },
   {
     "id": "pilot-v1-chmod-33",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "symbolic-add",
     "split": "validation",
     "intent": {
       "op": "chmod",
@@ -751,17 +751,17 @@
       ]
     },
     "requests": [
-      "add execute permission for the owner of tundra-a.sh and tundra-b.sh",
-      "give the owner of tundra-a.sh and tundra-b.sh execute permission",
-      "let the owner execute tundra-a.sh and tundra-b.sh",
-      "grant the owner execute access to tundra-a.sh and tundra-b.sh"
+      "tundra-a.sh and tundra-b.sh need to be executable by their owner",
+      "what do I run so the owner can execute tundra-a.sh and tundra-b.sh?",
+      "please turn on the owner's execute bit for tundra-a.sh and tundra-b.sh",
+      "the owner of tundra-a.sh and tundra-b.sh should be able to execute both files"
     ]
   },
   {
     "id": "pilot-v1-chmod-34",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "symbolic-remove",
     "split": "validation",
     "intent": {
       "op": "chmod",
@@ -777,17 +777,17 @@
       ]
     },
     "requests": [
-      "remove write permission for the group and others on zephyr.conf",
-      "take away write permission from the group and others on zephyr.conf",
-      "revoke write access for the group and others on zephyr.conf",
-      "stop the group and others from writing to zephyr.conf"
+      "zephyr.conf should not be writable by the group or by other users",
+      "what do I run to revoke group and other write access on zephyr.conf?",
+      "please turn off the write bit for group and others on zephyr.conf",
+      "nobody except the owner should keep write access to zephyr.conf"
     ]
   },
   {
     "id": "pilot-v1-chmod-35",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "symbolic-recursive",
     "split": "validation",
     "intent": {
       "op": "chmod",
@@ -804,17 +804,17 @@
       "recursive": true
     },
     "requests": [
-      "give the group write permission on tundra-shared and everything inside it",
-      "add write permission for the group on tundra-shared and everything inside it",
-      "allow the group to write to tundra-shared and everything inside it",
-      "grant group write access to tundra-shared and everything inside it"
+      "tundra-shared and every file and folder under it should be group-writable",
+      "what do I run to make the whole tundra-shared tree writable by its group?",
+      "please turn on group write access throughout tundra-shared, including the folder itself",
+      "the group should be able to write to tundra-shared and to all of its contents"
     ]
   },
   {
     "id": "pilot-v1-chmod-36",
     "topic": "filesystem",
     "family": "chmod",
-    "capability": "permission-change",
+    "capability": "symbolic-set",
     "split": "validation",
     "intent": {
       "op": "chmod",
@@ -840,10 +840,10 @@
       ]
     },
     "requests": [
-      "set zephyr.key so the owner can read and write, the group can only read, and others have no access",
-      "change zephyr.key to owner read and write, group read only, others nothing",
-      "make zephyr.key readable and writable by the owner, readable by the group, and inaccessible to others",
-      "configure zephyr.key with owner read and write, group read, and no permissions for others"
+      "zephyr.key should be read-write for its owner, read-only for its group, and closed to everyone else",
+      "what do I run so that zephyr.key is owner read-write, group read-only, and others nothing?",
+      "please set zephyr.key to owner read and write, group read, and no access for others",
+      "the owner of zephyr.key should read and write it, its group should only read it, and others should get nothing"
     ]
   }
 ]

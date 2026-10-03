@@ -1,0 +1,87 @@
+[
+  {
+    "id": "pilot-v1-readlink-01",
+    "topic": "filesystem",
+    "family": "readlink",
+    "capability": "link-target",
+    "split": "train",
+    "intent": {
+      "op": "readlink",
+      "source": "notes.link"
+    },
+    "requests": [
+      "where does the symbolic link notes.link point?",
+      "show the target that notes.link links to",
+      "I want to know what path is stored in the symlink notes.link",
+      "print the raw target of the soft link notes.link without resolving it"
+    ]
+  },
+  {
+    "id": "pilot-v1-readlink-02",
+    "topic": "filesystem",
+    "family": "readlink",
+    "capability": "nested-link",
+    "split": "train",
+    "intent": {
+      "op": "readlink",
+      "source": "links/latest"
+    },
+    "requests": [
+      "what does links/latest point to?",
+      "print the link target recorded in links/latest",
+      "I need the destination of the symbolic link links/latest exactly as it is written in the link",
+      "tell me which path the symlink links/latest refers to"
+    ]
+  },
+  {
+    "id": "pilot-v1-readlink-03",
+    "topic": "filesystem",
+    "family": "readlink",
+    "capability": "dash-name",
+    "split": "train",
+    "intent": {
+      "op": "readlink",
+      "source": "-latest build"
+    },
+    "requests": [
+      "find out where the symlink -latest build points, without following it any further",
+      "which target is stored in the symbolic link -latest build?",
+      "I'm curious what -latest build links to; show me its target",
+      "display the unresolved target of the link -latest build"
+    ]
+  },
+  {
+    "id": "pilot-v1-readlink-04",
+    "topic": "filesystem",
+    "family": "readlink",
+    "capability": "quoted-nested-link",
+    "split": "train",
+    "intent": {
+      "op": "readlink",
+      "source": "config/client's settings"
+    },
+    "requests": [
+      "read the target of the symbolic link config/client's settings",
+      "how do I see what config/client's settings is a symlink to?",
+      "I'd like to print where config/client's settings links, as stored in the link itself",
+      "output the path that the soft link config/client's settings contains"
+    ]
+  },
+  {
+    "id": "pilot-v1-readlink-05",
+    "topic": "filesystem",
+    "family": "readlink",
+    "capability": "link-target",
+    "split": "validation",
+    "intent": {
+      "op": "readlink",
+      "source": "tundra/zephyr.link"
+    },
+    "requests": [
+      "reveal the raw target string of the symlink tundra/zephyr.link",
+      "could you tell me the path that tundra/zephyr.link is linked to?",
+      "my symbolic link tundra/zephyr.link points somewhere; print that target as is",
+      "to which path does the soft link tundra/zephyr.link refer?"
+    ]
+  }
+]
