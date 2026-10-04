@@ -1,0 +1,84 @@
+[
+  {
+    "id": "pilot-v1-groups-01",
+    "topic": "shell-utils",
+    "family": "groups",
+    "capability": "current-groups",
+    "split": "train",
+    "intent": {
+      "op": "groups"
+    },
+    "requests": [
+      "which groups am I in?",
+      "list the groups the current user belongs to",
+      "I want to see the names of my groups",
+      "show my group memberships by name"
+    ]
+  },
+  {
+    "id": "pilot-v1-groups-02",
+    "topic": "shell-utils",
+    "family": "groups",
+    "capability": "other-user-groups",
+    "split": "train",
+    "intent": {
+      "op": "groups",
+      "user": "root"
+    },
+    "requests": [
+      "which groups does root belong to?",
+      "list the group names of the user root",
+      "I need to know root's group memberships",
+      "show the groups that root is a member of"
+    ]
+  },
+  {
+    "id": "pilot-v1-groups-03",
+    "topic": "shell-utils",
+    "family": "groups",
+    "capability": "current-groups",
+    "split": "train",
+    "intent": {
+      "op": "groups"
+    },
+    "requests": [
+      "what groups is my account a member of?",
+      "print the names of the groups I belong to",
+      "I'd like a list of my user's groups",
+      "display the group names for this login"
+    ]
+  },
+  {
+    "id": "pilot-v1-groups-04",
+    "topic": "shell-utils",
+    "family": "groups",
+    "capability": "other-user-groups",
+    "split": "train",
+    "intent": {
+      "op": "groups",
+      "user": "root"
+    },
+    "requests": [
+      "what are the group memberships of root?",
+      "print every group the root account is part of",
+      "I want the names of root's groups",
+      "display which groups include the user root"
+    ]
+  },
+  {
+    "id": "pilot-v1-groups-05",
+    "topic": "shell-utils",
+    "family": "groups",
+    "capability": "current-groups",
+    "split": "validation",
+    "intent": {
+      "op": "groups"
+    },
+    "requests": [
+      "tell me the groups my user is part of",
+      "which groups is the current account in?",
+      "could you output my group names?",
+      "group memberships of the current user, please"
+    ]
+  }
+]

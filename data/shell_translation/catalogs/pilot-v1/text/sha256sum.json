@@ -1,0 +1,102 @@
+[
+  {
+    "id": "pilot-v1-sha256sum-01",
+    "topic": "text",
+    "family": "sha256sum",
+    "capability": "hash-multiple",
+    "split": "train",
+    "intent": {
+      "op": "sha256sum",
+      "sources": [
+        "release.txt",
+        "manifest.txt"
+      ]
+    },
+    "requests": [
+      "compute the SHA-256 checksums of release.txt and manifest.txt",
+      "what are the SHA-256 hashes of release.txt and manifest.txt?",
+      "I need SHA-256 digests for both release.txt and manifest.txt",
+      "how do I print the SHA-256 sum of each of release.txt and manifest.txt?"
+    ]
+  },
+  {
+    "id": "pilot-v1-sha256sum-02",
+    "topic": "text",
+    "family": "sha256sum",
+    "capability": "verify-with-check",
+    "split": "train",
+    "intent": {
+      "op": "sha256sum",
+      "sources": [
+        "SHA256SUMS"
+      ],
+      "check": true
+    },
+    "requests": [
+      "verify the files listed in SHA256SUMS against their SHA-256 checksums",
+      "how can I check that every file named in SHA256SUMS matches its SHA-256 hash?",
+      "I want to validate the files recorded in SHA256SUMS using SHA-256",
+      "do the files in SHA256SUMS still match their SHA-256 sums?"
+    ]
+  },
+  {
+    "id": "pilot-v1-sha256sum-03",
+    "topic": "text",
+    "family": "sha256sum",
+    "capability": "hash-file",
+    "split": "train",
+    "intent": {
+      "op": "sha256sum",
+      "sources": [
+        "my release.txt"
+      ]
+    },
+    "requests": [
+      "calculate the SHA-256 hash of my release.txt",
+      "tell me the SHA-256 checksum of my release.txt",
+      "I'd like a SHA-256 fingerprint of my release.txt",
+      "how can I see the SHA-256 digest for my release.txt?"
+    ]
+  },
+  {
+    "id": "pilot-v1-sha256sum-04",
+    "topic": "text",
+    "family": "sha256sum",
+    "capability": "hash-multiple",
+    "split": "train",
+    "intent": {
+      "op": "sha256sum",
+      "sources": [
+        "a.txt",
+        "b.txt",
+        "c.txt"
+      ]
+    },
+    "requests": [
+      "hash a.txt, b.txt and c.txt with SHA-256",
+      "how would I list SHA-256 checksums for a.txt, b.txt and c.txt?",
+      "I want the SHA-256 digest of every one of a.txt, b.txt and c.txt",
+      "print a SHA-256 hash line for each of a.txt, b.txt and c.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-sha256sum-05",
+    "topic": "text",
+    "family": "sha256sum",
+    "capability": "verify-with-check",
+    "split": "validation",
+    "intent": {
+      "op": "sha256sum",
+      "sources": [
+        "zephyr-sums.sha256"
+      ],
+      "check": true
+    },
+    "requests": [
+      "could you confirm that the files recorded in zephyr-sums.sha256 haven't been modified, by checking their SHA-256 hashes?",
+      "check the integrity of everything listed in zephyr-sums.sha256 with SHA-256",
+      "do all the SHA-256 entries in zephyr-sums.sha256 still match their files?",
+      "I'd like to know whether the files listed in zephyr-sums.sha256 still match their SHA-256 hashes"
+    ]
+  }
+]

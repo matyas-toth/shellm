@@ -1,0 +1,98 @@
+[
+  {
+    "id": "pilot-v1-printenv-01",
+    "topic": "shell-utils",
+    "family": "printenv",
+    "capability": "home-variable",
+    "split": "train",
+    "intent": {
+      "op": "printenv",
+      "names": [
+        "HOME"
+      ]
+    },
+    "requests": [
+      "print the value of the HOME environment variable",
+      "what is HOME set to in my environment?",
+      "I want to see the contents of the HOME variable",
+      "show the HOME environment variable's value"
+    ]
+  },
+  {
+    "id": "pilot-v1-printenv-02",
+    "topic": "shell-utils",
+    "family": "printenv",
+    "capability": "path-variable",
+    "split": "train",
+    "intent": {
+      "op": "printenv",
+      "names": [
+        "PATH"
+      ]
+    },
+    "requests": [
+      "display my PATH environment variable",
+      "which directories does PATH contain? print its value",
+      "I need the current value of PATH",
+      "can you output what the PATH variable holds?"
+    ]
+  },
+  {
+    "id": "pilot-v1-printenv-03",
+    "topic": "shell-utils",
+    "family": "printenv",
+    "capability": "timezone-variable",
+    "split": "train",
+    "intent": {
+      "op": "printenv",
+      "names": [
+        "TZ"
+      ]
+    },
+    "requests": [
+      "print the TZ variable",
+      "what time zone is given by the TZ environment variable?",
+      "I'd like to know the value of TZ in this environment",
+      "show me what TZ is set to"
+    ]
+  },
+  {
+    "id": "pilot-v1-printenv-04",
+    "topic": "shell-utils",
+    "family": "printenv",
+    "capability": "several-variables",
+    "split": "train",
+    "intent": {
+      "op": "printenv",
+      "names": [
+        "LANG",
+        "LC_ALL"
+      ]
+    },
+    "requests": [
+      "print the values of the LANG and LC_ALL environment variables",
+      "what are LANG and LC_ALL set to?",
+      "I need to see both LANG and LC_ALL from my environment",
+      "show the locale variables LANG and LC_ALL, one per line"
+    ]
+  },
+  {
+    "id": "pilot-v1-printenv-05",
+    "topic": "shell-utils",
+    "family": "printenv",
+    "capability": "terminal-variable",
+    "split": "validation",
+    "intent": {
+      "op": "printenv",
+      "names": [
+        "TERM"
+      ]
+    },
+    "requests": [
+      "which terminal type does the TERM variable hold?",
+      "output the contents of TERM from the environment",
+      "I'm curious what value TERM currently has",
+      "let me see the TERM environment variable"
+    ]
+  }
+]

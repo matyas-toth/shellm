@@ -1,0 +1,91 @@
+[
+  {
+    "id": "pilot-v1-gzip-01",
+    "topic": "filesystem",
+    "family": "gzip",
+    "capability": "keep-original",
+    "split": "train",
+    "intent": {
+      "op": "gzip",
+      "source": "notes.txt",
+      "keep": true
+    },
+    "requests": [
+      "compress notes.txt in gzip format but keep the original file",
+      "how do I make notes.txt.gz from notes.txt without deleting notes.txt?",
+      "I want a gzip-compressed copy of notes.txt alongside the uncompressed original",
+      "create a .gz version of notes.txt and leave notes.txt in place"
+    ]
+  },
+  {
+    "id": "pilot-v1-gzip-02",
+    "topic": "filesystem",
+    "family": "gzip",
+    "capability": "replace-original",
+    "split": "train",
+    "intent": {
+      "op": "gzip",
+      "source": "client's report.txt"
+    },
+    "requests": [
+      "compress client's report.txt with gzip, replacing it with the .gz file",
+      "how can I gzip-compress client's report.txt so that only the compressed file remains?",
+      "I'd like client's report.txt turned into client's report.txt.gz, with the original removed",
+      "replace client's report.txt with a gzip-compressed version"
+    ]
+  },
+  {
+    "id": "pilot-v1-gzip-03",
+    "topic": "filesystem",
+    "family": "gzip",
+    "capability": "best-compression",
+    "split": "train",
+    "intent": {
+      "op": "gzip",
+      "source": "logs/app.log",
+      "keep": true,
+      "best": true
+    },
+    "requests": [
+      "compress logs/app.log as tightly as possible in gzip format, keeping the original",
+      "how do I create a maximum-compression .gz of logs/app.log and keep logs/app.log?",
+      "I want logs/app.log gzipped at the best compression level, without removing the uncompressed file",
+      "make a highest-ratio gzip copy of logs/app.log next to the original"
+    ]
+  },
+  {
+    "id": "pilot-v1-gzip-04",
+    "topic": "filesystem",
+    "family": "gzip",
+    "capability": "recursive",
+    "split": "train",
+    "intent": {
+      "op": "gzip",
+      "source": "reports",
+      "recursive": true
+    },
+    "requests": [
+      "compress each file under the reports directory, including subfolders, into its own .gz file in place of the original",
+      "how do I gzip-compress every file inside reports and its subdirectories, replacing the originals?",
+      "I need all files in the reports tree compressed individually in gzip format, originals replaced",
+      "walk through reports recursively and replace every file with a gzip-compressed version"
+    ]
+  },
+  {
+    "id": "pilot-v1-gzip-05",
+    "topic": "filesystem",
+    "family": "gzip",
+    "capability": "replace-original",
+    "split": "validation",
+    "intent": {
+      "op": "gzip",
+      "source": "tundra-notes.txt"
+    },
+    "requests": [
+      "tundra-notes.txt should end up as tundra-notes.txt.gz, with the uncompressed file gone",
+      "could you shrink tundra-notes.txt into gzip format, not keeping the original?",
+      "swap tundra-notes.txt for its gzip-compressed form",
+      "my file tundra-notes.txt needs compressing; leave only the .gz behind"
+    ]
+  }
+]

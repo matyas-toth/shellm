@@ -1,0 +1,99 @@
+[
+  {
+    "id": "pilot-v1-sha1sum-01",
+    "topic": "text",
+    "family": "sha1sum",
+    "capability": "hash-file",
+    "split": "train",
+    "intent": {
+      "op": "sha1sum",
+      "sources": [
+        "backup.txt"
+      ]
+    },
+    "requests": [
+      "compute the SHA-1 checksum of backup.txt",
+      "what is the SHA-1 hash of backup.txt?",
+      "I need a SHA-1 digest for backup.txt",
+      "how do I print the SHA-1 sum of backup.txt?"
+    ]
+  },
+  {
+    "id": "pilot-v1-sha1sum-02",
+    "topic": "text",
+    "family": "sha1sum",
+    "capability": "verify-with-check",
+    "split": "train",
+    "intent": {
+      "op": "sha1sum",
+      "sources": [
+        "SHA1SUMS"
+      ],
+      "check": true
+    },
+    "requests": [
+      "verify the files listed in SHA1SUMS against their SHA-1 checksums",
+      "how can I check whether the files named in SHA1SUMS match the recorded SHA-1 hashes?",
+      "I want to confirm that every SHA-1 sum in SHA1SUMS still matches its file",
+      "are the files listed in SHA1SUMS unchanged according to SHA-1?"
+    ]
+  },
+  {
+    "id": "pilot-v1-sha1sum-03",
+    "topic": "text",
+    "family": "sha1sum",
+    "capability": "hash-file",
+    "split": "train",
+    "intent": {
+      "op": "sha1sum",
+      "sources": [
+        "-backup copy.txt"
+      ]
+    },
+    "requests": [
+      "calculate the SHA-1 hash of the file -backup copy.txt",
+      "how do I get the SHA-1 fingerprint of -backup copy.txt?",
+      "I'd like the SHA-1 checksum for -backup copy.txt",
+      "show the SHA-1 digest of -backup copy.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-sha1sum-04",
+    "topic": "text",
+    "family": "sha1sum",
+    "capability": "hash-multiple",
+    "split": "train",
+    "intent": {
+      "op": "sha1sum",
+      "sources": [
+        "src/main.txt",
+        "docs/readme file.txt"
+      ]
+    },
+    "requests": [
+      "print SHA-1 hashes for src/main.txt and docs/readme file.txt",
+      "what are the SHA-1 checksums of src/main.txt and docs/readme file.txt?",
+      "I need the SHA-1 digest of each of src/main.txt and docs/readme file.txt",
+      "how can I compute SHA-1 sums for both src/main.txt and docs/readme file.txt?"
+    ]
+  },
+  {
+    "id": "pilot-v1-sha1sum-05",
+    "topic": "text",
+    "family": "sha1sum",
+    "capability": "hash-file",
+    "split": "validation",
+    "intent": {
+      "op": "sha1sum",
+      "sources": [
+        "tundra-archive.txt"
+      ]
+    },
+    "requests": [
+      "could you fingerprint tundra-archive.txt with SHA-1?",
+      "tell me the SHA-1 value of tundra-archive.txt",
+      "generate a SHA-1 checksum for the file tundra-archive.txt",
+      "what SHA-1 digest does tundra-archive.txt have?"
+    ]
+  }
+]

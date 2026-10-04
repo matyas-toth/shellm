@@ -1,0 +1,42 @@
+{
+  "run_id": "2026-10-03-csanad-fresh-lora",
+  "epoch": 3,
+  "step": 390,
+  "examples_seen": 6216,
+  "validation_loss": 0.16656713587897637,
+  "dataset_sha256": "efa33aaf614619ff4f83eaa9ce1ac4a65e53aff431f782269d458e676346d073",
+  "base_model": "Qwen/Qwen3-0.6B-Base",
+  "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+  "config": {
+    "model": "Qwen/Qwen3-0.6B-Base",
+    "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+    "dataset_release": "pilot-v1",
+    "seed": 42,
+    "epochs": 3,
+    "micro_batch_size": 2,
+    "effective_batch_size": 16,
+    "max_length": 128,
+    "learning_rate": 0.0002,
+    "warmup_steps": 10,
+    "weight_decay": 0.0,
+    "max_grad_norm": 1.0,
+    "lora": {
+      "r": 8,
+      "lora_alpha": 16,
+      "lora_dropout": 0.05,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ],
+      "bias": "none",
+      "task_type": "CAUSAL_LM"
+    }
+  },
+  "adapter_sha256": "0196414a5e0869aada9fb4efe944d7ef14a3fea934e409295f6f0ec8bb6be64e",
+  "checkpoint": "checkpoints/2026-10-03-csanad-fresh-lora/epoch-3"
+}

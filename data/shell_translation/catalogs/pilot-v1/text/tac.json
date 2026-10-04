@@ -1,0 +1,90 @@
+[
+  {
+    "id": "pilot-v1-tac-01",
+    "topic": "text",
+    "family": "tac",
+    "capability": "reverse-line-order",
+    "split": "train",
+    "intent": {
+      "op": "tac",
+      "source": "history.txt"
+    },
+    "requests": [
+      "print history.txt with its lines in reverse order, last line first",
+      "how do I show the lines of history.txt from the bottom up?",
+      "I want to read history.txt backwards, starting with its final line",
+      "reverse the order of the lines in history.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-tac-02",
+    "topic": "text",
+    "family": "tac",
+    "capability": "reverse-line-order",
+    "split": "train",
+    "intent": {
+      "op": "tac",
+      "source": "my history.txt"
+    },
+    "requests": [
+      "flip the line order of my history.txt so that the last line comes first",
+      "how can I list the lines of my history.txt in reverse, with the bottom line at the top?",
+      "I need my history.txt printed upside down, from its last line to its first",
+      "show my history.txt starting from the end and working back to the first line"
+    ]
+  },
+  {
+    "id": "pilot-v1-tac-03",
+    "topic": "text",
+    "family": "tac",
+    "capability": "dash-file-name",
+    "split": "train",
+    "intent": {
+      "op": "tac",
+      "source": "-oldest.txt"
+    },
+    "requests": [
+      "print the lines of -oldest.txt in reverse order",
+      "how do I display -oldest.txt with the last line at the top and the first line at the bottom?",
+      "I want the file named -oldest.txt printed with its line order reversed",
+      "starting from its last line, output every line of -oldest.txt in reverse order"
+    ]
+  },
+  {
+    "id": "pilot-v1-tac-04",
+    "topic": "text",
+    "family": "tac",
+    "capability": "multiple-files",
+    "split": "train",
+    "intent": {
+      "op": "tac",
+      "sources": [
+        "part1.txt",
+        "part2.txt"
+      ]
+    },
+    "requests": [
+      "reverse the line order of part1.txt and of part2.txt separately, printing part1.txt first",
+      "how can I print part1.txt and then part2.txt, each with its own lines in reverse order?",
+      "I need each of part1.txt and part2.txt shown bottom-up, one file after the other",
+      "output part1.txt backwards, line by line, followed by part2.txt backwards"
+    ]
+  },
+  {
+    "id": "pilot-v1-tac-05",
+    "topic": "text",
+    "family": "tac",
+    "capability": "nested-path",
+    "split": "validation",
+    "intent": {
+      "op": "tac",
+      "source": "zephyr/tundra queue.txt"
+    },
+    "requests": [
+      "could you print zephyr/tundra queue.txt last line first, ending with its first line?",
+      "what does zephyr/tundra queue.txt look like when its lines are read in reverse?",
+      "invert the line order of zephyr/tundra queue.txt",
+      "list the lines of zephyr/tundra queue.txt from the final one back to the top"
+    ]
+  }
+]

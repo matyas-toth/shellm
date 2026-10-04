@@ -1,0 +1,98 @@
+[
+  {
+    "id": "pilot-v1-ln-01",
+    "topic": "filesystem",
+    "family": "ln",
+    "capability": "symbolic-link",
+    "split": "train",
+    "intent": {
+      "op": "ln",
+      "source": "notes.txt",
+      "destination": "notes-link",
+      "symbolic": true
+    },
+    "requests": [
+      "create a symbolic link named notes-link that points to notes.txt",
+      "how do I make notes-link a symlink to notes.txt?",
+      "I need notes-link to be a soft link pointing at notes.txt",
+      "notes-link should be a symbolic link whose target is notes.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-ln-02",
+    "topic": "filesystem",
+    "family": "ln",
+    "capability": "hard-link",
+    "split": "train",
+    "intent": {
+      "op": "ln",
+      "source": "docs/guide.txt",
+      "destination": "backup/guide.txt"
+    },
+    "requests": [
+      "make backup/guide.txt a hard link to docs/guide.txt",
+      "how can I hard-link docs/guide.txt so that it also appears as backup/guide.txt?",
+      "I want a second hard link to docs/guide.txt at backup/guide.txt",
+      "add a hard link called backup/guide.txt for the existing file docs/guide.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-ln-03",
+    "topic": "filesystem",
+    "family": "ln",
+    "capability": "force-overwrite",
+    "split": "train",
+    "intent": {
+      "op": "ln",
+      "source": "settings.json",
+      "destination": "current.json",
+      "symbolic": true,
+      "force": true
+    },
+    "requests": [
+      "point current.json at settings.json with a symbolic link, overwriting the existing current.json",
+      "how do I replace the existing file current.json with a symlink to settings.json?",
+      "I'd like current.json to become a soft link to settings.json even though current.json already exists",
+      "force a symbolic link named current.json targeting settings.json, replacing whatever is there now"
+    ]
+  },
+  {
+    "id": "pilot-v1-ln-04",
+    "topic": "filesystem",
+    "family": "ln",
+    "capability": "relative-target-link",
+    "split": "train",
+    "intent": {
+      "op": "ln",
+      "source": "../data/my notes.txt",
+      "destination": "links/client's notes",
+      "symbolic": true
+    },
+    "requests": [
+      "create a symbolic link at links/client's notes whose target is the relative path ../data/my notes.txt",
+      "how do I add a symlink links/client's notes that points to ../data/my notes.txt?",
+      "I need links/client's notes to link symbolically to ../data/my notes.txt",
+      "set up links/client's notes as a soft link with the target ../data/my notes.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-ln-05",
+    "topic": "filesystem",
+    "family": "ln",
+    "capability": "force-overwrite",
+    "split": "validation",
+    "intent": {
+      "op": "ln",
+      "source": "tundra-config.txt",
+      "destination": "zephyr-config.txt",
+      "symbolic": true,
+      "force": true
+    },
+    "requests": [
+      "zephyr-config.txt already exists; turn it into a symbolic link to tundra-config.txt",
+      "can you swap zephyr-config.txt for a symlink pointing to tundra-config.txt, overwriting it?",
+      "my goal is a soft link named zephyr-config.txt aimed at tundra-config.txt, replacing the current zephyr-config.txt",
+      "redirect zephyr-config.txt so that it becomes a symbolic link to tundra-config.txt, clobbering the existing file"
+    ]
+  }
+]

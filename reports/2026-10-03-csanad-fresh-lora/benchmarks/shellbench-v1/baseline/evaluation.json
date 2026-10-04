@@ -1,0 +1,4127 @@
+{
+  "date": "2026-10-03T21:48:07.638317+02:00",
+  "suite": "shellbench-v1",
+  "image_id": "sha256:66da86ce8a79e4847adee80e063b5bea9e9d4b1d457caec2c62084d9055a4068",
+  "suite_sha256": "0b0ad3c730398c7473e0f40e99ee1588e497c1cbf1c3df1c906466177240240c",
+  "evaluator_sha256": "03354020b993318471dfc2a3fb85d5d505546ae958d3620439a5d173bbd38cad",
+  "predictions_sha256": "b38e257c5ae25f00b8b2d70bdc8e1df6eee1632766b0f0b610a120090f15b5b5",
+  "fixtures": 2,
+  "summary": {
+    "functional_ok": 30,
+    "format_ok": 111,
+    "syntax_ok": 108,
+    "exact_match": 14,
+    "usable": 30,
+    "total": 112
+  },
+  "by_family": {
+    "cat": {
+      "total": 8,
+      "functional_ok": 1,
+      "format_ok": 8,
+      "syntax_ok": 7,
+      "exact_match": 1
+    },
+    "cd": {
+      "total": 8,
+      "functional_ok": 3,
+      "format_ok": 8,
+      "syntax_ok": 7,
+      "exact_match": 2
+    },
+    "cp": {
+      "total": 8,
+      "functional_ok": 2,
+      "format_ok": 8,
+      "syntax_ok": 8,
+      "exact_match": 1
+    },
+    "find": {
+      "total": 8,
+      "functional_ok": 1,
+      "format_ok": 8,
+      "syntax_ok": 8,
+      "exact_match": 1
+    },
+    "grep": {
+      "total": 8,
+      "functional_ok": 2,
+      "format_ok": 8,
+      "syntax_ok": 8,
+      "exact_match": 0
+    },
+    "head": {
+      "total": 8,
+      "functional_ok": 2,
+      "format_ok": 8,
+      "syntax_ok": 7,
+      "exact_match": 0
+    },
+    "ls": {
+      "total": 8,
+      "functional_ok": 1,
+      "format_ok": 8,
+      "syntax_ok": 8,
+      "exact_match": 1
+    },
+    "mkdir": {
+      "total": 8,
+      "functional_ok": 2,
+      "format_ok": 8,
+      "syntax_ok": 8,
+      "exact_match": 2
+    },
+    "mv": {
+      "total": 8,
+      "functional_ok": 3,
+      "format_ok": 8,
+      "syntax_ok": 8,
+      "exact_match": 1
+    },
+    "pwd": {
+      "total": 8,
+      "functional_ok": 2,
+      "format_ok": 7,
+      "syntax_ok": 8,
+      "exact_match": 2
+    },
+    "rm": {
+      "total": 8,
+      "functional_ok": 3,
+      "format_ok": 8,
+      "syntax_ok": 8,
+      "exact_match": 0
+    },
+    "tail": {
+      "total": 8,
+      "functional_ok": 5,
+      "format_ok": 8,
+      "syntax_ok": 8,
+      "exact_match": 0
+    },
+    "touch": {
+      "total": 8,
+      "functional_ok": 1,
+      "format_ok": 8,
+      "syntax_ok": 7,
+      "exact_match": 1
+    },
+    "wc": {
+      "total": 8,
+      "functional_ok": 2,
+      "format_ok": 8,
+      "syntax_ok": 8,
+      "exact_match": 2
+    }
+  },
+  "by_coverage": {
+    "argument": {
+      "total": 29,
+      "functional_ok": 7,
+      "format_ok": 29,
+      "syntax_ok": 28,
+      "exact_match": 1
+    },
+    "basic": {
+      "total": 18,
+      "functional_ok": 13,
+      "format_ok": 18,
+      "syntax_ok": 18,
+      "exact_match": 8
+    },
+    "composition": {
+      "total": 11,
+      "functional_ok": 5,
+      "format_ok": 11,
+      "syntax_ok": 11,
+      "exact_match": 2
+    },
+    "informal": {
+      "total": 7,
+      "functional_ok": 1,
+      "format_ok": 7,
+      "syntax_ok": 7,
+      "exact_match": 1
+    },
+    "literal_pattern": {
+      "total": 1,
+      "functional_ok": 0,
+      "format_ok": 1,
+      "syntax_ok": 1,
+      "exact_match": 0
+    },
+    "option": {
+      "total": 16,
+      "functional_ok": 3,
+      "format_ok": 16,
+      "syntax_ok": 16,
+      "exact_match": 1
+    },
+    "paraphrase": {
+      "total": 5,
+      "functional_ok": 1,
+      "format_ok": 4,
+      "syntax_ok": 5,
+      "exact_match": 1
+    },
+    "quoted_argument": {
+      "total": 25,
+      "functional_ok": 0,
+      "format_ok": 25,
+      "syntax_ok": 22,
+      "exact_match": 0
+    }
+  },
+  "by_difficulty": {
+    "unspecified": {
+      "total": 112,
+      "functional_ok": 30,
+      "format_ok": 111,
+      "syntax_ok": 108,
+      "exact_match": 14
+    }
+  },
+  "failure_reasons_by_fixture": {
+    "stdout": 96,
+    "working_directory": 24,
+    "exit_status": 110,
+    "stderr": 108,
+    "invalid_syntax": 8,
+    "filesystem": 58,
+    "timeout": 4
+  },
+  "cases": [
+    {
+      "id": "pwd-01",
+      "family": "pwd",
+      "command": "pwd",
+      "raw_completion": " pwd\n",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "/workspace\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "/workspace\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "pwd-02",
+      "family": "pwd",
+      "command": "ls",
+      "raw_completion": " ls\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "-draft.txt\nREADME.md\nUPPER.LOG\napp.log\narchive\nclient's files\nclient's plan.txt\ndirectory.log\ndirectory.py\ndocs\nempty\nempty.txt\nmy projects\nnotes.link\nnotes.txt\nnumbers.txt\nobsolete\nold.log\nreport.txt\nsrc\ntodo list.txt\nunicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "-draft.txt\nREADME.md\nUPPER.LOG\napp.log\narchive\nclient's files\nclient's plan.txt\ndirectory.log\ndirectory.py\ndocs\nempty\nempty.txt\nmy projects\nnotes.link\nnotes.txt\nnumbers.txt\nobsolete\nold.log\nreport.txt\nsrc\ntodo list.txt\nunicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "pwd-03",
+      "family": "pwd",
+      "command": "ls -a",
+      "raw_completion": " ls -a\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "-draft.txt\n.\n..\n.hidden\n.hidden-dir\nREADME.md\nUPPER.LOG\napp.log\narchive\nclient's files\nclient's plan.txt\ndirectory.log\ndirectory.py\ndocs\nempty\nempty.txt\nmy projects\nnotes.link\nnotes.txt\nnumbers.txt\nobsolete\nold.log\nreport.txt\nsrc\ntodo list.txt\nunicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "-draft.txt\n.\n..\n.hidden\n.hidden-dir\nREADME.md\nUPPER.LOG\napp.log\narchive\nclient's files\nclient's plan.txt\ndirectory.log\ndirectory.py\ndocs\nempty\nempty.txt\nmy projects\nnotes.link\nnotes.txt\nnumbers.txt\nobsolete\nold.log\nreport.txt\nsrc\ntodo list.txt\nunicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "pwd-04",
+      "family": "pwd",
+      "command": "cd",
+      "raw_completion": " cd\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "working_directory",
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/home/shellm"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "working_directory",
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/home/shellm"
+        }
+      ]
+    },
+    {
+      "id": "pwd-05",
+      "family": "pwd",
+      "command": "pwd",
+      "raw_completion": " pwd\n",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "/workspace\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "/workspace\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "pwd-06",
+      "family": "pwd",
+      "command": "cd /home/username",
+      "raw_completion": " cd /home/username\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "shellbench: line 1: cd: /home/username: No such file or directory\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "shellbench: line 1: cd: /home/username: No such file or directory\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "pwd-07",
+      "family": "pwd",
+      "command": "`ls -l`",
+      "raw_completion": " `ls -l`\n",
+      "format_ok": false,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: total: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: total: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "pwd-08",
+      "family": "pwd",
+      "command": "cd",
+      "raw_completion": " cd\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "working_directory",
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/home/shellm"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "working_directory",
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/home/shellm"
+        }
+      ]
+    },
+    {
+      "id": "cd-01",
+      "family": "cd",
+      "command": "cd /",
+      "raw_completion": " cd /\n",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/"
+        }
+      ]
+    },
+    {
+      "id": "cd-02",
+      "family": "cd",
+      "command": "cd",
+      "raw_completion": " cd\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/home/shellm"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/home/shellm"
+        }
+      ]
+    },
+    {
+      "id": "cd-03",
+      "family": "cd",
+      "command": "cd",
+      "raw_completion": " cd\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "working_directory"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/home/shellm"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "working_directory"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/home/shellm"
+        }
+      ]
+    },
+    {
+      "id": "cd-04",
+      "family": "cd",
+      "command": "cd docs",
+      "raw_completion": " cd docs\n",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace/docs"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace/docs"
+        }
+      ]
+    },
+    {
+      "id": "cd-05",
+      "family": "cd",
+      "command": "git checkout -b /workspace/src",
+      "raw_completion": " git checkout -b /workspace/src\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "working_directory",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: git: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "working_directory",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: git: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cd-06",
+      "family": "cd",
+      "command": "cd my projects",
+      "raw_completion": " cd my projects\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "working_directory",
+            "stderr"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "shellbench: line 1: cd: too many arguments\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "working_directory",
+            "stderr"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "shellbench: line 1: cd: too many arguments\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cd-07",
+      "family": "cd",
+      "command": "mv client's files folder",
+      "raw_completion": " mv client's files folder\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": false,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "invalid_syntax",
+            "exit_status",
+            "working_directory",
+            "stderr"
+          ],
+          "returncode": 2,
+          "stdout": "",
+          "stderr": "bash: -c: line 1: unexpected EOF while looking for matching `''\n",
+          "cwd": null
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "invalid_syntax",
+            "exit_status",
+            "working_directory",
+            "stderr"
+          ],
+          "returncode": 2,
+          "stdout": "",
+          "stderr": "bash: -c: line 1: unexpected EOF while looking for matching `''\n",
+          "cwd": null
+        }
+      ]
+    },
+    {
+      "id": "cd-08",
+      "family": "cd",
+      "command": "take me into the archive folder",
+      "raw_completion": " take me into the archive folder\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "working_directory",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: take: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "working_directory",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: take: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "ls-01",
+      "family": "ls",
+      "command": "ls",
+      "raw_completion": " ls\n",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "-draft.txt\nREADME.md\nUPPER.LOG\napp.log\narchive\nclient's files\nclient's plan.txt\ndirectory.log\ndirectory.py\ndocs\nempty\nempty.txt\nmy projects\nnotes.link\nnotes.txt\nnumbers.txt\nobsolete\nold.log\nreport.txt\nsrc\ntodo list.txt\nunicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "-draft.txt\nREADME.md\nUPPER.LOG\napp.log\narchive\nclient's files\nclient's plan.txt\ndirectory.log\ndirectory.py\ndocs\nempty\nempty.txt\nmy projects\nnotes.link\nnotes.txt\nnumbers.txt\nobsolete\nold.log\nreport.txt\nsrc\ntodo list.txt\nunicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "ls-02",
+      "family": "ls",
+      "command": "git clone https://github.com/username/dotfiles.git",
+      "raw_completion": " git clone https://github.com/username/dotfiles.git\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: git: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: git: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "ls-03",
+      "family": "ls",
+      "command": "show directory",
+      "raw_completion": " show directory\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: show: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: show: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "ls-04",
+      "family": "ls",
+      "command": "list all entries including hidden ones with detailed information",
+      "raw_completion": " list all entries including hidden ones with detailed information\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: list: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: list: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "ls-05",
+      "family": "ls",
+      "command": "list",
+      "raw_completion": " list\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: list: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: list: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "ls-06",
+      "family": "ls",
+      "command": "ls -l",
+      "raw_completion": " ls -l\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "total 44\n-rw-r--r-- 1 shellm shellm   6 Nov 14  2023 -draft.txt\n-rw-r--r-- 1 shellm shellm 243 Nov 14  2023 README.md\n-rw-r--r-- 1 shellm shellm  16 Nov 14  2023 UPPER.LOG\n-rw-r--r-- 1 shellm shellm  10 Nov 14  2023 app.log\ndrwxr-xr-x 2 shellm shellm  60 Nov 14  2023 archive\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 client's files\n-rw-r--r-- 1 shellm shellm  16 Nov 14  2023 client's plan.txt\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 directory.log\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 directory.py\ndrwxr-xr-x 2 shellm shellm  80 Nov 14  2023 docs\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 empty\n-rw-r--r-- 1 shellm shellm   0 Nov 14  2023 empty.txt\ndrwxr-xr-x 2 shellm shellm  60 Nov 14  2023 my projects\nlrwxrwxrwx 1 shellm shellm   9 Oct  3 19:47 notes.link -> notes.txt\n-rw-r--r-- 1 shellm shellm  98 Nov 14  2023 notes.txt\n-rw-r--r-- 1 shellm shellm  42 Nov 14  2023 numbers.txt\ndrwxr-xr-x 3 shellm shellm  60 Nov 14  2023 obsolete\n-rw-r--r-- 1 shellm shellm 200 Nov 14  2023 old.log\n-rw-r--r-- 1 shellm shellm  27 Nov 14  2023 report.txt\ndrwxr-xr-x 2 shellm shellm 100 Nov 14  2023 src\n-rw-r--r-- 1 shellm shellm  28 Nov 14  2023 todo list.txt\n-rw-r--r-- 1 shellm shellm  26 Nov 14  2023 unicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "total 44\n-rw-r--r-- 1 shellm shellm   6 Nov 14  2023 -draft.txt\n-rw-r--r-- 1 shellm shellm 277 Nov 14  2023 README.md\n-rw-r--r-- 1 shellm shellm  16 Nov 14  2023 UPPER.LOG\n-rw-r--r-- 1 shellm shellm  10 Nov 14  2023 app.log\ndrwxr-xr-x 2 shellm shellm  60 Nov 14  2023 archive\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 client's files\n-rw-r--r-- 1 shellm shellm  15 Nov 14  2023 client's plan.txt\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 directory.log\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 directory.py\ndrwxr-xr-x 2 shellm shellm  80 Nov 14  2023 docs\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 empty\n-rw-r--r-- 1 shellm shellm   0 Nov 14  2023 empty.txt\ndrwxr-xr-x 2 shellm shellm  60 Nov 14  2023 my projects\nlrwxrwxrwx 1 shellm shellm   9 Oct  3 19:47 notes.link -> notes.txt\n-rw-r--r-- 1 shellm shellm 112 Nov 14  2023 notes.txt\n-rw-r--r-- 1 shellm shellm  45 Nov 14  2023 numbers.txt\ndrwxr-xr-x 3 shellm shellm  60 Nov 14  2023 obsolete\n-rw-r--r-- 1 shellm shellm 210 Nov 14  2023 old.log\n-rw-r--r-- 1 shellm shellm  41 Nov 14  2023 report.txt\ndrwxr-xr-x 2 shellm shellm 100 Nov 14  2023 src\n-rw-r--r-- 1 shellm shellm  29 Nov 14  2023 todo list.txt\n-rw-r--r-- 1 shellm shellm  26 Nov 14  2023 unicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "ls-07",
+      "family": "ls",
+      "command": "list",
+      "raw_completion": " list\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: list: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: list: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "ls-08",
+      "family": "ls",
+      "command": "list",
+      "raw_completion": " list\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: list: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: list: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mkdir-01",
+      "family": "mkdir",
+      "command": "mkdir projects",
+      "raw_completion": " mkdir projects\n",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mkdir-02",
+      "family": "mkdir",
+      "command": "mkdir /backups",
+      "raw_completion": " mkdir /backups\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "mkdir: cannot create directory '/backups': Read-only file system\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "mkdir: cannot create directory '/backups': Read-only file system\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mkdir-03",
+      "family": "mkdir",
+      "command": "mkdir project-drafts",
+      "raw_completion": " mkdir project-drafts\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "filesystem"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "filesystem"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mkdir-04",
+      "family": "mkdir",
+      "command": "make build/cache",
+      "raw_completion": " make build/cache\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: make: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: make: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mkdir-05",
+      "family": "mkdir",
+      "command": "mkdir alpha beta",
+      "raw_completion": " mkdir alpha beta\n",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mkdir-06",
+      "family": "mkdir",
+      "command": "mkdir reports",
+      "raw_completion": " mkdir reports\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "filesystem"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "filesystem"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mkdir-07",
+      "family": "mkdir",
+      "command": "mkdir -p /private",
+      "raw_completion": " mkdir -p /private\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "mkdir: cannot create directory '/private': Read-only file system\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "mkdir: cannot create directory '/private': Read-only file system\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mkdir-08",
+      "family": "mkdir",
+      "command": "mkdir -d drafts",
+      "raw_completion": " mkdir -d drafts\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "mkdir: invalid option -- 'd'\nTry 'mkdir --help' for more information.\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "mkdir: invalid option -- 'd'\nTry 'mkdir --help' for more information.\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "touch-01",
+      "family": "touch",
+      "command": "touch new.txt",
+      "raw_completion": " touch new.txt\n",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "touch-02",
+      "family": "touch",
+      "command": "touch meeting notes.txt",
+      "raw_completion": " touch meeting notes.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "filesystem"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "filesystem"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "touch-03",
+      "family": "touch",
+      "command": "mkdir docs",
+      "raw_completion": " mkdir docs\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "mkdir: cannot create directory 'docs': File exists\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "mkdir: cannot create directory 'docs': File exists\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "touch-04",
+      "family": "touch",
+      "command": "cat a.txt b.txt",
+      "raw_completion": " cat a.txt b.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "cat: a.txt: No such file or directory\ncat: b.txt: No such file or directory\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "cat: a.txt: No such file or directory\ncat: b.txt: No such file or directory\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "touch-05",
+      "family": "touch",
+      "command": "touch -new.txt",
+      "raw_completion": " touch -new.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "touch: invalid option -- 'n'\nTry 'touch --help' for more information.\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "touch: invalid option -- 'n'\nTry 'touch --help' for more information.\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "touch-06",
+      "family": "touch",
+      "command": "touch client's notes.txt",
+      "raw_completion": " touch client's notes.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": false,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "invalid_syntax",
+            "exit_status",
+            "working_directory",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 2,
+          "stdout": "",
+          "stderr": "bash: -c: line 1: unexpected EOF while looking for matching `''\n",
+          "cwd": null
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "invalid_syntax",
+            "exit_status",
+            "working_directory",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 2,
+          "stdout": "",
+          "stderr": "bash: -c: line 1: unexpected EOF while looking for matching `''\n",
+          "cwd": null
+        }
+      ]
+    },
+    {
+      "id": "touch-07",
+      "family": "touch",
+      "command": "create a new file inside archive",
+      "raw_completion": " create a new file inside archive\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: create: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: create: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "touch-08",
+      "family": "touch",
+      "command": "echo \"Hello, World!\" > scratch.txt",
+      "raw_completion": " echo \"Hello, World!\" > scratch.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "filesystem"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "filesystem"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cp-01",
+      "family": "cp",
+      "command": "cp notes.txt copy.txt",
+      "raw_completion": " cp notes.txt copy.txt\n",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cp-02",
+      "family": "cp",
+      "command": "cp notes.txt notes backup.txt",
+      "raw_completion": " cp notes.txt notes backup.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "cp: target 'backup.txt': No such file or directory\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "cp: target 'backup.txt': No such file or directory\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cp-03",
+      "family": "cp",
+      "command": "git clone https://github.com/username/docs-copy.git",
+      "raw_completion": " git clone https://github.com/username/docs-copy.git\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: git: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: git: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cp-04",
+      "family": "cp",
+      "command": "git add src/main.py",
+      "raw_completion": " git add src/main.py\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: git: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: git: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cp-05",
+      "family": "cp",
+      "command": "git add docs/intro.md",
+      "raw_completion": " git add docs/intro.md\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: git: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: git: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cp-06",
+      "family": "cp",
+      "command": "cp notes.txt report.txt archive",
+      "raw_completion": " cp notes.txt report.txt archive\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cp-07",
+      "family": "cp",
+      "command": "cp -draft.txt draft-copy.txt",
+      "raw_completion": " cp -draft.txt draft-copy.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "cp: target directory '.txt': No such file or directory\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "cp: target directory '.txt': No such file or directory\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cp-08",
+      "family": "cp",
+      "command": "cp plan.txt plan-copy.txt",
+      "raw_completion": " cp plan.txt plan-copy.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "cp: cannot stat 'plan.txt': No such file or directory\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "cp: cannot stat 'plan.txt': No such file or directory\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mv-01",
+      "family": "mv",
+      "command": "mv notes.txt renamed.txt",
+      "raw_completion": " mv notes.txt renamed.txt\n",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mv-02",
+      "family": "mv",
+      "command": "rename notes.txt meeting notes.txt",
+      "raw_completion": " rename notes.txt meeting notes.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: rename: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: rename: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mv-03",
+      "family": "mv",
+      "command": "mv report.txt archive",
+      "raw_completion": " mv report.txt archive\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mv-04",
+      "family": "mv",
+      "command": "git mv docs docs-docs",
+      "raw_completion": " git mv docs docs-docs\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: git: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: git: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mv-05",
+      "family": "mv",
+      "command": "mv notes.txt report.txt archive",
+      "raw_completion": " mv notes.txt report.txt archive\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mv-06",
+      "family": "mv",
+      "command": "rename -draft.txt draft.txt",
+      "raw_completion": " rename -draft.txt draft.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: rename: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: rename: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mv-07",
+      "family": "mv",
+      "command": "mv plan.txt archive/plan.txt",
+      "raw_completion": " mv plan.txt archive/plan.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "mv: cannot stat 'plan.txt': No such file or directory\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "mv: cannot stat 'plan.txt': No such file or directory\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mv-08",
+      "family": "mv",
+      "command": "git add src/main.py",
+      "raw_completion": " git add src/main.py\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: git: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: git: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "rm-01",
+      "family": "rm",
+      "command": "rm -rf old.log",
+      "raw_completion": " rm -rf old.log\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "rm-02",
+      "family": "rm",
+      "command": "rm -rf old.log app.log",
+      "raw_completion": " rm -rf old.log app.log\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "rm-03",
+      "family": "rm",
+      "command": "rm todo list.txt",
+      "raw_completion": " rm todo list.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "rm: cannot remove 'todo': No such file or directory\nrm: cannot remove 'list.txt': No such file or directory\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "rm: cannot remove 'todo': No such file or directory\nrm: cannot remove 'list.txt': No such file or directory\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "rm-04",
+      "family": "rm",
+      "command": "rm -rf docs/old.log",
+      "raw_completion": " rm -rf docs/old.log\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "rm-05",
+      "family": "rm",
+      "command": "rm -rf /path/to/obsolete/directory",
+      "raw_completion": " rm -rf /path/to/obsolete/directory\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "filesystem"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "filesystem"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "rm-06",
+      "family": "rm",
+      "command": "rm -draft.txt",
+      "raw_completion": " rm -draft.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "rm: invalid option -- 'a'\nTry 'rm ./-draft.txt' to remove the file '-draft.txt'.\nTry 'rm --help' for more information.\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "rm: invalid option -- 'a'\nTry 'rm ./-draft.txt' to remove the file '-draft.txt'.\nTry 'rm --help' for more information.\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "rm-07",
+      "family": "rm",
+      "command": "rm plan.txt",
+      "raw_completion": " rm plan.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "rm: cannot remove 'plan.txt': No such file or directory\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "rm: cannot remove 'plan.txt': No such file or directory\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "rm-08",
+      "family": "rm",
+      "command": "git rm src/helper.py",
+      "raw_completion": " git rm src/helper.py\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: git: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: git: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cat-01",
+      "family": "cat",
+      "command": "cat notes.txt",
+      "raw_completion": " cat notes.txt\n",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "hello amber\nTODO: review this\na.b literal\naxb decoy\ntodo: lowercase\ndone\nextra amber\nextra violet\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "hello cobalt\nTODO: review this\na.b literal\naxb decoy\ntodo: lowercase\ndone\nextra cobalt\nextra silver\nextra green\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cat-02",
+      "family": "cat",
+      "command": "git add README.md",
+      "raw_completion": " git add README.md\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: git: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: git: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cat-03",
+      "family": "cat",
+      "command": "ls todo list.txt",
+      "raw_completion": " ls todo list.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 2,
+          "stdout": "",
+          "stderr": "ls: cannot access 'todo': No such file or directory\nls: cannot access 'list.txt': No such file or directory\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 2,
+          "stdout": "",
+          "stderr": "ls: cannot access 'todo': No such file or directory\nls: cannot access 'list.txt': No such file or directory\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cat-04",
+      "family": "cat",
+      "command": "print notes.txt report.txt",
+      "raw_completion": " print notes.txt report.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: print: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: print: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cat-05",
+      "family": "cat",
+      "command": "display the file named -draft.txt",
+      "raw_completion": " display the file named -draft.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: display: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: display: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cat-06",
+      "family": "cat",
+      "command": "print client's plan.txt",
+      "raw_completion": " print client's plan.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": false,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "invalid_syntax",
+            "exit_status",
+            "working_directory",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 2,
+          "stdout": "",
+          "stderr": "bash: -c: line 1: unexpected EOF while looking for matching `''\n",
+          "cwd": null
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "invalid_syntax",
+            "exit_status",
+            "working_directory",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 2,
+          "stdout": "",
+          "stderr": "bash: -c: line 1: unexpected EOF while looking for matching `''\n",
+          "cwd": null
+        }
+      ]
+    },
+    {
+      "id": "cat-07",
+      "family": "cat",
+      "command": "show the text in docs/intro.md",
+      "raw_completion": " show the text in docs/intro.md\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: show: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: show: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cat-08",
+      "family": "cat",
+      "command": "print unicode.txt > /dev/stdout",
+      "raw_completion": " print unicode.txt > /dev/stdout\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: print: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: print: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "head-01",
+      "family": "head",
+      "command": "git log --pretty=oneline --abbrev-commit --all",
+      "raw_completion": " git log --pretty=oneline --abbrev-commit --all\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: git: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: git: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "head-02",
+      "family": "head",
+      "command": "cat notes.txt",
+      "raw_completion": " cat notes.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "hello amber\nTODO: review this\na.b literal\naxb decoy\ntodo: lowercase\ndone\nextra amber\nextra violet\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "hello cobalt\nTODO: review this\na.b literal\naxb decoy\ntodo: lowercase\ndone\nextra cobalt\nextra silver\nextra green\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "head-03",
+      "family": "head",
+      "command": "cat numbers.txt | head -10",
+      "raw_completion": " cat numbers.txt | head -10\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "head-04",
+      "family": "head",
+      "command": "cat report.txt | head -1",
+      "raw_completion": " cat report.txt | head -1\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "row 1: amber\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "row 1: cobalt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "head-05",
+      "family": "head",
+      "command": "python3 todo_list.py",
+      "raw_completion": " python3 todo_list.py\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 2,
+          "stdout": "",
+          "stderr": "python3: can't open file '/workspace/todo_list.py': [Errno 2] No such file or directory\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 2,
+          "stdout": "",
+          "stderr": "python3: can't open file '/workspace/todo_list.py': [Errno 2] No such file or directory\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "head-06",
+      "family": "head",
+      "command": "cat notes.txt",
+      "raw_completion": " cat notes.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "hello amber\nTODO: review this\na.b literal\naxb decoy\ntodo: lowercase\ndone\nextra amber\nextra violet\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "hello cobalt\nTODO: review this\na.b literal\naxb decoy\ntodo: lowercase\ndone\nextra cobalt\nextra silver\nextra green\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "head-07",
+      "family": "head",
+      "command": "echo -e \"\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n",
+      "raw_completion": " echo -e \"\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": false,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "invalid_syntax",
+            "exit_status",
+            "working_directory",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 2,
+          "stdout": "",
+          "stderr": "bash: -c: line 1: unexpected EOF while looking for matching `\"'\n",
+          "cwd": null
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "invalid_syntax",
+            "exit_status",
+            "working_directory",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 2,
+          "stdout": "",
+          "stderr": "bash: -c: line 1: unexpected EOF while looking for matching `\"'\n",
+          "cwd": null
+        }
+      ]
+    },
+    {
+      "id": "head-08",
+      "family": "head",
+      "command": "python3 -m doctest numbers.txt",
+      "raw_completion": " python3 -m doctest numbers.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "tail-01",
+      "family": "tail",
+      "command": "cat README.md | tail -n 5",
+      "raw_completion": " cat README.md | tail -n 5\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "readme line 8 amber\nreadme line 9 amber\nreadme line 10 amber\nreadme line 11 amber\nreadme line 12 amber\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "readme line 9 cobalt\nreadme line 10 cobalt\nreadme line 11 cobalt\nreadme line 12 cobalt\nreadme line 13 cobalt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "tail-02",
+      "family": "tail",
+      "command": "cat notes.txt | tail -2",
+      "raw_completion": " cat notes.txt | tail -2\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "extra amber\nextra violet\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "extra silver\nextra green\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "tail-03",
+      "family": "tail",
+      "command": "cat numbers.txt | tail -n 10",
+      "raw_completion": " cat numbers.txt | tail -n 10\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "tail-04",
+      "family": "tail",
+      "command": "cat report.txt | tail -n 1",
+      "raw_completion": " cat report.txt | tail -n 1\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "row 2: violet\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "row 3: green\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "tail-05",
+      "family": "tail",
+      "command": "python3 todo_list.py",
+      "raw_completion": " python3 todo_list.py\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 2,
+          "stdout": "",
+          "stderr": "python3: can't open file '/workspace/todo_list.py': [Errno 2] No such file or directory\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 2,
+          "stdout": "",
+          "stderr": "python3: can't open file '/workspace/todo_list.py': [Errno 2] No such file or directory\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "tail-06",
+      "family": "tail",
+      "command": "cat notes.txt | tail -4",
+      "raw_completion": " cat notes.txt | tail -4\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "todo: lowercase\ndone\nextra amber\nextra violet\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "done\nextra cobalt\nextra silver\nextra green\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "tail-07",
+      "family": "tail",
+      "command": "cat README.md | tail -7",
+      "raw_completion": " cat README.md | tail -7\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "readme line 6 amber\nreadme line 7 amber\nreadme line 8 amber\nreadme line 9 amber\nreadme line 10 amber\nreadme line 11 amber\nreadme line 12 amber\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "readme line 7 cobalt\nreadme line 8 cobalt\nreadme line 9 cobalt\nreadme line 10 cobalt\nreadme line 11 cobalt\nreadme line 12 cobalt\nreadme line 13 cobalt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "tail-08",
+      "family": "tail",
+      "command": "python3 -m pip install pandas",
+      "raw_completion": " python3 -m pip install pandas\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "timeout",
+            "exit_status",
+            "working_directory",
+            "stdout"
+          ],
+          "returncode": -9,
+          "stdout": "",
+          "stderr": "",
+          "cwd": ""
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "timeout",
+            "exit_status",
+            "working_directory",
+            "stdout"
+          ],
+          "returncode": -9,
+          "stdout": "Defaulting to user installation because normal site-packages is not writeable\n",
+          "stderr": "",
+          "cwd": ""
+        }
+      ]
+    },
+    {
+      "id": "wc-01",
+      "family": "wc",
+      "command": "count report.txt",
+      "raw_completion": " count report.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: count: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: count: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "wc-02",
+      "family": "wc",
+      "command": "python3 count_words.py notes.txt",
+      "raw_completion": " python3 count_words.py notes.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 2,
+          "stdout": "",
+          "stderr": "python3: can't open file '/workspace/count_words.py': [Errno 2] No such file or directory\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 2,
+          "stdout": "",
+          "stderr": "python3: can't open file '/workspace/count_words.py': [Errno 2] No such file or directory\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "wc-03",
+      "family": "wc",
+      "command": "wc -c unicode.txt",
+      "raw_completion": " wc -c unicode.txt\n",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "26 unicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "26 unicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "wc-04",
+      "family": "wc",
+      "command": "ls -l",
+      "raw_completion": " ls -l\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "total 44\n-rw-r--r-- 1 shellm shellm   6 Nov 14  2023 -draft.txt\n-rw-r--r-- 1 shellm shellm 243 Nov 14  2023 README.md\n-rw-r--r-- 1 shellm shellm  16 Nov 14  2023 UPPER.LOG\n-rw-r--r-- 1 shellm shellm  10 Nov 14  2023 app.log\ndrwxr-xr-x 2 shellm shellm  60 Nov 14  2023 archive\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 client's files\n-rw-r--r-- 1 shellm shellm  16 Nov 14  2023 client's plan.txt\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 directory.log\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 directory.py\ndrwxr-xr-x 2 shellm shellm  80 Nov 14  2023 docs\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 empty\n-rw-r--r-- 1 shellm shellm   0 Nov 14  2023 empty.txt\ndrwxr-xr-x 2 shellm shellm  60 Nov 14  2023 my projects\nlrwxrwxrwx 1 shellm shellm   9 Oct  3 19:47 notes.link -> notes.txt\n-rw-r--r-- 1 shellm shellm  98 Nov 14  2023 notes.txt\n-rw-r--r-- 1 shellm shellm  42 Nov 14  2023 numbers.txt\ndrwxr-xr-x 3 shellm shellm  60 Nov 14  2023 obsolete\n-rw-r--r-- 1 shellm shellm 200 Nov 14  2023 old.log\n-rw-r--r-- 1 shellm shellm  27 Nov 14  2023 report.txt\ndrwxr-xr-x 2 shellm shellm 100 Nov 14  2023 src\n-rw-r--r-- 1 shellm shellm  28 Nov 14  2023 todo list.txt\n-rw-r--r-- 1 shellm shellm  26 Nov 14  2023 unicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "total 44\n-rw-r--r-- 1 shellm shellm   6 Nov 14  2023 -draft.txt\n-rw-r--r-- 1 shellm shellm 277 Nov 14  2023 README.md\n-rw-r--r-- 1 shellm shellm  16 Nov 14  2023 UPPER.LOG\n-rw-r--r-- 1 shellm shellm  10 Nov 14  2023 app.log\ndrwxr-xr-x 2 shellm shellm  60 Nov 14  2023 archive\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 client's files\n-rw-r--r-- 1 shellm shellm  15 Nov 14  2023 client's plan.txt\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 directory.log\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 directory.py\ndrwxr-xr-x 2 shellm shellm  80 Nov 14  2023 docs\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 empty\n-rw-r--r-- 1 shellm shellm   0 Nov 14  2023 empty.txt\ndrwxr-xr-x 2 shellm shellm  60 Nov 14  2023 my projects\nlrwxrwxrwx 1 shellm shellm   9 Oct  3 19:47 notes.link -> notes.txt\n-rw-r--r-- 1 shellm shellm 112 Nov 14  2023 notes.txt\n-rw-r--r-- 1 shellm shellm  45 Nov 14  2023 numbers.txt\ndrwxr-xr-x 3 shellm shellm  60 Nov 14  2023 obsolete\n-rw-r--r-- 1 shellm shellm 210 Nov 14  2023 old.log\n-rw-r--r-- 1 shellm shellm  41 Nov 14  2023 report.txt\ndrwxr-xr-x 2 shellm shellm 100 Nov 14  2023 src\n-rw-r--r-- 1 shellm shellm  29 Nov 14  2023 todo list.txt\n-rw-r--r-- 1 shellm shellm  26 Nov 14  2023 unicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "wc-05",
+      "family": "wc",
+      "command": "ls -l",
+      "raw_completion": " ls -l\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "total 44\n-rw-r--r-- 1 shellm shellm   6 Nov 14  2023 -draft.txt\n-rw-r--r-- 1 shellm shellm 243 Nov 14  2023 README.md\n-rw-r--r-- 1 shellm shellm  16 Nov 14  2023 UPPER.LOG\n-rw-r--r-- 1 shellm shellm  10 Nov 14  2023 app.log\ndrwxr-xr-x 2 shellm shellm  60 Nov 14  2023 archive\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 client's files\n-rw-r--r-- 1 shellm shellm  16 Nov 14  2023 client's plan.txt\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 directory.log\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 directory.py\ndrwxr-xr-x 2 shellm shellm  80 Nov 14  2023 docs\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 empty\n-rw-r--r-- 1 shellm shellm   0 Nov 14  2023 empty.txt\ndrwxr-xr-x 2 shellm shellm  60 Nov 14  2023 my projects\nlrwxrwxrwx 1 shellm shellm   9 Oct  3 19:47 notes.link -> notes.txt\n-rw-r--r-- 1 shellm shellm  98 Nov 14  2023 notes.txt\n-rw-r--r-- 1 shellm shellm  42 Nov 14  2023 numbers.txt\ndrwxr-xr-x 3 shellm shellm  60 Nov 14  2023 obsolete\n-rw-r--r-- 1 shellm shellm 200 Nov 14  2023 old.log\n-rw-r--r-- 1 shellm shellm  27 Nov 14  2023 report.txt\ndrwxr-xr-x 2 shellm shellm 100 Nov 14  2023 src\n-rw-r--r-- 1 shellm shellm  28 Nov 14  2023 todo list.txt\n-rw-r--r-- 1 shellm shellm  26 Nov 14  2023 unicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "total 44\n-rw-r--r-- 1 shellm shellm   6 Nov 14  2023 -draft.txt\n-rw-r--r-- 1 shellm shellm 277 Nov 14  2023 README.md\n-rw-r--r-- 1 shellm shellm  16 Nov 14  2023 UPPER.LOG\n-rw-r--r-- 1 shellm shellm  10 Nov 14  2023 app.log\ndrwxr-xr-x 2 shellm shellm  60 Nov 14  2023 archive\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 client's files\n-rw-r--r-- 1 shellm shellm  15 Nov 14  2023 client's plan.txt\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 directory.log\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 directory.py\ndrwxr-xr-x 2 shellm shellm  80 Nov 14  2023 docs\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 empty\n-rw-r--r-- 1 shellm shellm   0 Nov 14  2023 empty.txt\ndrwxr-xr-x 2 shellm shellm  60 Nov 14  2023 my projects\nlrwxrwxrwx 1 shellm shellm   9 Oct  3 19:47 notes.link -> notes.txt\n-rw-r--r-- 1 shellm shellm 112 Nov 14  2023 notes.txt\n-rw-r--r-- 1 shellm shellm  45 Nov 14  2023 numbers.txt\ndrwxr-xr-x 3 shellm shellm  60 Nov 14  2023 obsolete\n-rw-r--r-- 1 shellm shellm 210 Nov 14  2023 old.log\n-rw-r--r-- 1 shellm shellm  41 Nov 14  2023 report.txt\ndrwxr-xr-x 2 shellm shellm 100 Nov 14  2023 src\n-rw-r--r-- 1 shellm shellm  29 Nov 14  2023 todo list.txt\n-rw-r--r-- 1 shellm shellm  26 Nov 14  2023 unicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "wc-06",
+      "family": "wc",
+      "command": "count the words in docs/intro.md",
+      "raw_completion": " count the words in docs/intro.md\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: count: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: count: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "wc-07",
+      "family": "wc",
+      "command": "get the byte count of notes.txt",
+      "raw_completion": " get the byte count of notes.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: get: command not found\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 127,
+          "stdout": "",
+          "stderr": "shellbench: line 1: get: command not found\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "wc-08",
+      "family": "wc",
+      "command": "wc -l numbers.txt",
+      "raw_completion": " wc -l numbers.txt\n",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "17 numbers.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "18 numbers.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "grep-01",
+      "family": "grep",
+      "command": "python3 -m pip install -U pip",
+      "raw_completion": " python3 -m pip install -U pip\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "timeout",
+            "exit_status",
+            "working_directory",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": -9,
+          "stdout": "Defaulting to user installation because normal site-packages is not writeable\nRequirement already satisfied: pip in /usr/local/lib/python3.12/site-packages (25.0.1)\n",
+          "stderr": "WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x714f97e9da90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')': /simple/pip/\n",
+          "cwd": ""
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "timeout",
+            "exit_status",
+            "working_directory",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": -9,
+          "stdout": "Defaulting to user installation because normal site-packages is not writeable\nRequirement already satisfied: pip in /usr/local/lib/python3.12/site-packages (25.0.1)\n",
+          "stderr": "WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x7ae95318da90>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')': /simple/pip/\nWARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPSConnection object at 0x7ae952e92e70>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')': /simple/pip/\n",
+          "cwd": ""
+        }
+      ]
+    },
+    {
+      "id": "grep-02",
+      "family": "grep",
+      "command": "find notes.txt -name 'todo' -exec grep -i 'todo' {} \\;",
+      "raw_completion": " find notes.txt -name 'todo' -exec grep -i 'todo' {} \\;",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "grep-03",
+      "family": "grep",
+      "command": "grep -n \"TODO\" notes.txt",
+      "raw_completion": " grep -n \"TODO\" notes.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "2:TODO: review this\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "2:TODO: review this\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "grep-04",
+      "family": "grep",
+      "command": "python3 -m doctest notes.txt",
+      "raw_completion": " python3 -m doctest notes.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "grep-05",
+      "family": "grep",
+      "command": "grep -c \"TODO\" notes.txt",
+      "raw_completion": " grep -c \"TODO\" notes.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "1\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "1\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "grep-06",
+      "family": "grep",
+      "command": "grep -n \"a.b\" notes.txt",
+      "raw_completion": " grep -n \"a.b\" notes.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "1:hello amber\n3:a.b literal\n4:axb decoy\n7:extra amber\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "3:a.b literal\n4:axb decoy\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "grep-07",
+      "family": "grep",
+      "command": "ls -d TODO",
+      "raw_completion": " ls -d TODO\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 2,
+          "stdout": "",
+          "stderr": "ls: cannot access 'TODO': No such file or directory\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 2,
+          "stdout": "",
+          "stderr": "ls: cannot access 'TODO': No such file or directory\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "grep-08",
+      "family": "grep",
+      "command": "python3 -m doctest -v todo_list.txt",
+      "raw_completion": " python3 -m doctest -v todo_list.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/usr/local/lib/python3.12/doctest.py\", line 2845, in <module>\n    sys.exit(_test())\n             ^^^^^^^\n  File \"/usr/local/lib/python3.12/doctest.py\", line 2837, in _test\n    failures, _ = testfile(filename, module_relative=False,\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/doctest.py\", line 2104, in testfile\n    text, filename = _load_testfile(filename, package, module_relative,\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/doctest.py\", line 239, in _load_testfile\n    with open(filename, encoding=encoding) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'todo_list.txt'\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/usr/local/lib/python3.12/doctest.py\", line 2845, in <module>\n    sys.exit(_test())\n             ^^^^^^^\n  File \"/usr/local/lib/python3.12/doctest.py\", line 2837, in _test\n    failures, _ = testfile(filename, module_relative=False,\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/doctest.py\", line 2104, in testfile\n    text, filename = _load_testfile(filename, package, module_relative,\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.12/doctest.py\", line 239, in _load_testfile\n    with open(filename, encoding=encoding) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'todo_list.txt'\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "find-01",
+      "family": "find",
+      "command": "ls -l | grep .log",
+      "raw_completion": " ls -l | grep .log\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "-rw-r--r-- 1 shellm shellm  10 Nov 14  2023 app.log\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 directory.log\n-rw-r--r-- 1 shellm shellm 200 Nov 14  2023 old.log\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "-rw-r--r-- 1 shellm shellm  10 Nov 14  2023 app.log\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 directory.log\n-rw-r--r-- 1 shellm shellm 210 Nov 14  2023 old.log\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "find-02",
+      "family": "find",
+      "command": "ls -R docs",
+      "raw_completion": " ls -R docs\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "docs:\nintro.md\nold.log\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "docs:\nintro.md\nold.log\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "find-03",
+      "family": "find",
+      "command": "find . -name \"*.py\" -print",
+      "raw_completion": " find . -name \"*.py\" -print\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "./directory.py\n./src/helper.py\n./src/main.py\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "./directory.py\n./src/helper.py\n./src/main.py\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "find-04",
+      "family": "find",
+      "command": "ls -l | grep -v '^d'",
+      "raw_completion": " ls -l | grep -v '^d'\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "total 44\n-rw-r--r-- 1 shellm shellm   6 Nov 14  2023 -draft.txt\n-rw-r--r-- 1 shellm shellm 243 Nov 14  2023 README.md\n-rw-r--r-- 1 shellm shellm  16 Nov 14  2023 UPPER.LOG\n-rw-r--r-- 1 shellm shellm  10 Nov 14  2023 app.log\n-rw-r--r-- 1 shellm shellm  16 Nov 14  2023 client's plan.txt\n-rw-r--r-- 1 shellm shellm   0 Nov 14  2023 empty.txt\nlrwxrwxrwx 1 shellm shellm   9 Oct  3 19:48 notes.link -> notes.txt\n-rw-r--r-- 1 shellm shellm  98 Nov 14  2023 notes.txt\n-rw-r--r-- 1 shellm shellm  42 Nov 14  2023 numbers.txt\n-rw-r--r-- 1 shellm shellm 200 Nov 14  2023 old.log\n-rw-r--r-- 1 shellm shellm  27 Nov 14  2023 report.txt\n-rw-r--r-- 1 shellm shellm  28 Nov 14  2023 todo list.txt\n-rw-r--r-- 1 shellm shellm  26 Nov 14  2023 unicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "total 44\n-rw-r--r-- 1 shellm shellm   6 Nov 14  2023 -draft.txt\n-rw-r--r-- 1 shellm shellm 277 Nov 14  2023 README.md\n-rw-r--r-- 1 shellm shellm  16 Nov 14  2023 UPPER.LOG\n-rw-r--r-- 1 shellm shellm  10 Nov 14  2023 app.log\n-rw-r--r-- 1 shellm shellm  15 Nov 14  2023 client's plan.txt\n-rw-r--r-- 1 shellm shellm   0 Nov 14  2023 empty.txt\nlrwxrwxrwx 1 shellm shellm   9 Oct  3 19:48 notes.link -> notes.txt\n-rw-r--r-- 1 shellm shellm 112 Nov 14  2023 notes.txt\n-rw-r--r-- 1 shellm shellm  45 Nov 14  2023 numbers.txt\n-rw-r--r-- 1 shellm shellm 210 Nov 14  2023 old.log\n-rw-r--r-- 1 shellm shellm  41 Nov 14  2023 report.txt\n-rw-r--r-- 1 shellm shellm  29 Nov 14  2023 todo list.txt\n-rw-r--r-- 1 shellm shellm  26 Nov 14  2023 unicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "find-05",
+      "family": "find",
+      "command": "ls -R",
+      "raw_completion": " ls -R\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": ".:\n-draft.txt\nREADME.md\nUPPER.LOG\napp.log\narchive\nclient's files\nclient's plan.txt\ndirectory.log\ndirectory.py\ndocs\nempty\nempty.txt\nmy projects\nnotes.link\nnotes.txt\nnumbers.txt\nobsolete\nold.log\nreport.txt\nsrc\ntodo list.txt\nunicode.txt\n\n./archive:\nkeep.txt\n\n./client's files:\n\n./directory.log:\n\n./directory.py:\n\n./docs:\nintro.md\nold.log\n\n./empty:\n\n./my projects:\nplan.txt\n\n./obsolete:\nnested\n\n./obsolete/nested:\nkeep.txt\n\n./src:\nhelper.py\nmain.log\nmain.py\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": ".:\n-draft.txt\nREADME.md\nUPPER.LOG\napp.log\narchive\nclient's files\nclient's plan.txt\ndirectory.log\ndirectory.py\ndocs\nempty\nempty.txt\nmy projects\nnotes.link\nnotes.txt\nnumbers.txt\nobsolete\nold.log\nreport.txt\nsrc\ntodo list.txt\nunicode.txt\n\n./archive:\nkeep.txt\n\n./client's files:\n\n./directory.log:\n\n./directory.py:\n\n./docs:\nintro.md\nold.log\n\n./empty:\n\n./my projects:\nplan.txt\n\n./obsolete:\nnested\n\n./obsolete/nested:\nkeep.txt\n\n./src:\nhelper.py\nmain.log\nmain.py\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "find-06",
+      "family": "find",
+      "command": "find . -name todo_list.txt",
+      "raw_completion": " find . -name todo_list.txt\n",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "find-07",
+      "family": "find",
+      "command": "find . -type f -empty",
+      "raw_completion": " find . -type f -empty\n",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "./empty.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "./empty.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "find-08",
+      "family": "find",
+      "command": "find . -type f -size +100k -exec cat {} \\;",
+      "raw_completion": " find . -type f -size +100k -exec cat {} \\;",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    }
+  ]
+}

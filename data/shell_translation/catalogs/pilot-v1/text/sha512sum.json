@@ -1,0 +1,100 @@
+[
+  {
+    "id": "pilot-v1-sha512sum-01",
+    "topic": "text",
+    "family": "sha512sum",
+    "capability": "hash-file",
+    "split": "train",
+    "intent": {
+      "op": "sha512sum",
+      "sources": [
+        "ledger.txt"
+      ]
+    },
+    "requests": [
+      "compute the SHA-512 checksum of ledger.txt",
+      "what is the SHA-512 hash of ledger.txt?",
+      "I need a SHA-512 digest of ledger.txt",
+      "how do I print the SHA-512 sum for ledger.txt?"
+    ]
+  },
+  {
+    "id": "pilot-v1-sha512sum-02",
+    "topic": "text",
+    "family": "sha512sum",
+    "capability": "verify-with-check",
+    "split": "train",
+    "intent": {
+      "op": "sha512sum",
+      "sources": [
+        "SHA512SUMS"
+      ],
+      "check": true
+    },
+    "requests": [
+      "verify the files listed in SHA512SUMS using their SHA-512 checksums",
+      "how can I check that the files in SHA512SUMS match their recorded SHA-512 hashes?",
+      "I want to confirm that each SHA-512 sum in SHA512SUMS is still valid",
+      "are the files named in SHA512SUMS unchanged according to their SHA-512 digests?"
+    ]
+  },
+  {
+    "id": "pilot-v1-sha512sum-03",
+    "topic": "text",
+    "family": "sha512sum",
+    "capability": "hash-multiple",
+    "split": "train",
+    "intent": {
+      "op": "sha512sum",
+      "sources": [
+        "data one.txt",
+        "data two.txt"
+      ]
+    },
+    "requests": [
+      "print SHA-512 hashes of data one.txt and data two.txt",
+      "what are the SHA-512 checksums for data one.txt and data two.txt?",
+      "I'd like SHA-512 digests of both data one.txt and data two.txt",
+      "how can I calculate the SHA-512 sum of each of data one.txt and data two.txt?"
+    ]
+  },
+  {
+    "id": "pilot-v1-sha512sum-04",
+    "topic": "text",
+    "family": "sha512sum",
+    "capability": "hash-file",
+    "split": "train",
+    "intent": {
+      "op": "sha512sum",
+      "sources": [
+        "-old-ledger.txt"
+      ]
+    },
+    "requests": [
+      "calculate the SHA-512 fingerprint of the file -old-ledger.txt",
+      "tell me the SHA-512 hash of -old-ledger.txt",
+      "I want the SHA-512 checksum for -old-ledger.txt",
+      "how do I get a SHA-512 digest for -old-ledger.txt?"
+    ]
+  },
+  {
+    "id": "pilot-v1-sha512sum-05",
+    "topic": "text",
+    "family": "sha512sum",
+    "capability": "hash-multiple",
+    "split": "validation",
+    "intent": {
+      "op": "sha512sum",
+      "sources": [
+        "tundra-ledger.txt",
+        "zephyr-ledger.txt"
+      ]
+    },
+    "requests": [
+      "could you hash tundra-ledger.txt and zephyr-ledger.txt with SHA-512?",
+      "generate SHA-512 checksums for tundra-ledger.txt as well as zephyr-ledger.txt",
+      "which SHA-512 digests do tundra-ledger.txt and zephyr-ledger.txt have?",
+      "list the SHA-512 sum of tundra-ledger.txt followed by that of zephyr-ledger.txt"
+    ]
+  }
+]

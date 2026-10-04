@@ -1,0 +1,3643 @@
+{
+  "date": "2026-10-03T21:49:39.010108+02:00",
+  "suite": "shellbench-v1",
+  "image_id": "sha256:66da86ce8a79e4847adee80e063b5bea9e9d4b1d457caec2c62084d9055a4068",
+  "suite_sha256": "0b0ad3c730398c7473e0f40e99ee1588e497c1cbf1c3df1c906466177240240c",
+  "evaluator_sha256": "03354020b993318471dfc2a3fb85d5d505546ae958d3620439a5d173bbd38cad",
+  "predictions_sha256": "50b32d7cb78d42857a8085f679f426c8b1ab10c12025feab85be3ed9ffaaff78",
+  "fixtures": 2,
+  "summary": {
+    "functional_ok": 95,
+    "format_ok": 112,
+    "syntax_ok": 112,
+    "exact_match": 82,
+    "usable": 95,
+    "total": 112
+  },
+  "by_family": {
+    "cat": {
+      "total": 8,
+      "functional_ok": 7,
+      "format_ok": 8,
+      "syntax_ok": 8,
+      "exact_match": 7
+    },
+    "cd": {
+      "total": 8,
+      "functional_ok": 7,
+      "format_ok": 8,
+      "syntax_ok": 8,
+      "exact_match": 7
+    },
+    "cp": {
+      "total": 8,
+      "functional_ok": 7,
+      "format_ok": 8,
+      "syntax_ok": 8,
+      "exact_match": 4
+    },
+    "find": {
+      "total": 8,
+      "functional_ok": 4,
+      "format_ok": 8,
+      "syntax_ok": 8,
+      "exact_match": 4
+    },
+    "grep": {
+      "total": 8,
+      "functional_ok": 5,
+      "format_ok": 8,
+      "syntax_ok": 8,
+      "exact_match": 0
+    },
+    "head": {
+      "total": 8,
+      "functional_ok": 8,
+      "format_ok": 8,
+      "syntax_ok": 8,
+      "exact_match": 8
+    },
+    "ls": {
+      "total": 8,
+      "functional_ok": 6,
+      "format_ok": 8,
+      "syntax_ok": 8,
+      "exact_match": 6
+    },
+    "mkdir": {
+      "total": 8,
+      "functional_ok": 8,
+      "format_ok": 8,
+      "syntax_ok": 8,
+      "exact_match": 7
+    },
+    "mv": {
+      "total": 8,
+      "functional_ok": 7,
+      "format_ok": 8,
+      "syntax_ok": 8,
+      "exact_match": 4
+    },
+    "pwd": {
+      "total": 8,
+      "functional_ok": 8,
+      "format_ok": 8,
+      "syntax_ok": 8,
+      "exact_match": 8
+    },
+    "rm": {
+      "total": 8,
+      "functional_ok": 8,
+      "format_ok": 8,
+      "syntax_ok": 8,
+      "exact_match": 7
+    },
+    "tail": {
+      "total": 8,
+      "functional_ok": 7,
+      "format_ok": 8,
+      "syntax_ok": 8,
+      "exact_match": 7
+    },
+    "touch": {
+      "total": 8,
+      "functional_ok": 5,
+      "format_ok": 8,
+      "syntax_ok": 8,
+      "exact_match": 5
+    },
+    "wc": {
+      "total": 8,
+      "functional_ok": 8,
+      "format_ok": 8,
+      "syntax_ok": 8,
+      "exact_match": 8
+    }
+  },
+  "by_coverage": {
+    "argument": {
+      "total": 29,
+      "functional_ok": 27,
+      "format_ok": 29,
+      "syntax_ok": 29,
+      "exact_match": 24
+    },
+    "basic": {
+      "total": 18,
+      "functional_ok": 16,
+      "format_ok": 18,
+      "syntax_ok": 18,
+      "exact_match": 14
+    },
+    "composition": {
+      "total": 11,
+      "functional_ok": 7,
+      "format_ok": 11,
+      "syntax_ok": 11,
+      "exact_match": 5
+    },
+    "informal": {
+      "total": 7,
+      "functional_ok": 6,
+      "format_ok": 7,
+      "syntax_ok": 7,
+      "exact_match": 6
+    },
+    "literal_pattern": {
+      "total": 1,
+      "functional_ok": 1,
+      "format_ok": 1,
+      "syntax_ok": 1,
+      "exact_match": 0
+    },
+    "option": {
+      "total": 16,
+      "functional_ok": 11,
+      "format_ok": 16,
+      "syntax_ok": 16,
+      "exact_match": 9
+    },
+    "paraphrase": {
+      "total": 5,
+      "functional_ok": 5,
+      "format_ok": 5,
+      "syntax_ok": 5,
+      "exact_match": 5
+    },
+    "quoted_argument": {
+      "total": 25,
+      "functional_ok": 22,
+      "format_ok": 25,
+      "syntax_ok": 25,
+      "exact_match": 19
+    }
+  },
+  "by_difficulty": {
+    "unspecified": {
+      "total": 112,
+      "functional_ok": 95,
+      "format_ok": 112,
+      "syntax_ok": 112,
+      "exact_match": 82
+    }
+  },
+  "failure_reasons_by_fixture": {
+    "working_directory": 2,
+    "stdout": 22,
+    "filesystem": 12,
+    "exit_status": 10,
+    "stderr": 10
+  },
+  "cases": [
+    {
+      "id": "pwd-01",
+      "family": "pwd",
+      "command": "pwd",
+      "raw_completion": " pwd",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "/workspace\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "/workspace\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "pwd-02",
+      "family": "pwd",
+      "command": "pwd",
+      "raw_completion": " pwd",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "/workspace\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "/workspace\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "pwd-03",
+      "family": "pwd",
+      "command": "pwd",
+      "raw_completion": " pwd",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "/workspace\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "/workspace\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "pwd-04",
+      "family": "pwd",
+      "command": "pwd",
+      "raw_completion": " pwd",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "/workspace\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "/workspace\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "pwd-05",
+      "family": "pwd",
+      "command": "pwd",
+      "raw_completion": " pwd",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "/workspace\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "/workspace\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "pwd-06",
+      "family": "pwd",
+      "command": "pwd",
+      "raw_completion": " pwd",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "/workspace\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "/workspace\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "pwd-07",
+      "family": "pwd",
+      "command": "pwd",
+      "raw_completion": " pwd",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "/workspace\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "/workspace\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "pwd-08",
+      "family": "pwd",
+      "command": "pwd",
+      "raw_completion": " pwd",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "/workspace\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "/workspace\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cd-01",
+      "family": "cd",
+      "command": "cd /",
+      "raw_completion": " cd /",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/"
+        }
+      ]
+    },
+    {
+      "id": "cd-02",
+      "family": "cd",
+      "command": "cd /",
+      "raw_completion": " cd /",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "working_directory"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "working_directory"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/"
+        }
+      ]
+    },
+    {
+      "id": "cd-03",
+      "family": "cd",
+      "command": "cd ..",
+      "raw_completion": " cd ..",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/"
+        }
+      ]
+    },
+    {
+      "id": "cd-04",
+      "family": "cd",
+      "command": "cd docs",
+      "raw_completion": " cd docs",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace/docs"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace/docs"
+        }
+      ]
+    },
+    {
+      "id": "cd-05",
+      "family": "cd",
+      "command": "cd /workspace/src",
+      "raw_completion": " cd /workspace/src",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace/src"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace/src"
+        }
+      ]
+    },
+    {
+      "id": "cd-06",
+      "family": "cd",
+      "command": "cd 'my projects'",
+      "raw_completion": " cd 'my projects'",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace/my projects"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace/my projects"
+        }
+      ]
+    },
+    {
+      "id": "cd-07",
+      "family": "cd",
+      "command": "cd \"client's files\"",
+      "raw_completion": " cd \"client's files\"",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace/client's files"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace/client's files"
+        }
+      ]
+    },
+    {
+      "id": "cd-08",
+      "family": "cd",
+      "command": "cd archive",
+      "raw_completion": " cd archive",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace/archive"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace/archive"
+        }
+      ]
+    },
+    {
+      "id": "ls-01",
+      "family": "ls",
+      "command": "ls",
+      "raw_completion": " ls",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "-draft.txt\nREADME.md\nUPPER.LOG\napp.log\narchive\nclient's files\nclient's plan.txt\ndirectory.log\ndirectory.py\ndocs\nempty\nempty.txt\nmy projects\nnotes.link\nnotes.txt\nnumbers.txt\nobsolete\nold.log\nreport.txt\nsrc\ntodo list.txt\nunicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "-draft.txt\nREADME.md\nUPPER.LOG\napp.log\narchive\nclient's files\nclient's plan.txt\ndirectory.log\ndirectory.py\ndocs\nempty\nempty.txt\nmy projects\nnotes.link\nnotes.txt\nnumbers.txt\nobsolete\nold.log\nreport.txt\nsrc\ntodo list.txt\nunicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "ls-02",
+      "family": "ls",
+      "command": "ls -a",
+      "raw_completion": " ls -a",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "-draft.txt\n.\n..\n.hidden\n.hidden-dir\nREADME.md\nUPPER.LOG\napp.log\narchive\nclient's files\nclient's plan.txt\ndirectory.log\ndirectory.py\ndocs\nempty\nempty.txt\nmy projects\nnotes.link\nnotes.txt\nnumbers.txt\nobsolete\nold.log\nreport.txt\nsrc\ntodo list.txt\nunicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "-draft.txt\n.\n..\n.hidden\n.hidden-dir\nREADME.md\nUPPER.LOG\napp.log\narchive\nclient's files\nclient's plan.txt\ndirectory.log\ndirectory.py\ndocs\nempty\nempty.txt\nmy projects\nnotes.link\nnotes.txt\nnumbers.txt\nobsolete\nold.log\nreport.txt\nsrc\ntodo list.txt\nunicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "ls-03",
+      "family": "ls",
+      "command": "ls -l",
+      "raw_completion": " ls -l",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "total 44\n-rw-r--r-- 1 shellm shellm   6 Nov 14  2023 -draft.txt\n-rw-r--r-- 1 shellm shellm 243 Nov 14  2023 README.md\n-rw-r--r-- 1 shellm shellm  16 Nov 14  2023 UPPER.LOG\n-rw-r--r-- 1 shellm shellm  10 Nov 14  2023 app.log\ndrwxr-xr-x 2 shellm shellm  60 Nov 14  2023 archive\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 client's files\n-rw-r--r-- 1 shellm shellm  16 Nov 14  2023 client's plan.txt\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 directory.log\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 directory.py\ndrwxr-xr-x 2 shellm shellm  80 Nov 14  2023 docs\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 empty\n-rw-r--r-- 1 shellm shellm   0 Nov 14  2023 empty.txt\ndrwxr-xr-x 2 shellm shellm  60 Nov 14  2023 my projects\nlrwxrwxrwx 1 shellm shellm   9 Oct  3 19:48 notes.link -> notes.txt\n-rw-r--r-- 1 shellm shellm  98 Nov 14  2023 notes.txt\n-rw-r--r-- 1 shellm shellm  42 Nov 14  2023 numbers.txt\ndrwxr-xr-x 3 shellm shellm  60 Nov 14  2023 obsolete\n-rw-r--r-- 1 shellm shellm 200 Nov 14  2023 old.log\n-rw-r--r-- 1 shellm shellm  27 Nov 14  2023 report.txt\ndrwxr-xr-x 2 shellm shellm 100 Nov 14  2023 src\n-rw-r--r-- 1 shellm shellm  28 Nov 14  2023 todo list.txt\n-rw-r--r-- 1 shellm shellm  26 Nov 14  2023 unicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "total 44\n-rw-r--r-- 1 shellm shellm   6 Nov 14  2023 -draft.txt\n-rw-r--r-- 1 shellm shellm 277 Nov 14  2023 README.md\n-rw-r--r-- 1 shellm shellm  16 Nov 14  2023 UPPER.LOG\n-rw-r--r-- 1 shellm shellm  10 Nov 14  2023 app.log\ndrwxr-xr-x 2 shellm shellm  60 Nov 14  2023 archive\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 client's files\n-rw-r--r-- 1 shellm shellm  15 Nov 14  2023 client's plan.txt\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 directory.log\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 directory.py\ndrwxr-xr-x 2 shellm shellm  80 Nov 14  2023 docs\ndrwxr-xr-x 2 shellm shellm  40 Nov 14  2023 empty\n-rw-r--r-- 1 shellm shellm   0 Nov 14  2023 empty.txt\ndrwxr-xr-x 2 shellm shellm  60 Nov 14  2023 my projects\nlrwxrwxrwx 1 shellm shellm   9 Oct  3 19:48 notes.link -> notes.txt\n-rw-r--r-- 1 shellm shellm 112 Nov 14  2023 notes.txt\n-rw-r--r-- 1 shellm shellm  45 Nov 14  2023 numbers.txt\ndrwxr-xr-x 3 shellm shellm  60 Nov 14  2023 obsolete\n-rw-r--r-- 1 shellm shellm 210 Nov 14  2023 old.log\n-rw-r--r-- 1 shellm shellm  41 Nov 14  2023 report.txt\ndrwxr-xr-x 2 shellm shellm 100 Nov 14  2023 src\n-rw-r--r-- 1 shellm shellm  29 Nov 14  2023 todo list.txt\n-rw-r--r-- 1 shellm shellm  26 Nov 14  2023 unicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "ls-04",
+      "family": "ls",
+      "command": "ls -la",
+      "raw_completion": " ls -la",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "total 52\n-rw-r--r--  1 shellm shellm    6 Nov 14  2023 -draft.txt\ndrwx------ 12 shellm shellm  520 Nov 14  2023 .\ndrwxr-xr-x  1 root   root   4096 Oct  3 19:48 ..\n-rw-r--r--  1 shellm shellm   15 Nov 14  2023 .hidden\ndrwxr-xr-x  2 shellm shellm   40 Nov 14  2023 .hidden-dir\n-rw-r--r--  1 shellm shellm  243 Nov 14  2023 README.md\n-rw-r--r--  1 shellm shellm   16 Nov 14  2023 UPPER.LOG\n-rw-r--r--  1 shellm shellm   10 Nov 14  2023 app.log\ndrwxr-xr-x  2 shellm shellm   60 Nov 14  2023 archive\ndrwxr-xr-x  2 shellm shellm   40 Nov 14  2023 client's files\n-rw-r--r--  1 shellm shellm   16 Nov 14  2023 client's plan.txt\ndrwxr-xr-x  2 shellm shellm   40 Nov 14  2023 directory.log\ndrwxr-xr-x  2 shellm shellm   40 Nov 14  2023 directory.py\ndrwxr-xr-x  2 shellm shellm   80 Nov 14  2023 docs\ndrwxr-xr-x  2 shellm shellm   40 Nov 14  2023 empty\n-rw-r--r--  1 shellm shellm    0 Nov 14  2023 empty.txt\ndrwxr-xr-x  2 shellm shellm   60 Nov 14  2023 my projects\nlrwxrwxrwx  1 shellm shellm    9 Oct  3 19:48 notes.link -> notes.txt\n-rw-r--r--  1 shellm shellm   98 Nov 14  2023 notes.txt\n-rw-r--r--  1 shellm shellm   42 Nov 14  2023 numbers.txt\ndrwxr-xr-x  3 shellm shellm   60 Nov 14  2023 obsolete\n-rw-r--r--  1 shellm shellm  200 Nov 14  2023 old.log\n-rw-r--r--  1 shellm shellm   27 Nov 14  2023 report.txt\ndrwxr-xr-x  2 shellm shellm  100 Nov 14  2023 src\n-rw-r--r--  1 shellm shellm   28 Nov 14  2023 todo list.txt\n-rw-r--r--  1 shellm shellm   26 Nov 14  2023 unicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "total 52\n-rw-r--r--  1 shellm shellm    6 Nov 14  2023 -draft.txt\ndrwx------ 12 shellm shellm  520 Nov 14  2023 .\ndrwxr-xr-x  1 root   root   4096 Oct  3 19:48 ..\n-rw-r--r--  1 shellm shellm   15 Nov 14  2023 .hidden\ndrwxr-xr-x  2 shellm shellm   40 Nov 14  2023 .hidden-dir\n-rw-r--r--  1 shellm shellm  277 Nov 14  2023 README.md\n-rw-r--r--  1 shellm shellm   16 Nov 14  2023 UPPER.LOG\n-rw-r--r--  1 shellm shellm   10 Nov 14  2023 app.log\ndrwxr-xr-x  2 shellm shellm   60 Nov 14  2023 archive\ndrwxr-xr-x  2 shellm shellm   40 Nov 14  2023 client's files\n-rw-r--r--  1 shellm shellm   15 Nov 14  2023 client's plan.txt\ndrwxr-xr-x  2 shellm shellm   40 Nov 14  2023 directory.log\ndrwxr-xr-x  2 shellm shellm   40 Nov 14  2023 directory.py\ndrwxr-xr-x  2 shellm shellm   80 Nov 14  2023 docs\ndrwxr-xr-x  2 shellm shellm   40 Nov 14  2023 empty\n-rw-r--r--  1 shellm shellm    0 Nov 14  2023 empty.txt\ndrwxr-xr-x  2 shellm shellm   60 Nov 14  2023 my projects\nlrwxrwxrwx  1 shellm shellm    9 Oct  3 19:48 notes.link -> notes.txt\n-rw-r--r--  1 shellm shellm  112 Nov 14  2023 notes.txt\n-rw-r--r--  1 shellm shellm   45 Nov 14  2023 numbers.txt\ndrwxr-xr-x  3 shellm shellm   60 Nov 14  2023 obsolete\n-rw-r--r--  1 shellm shellm  210 Nov 14  2023 old.log\n-rw-r--r--  1 shellm shellm   41 Nov 14  2023 report.txt\ndrwxr-xr-x  2 shellm shellm  100 Nov 14  2023 src\n-rw-r--r--  1 shellm shellm   29 Nov 14  2023 todo list.txt\n-rw-r--r--  1 shellm shellm   26 Nov 14  2023 unicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "ls-05",
+      "family": "ls",
+      "command": "ls docs",
+      "raw_completion": " ls docs",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "intro.md\nold.log\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "intro.md\nold.log\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "ls-06",
+      "family": "ls",
+      "command": "ls",
+      "raw_completion": " ls",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "-draft.txt\nREADME.md\nUPPER.LOG\napp.log\narchive\nclient's files\nclient's plan.txt\ndirectory.log\ndirectory.py\ndocs\nempty\nempty.txt\nmy projects\nnotes.link\nnotes.txt\nnumbers.txt\nobsolete\nold.log\nreport.txt\nsrc\ntodo list.txt\nunicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "-draft.txt\nREADME.md\nUPPER.LOG\napp.log\narchive\nclient's files\nclient's plan.txt\ndirectory.log\ndirectory.py\ndocs\nempty\nempty.txt\nmy projects\nnotes.link\nnotes.txt\nnumbers.txt\nobsolete\nold.log\nreport.txt\nsrc\ntodo list.txt\nunicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "ls-07",
+      "family": "ls",
+      "command": "ls src",
+      "raw_completion": " ls src",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "helper.py\nmain.log\nmain.py\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "helper.py\nmain.log\nmain.py\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "ls-08",
+      "family": "ls",
+      "command": "find docs -type f",
+      "raw_completion": " find docs -type f",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "docs/old.log\ndocs/intro.md\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "docs/old.log\ndocs/intro.md\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mkdir-01",
+      "family": "mkdir",
+      "command": "mkdir projects",
+      "raw_completion": " mkdir projects",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mkdir-02",
+      "family": "mkdir",
+      "command": "mkdir backups",
+      "raw_completion": " mkdir backups",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mkdir-03",
+      "family": "mkdir",
+      "command": "mkdir 'project drafts'",
+      "raw_completion": " mkdir 'project drafts'",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mkdir-04",
+      "family": "mkdir",
+      "command": "mkdir -p build/cache",
+      "raw_completion": " mkdir -p build/cache",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mkdir-05",
+      "family": "mkdir",
+      "command": "mkdir alpha beta",
+      "raw_completion": " mkdir alpha beta",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mkdir-06",
+      "family": "mkdir",
+      "command": "mkdir -p docs/reports",
+      "raw_completion": " mkdir -p docs/reports",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mkdir-07",
+      "family": "mkdir",
+      "command": "mkdir -m 700 private",
+      "raw_completion": " mkdir -m 700 private",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mkdir-08",
+      "family": "mkdir",
+      "command": "mkdir -- -drafts",
+      "raw_completion": " mkdir -- -drafts",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "touch-01",
+      "family": "touch",
+      "command": "touch new.txt",
+      "raw_completion": " touch new.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "touch-02",
+      "family": "touch",
+      "command": "touch meeting notes.txt",
+      "raw_completion": " touch meeting notes.txt",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "filesystem"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "filesystem"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "touch-03",
+      "family": "touch",
+      "command": "touch docs/new.md",
+      "raw_completion": " touch docs/new.md",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "touch-04",
+      "family": "touch",
+      "command": "touch a.txt b.txt",
+      "raw_completion": " touch a.txt b.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "touch-05",
+      "family": "touch",
+      "command": "touch -- -new.txt",
+      "raw_completion": " touch -- -new.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "touch-06",
+      "family": "touch",
+      "command": "touch \"client's notes.txt\"",
+      "raw_completion": " touch \"client's notes.txt\"",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "touch-07",
+      "family": "touch",
+      "command": "touch placeholder.txt inside archive",
+      "raw_completion": " touch placeholder.txt inside archive",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "filesystem"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "filesystem"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "touch-08",
+      "family": "touch",
+      "command": "touch 'a blank scratch.txt'",
+      "raw_completion": " touch 'a blank scratch.txt'",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "filesystem"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "filesystem"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cp-01",
+      "family": "cp",
+      "command": "cp notes.txt copy.txt",
+      "raw_completion": " cp notes.txt copy.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cp-02",
+      "family": "cp",
+      "command": "cp notes.txt 'notes backup.txt'",
+      "raw_completion": " cp notes.txt 'notes backup.txt'",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cp-03",
+      "family": "cp",
+      "command": "cp -r docs .",
+      "raw_completion": " cp -r docs .",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "cp: 'docs' and './docs' are the same file\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "cp: 'docs' and './docs' are the same file\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cp-04",
+      "family": "cp",
+      "command": "cp src/main.py archive/main.py",
+      "raw_completion": " cp src/main.py archive/main.py",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cp-05",
+      "family": "cp",
+      "command": "cp docs/intro.md archive",
+      "raw_completion": " cp docs/intro.md archive",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cp-06",
+      "family": "cp",
+      "command": "cp notes.txt report.txt archive",
+      "raw_completion": " cp notes.txt report.txt archive",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cp-07",
+      "family": "cp",
+      "command": "cp -- -draft.txt draft-copy.txt",
+      "raw_completion": " cp -- -draft.txt draft-copy.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cp-08",
+      "family": "cp",
+      "command": "cp \"client's plan.txt\" 'plan-copy.txt'",
+      "raw_completion": " cp \"client's plan.txt\" 'plan-copy.txt'",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mv-01",
+      "family": "mv",
+      "command": "mv notes.txt renamed.txt",
+      "raw_completion": " mv notes.txt renamed.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mv-02",
+      "family": "mv",
+      "command": "mv notes.txt meeting notes.txt",
+      "raw_completion": " mv notes.txt meeting notes.txt",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "mv: target 'notes.txt': Not a directory\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stderr",
+            "filesystem"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "mv: target 'notes.txt': Not a directory\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mv-03",
+      "family": "mv",
+      "command": "mv report.txt archive",
+      "raw_completion": " mv report.txt archive",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mv-04",
+      "family": "mv",
+      "command": "mv docs documents",
+      "raw_completion": " mv docs documents",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mv-05",
+      "family": "mv",
+      "command": "mv notes.txt report.txt archive",
+      "raw_completion": " mv notes.txt report.txt archive",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mv-06",
+      "family": "mv",
+      "command": "mv -- -draft.txt draft.txt",
+      "raw_completion": " mv -- -draft.txt draft.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mv-07",
+      "family": "mv",
+      "command": "mv \"client's plan.txt\" 'archive/plan.txt'",
+      "raw_completion": " mv \"client's plan.txt\" 'archive/plan.txt'",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "mv-08",
+      "family": "mv",
+      "command": "mv src/main.py main.py",
+      "raw_completion": " mv src/main.py main.py",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "rm-01",
+      "family": "rm",
+      "command": "rm 'old.log'",
+      "raw_completion": " rm 'old.log'",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "rm-02",
+      "family": "rm",
+      "command": "rm old.log app.log",
+      "raw_completion": " rm old.log app.log",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "rm-03",
+      "family": "rm",
+      "command": "rm 'todo list.txt'",
+      "raw_completion": " rm 'todo list.txt'",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "rm-04",
+      "family": "rm",
+      "command": "rm docs/old.log",
+      "raw_completion": " rm docs/old.log",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "rm-05",
+      "family": "rm",
+      "command": "rm -r obsolete",
+      "raw_completion": " rm -r obsolete",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "rm-06",
+      "family": "rm",
+      "command": "rm -- -draft.txt",
+      "raw_completion": " rm -- -draft.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "rm-07",
+      "family": "rm",
+      "command": "rm \"client's plan.txt\"",
+      "raw_completion": " rm \"client's plan.txt\"",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "rm-08",
+      "family": "rm",
+      "command": "rm src/helper.py",
+      "raw_completion": " rm src/helper.py",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cat-01",
+      "family": "cat",
+      "command": "cat notes.txt",
+      "raw_completion": " cat notes.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "hello amber\nTODO: review this\na.b literal\naxb decoy\ntodo: lowercase\ndone\nextra amber\nextra violet\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "hello cobalt\nTODO: review this\na.b literal\naxb decoy\ntodo: lowercase\ndone\nextra cobalt\nextra silver\nextra green\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cat-02",
+      "family": "cat",
+      "command": "cat README.md",
+      "raw_completion": " cat README.md",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "readme line 1 amber\nreadme line 2 amber\nreadme line 3 amber\nreadme line 4 amber\nreadme line 5 amber\nreadme line 6 amber\nreadme line 7 amber\nreadme line 8 amber\nreadme line 9 amber\nreadme line 10 amber\nreadme line 11 amber\nreadme line 12 amber\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "readme line 1 cobalt\nreadme line 2 cobalt\nreadme line 3 cobalt\nreadme line 4 cobalt\nreadme line 5 cobalt\nreadme line 6 cobalt\nreadme line 7 cobalt\nreadme line 8 cobalt\nreadme line 9 cobalt\nreadme line 10 cobalt\nreadme line 11 cobalt\nreadme line 12 cobalt\nreadme line 13 cobalt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cat-03",
+      "family": "cat",
+      "command": "cat 'todo list.txt'",
+      "raw_completion": " cat 'todo list.txt'",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "buy amber\nTODO: write notes\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "buy cobalt\nTODO: write notes\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cat-04",
+      "family": "cat",
+      "command": "tee report.txt < notes.txt",
+      "raw_completion": " tee report.txt < notes.txt",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout",
+            "filesystem"
+          ],
+          "returncode": 0,
+          "stdout": "hello amber\nTODO: review this\na.b literal\naxb decoy\ntodo: lowercase\ndone\nextra amber\nextra violet\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout",
+            "filesystem"
+          ],
+          "returncode": 0,
+          "stdout": "hello cobalt\nTODO: review this\na.b literal\naxb decoy\ntodo: lowercase\ndone\nextra cobalt\nextra silver\nextra green\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cat-05",
+      "family": "cat",
+      "command": "cat -- -draft.txt",
+      "raw_completion": " cat -- -draft.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "draft\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "draft\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cat-06",
+      "family": "cat",
+      "command": "cat \"client's plan.txt\"",
+      "raw_completion": " cat \"client's plan.txt\"",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "plan for violet\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "plan for green\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cat-07",
+      "family": "cat",
+      "command": "cat docs/intro.md",
+      "raw_completion": " cat docs/intro.md",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "Introduction amber\nTODO: improve docs\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "Introduction cobalt\nTODO: improve docs\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "cat-08",
+      "family": "cat",
+      "command": "cat unicode.txt",
+      "raw_completion": " cat unicode.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "café naïve\nhello 世界\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "café naïve\nhello 世界\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "head-01",
+      "family": "head",
+      "command": "head -n 5 README.md",
+      "raw_completion": " head -n 5 README.md",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "readme line 1 amber\nreadme line 2 amber\nreadme line 3 amber\nreadme line 4 amber\nreadme line 5 amber\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "readme line 1 cobalt\nreadme line 2 cobalt\nreadme line 3 cobalt\nreadme line 4 cobalt\nreadme line 5 cobalt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "head-02",
+      "family": "head",
+      "command": "head -n 2 notes.txt",
+      "raw_completion": " head -n 2 notes.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "hello amber\nTODO: review this\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "hello cobalt\nTODO: review this\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "head-03",
+      "family": "head",
+      "command": "head -n 10 numbers.txt",
+      "raw_completion": " head -n 10 numbers.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "head-04",
+      "family": "head",
+      "command": "head -n 1 report.txt",
+      "raw_completion": " head -n 1 report.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "row 1: amber\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "row 1: cobalt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "head-05",
+      "family": "head",
+      "command": "head -n 1 'todo list.txt'",
+      "raw_completion": " head -n 1 'todo list.txt'",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "buy amber\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "buy cobalt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "head-06",
+      "family": "head",
+      "command": "head -c 4 notes.txt",
+      "raw_completion": " head -c 4 notes.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "hell",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "hell",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "head-07",
+      "family": "head",
+      "command": "head -n 7 README.md",
+      "raw_completion": " head -n 7 README.md",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "readme line 1 amber\nreadme line 2 amber\nreadme line 3 amber\nreadme line 4 amber\nreadme line 5 amber\nreadme line 6 amber\nreadme line 7 amber\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "readme line 1 cobalt\nreadme line 2 cobalt\nreadme line 3 cobalt\nreadme line 4 cobalt\nreadme line 5 cobalt\nreadme line 6 cobalt\nreadme line 7 cobalt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "head-08",
+      "family": "head",
+      "command": "head -n 3 numbers.txt",
+      "raw_completion": " head -n 3 numbers.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "1\n2\n3\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "1\n2\n3\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "tail-01",
+      "family": "tail",
+      "command": "tail -n 5 README.md",
+      "raw_completion": " tail -n 5 README.md",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "readme line 8 amber\nreadme line 9 amber\nreadme line 10 amber\nreadme line 11 amber\nreadme line 12 amber\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "readme line 9 cobalt\nreadme line 10 cobalt\nreadme line 11 cobalt\nreadme line 12 cobalt\nreadme line 13 cobalt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "tail-02",
+      "family": "tail",
+      "command": "tail -n 2 notes.txt",
+      "raw_completion": " tail -n 2 notes.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "extra amber\nextra violet\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "extra silver\nextra green\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "tail-03",
+      "family": "tail",
+      "command": "tail -n 10 numbers.txt",
+      "raw_completion": " tail -n 10 numbers.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "tail-04",
+      "family": "tail",
+      "command": "head -n 1 report.txt",
+      "raw_completion": " head -n 1 report.txt",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "row 1: amber\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "row 1: cobalt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "tail-05",
+      "family": "tail",
+      "command": "tail -n 1 'todo list.txt'",
+      "raw_completion": " tail -n 1 'todo list.txt'",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "TODO: write notes\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "TODO: write notes\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "tail-06",
+      "family": "tail",
+      "command": "tail -c 4 notes.txt",
+      "raw_completion": " tail -c 4 notes.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "let\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "een\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "tail-07",
+      "family": "tail",
+      "command": "tail -n 7 README.md",
+      "raw_completion": " tail -n 7 README.md",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "readme line 6 amber\nreadme line 7 amber\nreadme line 8 amber\nreadme line 9 amber\nreadme line 10 amber\nreadme line 11 amber\nreadme line 12 amber\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "readme line 7 cobalt\nreadme line 8 cobalt\nreadme line 9 cobalt\nreadme line 10 cobalt\nreadme line 11 cobalt\nreadme line 12 cobalt\nreadme line 13 cobalt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "tail-08",
+      "family": "tail",
+      "command": "tail -n 3 numbers.txt",
+      "raw_completion": " tail -n 3 numbers.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "15\n16\n17\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "16\n17\n18\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "wc-01",
+      "family": "wc",
+      "command": "wc -l report.txt",
+      "raw_completion": " wc -l report.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "2 report.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "3 report.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "wc-02",
+      "family": "wc",
+      "command": "wc -w notes.txt",
+      "raw_completion": " wc -w notes.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "16 notes.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "18 notes.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "wc-03",
+      "family": "wc",
+      "command": "wc -c unicode.txt",
+      "raw_completion": " wc -c unicode.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "26 unicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "26 unicode.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "wc-04",
+      "family": "wc",
+      "command": "wc -l 'todo list.txt'",
+      "raw_completion": " wc -l 'todo list.txt'",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "2 todo list.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "2 todo list.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "wc-05",
+      "family": "wc",
+      "command": "wc -l README.md",
+      "raw_completion": " wc -l README.md",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "12 README.md\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "13 README.md\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "wc-06",
+      "family": "wc",
+      "command": "wc -w docs/intro.md",
+      "raw_completion": " wc -w docs/intro.md",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "5 docs/intro.md\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "5 docs/intro.md\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "wc-07",
+      "family": "wc",
+      "command": "wc -c notes.txt",
+      "raw_completion": " wc -c notes.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "98 notes.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "112 notes.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "wc-08",
+      "family": "wc",
+      "command": "wc -l numbers.txt",
+      "raw_completion": " wc -l numbers.txt",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "17 numbers.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "18 numbers.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "grep-01",
+      "family": "grep",
+      "command": "grep -F -- TODO notes.txt",
+      "raw_completion": " grep -F -- TODO notes.txt",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "TODO: review this\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "TODO: review this\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "grep-02",
+      "family": "grep",
+      "command": "grep -Fi -- todo notes.txt",
+      "raw_completion": " grep -Fi -- todo notes.txt",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "TODO: review this\ntodo: lowercase\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "TODO: review this\ntodo: lowercase\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "grep-03",
+      "family": "grep",
+      "command": "grep -F -- TODO notes.txt",
+      "raw_completion": " grep -F -- TODO notes.txt",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "TODO: review this\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "TODO: review this\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "grep-04",
+      "family": "grep",
+      "command": "grep -F -- -A 1 'TODO' notes.txt",
+      "raw_completion": " grep -F -- -A 1 'TODO' notes.txt",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 2,
+          "stdout": "",
+          "stderr": "grep: 1: No such file or directory\ngrep: TODO: No such file or directory\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 2,
+          "stdout": "",
+          "stderr": "grep: 1: No such file or directory\ngrep: TODO: No such file or directory\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "grep-05",
+      "family": "grep",
+      "command": "grep -Fc -- TODO notes.txt",
+      "raw_completion": " grep -Fc -- TODO notes.txt",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "1\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "1\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "grep-06",
+      "family": "grep",
+      "command": "grep -F -- a.b notes.txt",
+      "raw_completion": " grep -F -- a.b notes.txt",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "a.b literal\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "a.b literal\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "grep-07",
+      "family": "grep",
+      "command": "find . -type f -name 'TODO'",
+      "raw_completion": " find . -type f -name 'TODO'",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "grep-08",
+      "family": "grep",
+      "command": "grep -F -- TODO 'todo list.txt'",
+      "raw_completion": " grep -F -- TODO 'todo list.txt'",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "TODO: write notes\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "TODO: write notes\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "find-01",
+      "family": "find",
+      "command": "find here -type f -name '*.log'",
+      "raw_completion": " find here -type f -name '*.log'",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "find: 'here': No such file or directory\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "find: 'here': No such file or directory\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "find-02",
+      "family": "find",
+      "command": "find docs -type f",
+      "raw_completion": " find docs -type f",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "docs/old.log\ndocs/intro.md\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "docs/old.log\ndocs/intro.md\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "find-03",
+      "family": "find",
+      "command": "find . -type f -name '*.py'",
+      "raw_completion": " find . -type f -name '*.py'",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "./src/helper.py\n./src/main.py\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "./src/helper.py\n./src/main.py\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "find-04",
+      "family": "find",
+      "command": "find . -type f",
+      "raw_completion": " find . -type f",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "./.hidden\n./UPPER.LOG\n./app.log\n./old.log\n./empty.txt\n./-draft.txt\n./client's plan.txt\n./todo list.txt\n./unicode.txt\n./numbers.txt\n./README.md\n./report.txt\n./notes.txt\n./my projects/plan.txt\n./obsolete/nested/keep.txt\n./archive/keep.txt\n./src/helper.py\n./src/main.log\n./src/main.py\n./docs/old.log\n./docs/intro.md\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "./.hidden\n./UPPER.LOG\n./app.log\n./old.log\n./empty.txt\n./-draft.txt\n./client's plan.txt\n./todo list.txt\n./unicode.txt\n./numbers.txt\n./README.md\n./report.txt\n./notes.txt\n./my projects/plan.txt\n./obsolete/nested/keep.txt\n./archive/keep.txt\n./src/helper.py\n./src/main.log\n./src/main.py\n./docs/old.log\n./docs/intro.md\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "find-05",
+      "family": "find",
+      "command": "find . -type d",
+      "raw_completion": " find . -type d",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": ".\n./directory.py\n./directory.log\n./.hidden-dir\n./client's files\n./my projects\n./obsolete\n./obsolete/nested\n./empty\n./archive\n./src\n./docs\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": ".\n./directory.py\n./directory.log\n./.hidden-dir\n./client's files\n./my projects\n./obsolete\n./obsolete/nested\n./empty\n./archive\n./src\n./docs\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "find-06",
+      "family": "find",
+      "command": "find . -type f -name 'todo list.txt'",
+      "raw_completion": " find . -type f -name 'todo list.txt'",
+      "format_ok": true,
+      "exact_match": true,
+      "functional_ok": true,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "./todo list.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": true,
+          "reasons": [],
+          "returncode": 0,
+          "stdout": "./todo list.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "find-07",
+      "family": "find",
+      "command": "find here -type f -empty",
+      "raw_completion": " find here -type f -empty",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "find: 'here': No such file or directory\n",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "exit_status",
+            "stdout",
+            "stderr"
+          ],
+          "returncode": 1,
+          "stdout": "",
+          "stderr": "find: 'here': No such file or directory\n",
+          "cwd": "/workspace"
+        }
+      ]
+    },
+    {
+      "id": "find-08",
+      "family": "find",
+      "command": "find . -type f -size +100c",
+      "raw_completion": " find . -type f -size +100c",
+      "format_ok": true,
+      "exact_match": false,
+      "functional_ok": false,
+      "syntax_ok": true,
+      "fixtures": [
+        {
+          "seed": 0,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "./old.log\n./README.md\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        },
+        {
+          "seed": 1,
+          "passed": false,
+          "reasons": [
+            "stdout"
+          ],
+          "returncode": 0,
+          "stdout": "./old.log\n./README.md\n./notes.txt\n",
+          "stderr": "",
+          "cwd": "/workspace"
+        }
+      ]
+    }
+  ]
+}

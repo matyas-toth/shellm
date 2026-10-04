@@ -1,0 +1,100 @@
+[
+  {
+    "id": "pilot-v1-md5sum-01",
+    "topic": "text",
+    "family": "md5sum",
+    "capability": "hash-file",
+    "split": "train",
+    "intent": {
+      "op": "md5sum",
+      "sources": [
+        "report.txt"
+      ]
+    },
+    "requests": [
+      "compute the MD5 checksum of report.txt",
+      "what is the MD5 hash of report.txt?",
+      "I need the MD5 digest of report.txt",
+      "how do I print an MD5 sum for report.txt?"
+    ]
+  },
+  {
+    "id": "pilot-v1-md5sum-02",
+    "topic": "text",
+    "family": "md5sum",
+    "capability": "hash-multiple",
+    "split": "train",
+    "intent": {
+      "op": "md5sum",
+      "sources": [
+        "a draft.txt",
+        "final copy.txt"
+      ]
+    },
+    "requests": [
+      "print MD5 hashes for both a draft.txt and final copy.txt",
+      "what are the MD5 checksums of a draft.txt and final copy.txt?",
+      "I want to compare a draft.txt and final copy.txt by their MD5 digests",
+      "how can I get the MD5 sum of each of a draft.txt and final copy.txt?"
+    ]
+  },
+  {
+    "id": "pilot-v1-md5sum-03",
+    "topic": "text",
+    "family": "md5sum",
+    "capability": "verify-with-check",
+    "split": "train",
+    "intent": {
+      "op": "md5sum",
+      "sources": [
+        "checksums.md5"
+      ],
+      "check": true
+    },
+    "requests": [
+      "verify the files listed in checksums.md5 against their recorded MD5 sums",
+      "how do I check that the files named in checksums.md5 still match their MD5 hashes?",
+      "I want to confirm that the MD5 checksums stored in checksums.md5 are still correct",
+      "are the files in checksums.md5 intact according to their MD5 values?"
+    ]
+  },
+  {
+    "id": "pilot-v1-md5sum-04",
+    "topic": "text",
+    "family": "md5sum",
+    "capability": "hash-file",
+    "split": "train",
+    "intent": {
+      "op": "md5sum",
+      "sources": [
+        "-draft v2.txt"
+      ]
+    },
+    "requests": [
+      "generate the MD5 fingerprint of the file -draft v2.txt",
+      "how can I calculate an MD5 hash for -draft v2.txt?",
+      "I'd like to know the MD5 checksum of -draft v2.txt",
+      "show the MD5 digest of -draft v2.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-md5sum-05",
+    "topic": "text",
+    "family": "md5sum",
+    "capability": "verify-with-check",
+    "split": "validation",
+    "intent": {
+      "op": "md5sum",
+      "sources": [
+        "tundra-checksums.md5"
+      ],
+      "check": true
+    },
+    "requests": [
+      "could you validate every entry in tundra-checksums.md5 by recomputing the MD5 sums?",
+      "make sure none of the files listed in tundra-checksums.md5 have changed, using their MD5 checksums",
+      "do the files recorded in tundra-checksums.md5 still have the same MD5 hashes?",
+      "what does an MD5 integrity check report for the files named in tundra-checksums.md5?"
+    ]
+  }
+]

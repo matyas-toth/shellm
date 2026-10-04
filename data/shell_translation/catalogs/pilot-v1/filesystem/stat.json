@@ -1,0 +1,93 @@
+[
+  {
+    "id": "pilot-v1-stat-01",
+    "topic": "filesystem",
+    "family": "stat",
+    "capability": "octal-permissions",
+    "split": "train",
+    "intent": {
+      "op": "stat",
+      "source": "notes.txt",
+      "format": "permissions"
+    },
+    "requests": [
+      "what are the permissions of notes.txt in octal?",
+      "print the octal permission bits of notes.txt",
+      "I need the numeric permission mode of notes.txt",
+      "show the access rights of notes.txt as an octal number"
+    ]
+  },
+  {
+    "id": "pilot-v1-stat-02",
+    "topic": "filesystem",
+    "family": "stat",
+    "capability": "file-type",
+    "split": "train",
+    "intent": {
+      "op": "stat",
+      "source": "docs",
+      "format": "type",
+      "directory": true
+    },
+    "requests": [
+      "what type of file is docs?",
+      "print the file type of docs, such as regular file or directory",
+      "I want to check what kind of filesystem object docs is",
+      "tell me whether docs is a regular file, a directory or something else"
+    ]
+  },
+  {
+    "id": "pilot-v1-stat-03",
+    "topic": "filesystem",
+    "family": "stat",
+    "capability": "owner",
+    "split": "train",
+    "intent": {
+      "op": "stat",
+      "source": "report.csv",
+      "format": "owner"
+    },
+    "requests": [
+      "who owns report.csv?",
+      "print the name of the user that owns report.csv",
+      "I need to know the owner of report.csv",
+      "show which user account report.csv belongs to"
+    ]
+  },
+  {
+    "id": "pilot-v1-stat-04",
+    "topic": "filesystem",
+    "family": "stat",
+    "capability": "modification-time",
+    "split": "train",
+    "intent": {
+      "op": "stat",
+      "source": "draft.md",
+      "format": "modified"
+    },
+    "requests": [
+      "when was draft.md last modified?",
+      "print the last modification time of draft.md",
+      "I want to see the date and time draft.md was last modified",
+      "show the modification timestamp of draft.md"
+    ]
+  },
+  {
+    "id": "pilot-v1-stat-05",
+    "topic": "filesystem",
+    "family": "stat",
+    "capability": "octal-permissions",
+    "split": "validation",
+    "intent": {
+      "op": "stat",
+      "source": "tundra/zephyr.conf",
+      "format": "permissions"
+    },
+    "requests": [
+      "tundra/zephyr.conf has which octal permissions?",
+      "could you display the mode of tundra/zephyr.conf in octal form?",
+      "my file tundra/zephyr.conf: what is its numeric permission value?",
+      "report the three-digit octal mode of tundra/zephyr.conf"
+    ]
+  }
+]

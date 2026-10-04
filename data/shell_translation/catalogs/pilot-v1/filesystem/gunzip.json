@@ -1,0 +1,90 @@
+[
+  {
+    "id": "pilot-v1-gunzip-01",
+    "topic": "filesystem",
+    "family": "gunzip",
+    "capability": "decompress",
+    "split": "train",
+    "intent": {
+      "op": "gunzip",
+      "source": "notes.txt.gz"
+    },
+    "requests": [
+      "decompress notes.txt.gz",
+      "how do I uncompress notes.txt.gz back into a regular file?",
+      "I want notes.txt.gz extracted, replacing the .gz with the original file",
+      "restore the original file from the gzip file notes.txt.gz"
+    ]
+  },
+  {
+    "id": "pilot-v1-gunzip-02",
+    "topic": "filesystem",
+    "family": "gunzip",
+    "capability": "keep-compressed",
+    "split": "train",
+    "intent": {
+      "op": "gunzip",
+      "source": "archive.log.gz",
+      "keep": true
+    },
+    "requests": [
+      "decompress archive.log.gz but keep the compressed file too",
+      "how can I extract archive.log.gz without deleting archive.log.gz?",
+      "I need the uncompressed contents of archive.log.gz written next to it, keeping the .gz",
+      "unpack archive.log.gz into a normal file while leaving the gzip file in place"
+    ]
+  },
+  {
+    "id": "pilot-v1-gunzip-03",
+    "topic": "filesystem",
+    "family": "gunzip",
+    "capability": "dash-and-quoted-name",
+    "split": "train",
+    "intent": {
+      "op": "gunzip",
+      "source": "-client's logs.txt.gz"
+    },
+    "requests": [
+      "uncompress the gzip file -client's logs.txt.gz in place",
+      "how would I decompress -client's logs.txt.gz, whose name starts with a dash?",
+      "I'd like -client's logs.txt.gz expanded back to its original file",
+      "turn -client's logs.txt.gz into the plain file it contains"
+    ]
+  },
+  {
+    "id": "pilot-v1-gunzip-04",
+    "topic": "filesystem",
+    "family": "gunzip",
+    "capability": "decompress-to-file",
+    "split": "train",
+    "intent": {
+      "op": "gunzip",
+      "source": "data.csv.gz",
+      "destination": "data-copy.csv"
+    },
+    "requests": [
+      "decompress data.csv.gz into a new file called data-copy.csv and keep data.csv.gz",
+      "how do I write the uncompressed contents of data.csv.gz to data-copy.csv?",
+      "I want data.csv.gz unpacked into data-copy.csv without touching the compressed file",
+      "extract data.csv.gz to the file data-copy.csv"
+    ]
+  },
+  {
+    "id": "pilot-v1-gunzip-05",
+    "topic": "filesystem",
+    "family": "gunzip",
+    "capability": "keep-compressed",
+    "split": "validation",
+    "intent": {
+      "op": "gunzip",
+      "source": "tundra-logs.txt.gz",
+      "keep": true
+    },
+    "requests": [
+      "tundra-logs.txt.gz must stay where it is; also produce its decompressed file next to it",
+      "could you inflate tundra-logs.txt.gz while keeping the original .gz around?",
+      "both tundra-logs.txt.gz and its decompressed file should exist afterwards",
+      "expand tundra-logs.txt.gz, preserving the compressed version"
+    ]
+  }
+]

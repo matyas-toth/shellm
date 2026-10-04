@@ -1,0 +1,95 @@
+[
+  {
+    "id": "pilot-v1-fallocate-01",
+    "topic": "filesystem",
+    "family": "fallocate",
+    "capability": "preallocate-size",
+    "split": "train",
+    "intent": {
+      "op": "fallocate",
+      "target": "blob.bin",
+      "size": 10240
+    },
+    "requests": [
+      "preallocate a new file blob.bin of 10240 bytes",
+      "how do I reserve 10240 bytes of disk space for a new file named blob.bin?",
+      "I need blob.bin created with 10240 bytes allocated up front",
+      "allocate 10240 bytes on disk for blob.bin without writing any data to it"
+    ]
+  },
+  {
+    "id": "pilot-v1-fallocate-02",
+    "topic": "filesystem",
+    "family": "fallocate",
+    "capability": "kibibyte-size",
+    "split": "train",
+    "intent": {
+      "op": "fallocate",
+      "target": "swap.img",
+      "size": 64,
+      "unit": "K"
+    },
+    "requests": [
+      "reserve 64K of space for a new file called swap.img",
+      "how can I preallocate swap.img with a size of 64K?",
+      "I want swap.img to be created with 64K already allocated",
+      "make swap.img take up 64K of preallocated disk space"
+    ]
+  },
+  {
+    "id": "pilot-v1-fallocate-03",
+    "topic": "filesystem",
+    "family": "fallocate",
+    "capability": "mebibyte-size",
+    "split": "train",
+    "intent": {
+      "op": "fallocate",
+      "target": "disk.img",
+      "size": 2,
+      "unit": "M"
+    },
+    "requests": [
+      "allocate 2M of disk space up front for the new file disk.img",
+      "what's the quickest way to create disk.img with 2M preallocated?",
+      "I'd like disk.img to exist with 2M of space reserved for it",
+      "preallocate disk.img to a length of 2M"
+    ]
+  },
+  {
+    "id": "pilot-v1-fallocate-04",
+    "topic": "filesystem",
+    "family": "fallocate",
+    "capability": "quoted-nested",
+    "split": "train",
+    "intent": {
+      "op": "fallocate",
+      "target": "disk images/test image.img",
+      "size": 4096
+    },
+    "requests": [
+      "set aside 4096 bytes of disk space for a new file disk images/test image.img",
+      "how do I create disk images/test image.img with 4096 bytes preallocated?",
+      "I need the file disk images/test image.img reserved at 4096 bytes",
+      "preallocate 4096 bytes for disk images/test image.img"
+    ]
+  },
+  {
+    "id": "pilot-v1-fallocate-05",
+    "topic": "filesystem",
+    "family": "fallocate",
+    "capability": "mebibyte-size",
+    "split": "validation",
+    "intent": {
+      "op": "fallocate",
+      "target": "zephyr.img",
+      "size": 1,
+      "unit": "M"
+    },
+    "requests": [
+      "zephyr.img should be a brand-new file with 1M of space allocated",
+      "could you reserve 1M on disk for zephyr.img right away?",
+      "my VM needs zephyr.img; preallocate it at 1M",
+      "give zephyr.img a preallocated size of 1M"
+    ]
+  }
+]

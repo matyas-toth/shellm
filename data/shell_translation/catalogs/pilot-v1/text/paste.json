@@ -1,0 +1,108 @@
+[
+  {
+    "id": "pilot-v1-paste-01",
+    "topic": "text",
+    "family": "paste",
+    "capability": "custom-delimiter",
+    "split": "train",
+    "intent": {
+      "op": "paste",
+      "sources": [
+        "names.txt",
+        "scores.txt"
+      ],
+      "delimiter": ","
+    },
+    "requests": [
+      "join each line of names.txt with the matching line of scores.txt, separated by a comma",
+      "how do I merge names.txt and scores.txt side by side with a comma between the columns?",
+      "I want names.txt and scores.txt combined line by line into comma-separated pairs",
+      "put names.txt and scores.txt next to each other as two comma-separated columns"
+    ]
+  },
+  {
+    "id": "pilot-v1-paste-02",
+    "topic": "text",
+    "family": "paste",
+    "capability": "merge-columns",
+    "split": "train",
+    "intent": {
+      "op": "paste",
+      "sources": [
+        "first names.txt",
+        "last names.txt"
+      ]
+    },
+    "requests": [
+      "merge first names.txt and last names.txt into two tab-separated columns",
+      "how can I show first names.txt and last names.txt side by side, with a tab between corresponding lines?",
+      "I need each line of first names.txt paired with the same line of last names.txt, separated by a tab",
+      "combine first names.txt and last names.txt line by line, using a tab character as the separator"
+    ]
+  },
+  {
+    "id": "pilot-v1-paste-03",
+    "topic": "text",
+    "family": "paste",
+    "capability": "serial",
+    "split": "train",
+    "intent": {
+      "op": "paste",
+      "sources": [
+        "items.txt"
+      ],
+      "serial": true,
+      "delimiter": ","
+    },
+    "requests": [
+      "join all the lines of items.txt into one line, separated by commas",
+      "how do I turn items.txt into a single comma-separated line?",
+      "I want the lines of items.txt listed on one line with commas between them",
+      "print the contents of items.txt as a single line of comma-separated values"
+    ]
+  },
+  {
+    "id": "pilot-v1-paste-04",
+    "topic": "text",
+    "family": "paste",
+    "capability": "three-files",
+    "split": "train",
+    "intent": {
+      "op": "paste",
+      "sources": [
+        "a col.txt",
+        "b col.txt",
+        "c col.txt"
+      ],
+      "delimiter": ":"
+    },
+    "requests": [
+      "combine a col.txt, b col.txt and c col.txt as three columns separated by colons",
+      "how can I line up a col.txt, b col.txt and c col.txt side by side with a colon between the columns?",
+      "I need the corresponding lines of a col.txt, b col.txt and c col.txt joined with colons",
+      "print a col.txt, b col.txt and c col.txt next to each other, colon-separated, line by line"
+    ]
+  },
+  {
+    "id": "pilot-v1-paste-05",
+    "topic": "text",
+    "family": "paste",
+    "capability": "serial",
+    "split": "validation",
+    "intent": {
+      "op": "paste",
+      "sources": [
+        "tundra-a.txt",
+        "zephyr-b.txt"
+      ],
+      "serial": true,
+      "delimiter": ":"
+    },
+    "requests": [
+      "flatten tundra-a.txt and zephyr-b.txt so that each file becomes one line with its lines joined by colons",
+      "could you print one colon-joined line for tundra-a.txt and another for zephyr-b.txt?",
+      "what do tundra-a.txt and zephyr-b.txt look like with each file's lines strung together on a single line, separated by colons?",
+      "for each of tundra-a.txt and zephyr-b.txt, output all of its lines on one line with a colon between them"
+    ]
+  }
+]

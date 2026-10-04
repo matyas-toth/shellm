@@ -1,0 +1,91 @@
+[
+  {
+    "id": "pilot-v1-base64-01",
+    "topic": "text",
+    "family": "base64",
+    "capability": "encode",
+    "split": "train",
+    "intent": {
+      "op": "base64",
+      "source": "secret.txt"
+    },
+    "requests": [
+      "encode secret.txt as base64",
+      "how do I print the base64 encoding of secret.txt?",
+      "I want secret.txt converted to base64 text",
+      "what is secret.txt in base64?"
+    ]
+  },
+  {
+    "id": "pilot-v1-base64-02",
+    "topic": "text",
+    "family": "base64",
+    "capability": "decode",
+    "split": "train",
+    "intent": {
+      "op": "base64",
+      "source": "encoded.b64",
+      "decode": true
+    },
+    "requests": [
+      "decode the base64 data in encoded.b64 and print the original text",
+      "how can I turn the base64 in encoded.b64 back into plain text?",
+      "I need to see what the base64 file encoded.b64 contains once decoded",
+      "what does encoded.b64 say after base64 decoding?"
+    ]
+  },
+  {
+    "id": "pilot-v1-base64-03",
+    "topic": "text",
+    "family": "base64",
+    "capability": "no-wrap",
+    "split": "train",
+    "intent": {
+      "op": "base64",
+      "source": "token.txt",
+      "wrap": 0
+    },
+    "requests": [
+      "base64-encode token.txt as a single line with no line breaks",
+      "how do I get the base64 of token.txt without it being wrapped across several lines?",
+      "I want token.txt as one unbroken line of base64",
+      "print token.txt in base64 on one line, with no wrapping and no trailing newline"
+    ]
+  },
+  {
+    "id": "pilot-v1-base64-04",
+    "topic": "text",
+    "family": "base64",
+    "capability": "wrap-width",
+    "split": "train",
+    "intent": {
+      "op": "base64",
+      "source": "msg.txt",
+      "wrap": 20
+    },
+    "requests": [
+      "encode msg.txt in base64, wrapping the output every 20 characters",
+      "how can I print msg.txt as base64 with lines of 20 characters?",
+      "I need the base64 form of msg.txt broken into lines of 20 characters each",
+      "show msg.txt base64-encoded with a line break after every 20 characters"
+    ]
+  },
+  {
+    "id": "pilot-v1-base64-05",
+    "topic": "text",
+    "family": "base64",
+    "capability": "decode",
+    "split": "validation",
+    "intent": {
+      "op": "base64",
+      "source": "tundra-data.b64",
+      "decode": true
+    },
+    "requests": [
+      "could you decode tundra-data.b64 from base64 and show the plain text?",
+      "reverse the base64 encoding of tundra-data.b64 and output what it contains",
+      "what plain text is hidden in tundra-data.b64, which holds base64?",
+      "print the decoded contents of the base64 file tundra-data.b64"
+    ]
+  }
+]

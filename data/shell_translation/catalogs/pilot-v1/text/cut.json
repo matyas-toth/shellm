@@ -1,0 +1,107 @@
+[
+  {
+    "id": "pilot-v1-cut-01",
+    "topic": "text",
+    "family": "cut",
+    "capability": "field-by-delimiter",
+    "split": "train",
+    "intent": {
+      "op": "cut",
+      "source": "accounts.txt",
+      "delimiter": ":",
+      "fields": [
+        1,
+        3
+      ]
+    },
+    "requests": [
+      "print fields 1 and 3 of each line in accounts.txt, using a colon as the delimiter",
+      "how do I extract colon-separated fields 1 and 3 from accounts.txt?",
+      "I want only fields 1 and 3 from accounts.txt, where the fields are separated by colons",
+      "from accounts.txt, keep fields 1 and 3 of every line, splitting on colons"
+    ]
+  },
+  {
+    "id": "pilot-v1-cut-02",
+    "topic": "text",
+    "family": "cut",
+    "capability": "character-range",
+    "split": "train",
+    "intent": {
+      "op": "cut",
+      "source": "dates.txt",
+      "characters": "1-4"
+    },
+    "requests": [
+      "print characters 1 to 4 of every line in dates.txt",
+      "how can I keep just character positions 1-4 of each line in dates.txt?",
+      "I need the year, which is characters 1 through 4, from each line of dates.txt",
+      "show the first four characters, positions 1-4, of every line of dates.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-cut-03",
+    "topic": "text",
+    "family": "cut",
+    "capability": "multiple-fields",
+    "split": "train",
+    "intent": {
+      "op": "cut",
+      "source": "sales data.csv",
+      "delimiter": ",",
+      "fields": [
+        1,
+        3,
+        4
+      ]
+    },
+    "requests": [
+      "print the comma-separated fields 1, 3 and 4 of each line in sales data.csv",
+      "how do I get just fields 1, 3 and 4 from the comma-delimited file sales data.csv?",
+      "I want sales data.csv reduced to fields 1, 3 and 4, splitting each line at commas",
+      "show fields 1, 3 and 4 of every line of sales data.csv, where commas separate the fields"
+    ]
+  },
+  {
+    "id": "pilot-v1-cut-04",
+    "topic": "text",
+    "family": "cut",
+    "capability": "tab-fields",
+    "split": "train",
+    "intent": {
+      "op": "cut",
+      "source": "report.tsv",
+      "fields": [
+        2
+      ]
+    },
+    "requests": [
+      "print tab-separated field 2 of every line in report.tsv",
+      "how can I extract field 2 from report.tsv, whose fields are separated by tabs?",
+      "I need field 2 of each line in report.tsv, using the tab character as the delimiter",
+      "show only what is in field 2 of report.tsv, where a tab separates the fields"
+    ]
+  },
+  {
+    "id": "pilot-v1-cut-05",
+    "topic": "text",
+    "family": "cut",
+    "capability": "multiple-fields",
+    "split": "validation",
+    "intent": {
+      "op": "cut",
+      "source": "zephyr entries.csv",
+      "delimiter": "|",
+      "fields": [
+        2,
+        3
+      ]
+    },
+    "requests": [
+      "keep fields 2 and 3 of every line in zephyr entries.csv, which uses | as the separator",
+      "what do fields 2 and 3 contain in zephyr entries.csv when each line is split on the pipe character |?",
+      "could you pull fields 2 and 3 out of each line of zephyr entries.csv, splitting at the pipe symbol |?",
+      "from zephyr entries.csv, whose fields are separated by |, give me fields 2 and 3 of each line"
+    ]
+  }
+]

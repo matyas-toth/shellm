@@ -1,0 +1,90 @@
+[
+  {
+    "id": "pilot-v1-basename-01",
+    "topic": "filesystem",
+    "family": "basename",
+    "capability": "strip-directory-and-suffix",
+    "split": "train",
+    "intent": {
+      "op": "basename",
+      "source": "docs/intro.md",
+      "suffix": ".md"
+    },
+    "requests": [
+      "print the file name of docs/intro.md without its directory and without the .md extension",
+      "how do I get the bare name of docs/intro.md with the .md suffix stripped?",
+      "I need the base name of docs/intro.md minus the .md suffix",
+      "strip both the directory and the .md suffix from docs/intro.md"
+    ]
+  },
+  {
+    "id": "pilot-v1-basename-02",
+    "topic": "filesystem",
+    "family": "basename",
+    "capability": "strip-directory",
+    "split": "train",
+    "intent": {
+      "op": "basename",
+      "source": "/usr/local/bin/backup.sh"
+    },
+    "requests": [
+      "print only the last component of /usr/local/bin/backup.sh",
+      "what is the file name part of /usr/local/bin/backup.sh?",
+      "I want /usr/local/bin/backup.sh with its leading directories removed",
+      "extract the name of the file from the path /usr/local/bin/backup.sh"
+    ]
+  },
+  {
+    "id": "pilot-v1-basename-03",
+    "topic": "filesystem",
+    "family": "basename",
+    "capability": "trailing-slash",
+    "split": "train",
+    "intent": {
+      "op": "basename",
+      "source": "reports/2024/"
+    },
+    "requests": [
+      "show the final component of the path reports/2024/, ignoring the trailing slash",
+      "which directory name does the path reports/2024/ end with?",
+      "I need the last directory name in reports/2024/ printed",
+      "print the base name of the path reports/2024/"
+    ]
+  },
+  {
+    "id": "pilot-v1-basename-04",
+    "topic": "filesystem",
+    "family": "basename",
+    "capability": "quoted-names",
+    "split": "train",
+    "intent": {
+      "op": "basename",
+      "source": "my docs/client's Q1 report.pdf",
+      "suffix": ".pdf"
+    },
+    "requests": [
+      "print the name of my docs/client's Q1 report.pdf without the folder and without .pdf",
+      "how can I get the file name of my docs/client's Q1 report.pdf with the .pdf ending cut off?",
+      "I want only the name of my docs/client's Q1 report.pdf, stripped of its folder and its .pdf suffix",
+      "drop the leading folder and the trailing .pdf from my docs/client's Q1 report.pdf and print what is left"
+    ]
+  },
+  {
+    "id": "pilot-v1-basename-05",
+    "topic": "filesystem",
+    "family": "basename",
+    "capability": "strip-directory-and-suffix",
+    "split": "validation",
+    "intent": {
+      "op": "basename",
+      "source": "tundra/zephyr-notes.txt",
+      "suffix": ".txt"
+    },
+    "requests": [
+      "give me the bare file name from tundra/zephyr-notes.txt, leaving off .txt",
+      "what is tundra/zephyr-notes.txt called once the path and the .txt suffix are dropped?",
+      "for the path tundra/zephyr-notes.txt, print just the name without .txt",
+      "my script needs the stem of tundra/zephyr-notes.txt, meaning its name with no directory and no .txt"
+    ]
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "pilot-v1-dd-01",
+    "topic": "filesystem",
+    "family": "dd",
+    "capability": "copy-with-block-size",
+    "split": "train",
+    "intent": {
+      "op": "dd",
+      "source": "in.bin",
+      "destination": "out.bin",
+      "block_size": 512,
+      "count": 3
+    },
+    "requests": [
+      "copy the first 3 blocks of 512 bytes from in.bin into out.bin",
+      "how do I write the first 3 512-byte blocks of in.bin to a new file out.bin?",
+      "I want out.bin to contain only the first 3 blocks of in.bin, with a block size of 512 bytes",
+      "extract 3 blocks of 512 bytes from the start of in.bin and save them as out.bin"
+    ]
+  },
+  {
+    "id": "pilot-v1-dd-02",
+    "topic": "filesystem",
+    "family": "dd",
+    "capability": "skip-offset",
+    "split": "train",
+    "intent": {
+      "op": "dd",
+      "source": "disk image.bin",
+      "destination": "part one.bin",
+      "block_size": 512,
+      "skip": 2,
+      "count": 2
+    },
+    "requests": [
+      "copy 2 blocks of 512 bytes from disk image.bin to part one.bin, skipping the first 2 blocks of the input",
+      "how can I extract 2 512-byte blocks from disk image.bin after skipping its first 2 blocks, writing them to part one.bin?",
+      "I need part one.bin to contain 2 blocks of 512 bytes read from disk image.bin starting after its first 2 blocks",
+      "starting 2 blocks into disk image.bin, copy 2 blocks of 512 bytes into part one.bin"
+    ]
+  },
+  {
+    "id": "pilot-v1-dd-03",
+    "topic": "filesystem",
+    "family": "dd",
+    "capability": "patch-in-place",
+    "split": "train",
+    "intent": {
+      "op": "dd",
+      "source": "patch.bin",
+      "destination": "disk.img",
+      "block_size": 512,
+      "seek": 2,
+      "count": 1,
+      "notrunc": true
+    },
+    "requests": [
+      "write 1 block of 512 bytes from the start of patch.bin into disk.img after its first 2 blocks, leaving the rest of disk.img intact",
+      "how do I patch disk.img in place by copying 1 block of 512 bytes from patch.bin to an offset of 2 blocks?",
+      "I want 1 block of 512 bytes from the beginning of patch.bin to overwrite disk.img at block offset 2, without shortening disk.img",
+      "overwrite 1 block of 512 bytes in disk.img, 2 blocks from its beginning, with data from the start of patch.bin, keeping the file size unchanged"
+    ]
+  },
+  {
+    "id": "pilot-v1-dd-04",
+    "topic": "filesystem",
+    "family": "dd",
+    "capability": "seek-offset",
+    "split": "train",
+    "intent": {
+      "op": "dd",
+      "source": "in.bin",
+      "destination": "padded.bin",
+      "block_size": 512,
+      "seek": 4,
+      "count": 2
+    },
+    "requests": [
+      "write the first 2 blocks of 512 bytes from in.bin into padded.bin, starting 4 blocks into the output",
+      "how can I copy 2 512-byte blocks from the start of in.bin into padded.bin at an output offset of 4 blocks?",
+      "I want padded.bin to begin with 4 zero-filled blocks of 512 bytes followed by the first 2 blocks of in.bin",
+      "leave the first 4 blocks of the new file padded.bin empty and put the first 2 blocks of 512 bytes from in.bin after them"
+    ]
+  },
+  {
+    "id": "pilot-v1-dd-05",
+    "topic": "filesystem",
+    "family": "dd",
+    "capability": "skip-offset",
+    "split": "validation",
+    "intent": {
+      "op": "dd",
+      "source": "tundra.bin",
+      "destination": "zephyr.bin",
+      "block_size": 256,
+      "skip": 4,
+      "count": 2
+    },
+    "requests": [
+      "zephyr.bin should receive 2 blocks of 256 bytes taken from tundra.bin after its first 4 blocks",
+      "could you pull 2 256-byte blocks out of tundra.bin, beginning after 4 blocks, into zephyr.bin?",
+      "ignoring the first 4 blocks of 256 bytes in tundra.bin, copy the next 2 blocks to zephyr.bin",
+      "from tundra.bin, skip 4 blocks of 256 bytes, then save the following 2 blocks as zephyr.bin"
+    ]
+  }
+]

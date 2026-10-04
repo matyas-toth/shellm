@@ -93,3 +93,12 @@ uv run python tools/evaluate_extra.py \
 The [construction and initial measurements](docs/shellbench-extra-v1.md) document the evaluation protocol and limitations. Predictions, results, chart data, and exported PNG/SVG charts are archived separately in `reports/2026-10-02-shellbench-extra-v1/`.
 
 The first Extra comparison scored Base 20/300 (6.7%), epoch 1 51/300 (17.0%), epoch 2 64/300 (21.3%), and epoch 3 65/300 (21.7%) on both fixtures. The final test suite passed 29 tests. These broader cases give a starting point for measuring later milestones independently of the original pilot score.
+
+## Milestone 6: fresh LoRA on the expanded branch data
+
+The `csanad-shenanigans` branch expanded the release to 2,072 training and 372 validation examples across 74 families. The [fresh LoRA experiment](docs/csanad-expanded-data-lora-experiment.md) completed three epochs in 41.2 minutes on the RTX 2060. Its final checkpoint scored **95/112 (84.8%) on ShellBench v1** and **77/300 (25.7%) on Extra v1**, against matched fresh Base scores of 26.8% and 6.7%. Success requires both fixtures. Raw predictions, reports, source provenance, dataset hashes, logs, and Base-versus-final-model PNG/SVG charts are preserved under `reports/2026-10-03-csanad-fresh-lora/`.
+
+```bash
+uv run python tools/evaluate_final.py --run-id 2026-10-03-csanad-fresh-lora --epoch 3 --batch-size 8
+uv run --with matplotlib python tools/plot_final_comparison.py --run-id 2026-10-03-csanad-fresh-lora --epoch 3
+```

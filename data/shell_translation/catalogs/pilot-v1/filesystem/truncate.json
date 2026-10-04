@@ -1,0 +1,92 @@
+[
+  {
+    "id": "pilot-v1-truncate-01",
+    "topic": "filesystem",
+    "family": "truncate",
+    "capability": "shrink",
+    "split": "train",
+    "intent": {
+      "op": "truncate",
+      "target": "notes.txt",
+      "size": 100
+    },
+    "requests": [
+      "shrink notes.txt so that it is exactly 100 bytes long, dropping the rest",
+      "how do I cut notes.txt down to its first 100 bytes in place?",
+      "I want notes.txt to keep only its first 100 bytes, discarding everything after them",
+      "notes.txt should be resized to exactly 100 bytes"
+    ]
+  },
+  {
+    "id": "pilot-v1-truncate-02",
+    "topic": "filesystem",
+    "family": "truncate",
+    "capability": "extend",
+    "split": "train",
+    "intent": {
+      "op": "truncate",
+      "target": "server.log",
+      "size": 2000
+    },
+    "requests": [
+      "extend server.log to exactly 2000 bytes by padding it with zero bytes",
+      "how can I grow server.log to a size of 2000 bytes?",
+      "I need server.log enlarged to 2000 bytes, with its existing content kept",
+      "make server.log 2000 bytes long, filling the new space with null bytes"
+    ]
+  },
+  {
+    "id": "pilot-v1-truncate-03",
+    "topic": "filesystem",
+    "family": "truncate",
+    "capability": "empty-file",
+    "split": "train",
+    "intent": {
+      "op": "truncate",
+      "target": "app.log",
+      "size": 0
+    },
+    "requests": [
+      "empty app.log to 0 bytes without deleting it",
+      "how do I clear app.log so that its size becomes 0 bytes?",
+      "I want app.log kept but reduced to 0 bytes",
+      "set the length of app.log to 0 bytes"
+    ]
+  },
+  {
+    "id": "pilot-v1-truncate-04",
+    "topic": "filesystem",
+    "family": "truncate",
+    "capability": "quoted-names",
+    "split": "train",
+    "intent": {
+      "op": "truncate",
+      "target": "client's logs/app log.txt",
+      "size": 50
+    },
+    "requests": [
+      "chop client's logs/app log.txt off after 50 bytes",
+      "what's the way to resize client's logs/app log.txt down to 50 bytes?",
+      "I'd like client's logs/app log.txt shortened to exactly 50 bytes",
+      "client's logs/app log.txt is too long; reduce it to a size of 50 bytes"
+    ]
+  },
+  {
+    "id": "pilot-v1-truncate-05",
+    "topic": "filesystem",
+    "family": "truncate",
+    "capability": "extend",
+    "split": "validation",
+    "intent": {
+      "op": "truncate",
+      "target": "zephyr-data.bin",
+      "size": 4096
+    },
+    "requests": [
+      "pad zephyr-data.bin with zeros until it is 4096 bytes in size",
+      "could you enlarge zephyr-data.bin so that its length reaches 4096 bytes?",
+      "zephyr-data.bin needs to become a 4096-byte file, keeping its current data at the start",
+      "lengthen zephyr-data.bin to a total of 4096 bytes"
+    ]
+  }
+]

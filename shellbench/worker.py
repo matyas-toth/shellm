@@ -1,5 +1,6 @@
 """Container-only worker. Never invoke this against a host filesystem."""
 
+import base64
 import hashlib
 import json
 import os
@@ -41,6 +42,10 @@ def reset(spec):
             path = root / name
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text(content, encoding="utf-8")
+    for name, encoded in spec.get("binary_files", {}).items():
+        path = WORK / name
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_bytes(base64.b64decode(encoded))
     for name, target in spec["symlinks"].items():
         (WORK / name).symlink_to(target)
     for root in (WORK, HOME):
