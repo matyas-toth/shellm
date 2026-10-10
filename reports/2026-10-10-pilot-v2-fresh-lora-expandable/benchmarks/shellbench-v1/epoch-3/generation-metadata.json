@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-10T03:07:33.187078+02:00",
+  "model": "Qwen/Qwen3-0.6B-Base",
+  "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+  "suite": "shellbench-v1",
+  "suite_sha256": "0b0ad3c730398c7473e0f40e99ee1588e497c1cbf1c3df1c906466177240240c",
+  "python": "3.12.3",
+  "packages": {
+    "torch": "2.11.0+cu130",
+    "transformers": "4.57.6",
+    "huggingface-hub": "0.36.2"
+  },
+  "gpu": "NVIDIA GeForce RTX 2060",
+  "dtype": "float16",
+  "do_sample": false,
+  "max_new_tokens": 64,
+  "batch_size": 8,
+  "padding_side": "left",
+  "timing": "amortized batch wall time per request",
+  "stop_strings": [
+    "\n"
+  ],
+  "prompt_style": "raw",
+  "cases": 112,
+  "generation_seconds": 24.38522743100475,
+  "peak_pytorch_gib": 1.200850009918213,
+  "adapter": "/mnt/c/Users/reign/Documents/ChatGPT/SheLLM-0.6B-Project/checkpoints/2026-10-10-pilot-v2-fresh-lora-expandable/epoch-3",
+  "adapter_sha256": "11e702fb8d699cf88244d542bfab234a33588cfb0b4e9685239d78a5916cef3c",
+  "training": {
+    "run_id": "2026-10-10-pilot-v2-fresh-lora-expandable",
+    "epoch": 3,
+    "step": 3450,
+    "examples_seen": 55176,
+    "validation_loss": 0.019457792933862444,
+    "dataset_sha256": "d546e6075d539854706eecce78ce0e3667257c067a218722945ddff545265e93",
+    "base_model": "Qwen/Qwen3-0.6B-Base",
+    "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+    "config": {
+      "model": "Qwen/Qwen3-0.6B-Base",
+      "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+      "dataset_release": "pilot-v2",
+      "cuda_allocator_config": "expandable_segments:True",
+      "seed": 42,
+      "epochs": 3,
+      "micro_batch_size": 4,
+      "effective_batch_size": 16,
+      "max_length": 128,
+      "learning_rate": 0.0002,
+      "warmup_steps": 90,
+      "weight_decay": 0.0,
+      "max_grad_norm": 1.0,
+      "lora": {
+        "r": 8,
+        "lora_alpha": 16,
+        "lora_dropout": 0.05,
+        "target_modules": [
+          "q_proj",
+          "k_proj",
+          "v_proj",
+          "o_proj",
+          "gate_proj",
+          "up_proj",
+          "down_proj"
+        ],
+        "bias": "none",
+        "task_type": "CAUSAL_LM"
+      }
+    },
+    "adapter_sha256": "11e702fb8d699cf88244d542bfab234a33588cfb0b4e9685239d78a5916cef3c",
+    "checkpoint": "checkpoints/2026-10-10-pilot-v2-fresh-lora-expandable/epoch-3"
+  }
+}

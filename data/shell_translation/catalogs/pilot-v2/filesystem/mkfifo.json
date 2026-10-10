@@ -1,0 +1,101 @@
+[
+  {
+    "id": "pilot-v1-mkfifo-01",
+    "topic": "filesystem",
+    "family": "mkfifo",
+    "capability": "create-fifo",
+    "split": "train",
+    "intent": {
+      "op": "mkfifo",
+      "targets": [
+        "events.fifo"
+      ]
+    },
+    "requests": [
+      "create a named pipe called events.fifo",
+      "how do I make a FIFO named events.fifo?",
+      "I need a named pipe events.fifo for passing data between processes",
+      "set up events.fifo as a first-in first-out special file"
+    ]
+  },
+  {
+    "id": "pilot-v1-mkfifo-02",
+    "topic": "filesystem",
+    "family": "mkfifo",
+    "capability": "multiple-targets",
+    "split": "train",
+    "intent": {
+      "op": "mkfifo",
+      "targets": [
+        "-jobs.fifo",
+        "results.fifo"
+      ]
+    },
+    "requests": [
+      "make two named pipes, -jobs.fifo and results.fifo",
+      "how can I create the FIFOs -jobs.fifo and results.fifo at once?",
+      "I want named pipes called -jobs.fifo and results.fifo",
+      "-jobs.fifo and results.fifo should both be created as named pipes"
+    ]
+  },
+  {
+    "id": "pilot-v1-mkfifo-03",
+    "topic": "filesystem",
+    "family": "mkfifo",
+    "capability": "fifo-with-mode",
+    "split": "train",
+    "intent": {
+      "op": "mkfifo",
+      "targets": [
+        "private.fifo"
+      ],
+      "mode": "600"
+    },
+    "requests": [
+      "make private.fifo a named pipe with permissions 600",
+      "what's the way to get a FIFO private.fifo whose mode is 600 from the start?",
+      "I need private.fifo to be a named pipe with mode 600",
+      "set up the named pipe private.fifo, giving it mode 600 right away"
+    ]
+  },
+  {
+    "id": "pilot-v1-mkfifo-04",
+    "topic": "filesystem",
+    "family": "mkfifo",
+    "capability": "quoted-nested",
+    "split": "train",
+    "intent": {
+      "op": "mkfifo",
+      "targets": [
+        "queues/client's queue"
+      ]
+    },
+    "requests": [
+      "add a FIFO special file at queues/client's queue",
+      "how would I make queues/client's queue a FIFO?",
+      "I'd like a named pipe whose path is queues/client's queue",
+      "inside queues, make a named pipe so that queues/client's queue exists as a FIFO"
+    ]
+  },
+  {
+    "id": "pilot-v1-mkfifo-05",
+    "topic": "filesystem",
+    "family": "mkfifo",
+    "capability": "fifo-with-mode",
+    "split": "validation",
+    "intent": {
+      "op": "mkfifo",
+      "targets": [
+        "tundra.fifo",
+        "zephyr.fifo"
+      ],
+      "mode": "660"
+    },
+    "requests": [
+      "build tundra.fifo and zephyr.fifo as FIFO files, each with mode 660",
+      "could you create two FIFOs, tundra.fifo and zephyr.fifo, each with permissions 660?",
+      "my processes need named pipes tundra.fifo and zephyr.fifo with mode 660",
+      "with mode 660, set up the pipes tundra.fifo and zephyr.fifo"
+    ]
+  }
+]

@@ -60,6 +60,7 @@ def main():
     parser.add_argument("--release", default="pilot-v1")
     parser.add_argument("--all", action="store_true", help="also lint the original pilot families")
     parser.add_argument("--family", action="append", help="only report these families")
+    parser.add_argument("--group-prefix", help="only report groups whose IDs start with this prefix")
     args = parser.parse_args()
 
     groups = source_groups(args.release)
@@ -76,7 +77,7 @@ def main():
 
     for group in groups:
         family, gid = group["family"], group["id"]
-        if not selected(family):
+        if not selected(family) or (args.group_prefix and not gid.startswith(args.group_prefix)):
             continue
         command = render(group["intent"])
         wrapped = set(re.findall(r"[a-z0-9]+", command)) & (PROGRAMS | set(skeleton_owner))
@@ -100,7 +101,8 @@ def main():
 
     for error in errors:
         print(error)
-    print(f"{len(errors)} problem(s) in {sum(selected(g['family']) for g in groups)} linted groups")
+    count = sum(selected(g['family']) and (not args.group_prefix or g['id'].startswith(args.group_prefix)) for g in groups)
+    print(f"{len(errors)} problem(s) in {count} linted groups")
     return 1 if errors else 0
 
 

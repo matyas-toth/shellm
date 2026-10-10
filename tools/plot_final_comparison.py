@@ -92,7 +92,7 @@ def main():
     fig, ax = plt.subplots(figsize=(11, 6.5), dpi=160)
     fig.subplots_adjust(left=0.105, right=0.96, bottom=0.19, top=0.76)
     fig.text(0.105, 0.92, "Fresh LoRA vs Qwen3 Base", fontsize=24, weight="bold", color="#172b3a")
-    fig.text(0.105, 0.865, "csanad-shenanigans · expanded-data experiment · 0.6B models", fontsize=12, color="#5c6b77")
+    fig.text(0.105, 0.865, f"{training['config']['dataset_release']} · expanded-data experiment · 0.6B models", fontsize=12, color="#5c6b77")
     axes_style(ax)
     ax.set_xticks([0, 1], ["ShellBench v1\n112 cases", "ShellBench Extra v1\n300 cases"])
     for index, (model, color) in enumerate(zip(("Qwen3 0.6B Base", "Fresh SheLLM LoRA"), COLORS)):
@@ -118,7 +118,7 @@ def main():
         bars = ax.bar([0, 1], [row["percent"] for row in subset], width=0.55, color=COLORS, zorder=3)
         annotate(ax, bars, subset)
         fig.text(0.12, 0.083, footer, fontsize=9, color="#5c6b77")
-        fig.text(0.12, 0.045, "Held-out functional evaluation · output, exit status, cwd, and filesystem effects checked", fontsize=9, color="#5c6b77")
+        fig.text(0.12, 0.045, "Functional evaluation · output, exit status, cwd, and filesystem effects checked", fontsize=9, color="#5c6b77")
         save(fig, output, f"{suite}-final-versus-base")
     with (output / "comparison.csv").open("w", newline="", encoding="utf-8") as stream:
         writer = csv.DictWriter(stream, fieldnames=list(rows[0]))

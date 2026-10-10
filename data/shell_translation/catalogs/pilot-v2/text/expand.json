@@ -1,0 +1,92 @@
+[
+  {
+    "id": "pilot-v1-expand-01",
+    "topic": "text",
+    "family": "expand",
+    "capability": "custom-tab-width",
+    "split": "train",
+    "intent": {
+      "op": "expand",
+      "source": "code.txt",
+      "tabstop": 4
+    },
+    "requests": [
+      "replace the tabs in code.txt with spaces, using tab stops every 4 columns",
+      "how do I convert tabs to spaces in code.txt with a tab width of 4?",
+      "I want code.txt printed with each tab turned into spaces, tab stops 4 apart",
+      "turn every tab in code.txt into spaces, assuming tabs are 4 columns wide"
+    ]
+  },
+  {
+    "id": "pilot-v1-expand-02",
+    "topic": "text",
+    "family": "expand",
+    "capability": "tabs-to-spaces",
+    "split": "train",
+    "intent": {
+      "op": "expand",
+      "source": "Makefile snippet.txt"
+    },
+    "requests": [
+      "convert the tabs in Makefile snippet.txt to spaces at the usual tab stops of 8 columns",
+      "how can I print Makefile snippet.txt with tabs changed into spaces, 8 columns per tab stop?",
+      "I need every tab in Makefile snippet.txt replaced by enough spaces to reach the next multiple of 8 columns",
+      "show Makefile snippet.txt with its tabs rendered as spaces, using the default tab width of 8"
+    ]
+  },
+  {
+    "id": "pilot-v1-expand-03",
+    "topic": "text",
+    "family": "expand",
+    "capability": "initial-tabs-only",
+    "split": "train",
+    "intent": {
+      "op": "expand",
+      "source": "nested.txt",
+      "initial": true,
+      "tabstop": 4
+    },
+    "requests": [
+      "convert only the leading tabs at the start of each line in nested.txt into spaces, using tab stops every 4 columns",
+      "how do I replace the indentation tabs in nested.txt with spaces at a tab width of 4, leaving tabs after the text alone?",
+      "I want the initial tabs of nested.txt turned into spaces with 4-column tab stops, but any later tabs kept",
+      "print nested.txt with the tabs in its indentation changed to spaces at 4-column stops, keeping the other tabs"
+    ]
+  },
+  {
+    "id": "pilot-v1-expand-04",
+    "topic": "text",
+    "family": "expand",
+    "capability": "custom-tab-width",
+    "split": "train",
+    "intent": {
+      "op": "expand",
+      "source": "-config.txt",
+      "tabstop": 2
+    },
+    "requests": [
+      "swap every tab character in -config.txt for spaces so the text lines up on 2-column tab stops",
+      "how can I print -config.txt using spaces instead of tabs, at a tab width of 2?",
+      "I need the file -config.txt with its tabs turned into spaces, treating a tab stop as every 2 columns",
+      "make -config.txt tab-free by replacing tabs with spaces, with tab stops 2 columns apart"
+    ]
+  },
+  {
+    "id": "pilot-v1-expand-05",
+    "topic": "text",
+    "family": "expand",
+    "capability": "custom-tab-width",
+    "split": "validation",
+    "intent": {
+      "op": "expand",
+      "source": "zephyr-table.txt",
+      "tabstop": 10
+    },
+    "requests": [
+      "could you display zephyr-table.txt aligned with spaces where the tabs were, at 10 columns per tab?",
+      "what would zephyr-table.txt look like if each tab were replaced with spaces up to the next multiple of 10 columns?",
+      "align zephyr-table.txt by padding with spaces in place of tabs, every 10 columns",
+      "print a tab-free version of zephyr-table.txt where tabs become spaces at 10-column intervals"
+    ]
+  }
+]

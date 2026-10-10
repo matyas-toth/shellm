@@ -1,0 +1,95 @@
+[
+  {
+    "id": "pilot-v1-seq-01",
+    "topic": "shell-utils",
+    "family": "seq",
+    "capability": "step",
+    "split": "train",
+    "intent": {
+      "op": "seq",
+      "first": 1,
+      "step": 2,
+      "last": 9
+    },
+    "requests": [
+      "count from 1 to 9 in steps of 2",
+      "I want the numbers 1 to 9, going up by 2 each time",
+      "which numbers do I get from 1 to 9 with an increment of 2? print them one per line",
+      "list the numbers from 1 through 9 with a step of 2"
+    ]
+  },
+  {
+    "id": "pilot-v1-seq-02",
+    "topic": "shell-utils",
+    "family": "seq",
+    "capability": "count-up",
+    "split": "train",
+    "intent": {
+      "op": "seq",
+      "last": 5
+    },
+    "requests": [
+      "print the numbers 1 to 5, each on its own line",
+      "I need the integers from 1 up to 5 listed",
+      "can you count to 5, one number per line?",
+      "output every whole number between 1 and 5 inclusive"
+    ]
+  },
+  {
+    "id": "pilot-v1-seq-03",
+    "topic": "shell-utils",
+    "family": "seq",
+    "capability": "custom-separator",
+    "split": "train",
+    "intent": {
+      "op": "seq",
+      "first": 1,
+      "last": 5,
+      "separator": ","
+    },
+    "requests": [
+      "print 1 through 5 on one line, separated by commas",
+      "I want the numbers from 1 to 5 joined with commas",
+      "how do I get 1 to 5 as a single comma-separated line?",
+      "output the integers 1 to 5 with a comma between neighbours"
+    ]
+  },
+  {
+    "id": "pilot-v1-seq-04",
+    "topic": "shell-utils",
+    "family": "seq",
+    "capability": "zero-padded",
+    "split": "train",
+    "intent": {
+      "op": "seq",
+      "first": 8,
+      "last": 12,
+      "equal_width": true
+    },
+    "requests": [
+      "print the numbers 8 to 12 padded with leading zeros to the same width",
+      "I need 8 through 12 listed at equal width, using leading zeros",
+      "can you count from 8 to 12 so that every number has the same number of digits?",
+      "show the integers from 8 up to 12, zero-padded so they line up"
+    ]
+  },
+  {
+    "id": "pilot-v1-seq-05",
+    "topic": "shell-utils",
+    "family": "seq",
+    "capability": "step",
+    "split": "validation",
+    "intent": {
+      "op": "seq",
+      "first": 10,
+      "step": 5,
+      "last": 50
+    },
+    "requests": [
+      "list the multiples of 5 from 10 to 50",
+      "starting at 10 and adding 5 each time, print every number up to 50",
+      "what values lie between 10 and 50 when stepping by 5?",
+      "I'd like a list running from 10 to 50 in increments of 5"
+    ]
+  }
+]

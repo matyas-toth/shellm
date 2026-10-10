@@ -4,6 +4,8 @@ Date: 2026-10-01 (Europe/Budapest).
 
 Updated: 2026-10-02 to reserve ShellBench Extra v1 requests and exact reference labels outside training/validation.
 
+Updated: 2026-10-10. [Pilot v2](pilot-v2-coverage-data-expansion.md) is a complete snapshot of the current pilot-v1 plus new coverage. Use a fresh release such as `pilot-v3` for subsequent additions; load pilot-v2 alone for its proposed training experiment. Preserve both archived datasets. The temporary pilot-v1 in-place workflow mentioned below is historical.
+
 ## Purpose
 
 Make data changes reviewable, reproducible, and usable by future contributors without editing the training loop. Source catalogs, rendered examples, and validation reports all live in Git.
@@ -27,6 +29,8 @@ uv run python -m unittest discover -s tests -v
 ```
 
 `tools/lint_requests.py` (added 2026-10-02) catches request problems the compiler cannot: requests that name the program instead of describing the goal, one request skeleton mapped to different families, validation scenarios reusing a training sentence template, and paraphrases that differ only by their first word. It skips the original pilot families by default (`--all` includes them).
+
+For the pilot-v2 additions, use `--release pilot-v2 --all --group-prefix coverage-v2-`. The group-prefix selector limits reported groups while retaining the whole release for skeleton comparisons. This avoids representing inherited legacy wording as having passed the stricter new-data lint.
 
 The compiler checks normalized request duplicates and evaluation overlap, stable IDs, group split integrity, single-line text, intent fields, and exact agreement between rendered labels and declared intents. The release manifest identifies the concrete dataset by SHA-256. The initial authoring script `tools/seed_pilot_catalog.py` is retained as provenance; contributors edit catalogs directly.
 

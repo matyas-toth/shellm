@@ -1,0 +1,191 @@
+{
+  "run_id": "2026-10-10-pilot-v2-fresh-lora-expandable",
+  "started": "2026-10-10T00:47:20.127839+02:00",
+  "config": {
+    "model": "Qwen/Qwen3-0.6B-Base",
+    "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+    "dataset_release": "pilot-v2",
+    "cuda_allocator_config": "expandable_segments:True",
+    "seed": 42,
+    "epochs": 3,
+    "micro_batch_size": 4,
+    "effective_batch_size": 16,
+    "max_length": 128,
+    "learning_rate": 0.0002,
+    "warmup_steps": 90,
+    "weight_decay": 0.0,
+    "max_grad_norm": 1.0,
+    "lora": {
+      "r": 8,
+      "lora_alpha": 16,
+      "lora_dropout": 0.05,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ],
+      "bias": "none",
+      "task_type": "CAUSAL_LM"
+    }
+  },
+  "dataset_sha256": "d546e6075d539854706eecce78ce0e3667257c067a218722945ddff545265e93",
+  "train_examples": 18392,
+  "validation_examples": 4392,
+  "trainable_parameters": 5046272,
+  "total_parameters": 601096192,
+  "gpu": "NVIDIA GeForce RTX 2060",
+  "max_example_tokens": 86,
+  "packages": {
+    "torch": "2.11.0+cu130",
+    "transformers": "4.57.6",
+    "peft": "0.18.1",
+    "accelerate": "1.15.0"
+  },
+  "trainer_sha256": "561344a3b2c973d0dcfa670f9fcfd945e5da4b6d84c3b3ade053e1dee239ac34",
+  "precision": "FP16 frozen base and autocast, FP32 adapters and optimizer",
+  "status": "complete",
+  "cuda_allocator_config": "expandable_segments:True",
+  "optimizer_steps": 3450,
+  "examples_seen": 55176,
+  "skipped_updates": 0,
+  "initial_validation_loss": 1.1379670901763745,
+  "checkpoints": [
+    {
+      "run_id": "2026-10-10-pilot-v2-fresh-lora-expandable",
+      "epoch": 1,
+      "step": 1150,
+      "examples_seen": 18392,
+      "validation_loss": 0.0301990894240446,
+      "dataset_sha256": "d546e6075d539854706eecce78ce0e3667257c067a218722945ddff545265e93",
+      "base_model": "Qwen/Qwen3-0.6B-Base",
+      "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+      "config": {
+        "model": "Qwen/Qwen3-0.6B-Base",
+        "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+        "dataset_release": "pilot-v2",
+        "cuda_allocator_config": "expandable_segments:True",
+        "seed": 42,
+        "epochs": 3,
+        "micro_batch_size": 4,
+        "effective_batch_size": 16,
+        "max_length": 128,
+        "learning_rate": 0.0002,
+        "warmup_steps": 90,
+        "weight_decay": 0.0,
+        "max_grad_norm": 1.0,
+        "lora": {
+          "r": 8,
+          "lora_alpha": 16,
+          "lora_dropout": 0.05,
+          "target_modules": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj",
+            "gate_proj",
+            "up_proj",
+            "down_proj"
+          ],
+          "bias": "none",
+          "task_type": "CAUSAL_LM"
+        }
+      },
+      "adapter_sha256": "792e9c3ce410f20b0bcdfa379046ae0388ed1829a088bcdef6e85dec9dfed631",
+      "checkpoint": "checkpoints/2026-10-10-pilot-v2-fresh-lora-expandable/epoch-1"
+    },
+    {
+      "run_id": "2026-10-10-pilot-v2-fresh-lora-expandable",
+      "epoch": 2,
+      "step": 2300,
+      "examples_seen": 36784,
+      "validation_loss": 0.01983763193429355,
+      "dataset_sha256": "d546e6075d539854706eecce78ce0e3667257c067a218722945ddff545265e93",
+      "base_model": "Qwen/Qwen3-0.6B-Base",
+      "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+      "config": {
+        "model": "Qwen/Qwen3-0.6B-Base",
+        "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+        "dataset_release": "pilot-v2",
+        "cuda_allocator_config": "expandable_segments:True",
+        "seed": 42,
+        "epochs": 3,
+        "micro_batch_size": 4,
+        "effective_batch_size": 16,
+        "max_length": 128,
+        "learning_rate": 0.0002,
+        "warmup_steps": 90,
+        "weight_decay": 0.0,
+        "max_grad_norm": 1.0,
+        "lora": {
+          "r": 8,
+          "lora_alpha": 16,
+          "lora_dropout": 0.05,
+          "target_modules": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj",
+            "gate_proj",
+            "up_proj",
+            "down_proj"
+          ],
+          "bias": "none",
+          "task_type": "CAUSAL_LM"
+        }
+      },
+      "adapter_sha256": "7e5c6077530ac8ed8edd995d3df733f77b2483b3cc3f7a20e879fe7b2ec30bb0",
+      "checkpoint": "checkpoints/2026-10-10-pilot-v2-fresh-lora-expandable/epoch-2"
+    },
+    {
+      "run_id": "2026-10-10-pilot-v2-fresh-lora-expandable",
+      "epoch": 3,
+      "step": 3450,
+      "examples_seen": 55176,
+      "validation_loss": 0.019457792933862444,
+      "dataset_sha256": "d546e6075d539854706eecce78ce0e3667257c067a218722945ddff545265e93",
+      "base_model": "Qwen/Qwen3-0.6B-Base",
+      "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+      "config": {
+        "model": "Qwen/Qwen3-0.6B-Base",
+        "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+        "dataset_release": "pilot-v2",
+        "cuda_allocator_config": "expandable_segments:True",
+        "seed": 42,
+        "epochs": 3,
+        "micro_batch_size": 4,
+        "effective_batch_size": 16,
+        "max_length": 128,
+        "learning_rate": 0.0002,
+        "warmup_steps": 90,
+        "weight_decay": 0.0,
+        "max_grad_norm": 1.0,
+        "lora": {
+          "r": 8,
+          "lora_alpha": 16,
+          "lora_dropout": 0.05,
+          "target_modules": [
+            "q_proj",
+            "k_proj",
+            "v_proj",
+            "o_proj",
+            "gate_proj",
+            "up_proj",
+            "down_proj"
+          ],
+          "bias": "none",
+          "task_type": "CAUSAL_LM"
+        }
+      },
+      "adapter_sha256": "11e702fb8d699cf88244d542bfab234a33588cfb0b4e9685239d78a5916cef3c",
+      "checkpoint": "checkpoints/2026-10-10-pilot-v2-fresh-lora-expandable/epoch-3"
+    }
+  ],
+  "adapter_weights_changed": true,
+  "training_seconds": 7839.4321105759955,
+  "peak_pytorch_gib": 1.8240103721618652,
+  "peak_reserved_pytorch_gib": 2.009765625
+}

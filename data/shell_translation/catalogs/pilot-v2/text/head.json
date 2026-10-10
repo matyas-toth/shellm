@@ -1,0 +1,4582 @@
+[
+  {
+    "id": "pilot-v1-head-01",
+    "topic": "text",
+    "family": "head",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "copper text.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "print the first 1 lines of copper text.txt",
+      "show only the first 1 lines from copper text.txt",
+      "display the first 1 lines in copper text.txt",
+      "give me the first 1 lines of the file copper text.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-head-02",
+    "topic": "text",
+    "family": "head",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "texts/mango.txt",
+      "count": 2,
+      "bytes": false
+    },
+    "requests": [
+      "print the first 2 lines of texts/mango.txt",
+      "show only the first 2 lines from texts/mango.txt",
+      "display the first 2 lines in texts/mango.txt",
+      "give me the first 2 lines of the file texts/mango.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-head-03",
+    "topic": "text",
+    "family": "head",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "texts/falcon.txt",
+      "count": 3,
+      "bytes": false
+    },
+    "requests": [
+      "print the first 3 lines of texts/falcon.txt",
+      "show only the first 3 lines from texts/falcon.txt",
+      "display the first 3 lines in texts/falcon.txt",
+      "give me the first 3 lines of the file texts/falcon.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-head-04",
+    "topic": "text",
+    "family": "head",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "texts/orchid.txt",
+      "count": 4,
+      "bytes": false
+    },
+    "requests": [
+      "print the first 4 lines of texts/orchid.txt",
+      "show only the first 4 lines from texts/orchid.txt",
+      "display the first 4 lines in texts/orchid.txt",
+      "give me the first 4 lines of the file texts/orchid.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-head-05",
+    "topic": "text",
+    "family": "head",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "nebula text.txt",
+      "count": 5,
+      "bytes": false
+    },
+    "requests": [
+      "print the first 5 lines of nebula text.txt",
+      "show only the first 5 lines from nebula text.txt",
+      "display the first 5 lines in nebula text.txt",
+      "give me the first 5 lines of the file nebula text.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-head-06",
+    "topic": "text",
+    "family": "head",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "texts/otter.txt",
+      "count": 6,
+      "bytes": true
+    },
+    "requests": [
+      "print the first 6 bytes of texts/otter.txt",
+      "show only the first 6 bytes from texts/otter.txt",
+      "display the first 6 bytes in texts/otter.txt",
+      "give me the first 6 bytes of the file texts/otter.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-head-07",
+    "topic": "text",
+    "family": "head",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "texts/cedar.txt",
+      "count": 7,
+      "bytes": false
+    },
+    "requests": [
+      "print the first 7 lines of texts/cedar.txt",
+      "show only the first 7 lines from texts/cedar.txt",
+      "display the first 7 lines in texts/cedar.txt",
+      "give me the first 7 lines of the file texts/cedar.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-head-08",
+    "topic": "text",
+    "family": "head",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "texts/saffron.txt",
+      "count": 8,
+      "bytes": false
+    },
+    "requests": [
+      "print the first 8 lines of texts/saffron.txt",
+      "show only the first 8 lines from texts/saffron.txt",
+      "display the first 8 lines in texts/saffron.txt",
+      "give me the first 8 lines of the file texts/saffron.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-head-09",
+    "topic": "text",
+    "family": "head",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "marble text.txt",
+      "count": 9,
+      "bytes": false
+    },
+    "requests": [
+      "print the first 9 lines of marble text.txt",
+      "show only the first 9 lines from marble text.txt",
+      "display the first 9 lines in marble text.txt",
+      "give me the first 9 lines of the file marble text.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-head-10",
+    "topic": "text",
+    "family": "head",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "texts/comet.txt",
+      "count": 10,
+      "bytes": false
+    },
+    "requests": [
+      "print the first 10 lines of texts/comet.txt",
+      "show only the first 10 lines from texts/comet.txt",
+      "display the first 10 lines in texts/comet.txt",
+      "give me the first 10 lines of the file texts/comet.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-head-11",
+    "topic": "text",
+    "family": "head",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "texts/willow.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "print the first 1 lines of texts/willow.txt",
+      "show only the first 1 lines from texts/willow.txt",
+      "display the first 1 lines in texts/willow.txt",
+      "give me the first 1 lines of the file texts/willow.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-head-12",
+    "topic": "text",
+    "family": "head",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "texts/badger.txt",
+      "count": 2,
+      "bytes": false
+    },
+    "requests": [
+      "print the first 2 lines of texts/badger.txt",
+      "show only the first 2 lines from texts/badger.txt",
+      "display the first 2 lines in texts/badger.txt",
+      "give me the first 2 lines of the file texts/badger.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-head-13",
+    "topic": "text",
+    "family": "head",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "quartz text.txt",
+      "count": 3,
+      "bytes": false
+    },
+    "requests": [
+      "print the first 3 lines of quartz text.txt",
+      "show only the first 3 lines from quartz text.txt",
+      "display the first 3 lines in quartz text.txt",
+      "give me the first 3 lines of the file quartz text.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-head-14",
+    "topic": "text",
+    "family": "head",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "texts/hazel.txt",
+      "count": 4,
+      "bytes": false
+    },
+    "requests": [
+      "print the first 4 lines of texts/hazel.txt",
+      "show only the first 4 lines from texts/hazel.txt",
+      "display the first 4 lines in texts/hazel.txt",
+      "give me the first 4 lines of the file texts/hazel.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-head-15",
+    "topic": "text",
+    "family": "head",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "texts/maple.txt",
+      "count": 5,
+      "bytes": false
+    },
+    "requests": [
+      "print the first 5 lines of texts/maple.txt",
+      "show only the first 5 lines from texts/maple.txt",
+      "display the first 5 lines in texts/maple.txt",
+      "give me the first 5 lines of the file texts/maple.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-head-16",
+    "topic": "text",
+    "family": "head",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "texts/raven.txt",
+      "count": 6,
+      "bytes": true
+    },
+    "requests": [
+      "print the first 6 bytes of texts/raven.txt",
+      "show only the first 6 bytes from texts/raven.txt",
+      "display the first 6 bytes in texts/raven.txt",
+      "give me the first 6 bytes of the file texts/raven.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-head-17",
+    "topic": "text",
+    "family": "head",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "lotus text.txt",
+      "count": 7,
+      "bytes": false
+    },
+    "requests": [
+      "print the first 7 lines of lotus text.txt",
+      "show only the first 7 lines from lotus text.txt",
+      "display the first 7 lines in lotus text.txt",
+      "give me the first 7 lines of the file lotus text.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-head-18",
+    "topic": "text",
+    "family": "head",
+    "capability": "text-slicing",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "texts/birch.txt",
+      "count": 8,
+      "bytes": false
+    },
+    "requests": [
+      "print the first 8 lines of texts/birch.txt",
+      "show only the first 8 lines from texts/birch.txt",
+      "display the first 8 lines in texts/birch.txt",
+      "give me the first 8 lines of the file texts/birch.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-head-19",
+    "topic": "text",
+    "family": "head",
+    "capability": "text-slicing",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "texts/tundra.txt",
+      "count": 9,
+      "bytes": false
+    },
+    "requests": [
+      "print the first 9 lines of texts/tundra.txt",
+      "show only the first 9 lines from texts/tundra.txt",
+      "display the first 9 lines in texts/tundra.txt",
+      "give me the first 9 lines of the file texts/tundra.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-head-20",
+    "topic": "text",
+    "family": "head",
+    "capability": "text-slicing",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "texts/zephyr.txt",
+      "count": 10,
+      "bytes": false
+    },
+    "requests": [
+      "print the first 10 lines of texts/zephyr.txt",
+      "show only the first 10 lines from texts/zephyr.txt",
+      "display the first 10 lines in texts/zephyr.txt",
+      "give me the first 10 lines of the file texts/zephyr.txt"
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0001",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "cinder-journal.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"cinder-journal.txt\".",
+      "Print 1 line from the start of \"cinder-journal.txt\".",
+      "I only want the opening 1 line from \"cinder-journal.txt\".",
+      "Display \"cinder-journal.txt\" up to its first 1 line.",
+      "Read the beginning of \"cinder-journal.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"cinder-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0002",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "cinder-journal.txt",
+      "count": 3,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 3 lines of \"cinder-journal.txt\".",
+      "Print 3 lines from the start of \"cinder-journal.txt\".",
+      "I only want the opening 3 lines from \"cinder-journal.txt\".",
+      "Display \"cinder-journal.txt\" up to its first 3 lines.",
+      "Read the beginning of \"cinder-journal.txt\", limited to 3 lines.",
+      "Give me 3 lines from the beginning of \"cinder-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0003",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "cinder-journal.txt",
+      "count": 7,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 7 bytes of \"cinder-journal.txt\".",
+      "Print 7 bytes from the start of \"cinder-journal.txt\".",
+      "I only want the opening 7 bytes from \"cinder-journal.txt\".",
+      "Display \"cinder-journal.txt\" up to its first 7 bytes.",
+      "Read the beginning of \"cinder-journal.txt\", limited to 7 bytes.",
+      "Give me 7 bytes from the beginning of \"cinder-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0004",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "cinder-journal.txt",
+      "count": 31,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 31 bytes of \"cinder-journal.txt\".",
+      "Print 31 bytes from the start of \"cinder-journal.txt\".",
+      "I only want the opening 31 bytes from \"cinder-journal.txt\".",
+      "Display \"cinder-journal.txt\" up to its first 31 bytes.",
+      "Read the beginning of \"cinder-journal.txt\", limited to 31 bytes.",
+      "Give me 31 bytes from the beginning of \"cinder-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0005",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "kiln working notes.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"kiln working notes.txt\".",
+      "Print 1 line from the start of \"kiln working notes.txt\".",
+      "I only want the opening 1 line from \"kiln working notes.txt\".",
+      "Display \"kiln working notes.txt\" up to its first 1 line.",
+      "Read the beginning of \"kiln working notes.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"kiln working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0006",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "kiln working notes.txt",
+      "count": 4,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 4 lines of \"kiln working notes.txt\".",
+      "Print 4 lines from the start of \"kiln working notes.txt\".",
+      "I only want the opening 4 lines from \"kiln working notes.txt\".",
+      "Display \"kiln working notes.txt\" up to its first 4 lines.",
+      "Read the beginning of \"kiln working notes.txt\", limited to 4 lines.",
+      "Give me 4 lines from the beginning of \"kiln working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0007",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "kiln working notes.txt",
+      "count": 8,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 8 bytes of \"kiln working notes.txt\".",
+      "Print 8 bytes from the start of \"kiln working notes.txt\".",
+      "I only want the opening 8 bytes from \"kiln working notes.txt\".",
+      "Display \"kiln working notes.txt\" up to its first 8 bytes.",
+      "Read the beginning of \"kiln working notes.txt\", limited to 8 bytes.",
+      "Give me 8 bytes from the beginning of \"kiln working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0008",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "kiln working notes.txt",
+      "count": 32,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 32 bytes of \"kiln working notes.txt\".",
+      "Print 32 bytes from the start of \"kiln working notes.txt\".",
+      "I only want the opening 32 bytes from \"kiln working notes.txt\".",
+      "Display \"kiln working notes.txt\" up to its first 32 bytes.",
+      "Read the beginning of \"kiln working notes.txt\", limited to 32 bytes.",
+      "Give me 32 bytes from the beginning of \"kiln working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0009",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "ledger's notebook.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"ledger's notebook.txt\".",
+      "Print 1 line from the start of \"ledger's notebook.txt\".",
+      "I only want the opening 1 line from \"ledger's notebook.txt\".",
+      "Display \"ledger's notebook.txt\" up to its first 1 line.",
+      "Read the beginning of \"ledger's notebook.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"ledger's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0010",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "ledger's notebook.txt",
+      "count": 5,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 5 lines of \"ledger's notebook.txt\".",
+      "Print 5 lines from the start of \"ledger's notebook.txt\".",
+      "I only want the opening 5 lines from \"ledger's notebook.txt\".",
+      "Display \"ledger's notebook.txt\" up to its first 5 lines.",
+      "Read the beginning of \"ledger's notebook.txt\", limited to 5 lines.",
+      "Give me 5 lines from the beginning of \"ledger's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0011",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "ledger's notebook.txt",
+      "count": 9,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 9 bytes of \"ledger's notebook.txt\".",
+      "Print 9 bytes from the start of \"ledger's notebook.txt\".",
+      "I only want the opening 9 bytes from \"ledger's notebook.txt\".",
+      "Display \"ledger's notebook.txt\" up to its first 9 bytes.",
+      "Read the beginning of \"ledger's notebook.txt\", limited to 9 bytes.",
+      "Give me 9 bytes from the beginning of \"ledger's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0012",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "ledger's notebook.txt",
+      "count": 33,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 33 bytes of \"ledger's notebook.txt\".",
+      "Print 33 bytes from the start of \"ledger's notebook.txt\".",
+      "I only want the opening 33 bytes from \"ledger's notebook.txt\".",
+      "Display \"ledger's notebook.txt\" up to its first 33 bytes.",
+      "Read the beginning of \"ledger's notebook.txt\", limited to 33 bytes.",
+      "Give me 33 bytes from the beginning of \"ledger's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0013",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "-harbor-draft.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"-harbor-draft.txt\".",
+      "Print 1 line from the start of \"-harbor-draft.txt\".",
+      "I only want the opening 1 line from \"-harbor-draft.txt\".",
+      "Display \"-harbor-draft.txt\" up to its first 1 line.",
+      "Read the beginning of \"-harbor-draft.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"-harbor-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0014",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "-harbor-draft.txt",
+      "count": 6,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 6 lines of \"-harbor-draft.txt\".",
+      "Print 6 lines from the start of \"-harbor-draft.txt\".",
+      "I only want the opening 6 lines from \"-harbor-draft.txt\".",
+      "Display \"-harbor-draft.txt\" up to its first 6 lines.",
+      "Read the beginning of \"-harbor-draft.txt\", limited to 6 lines.",
+      "Give me 6 lines from the beginning of \"-harbor-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0015",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "-harbor-draft.txt",
+      "count": 10,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 10 bytes of \"-harbor-draft.txt\".",
+      "Print 10 bytes from the start of \"-harbor-draft.txt\".",
+      "I only want the opening 10 bytes from \"-harbor-draft.txt\".",
+      "Display \"-harbor-draft.txt\" up to its first 10 bytes.",
+      "Read the beginning of \"-harbor-draft.txt\", limited to 10 bytes.",
+      "Give me 10 bytes from the beginning of \"-harbor-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0016",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "-harbor-draft.txt",
+      "count": 34,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 34 bytes of \"-harbor-draft.txt\".",
+      "Print 34 bytes from the start of \"-harbor-draft.txt\".",
+      "I only want the opening 34 bytes from \"-harbor-draft.txt\".",
+      "Display \"-harbor-draft.txt\" up to its first 34 bytes.",
+      "Read the beginning of \"-harbor-draft.txt\", limited to 34 bytes.",
+      "Give me 34 bytes from the beginning of \"-harbor-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0017",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "prism-$budget.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"prism-$budget.txt\".",
+      "Print 1 line from the start of \"prism-$budget.txt\".",
+      "I only want the opening 1 line from \"prism-$budget.txt\".",
+      "Display \"prism-$budget.txt\" up to its first 1 line.",
+      "Read the beginning of \"prism-$budget.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"prism-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0018",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "prism-$budget.txt",
+      "count": 7,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 7 lines of \"prism-$budget.txt\".",
+      "Print 7 lines from the start of \"prism-$budget.txt\".",
+      "I only want the opening 7 lines from \"prism-$budget.txt\".",
+      "Display \"prism-$budget.txt\" up to its first 7 lines.",
+      "Read the beginning of \"prism-$budget.txt\", limited to 7 lines.",
+      "Give me 7 lines from the beginning of \"prism-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0019",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "prism-$budget.txt",
+      "count": 11,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 11 bytes of \"prism-$budget.txt\".",
+      "Print 11 bytes from the start of \"prism-$budget.txt\".",
+      "I only want the opening 11 bytes from \"prism-$budget.txt\".",
+      "Display \"prism-$budget.txt\" up to its first 11 bytes.",
+      "Read the beginning of \"prism-$budget.txt\", limited to 11 bytes.",
+      "Give me 11 bytes from the beginning of \"prism-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0020",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "prism-$budget.txt",
+      "count": 35,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 35 bytes of \"prism-$budget.txt\".",
+      "Print 35 bytes from the start of \"prism-$budget.txt\".",
+      "I only want the opening 35 bytes from \"prism-$budget.txt\".",
+      "Display \"prism-$budget.txt\" up to its first 35 bytes.",
+      "Read the beginning of \"prism-$budget.txt\", limited to 35 bytes.",
+      "Give me 35 bytes from the beginning of \"prism-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0021",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "orchard;archive.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"orchard;archive.txt\".",
+      "Print 1 line from the start of \"orchard;archive.txt\".",
+      "I only want the opening 1 line from \"orchard;archive.txt\".",
+      "Display \"orchard;archive.txt\" up to its first 1 line.",
+      "Read the beginning of \"orchard;archive.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"orchard;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0022",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "orchard;archive.txt",
+      "count": 8,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 8 lines of \"orchard;archive.txt\".",
+      "Print 8 lines from the start of \"orchard;archive.txt\".",
+      "I only want the opening 8 lines from \"orchard;archive.txt\".",
+      "Display \"orchard;archive.txt\" up to its first 8 lines.",
+      "Read the beginning of \"orchard;archive.txt\", limited to 8 lines.",
+      "Give me 8 lines from the beginning of \"orchard;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0023",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "orchard;archive.txt",
+      "count": 12,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 12 bytes of \"orchard;archive.txt\".",
+      "Print 12 bytes from the start of \"orchard;archive.txt\".",
+      "I only want the opening 12 bytes from \"orchard;archive.txt\".",
+      "Display \"orchard;archive.txt\" up to its first 12 bytes.",
+      "Read the beginning of \"orchard;archive.txt\", limited to 12 bytes.",
+      "Give me 12 bytes from the beginning of \"orchard;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0024",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "orchard;archive.txt",
+      "count": 36,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 36 bytes of \"orchard;archive.txt\".",
+      "Print 36 bytes from the start of \"orchard;archive.txt\".",
+      "I only want the opening 36 bytes from \"orchard;archive.txt\".",
+      "Display \"orchard;archive.txt\" up to its first 36 bytes.",
+      "Read the beginning of \"orchard;archive.txt\", limited to 36 bytes.",
+      "Give me 36 bytes from the beginning of \"orchard;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0025",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "canvas*literal.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"canvas*literal.txt\".",
+      "Print 1 line from the start of \"canvas*literal.txt\".",
+      "I only want the opening 1 line from \"canvas*literal.txt\".",
+      "Display \"canvas*literal.txt\" up to its first 1 line.",
+      "Read the beginning of \"canvas*literal.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"canvas*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0026",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "canvas*literal.txt",
+      "count": 9,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 9 lines of \"canvas*literal.txt\".",
+      "Print 9 lines from the start of \"canvas*literal.txt\".",
+      "I only want the opening 9 lines from \"canvas*literal.txt\".",
+      "Display \"canvas*literal.txt\" up to its first 9 lines.",
+      "Read the beginning of \"canvas*literal.txt\", limited to 9 lines.",
+      "Give me 9 lines from the beginning of \"canvas*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0027",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "canvas*literal.txt",
+      "count": 13,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 13 bytes of \"canvas*literal.txt\".",
+      "Print 13 bytes from the start of \"canvas*literal.txt\".",
+      "I only want the opening 13 bytes from \"canvas*literal.txt\".",
+      "Display \"canvas*literal.txt\" up to its first 13 bytes.",
+      "Read the beginning of \"canvas*literal.txt\", limited to 13 bytes.",
+      "Give me 13 bytes from the beginning of \"canvas*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0028",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "canvas*literal.txt",
+      "count": 37,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 37 bytes of \"canvas*literal.txt\".",
+      "Print 37 bytes from the start of \"canvas*literal.txt\".",
+      "I only want the opening 37 bytes from \"canvas*literal.txt\".",
+      "Display \"canvas*literal.txt\" up to its first 37 bytes.",
+      "Read the beginning of \"canvas*literal.txt\", limited to 37 bytes.",
+      "Give me 37 bytes from the beginning of \"canvas*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0029",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "spool[draft].txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"spool[draft].txt\".",
+      "Print 1 line from the start of \"spool[draft].txt\".",
+      "I only want the opening 1 line from \"spool[draft].txt\".",
+      "Display \"spool[draft].txt\" up to its first 1 line.",
+      "Read the beginning of \"spool[draft].txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"spool[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0030",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "spool[draft].txt",
+      "count": 10,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 10 lines of \"spool[draft].txt\".",
+      "Print 10 lines from the start of \"spool[draft].txt\".",
+      "I only want the opening 10 lines from \"spool[draft].txt\".",
+      "Display \"spool[draft].txt\" up to its first 10 lines.",
+      "Read the beginning of \"spool[draft].txt\", limited to 10 lines.",
+      "Give me 10 lines from the beginning of \"spool[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0031",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "spool[draft].txt",
+      "count": 14,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 14 bytes of \"spool[draft].txt\".",
+      "Print 14 bytes from the start of \"spool[draft].txt\".",
+      "I only want the opening 14 bytes from \"spool[draft].txt\".",
+      "Display \"spool[draft].txt\" up to its first 14 bytes.",
+      "Read the beginning of \"spool[draft].txt\", limited to 14 bytes.",
+      "Give me 14 bytes from the beginning of \"spool[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0032",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "spool[draft].txt",
+      "count": 31,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 31 bytes of \"spool[draft].txt\".",
+      "Print 31 bytes from the start of \"spool[draft].txt\".",
+      "I only want the opening 31 bytes from \"spool[draft].txt\".",
+      "Display \"spool[draft].txt\" up to its first 31 bytes.",
+      "Read the beginning of \"spool[draft].txt\", limited to 31 bytes.",
+      "Give me 31 bytes from the beginning of \"spool[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0033",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "beacon-café.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"beacon-café.txt\".",
+      "Print 1 line from the start of \"beacon-café.txt\".",
+      "I only want the opening 1 line from \"beacon-café.txt\".",
+      "Display \"beacon-café.txt\" up to its first 1 line.",
+      "Read the beginning of \"beacon-café.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"beacon-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0034",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "beacon-café.txt",
+      "count": 11,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 11 lines of \"beacon-café.txt\".",
+      "Print 11 lines from the start of \"beacon-café.txt\".",
+      "I only want the opening 11 lines from \"beacon-café.txt\".",
+      "Display \"beacon-café.txt\" up to its first 11 lines.",
+      "Read the beginning of \"beacon-café.txt\", limited to 11 lines.",
+      "Give me 11 lines from the beginning of \"beacon-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0035",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "beacon-café.txt",
+      "count": 15,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 15 bytes of \"beacon-café.txt\".",
+      "Print 15 bytes from the start of \"beacon-café.txt\".",
+      "I only want the opening 15 bytes from \"beacon-café.txt\".",
+      "Display \"beacon-café.txt\" up to its first 15 bytes.",
+      "Read the beginning of \"beacon-café.txt\", limited to 15 bytes.",
+      "Give me 15 bytes from the beginning of \"beacon-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0036",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "beacon-café.txt",
+      "count": 32,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 32 bytes of \"beacon-café.txt\".",
+      "Print 32 bytes from the start of \"beacon-café.txt\".",
+      "I only want the opening 32 bytes from \"beacon-café.txt\".",
+      "Display \"beacon-café.txt\" up to its first 32 bytes.",
+      "Read the beginning of \"beacon-café.txt\", limited to 32 bytes.",
+      "Give me 32 bytes from the beginning of \"beacon-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0037",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "lantern field records.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"lantern field records.txt\".",
+      "Print 1 line from the start of \"lantern field records.txt\".",
+      "I only want the opening 1 line from \"lantern field records.txt\".",
+      "Display \"lantern field records.txt\" up to its first 1 line.",
+      "Read the beginning of \"lantern field records.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"lantern field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0038",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "lantern field records.txt",
+      "count": 3,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 3 lines of \"lantern field records.txt\".",
+      "Print 3 lines from the start of \"lantern field records.txt\".",
+      "I only want the opening 3 lines from \"lantern field records.txt\".",
+      "Display \"lantern field records.txt\" up to its first 3 lines.",
+      "Read the beginning of \"lantern field records.txt\", limited to 3 lines.",
+      "Give me 3 lines from the beginning of \"lantern field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0039",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "lantern field records.txt",
+      "count": 16,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 16 bytes of \"lantern field records.txt\".",
+      "Print 16 bytes from the start of \"lantern field records.txt\".",
+      "I only want the opening 16 bytes from \"lantern field records.txt\".",
+      "Display \"lantern field records.txt\" up to its first 16 bytes.",
+      "Read the beginning of \"lantern field records.txt\", limited to 16 bytes.",
+      "Give me 16 bytes from the beginning of \"lantern field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0040",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "lantern field records.txt",
+      "count": 33,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 33 bytes of \"lantern field records.txt\".",
+      "Print 33 bytes from the start of \"lantern field records.txt\".",
+      "I only want the opening 33 bytes from \"lantern field records.txt\".",
+      "Display \"lantern field records.txt\" up to its first 33 bytes.",
+      "Read the beginning of \"lantern field records.txt\", limited to 33 bytes.",
+      "Give me 33 bytes from the beginning of \"lantern field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0041",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "quartz-journal.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"quartz-journal.txt\".",
+      "Print 1 line from the start of \"quartz-journal.txt\".",
+      "I only want the opening 1 line from \"quartz-journal.txt\".",
+      "Display \"quartz-journal.txt\" up to its first 1 line.",
+      "Read the beginning of \"quartz-journal.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"quartz-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0042",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "quartz-journal.txt",
+      "count": 4,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 4 lines of \"quartz-journal.txt\".",
+      "Print 4 lines from the start of \"quartz-journal.txt\".",
+      "I only want the opening 4 lines from \"quartz-journal.txt\".",
+      "Display \"quartz-journal.txt\" up to its first 4 lines.",
+      "Read the beginning of \"quartz-journal.txt\", limited to 4 lines.",
+      "Give me 4 lines from the beginning of \"quartz-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0043",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "quartz-journal.txt",
+      "count": 17,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 17 bytes of \"quartz-journal.txt\".",
+      "Print 17 bytes from the start of \"quartz-journal.txt\".",
+      "I only want the opening 17 bytes from \"quartz-journal.txt\".",
+      "Display \"quartz-journal.txt\" up to its first 17 bytes.",
+      "Read the beginning of \"quartz-journal.txt\", limited to 17 bytes.",
+      "Give me 17 bytes from the beginning of \"quartz-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0044",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "quartz-journal.txt",
+      "count": 34,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 34 bytes of \"quartz-journal.txt\".",
+      "Print 34 bytes from the start of \"quartz-journal.txt\".",
+      "I only want the opening 34 bytes from \"quartz-journal.txt\".",
+      "Display \"quartz-journal.txt\" up to its first 34 bytes.",
+      "Read the beginning of \"quartz-journal.txt\", limited to 34 bytes.",
+      "Give me 34 bytes from the beginning of \"quartz-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0045",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "meadow working notes.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"meadow working notes.txt\".",
+      "Print 1 line from the start of \"meadow working notes.txt\".",
+      "I only want the opening 1 line from \"meadow working notes.txt\".",
+      "Display \"meadow working notes.txt\" up to its first 1 line.",
+      "Read the beginning of \"meadow working notes.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"meadow working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0046",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "meadow working notes.txt",
+      "count": 5,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 5 lines of \"meadow working notes.txt\".",
+      "Print 5 lines from the start of \"meadow working notes.txt\".",
+      "I only want the opening 5 lines from \"meadow working notes.txt\".",
+      "Display \"meadow working notes.txt\" up to its first 5 lines.",
+      "Read the beginning of \"meadow working notes.txt\", limited to 5 lines.",
+      "Give me 5 lines from the beginning of \"meadow working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0047",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "meadow working notes.txt",
+      "count": 18,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 18 bytes of \"meadow working notes.txt\".",
+      "Print 18 bytes from the start of \"meadow working notes.txt\".",
+      "I only want the opening 18 bytes from \"meadow working notes.txt\".",
+      "Display \"meadow working notes.txt\" up to its first 18 bytes.",
+      "Read the beginning of \"meadow working notes.txt\", limited to 18 bytes.",
+      "Give me 18 bytes from the beginning of \"meadow working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0048",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "meadow working notes.txt",
+      "count": 35,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 35 bytes of \"meadow working notes.txt\".",
+      "Print 35 bytes from the start of \"meadow working notes.txt\".",
+      "I only want the opening 35 bytes from \"meadow working notes.txt\".",
+      "Display \"meadow working notes.txt\" up to its first 35 bytes.",
+      "Read the beginning of \"meadow working notes.txt\", limited to 35 bytes.",
+      "Give me 35 bytes from the beginning of \"meadow working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0049",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "parcel's notebook.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"parcel's notebook.txt\".",
+      "Print 1 line from the start of \"parcel's notebook.txt\".",
+      "I only want the opening 1 line from \"parcel's notebook.txt\".",
+      "Display \"parcel's notebook.txt\" up to its first 1 line.",
+      "Read the beginning of \"parcel's notebook.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"parcel's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0050",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "parcel's notebook.txt",
+      "count": 6,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 6 lines of \"parcel's notebook.txt\".",
+      "Print 6 lines from the start of \"parcel's notebook.txt\".",
+      "I only want the opening 6 lines from \"parcel's notebook.txt\".",
+      "Display \"parcel's notebook.txt\" up to its first 6 lines.",
+      "Read the beginning of \"parcel's notebook.txt\", limited to 6 lines.",
+      "Give me 6 lines from the beginning of \"parcel's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0051",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "parcel's notebook.txt",
+      "count": 19,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 19 bytes of \"parcel's notebook.txt\".",
+      "Print 19 bytes from the start of \"parcel's notebook.txt\".",
+      "I only want the opening 19 bytes from \"parcel's notebook.txt\".",
+      "Display \"parcel's notebook.txt\" up to its first 19 bytes.",
+      "Read the beginning of \"parcel's notebook.txt\", limited to 19 bytes.",
+      "Give me 19 bytes from the beginning of \"parcel's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0052",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "parcel's notebook.txt",
+      "count": 36,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 36 bytes of \"parcel's notebook.txt\".",
+      "Print 36 bytes from the start of \"parcel's notebook.txt\".",
+      "I only want the opening 36 bytes from \"parcel's notebook.txt\".",
+      "Display \"parcel's notebook.txt\" up to its first 36 bytes.",
+      "Read the beginning of \"parcel's notebook.txt\", limited to 36 bytes.",
+      "Give me 36 bytes from the beginning of \"parcel's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0053",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "-cobalt-draft.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"-cobalt-draft.txt\".",
+      "Print 1 line from the start of \"-cobalt-draft.txt\".",
+      "I only want the opening 1 line from \"-cobalt-draft.txt\".",
+      "Display \"-cobalt-draft.txt\" up to its first 1 line.",
+      "Read the beginning of \"-cobalt-draft.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"-cobalt-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0054",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "-cobalt-draft.txt",
+      "count": 7,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 7 lines of \"-cobalt-draft.txt\".",
+      "Print 7 lines from the start of \"-cobalt-draft.txt\".",
+      "I only want the opening 7 lines from \"-cobalt-draft.txt\".",
+      "Display \"-cobalt-draft.txt\" up to its first 7 lines.",
+      "Read the beginning of \"-cobalt-draft.txt\", limited to 7 lines.",
+      "Give me 7 lines from the beginning of \"-cobalt-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0055",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "-cobalt-draft.txt",
+      "count": 7,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 7 bytes of \"-cobalt-draft.txt\".",
+      "Print 7 bytes from the start of \"-cobalt-draft.txt\".",
+      "I only want the opening 7 bytes from \"-cobalt-draft.txt\".",
+      "Display \"-cobalt-draft.txt\" up to its first 7 bytes.",
+      "Read the beginning of \"-cobalt-draft.txt\", limited to 7 bytes.",
+      "Give me 7 bytes from the beginning of \"-cobalt-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0056",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "-cobalt-draft.txt",
+      "count": 37,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 37 bytes of \"-cobalt-draft.txt\".",
+      "Print 37 bytes from the start of \"-cobalt-draft.txt\".",
+      "I only want the opening 37 bytes from \"-cobalt-draft.txt\".",
+      "Display \"-cobalt-draft.txt\" up to its first 37 bytes.",
+      "Read the beginning of \"-cobalt-draft.txt\", limited to 37 bytes.",
+      "Give me 37 bytes from the beginning of \"-cobalt-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0057",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "atlas-$budget.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"atlas-$budget.txt\".",
+      "Print 1 line from the start of \"atlas-$budget.txt\".",
+      "I only want the opening 1 line from \"atlas-$budget.txt\".",
+      "Display \"atlas-$budget.txt\" up to its first 1 line.",
+      "Read the beginning of \"atlas-$budget.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"atlas-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0058",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "atlas-$budget.txt",
+      "count": 8,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 8 lines of \"atlas-$budget.txt\".",
+      "Print 8 lines from the start of \"atlas-$budget.txt\".",
+      "I only want the opening 8 lines from \"atlas-$budget.txt\".",
+      "Display \"atlas-$budget.txt\" up to its first 8 lines.",
+      "Read the beginning of \"atlas-$budget.txt\", limited to 8 lines.",
+      "Give me 8 lines from the beginning of \"atlas-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0059",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "atlas-$budget.txt",
+      "count": 8,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 8 bytes of \"atlas-$budget.txt\".",
+      "Print 8 bytes from the start of \"atlas-$budget.txt\".",
+      "I only want the opening 8 bytes from \"atlas-$budget.txt\".",
+      "Display \"atlas-$budget.txt\" up to its first 8 bytes.",
+      "Read the beginning of \"atlas-$budget.txt\", limited to 8 bytes.",
+      "Give me 8 bytes from the beginning of \"atlas-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0060",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "atlas-$budget.txt",
+      "count": 31,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 31 bytes of \"atlas-$budget.txt\".",
+      "Print 31 bytes from the start of \"atlas-$budget.txt\".",
+      "I only want the opening 31 bytes from \"atlas-$budget.txt\".",
+      "Display \"atlas-$budget.txt\" up to its first 31 bytes.",
+      "Read the beginning of \"atlas-$budget.txt\", limited to 31 bytes.",
+      "Give me 31 bytes from the beginning of \"atlas-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0061",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "rivet;archive.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"rivet;archive.txt\".",
+      "Print 1 line from the start of \"rivet;archive.txt\".",
+      "I only want the opening 1 line from \"rivet;archive.txt\".",
+      "Display \"rivet;archive.txt\" up to its first 1 line.",
+      "Read the beginning of \"rivet;archive.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"rivet;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0062",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "rivet;archive.txt",
+      "count": 9,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 9 lines of \"rivet;archive.txt\".",
+      "Print 9 lines from the start of \"rivet;archive.txt\".",
+      "I only want the opening 9 lines from \"rivet;archive.txt\".",
+      "Display \"rivet;archive.txt\" up to its first 9 lines.",
+      "Read the beginning of \"rivet;archive.txt\", limited to 9 lines.",
+      "Give me 9 lines from the beginning of \"rivet;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0063",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "rivet;archive.txt",
+      "count": 9,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 9 bytes of \"rivet;archive.txt\".",
+      "Print 9 bytes from the start of \"rivet;archive.txt\".",
+      "I only want the opening 9 bytes from \"rivet;archive.txt\".",
+      "Display \"rivet;archive.txt\" up to its first 9 bytes.",
+      "Read the beginning of \"rivet;archive.txt\", limited to 9 bytes.",
+      "Give me 9 bytes from the beginning of \"rivet;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0064",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "rivet;archive.txt",
+      "count": 32,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 32 bytes of \"rivet;archive.txt\".",
+      "Print 32 bytes from the start of \"rivet;archive.txt\".",
+      "I only want the opening 32 bytes from \"rivet;archive.txt\".",
+      "Display \"rivet;archive.txt\" up to its first 32 bytes.",
+      "Read the beginning of \"rivet;archive.txt\", limited to 32 bytes.",
+      "Give me 32 bytes from the beginning of \"rivet;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0065",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "gasket*literal.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"gasket*literal.txt\".",
+      "Print 1 line from the start of \"gasket*literal.txt\".",
+      "I only want the opening 1 line from \"gasket*literal.txt\".",
+      "Display \"gasket*literal.txt\" up to its first 1 line.",
+      "Read the beginning of \"gasket*literal.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"gasket*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0066",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "gasket*literal.txt",
+      "count": 10,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 10 lines of \"gasket*literal.txt\".",
+      "Print 10 lines from the start of \"gasket*literal.txt\".",
+      "I only want the opening 10 lines from \"gasket*literal.txt\".",
+      "Display \"gasket*literal.txt\" up to its first 10 lines.",
+      "Read the beginning of \"gasket*literal.txt\", limited to 10 lines.",
+      "Give me 10 lines from the beginning of \"gasket*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0067",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "gasket*literal.txt",
+      "count": 10,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 10 bytes of \"gasket*literal.txt\".",
+      "Print 10 bytes from the start of \"gasket*literal.txt\".",
+      "I only want the opening 10 bytes from \"gasket*literal.txt\".",
+      "Display \"gasket*literal.txt\" up to its first 10 bytes.",
+      "Read the beginning of \"gasket*literal.txt\", limited to 10 bytes.",
+      "Give me 10 bytes from the beginning of \"gasket*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0068",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "gasket*literal.txt",
+      "count": 33,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 33 bytes of \"gasket*literal.txt\".",
+      "Print 33 bytes from the start of \"gasket*literal.txt\".",
+      "I only want the opening 33 bytes from \"gasket*literal.txt\".",
+      "Display \"gasket*literal.txt\" up to its first 33 bytes.",
+      "Read the beginning of \"gasket*literal.txt\", limited to 33 bytes.",
+      "Give me 33 bytes from the beginning of \"gasket*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0069",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "spindle[draft].txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"spindle[draft].txt\".",
+      "Print 1 line from the start of \"spindle[draft].txt\".",
+      "I only want the opening 1 line from \"spindle[draft].txt\".",
+      "Display \"spindle[draft].txt\" up to its first 1 line.",
+      "Read the beginning of \"spindle[draft].txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"spindle[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0070",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "spindle[draft].txt",
+      "count": 11,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 11 lines of \"spindle[draft].txt\".",
+      "Print 11 lines from the start of \"spindle[draft].txt\".",
+      "I only want the opening 11 lines from \"spindle[draft].txt\".",
+      "Display \"spindle[draft].txt\" up to its first 11 lines.",
+      "Read the beginning of \"spindle[draft].txt\", limited to 11 lines.",
+      "Give me 11 lines from the beginning of \"spindle[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0071",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "spindle[draft].txt",
+      "count": 11,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 11 bytes of \"spindle[draft].txt\".",
+      "Print 11 bytes from the start of \"spindle[draft].txt\".",
+      "I only want the opening 11 bytes from \"spindle[draft].txt\".",
+      "Display \"spindle[draft].txt\" up to its first 11 bytes.",
+      "Read the beginning of \"spindle[draft].txt\", limited to 11 bytes.",
+      "Give me 11 bytes from the beginning of \"spindle[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0072",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "spindle[draft].txt",
+      "count": 34,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 34 bytes of \"spindle[draft].txt\".",
+      "Print 34 bytes from the start of \"spindle[draft].txt\".",
+      "I only want the opening 34 bytes from \"spindle[draft].txt\".",
+      "Display \"spindle[draft].txt\" up to its first 34 bytes.",
+      "Read the beginning of \"spindle[draft].txt\", limited to 34 bytes.",
+      "Give me 34 bytes from the beginning of \"spindle[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0073",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "vault-café.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"vault-café.txt\".",
+      "Print 1 line from the start of \"vault-café.txt\".",
+      "I only want the opening 1 line from \"vault-café.txt\".",
+      "Display \"vault-café.txt\" up to its first 1 line.",
+      "Read the beginning of \"vault-café.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"vault-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0074",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "vault-café.txt",
+      "count": 3,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 3 lines of \"vault-café.txt\".",
+      "Print 3 lines from the start of \"vault-café.txt\".",
+      "I only want the opening 3 lines from \"vault-café.txt\".",
+      "Display \"vault-café.txt\" up to its first 3 lines.",
+      "Read the beginning of \"vault-café.txt\", limited to 3 lines.",
+      "Give me 3 lines from the beginning of \"vault-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0075",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "vault-café.txt",
+      "count": 12,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 12 bytes of \"vault-café.txt\".",
+      "Print 12 bytes from the start of \"vault-café.txt\".",
+      "I only want the opening 12 bytes from \"vault-café.txt\".",
+      "Display \"vault-café.txt\" up to its first 12 bytes.",
+      "Read the beginning of \"vault-café.txt\", limited to 12 bytes.",
+      "Give me 12 bytes from the beginning of \"vault-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0076",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "vault-café.txt",
+      "count": 35,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 35 bytes of \"vault-café.txt\".",
+      "Print 35 bytes from the start of \"vault-café.txt\".",
+      "I only want the opening 35 bytes from \"vault-café.txt\".",
+      "Display \"vault-café.txt\" up to its first 35 bytes.",
+      "Read the beginning of \"vault-café.txt\", limited to 35 bytes.",
+      "Give me 35 bytes from the beginning of \"vault-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0077",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "basket field records.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"basket field records.txt\".",
+      "Print 1 line from the start of \"basket field records.txt\".",
+      "I only want the opening 1 line from \"basket field records.txt\".",
+      "Display \"basket field records.txt\" up to its first 1 line.",
+      "Read the beginning of \"basket field records.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"basket field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0078",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "basket field records.txt",
+      "count": 4,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 4 lines of \"basket field records.txt\".",
+      "Print 4 lines from the start of \"basket field records.txt\".",
+      "I only want the opening 4 lines from \"basket field records.txt\".",
+      "Display \"basket field records.txt\" up to its first 4 lines.",
+      "Read the beginning of \"basket field records.txt\", limited to 4 lines.",
+      "Give me 4 lines from the beginning of \"basket field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0079",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "basket field records.txt",
+      "count": 13,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 13 bytes of \"basket field records.txt\".",
+      "Print 13 bytes from the start of \"basket field records.txt\".",
+      "I only want the opening 13 bytes from \"basket field records.txt\".",
+      "Display \"basket field records.txt\" up to its first 13 bytes.",
+      "Read the beginning of \"basket field records.txt\", limited to 13 bytes.",
+      "Give me 13 bytes from the beginning of \"basket field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0080",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "basket field records.txt",
+      "count": 36,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 36 bytes of \"basket field records.txt\".",
+      "Print 36 bytes from the start of \"basket field records.txt\".",
+      "I only want the opening 36 bytes from \"basket field records.txt\".",
+      "Display \"basket field records.txt\" up to its first 36 bytes.",
+      "Read the beginning of \"basket field records.txt\", limited to 36 bytes.",
+      "Give me 36 bytes from the beginning of \"basket field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0081",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "ember-journal.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"ember-journal.txt\".",
+      "Print 1 line from the start of \"ember-journal.txt\".",
+      "I only want the opening 1 line from \"ember-journal.txt\".",
+      "Display \"ember-journal.txt\" up to its first 1 line.",
+      "Read the beginning of \"ember-journal.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"ember-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0082",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "ember-journal.txt",
+      "count": 5,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 5 lines of \"ember-journal.txt\".",
+      "Print 5 lines from the start of \"ember-journal.txt\".",
+      "I only want the opening 5 lines from \"ember-journal.txt\".",
+      "Display \"ember-journal.txt\" up to its first 5 lines.",
+      "Read the beginning of \"ember-journal.txt\", limited to 5 lines.",
+      "Give me 5 lines from the beginning of \"ember-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0083",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "ember-journal.txt",
+      "count": 14,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 14 bytes of \"ember-journal.txt\".",
+      "Print 14 bytes from the start of \"ember-journal.txt\".",
+      "I only want the opening 14 bytes from \"ember-journal.txt\".",
+      "Display \"ember-journal.txt\" up to its first 14 bytes.",
+      "Read the beginning of \"ember-journal.txt\", limited to 14 bytes.",
+      "Give me 14 bytes from the beginning of \"ember-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0084",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "ember-journal.txt",
+      "count": 37,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 37 bytes of \"ember-journal.txt\".",
+      "Print 37 bytes from the start of \"ember-journal.txt\".",
+      "I only want the opening 37 bytes from \"ember-journal.txt\".",
+      "Display \"ember-journal.txt\" up to its first 37 bytes.",
+      "Read the beginning of \"ember-journal.txt\", limited to 37 bytes.",
+      "Give me 37 bytes from the beginning of \"ember-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0085",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "pollen working notes.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"pollen working notes.txt\".",
+      "Print 1 line from the start of \"pollen working notes.txt\".",
+      "I only want the opening 1 line from \"pollen working notes.txt\".",
+      "Display \"pollen working notes.txt\" up to its first 1 line.",
+      "Read the beginning of \"pollen working notes.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"pollen working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0086",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "pollen working notes.txt",
+      "count": 6,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 6 lines of \"pollen working notes.txt\".",
+      "Print 6 lines from the start of \"pollen working notes.txt\".",
+      "I only want the opening 6 lines from \"pollen working notes.txt\".",
+      "Display \"pollen working notes.txt\" up to its first 6 lines.",
+      "Read the beginning of \"pollen working notes.txt\", limited to 6 lines.",
+      "Give me 6 lines from the beginning of \"pollen working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0087",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "pollen working notes.txt",
+      "count": 15,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 15 bytes of \"pollen working notes.txt\".",
+      "Print 15 bytes from the start of \"pollen working notes.txt\".",
+      "I only want the opening 15 bytes from \"pollen working notes.txt\".",
+      "Display \"pollen working notes.txt\" up to its first 15 bytes.",
+      "Read the beginning of \"pollen working notes.txt\", limited to 15 bytes.",
+      "Give me 15 bytes from the beginning of \"pollen working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0088",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "pollen working notes.txt",
+      "count": 31,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 31 bytes of \"pollen working notes.txt\".",
+      "Print 31 bytes from the start of \"pollen working notes.txt\".",
+      "I only want the opening 31 bytes from \"pollen working notes.txt\".",
+      "Display \"pollen working notes.txt\" up to its first 31 bytes.",
+      "Read the beginning of \"pollen working notes.txt\", limited to 31 bytes.",
+      "Give me 31 bytes from the beginning of \"pollen working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0089",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "turbine's notebook.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"turbine's notebook.txt\".",
+      "Print 1 line from the start of \"turbine's notebook.txt\".",
+      "I only want the opening 1 line from \"turbine's notebook.txt\".",
+      "Display \"turbine's notebook.txt\" up to its first 1 line.",
+      "Read the beginning of \"turbine's notebook.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"turbine's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0090",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "turbine's notebook.txt",
+      "count": 7,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 7 lines of \"turbine's notebook.txt\".",
+      "Print 7 lines from the start of \"turbine's notebook.txt\".",
+      "I only want the opening 7 lines from \"turbine's notebook.txt\".",
+      "Display \"turbine's notebook.txt\" up to its first 7 lines.",
+      "Read the beginning of \"turbine's notebook.txt\", limited to 7 lines.",
+      "Give me 7 lines from the beginning of \"turbine's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0091",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "turbine's notebook.txt",
+      "count": 16,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 16 bytes of \"turbine's notebook.txt\".",
+      "Print 16 bytes from the start of \"turbine's notebook.txt\".",
+      "I only want the opening 16 bytes from \"turbine's notebook.txt\".",
+      "Display \"turbine's notebook.txt\" up to its first 16 bytes.",
+      "Read the beginning of \"turbine's notebook.txt\", limited to 16 bytes.",
+      "Give me 16 bytes from the beginning of \"turbine's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0092",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "turbine's notebook.txt",
+      "count": 32,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 32 bytes of \"turbine's notebook.txt\".",
+      "Print 32 bytes from the start of \"turbine's notebook.txt\".",
+      "I only want the opening 32 bytes from \"turbine's notebook.txt\".",
+      "Display \"turbine's notebook.txt\" up to its first 32 bytes.",
+      "Read the beginning of \"turbine's notebook.txt\", limited to 32 bytes.",
+      "Give me 32 bytes from the beginning of \"turbine's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0093",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "-compass-draft.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"-compass-draft.txt\".",
+      "Print 1 line from the start of \"-compass-draft.txt\".",
+      "I only want the opening 1 line from \"-compass-draft.txt\".",
+      "Display \"-compass-draft.txt\" up to its first 1 line.",
+      "Read the beginning of \"-compass-draft.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"-compass-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0094",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "-compass-draft.txt",
+      "count": 8,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 8 lines of \"-compass-draft.txt\".",
+      "Print 8 lines from the start of \"-compass-draft.txt\".",
+      "I only want the opening 8 lines from \"-compass-draft.txt\".",
+      "Display \"-compass-draft.txt\" up to its first 8 lines.",
+      "Read the beginning of \"-compass-draft.txt\", limited to 8 lines.",
+      "Give me 8 lines from the beginning of \"-compass-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0095",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "-compass-draft.txt",
+      "count": 17,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 17 bytes of \"-compass-draft.txt\".",
+      "Print 17 bytes from the start of \"-compass-draft.txt\".",
+      "I only want the opening 17 bytes from \"-compass-draft.txt\".",
+      "Display \"-compass-draft.txt\" up to its first 17 bytes.",
+      "Read the beginning of \"-compass-draft.txt\", limited to 17 bytes.",
+      "Give me 17 bytes from the beginning of \"-compass-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0096",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "-compass-draft.txt",
+      "count": 33,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 33 bytes of \"-compass-draft.txt\".",
+      "Print 33 bytes from the start of \"-compass-draft.txt\".",
+      "I only want the opening 33 bytes from \"-compass-draft.txt\".",
+      "Display \"-compass-draft.txt\" up to its first 33 bytes.",
+      "Read the beginning of \"-compass-draft.txt\", limited to 33 bytes.",
+      "Give me 33 bytes from the beginning of \"-compass-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0097",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "willowbrook-$budget.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"willowbrook-$budget.txt\".",
+      "Print 1 line from the start of \"willowbrook-$budget.txt\".",
+      "I only want the opening 1 line from \"willowbrook-$budget.txt\".",
+      "Display \"willowbrook-$budget.txt\" up to its first 1 line.",
+      "Read the beginning of \"willowbrook-$budget.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"willowbrook-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0098",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "willowbrook-$budget.txt",
+      "count": 9,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 9 lines of \"willowbrook-$budget.txt\".",
+      "Print 9 lines from the start of \"willowbrook-$budget.txt\".",
+      "I only want the opening 9 lines from \"willowbrook-$budget.txt\".",
+      "Display \"willowbrook-$budget.txt\" up to its first 9 lines.",
+      "Read the beginning of \"willowbrook-$budget.txt\", limited to 9 lines.",
+      "Give me 9 lines from the beginning of \"willowbrook-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0099",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "willowbrook-$budget.txt",
+      "count": 18,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 18 bytes of \"willowbrook-$budget.txt\".",
+      "Print 18 bytes from the start of \"willowbrook-$budget.txt\".",
+      "I only want the opening 18 bytes from \"willowbrook-$budget.txt\".",
+      "Display \"willowbrook-$budget.txt\" up to its first 18 bytes.",
+      "Read the beginning of \"willowbrook-$budget.txt\", limited to 18 bytes.",
+      "Give me 18 bytes from the beginning of \"willowbrook-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0100",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "willowbrook-$budget.txt",
+      "count": 34,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 34 bytes of \"willowbrook-$budget.txt\".",
+      "Print 34 bytes from the start of \"willowbrook-$budget.txt\".",
+      "I only want the opening 34 bytes from \"willowbrook-$budget.txt\".",
+      "Display \"willowbrook-$budget.txt\" up to its first 34 bytes.",
+      "Read the beginning of \"willowbrook-$budget.txt\", limited to 34 bytes.",
+      "Give me 34 bytes from the beginning of \"willowbrook-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0101",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "satchel;archive.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"satchel;archive.txt\".",
+      "Print 1 line from the start of \"satchel;archive.txt\".",
+      "I only want the opening 1 line from \"satchel;archive.txt\".",
+      "Display \"satchel;archive.txt\" up to its first 1 line.",
+      "Read the beginning of \"satchel;archive.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"satchel;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0102",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "satchel;archive.txt",
+      "count": 10,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 10 lines of \"satchel;archive.txt\".",
+      "Print 10 lines from the start of \"satchel;archive.txt\".",
+      "I only want the opening 10 lines from \"satchel;archive.txt\".",
+      "Display \"satchel;archive.txt\" up to its first 10 lines.",
+      "Read the beginning of \"satchel;archive.txt\", limited to 10 lines.",
+      "Give me 10 lines from the beginning of \"satchel;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0103",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "satchel;archive.txt",
+      "count": 19,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 19 bytes of \"satchel;archive.txt\".",
+      "Print 19 bytes from the start of \"satchel;archive.txt\".",
+      "I only want the opening 19 bytes from \"satchel;archive.txt\".",
+      "Display \"satchel;archive.txt\" up to its first 19 bytes.",
+      "Read the beginning of \"satchel;archive.txt\", limited to 19 bytes.",
+      "Give me 19 bytes from the beginning of \"satchel;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0104",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "satchel;archive.txt",
+      "count": 35,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 35 bytes of \"satchel;archive.txt\".",
+      "Print 35 bytes from the start of \"satchel;archive.txt\".",
+      "I only want the opening 35 bytes from \"satchel;archive.txt\".",
+      "Display \"satchel;archive.txt\" up to its first 35 bytes.",
+      "Read the beginning of \"satchel;archive.txt\", limited to 35 bytes.",
+      "Give me 35 bytes from the beginning of \"satchel;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0105",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "mosaic*literal.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"mosaic*literal.txt\".",
+      "Print 1 line from the start of \"mosaic*literal.txt\".",
+      "I only want the opening 1 line from \"mosaic*literal.txt\".",
+      "Display \"mosaic*literal.txt\" up to its first 1 line.",
+      "Read the beginning of \"mosaic*literal.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"mosaic*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0106",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "mosaic*literal.txt",
+      "count": 11,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 11 lines of \"mosaic*literal.txt\".",
+      "Print 11 lines from the start of \"mosaic*literal.txt\".",
+      "I only want the opening 11 lines from \"mosaic*literal.txt\".",
+      "Display \"mosaic*literal.txt\" up to its first 11 lines.",
+      "Read the beginning of \"mosaic*literal.txt\", limited to 11 lines.",
+      "Give me 11 lines from the beginning of \"mosaic*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0107",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "mosaic*literal.txt",
+      "count": 7,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 7 bytes of \"mosaic*literal.txt\".",
+      "Print 7 bytes from the start of \"mosaic*literal.txt\".",
+      "I only want the opening 7 bytes from \"mosaic*literal.txt\".",
+      "Display \"mosaic*literal.txt\" up to its first 7 bytes.",
+      "Read the beginning of \"mosaic*literal.txt\", limited to 7 bytes.",
+      "Give me 7 bytes from the beginning of \"mosaic*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0108",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "mosaic*literal.txt",
+      "count": 36,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 36 bytes of \"mosaic*literal.txt\".",
+      "Print 36 bytes from the start of \"mosaic*literal.txt\".",
+      "I only want the opening 36 bytes from \"mosaic*literal.txt\".",
+      "Display \"mosaic*literal.txt\" up to its first 36 bytes.",
+      "Read the beginning of \"mosaic*literal.txt\", limited to 36 bytes.",
+      "Give me 36 bytes from the beginning of \"mosaic*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0109",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "relay[draft].txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"relay[draft].txt\".",
+      "Print 1 line from the start of \"relay[draft].txt\".",
+      "I only want the opening 1 line from \"relay[draft].txt\".",
+      "Display \"relay[draft].txt\" up to its first 1 line.",
+      "Read the beginning of \"relay[draft].txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"relay[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0110",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "relay[draft].txt",
+      "count": 3,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 3 lines of \"relay[draft].txt\".",
+      "Print 3 lines from the start of \"relay[draft].txt\".",
+      "I only want the opening 3 lines from \"relay[draft].txt\".",
+      "Display \"relay[draft].txt\" up to its first 3 lines.",
+      "Read the beginning of \"relay[draft].txt\", limited to 3 lines.",
+      "Give me 3 lines from the beginning of \"relay[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0111",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "relay[draft].txt",
+      "count": 8,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 8 bytes of \"relay[draft].txt\".",
+      "Print 8 bytes from the start of \"relay[draft].txt\".",
+      "I only want the opening 8 bytes from \"relay[draft].txt\".",
+      "Display \"relay[draft].txt\" up to its first 8 bytes.",
+      "Read the beginning of \"relay[draft].txt\", limited to 8 bytes.",
+      "Give me 8 bytes from the beginning of \"relay[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0112",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "relay[draft].txt",
+      "count": 37,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 37 bytes of \"relay[draft].txt\".",
+      "Print 37 bytes from the start of \"relay[draft].txt\".",
+      "I only want the opening 37 bytes from \"relay[draft].txt\".",
+      "Display \"relay[draft].txt\" up to its first 37 bytes.",
+      "Read the beginning of \"relay[draft].txt\", limited to 37 bytes.",
+      "Give me 37 bytes from the beginning of \"relay[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0113",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "vector-café.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"vector-café.txt\".",
+      "Print 1 line from the start of \"vector-café.txt\".",
+      "I only want the opening 1 line from \"vector-café.txt\".",
+      "Display \"vector-café.txt\" up to its first 1 line.",
+      "Read the beginning of \"vector-café.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"vector-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0114",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "vector-café.txt",
+      "count": 4,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 4 lines of \"vector-café.txt\".",
+      "Print 4 lines from the start of \"vector-café.txt\".",
+      "I only want the opening 4 lines from \"vector-café.txt\".",
+      "Display \"vector-café.txt\" up to its first 4 lines.",
+      "Read the beginning of \"vector-café.txt\", limited to 4 lines.",
+      "Give me 4 lines from the beginning of \"vector-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0115",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "vector-café.txt",
+      "count": 9,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 9 bytes of \"vector-café.txt\".",
+      "Print 9 bytes from the start of \"vector-café.txt\".",
+      "I only want the opening 9 bytes from \"vector-café.txt\".",
+      "Display \"vector-café.txt\" up to its first 9 bytes.",
+      "Read the beginning of \"vector-café.txt\", limited to 9 bytes.",
+      "Give me 9 bytes from the beginning of \"vector-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0116",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "vector-café.txt",
+      "count": 31,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 31 bytes of \"vector-café.txt\".",
+      "Print 31 bytes from the start of \"vector-café.txt\".",
+      "I only want the opening 31 bytes from \"vector-café.txt\".",
+      "Display \"vector-café.txt\" up to its first 31 bytes.",
+      "Read the beginning of \"vector-café.txt\", limited to 31 bytes.",
+      "Give me 31 bytes from the beginning of \"vector-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0117",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "loam field records.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"loam field records.txt\".",
+      "Print 1 line from the start of \"loam field records.txt\".",
+      "I only want the opening 1 line from \"loam field records.txt\".",
+      "Display \"loam field records.txt\" up to its first 1 line.",
+      "Read the beginning of \"loam field records.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"loam field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0118",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "loam field records.txt",
+      "count": 5,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 5 lines of \"loam field records.txt\".",
+      "Print 5 lines from the start of \"loam field records.txt\".",
+      "I only want the opening 5 lines from \"loam field records.txt\".",
+      "Display \"loam field records.txt\" up to its first 5 lines.",
+      "Read the beginning of \"loam field records.txt\", limited to 5 lines.",
+      "Give me 5 lines from the beginning of \"loam field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0119",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "loam field records.txt",
+      "count": 10,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 10 bytes of \"loam field records.txt\".",
+      "Print 10 bytes from the start of \"loam field records.txt\".",
+      "I only want the opening 10 bytes from \"loam field records.txt\".",
+      "Display \"loam field records.txt\" up to its first 10 bytes.",
+      "Read the beginning of \"loam field records.txt\", limited to 10 bytes.",
+      "Give me 10 bytes from the beginning of \"loam field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0120",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "loam field records.txt",
+      "count": 32,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 32 bytes of \"loam field records.txt\".",
+      "Print 32 bytes from the start of \"loam field records.txt\".",
+      "I only want the opening 32 bytes from \"loam field records.txt\".",
+      "Display \"loam field records.txt\" up to its first 32 bytes.",
+      "Read the beginning of \"loam field records.txt\", limited to 32 bytes.",
+      "Give me 32 bytes from the beginning of \"loam field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0121",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "quarry-journal.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"quarry-journal.txt\".",
+      "Print 1 line from the start of \"quarry-journal.txt\".",
+      "I only want the opening 1 line from \"quarry-journal.txt\".",
+      "Display \"quarry-journal.txt\" up to its first 1 line.",
+      "Read the beginning of \"quarry-journal.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"quarry-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0122",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "quarry-journal.txt",
+      "count": 6,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 6 lines of \"quarry-journal.txt\".",
+      "Print 6 lines from the start of \"quarry-journal.txt\".",
+      "I only want the opening 6 lines from \"quarry-journal.txt\".",
+      "Display \"quarry-journal.txt\" up to its first 6 lines.",
+      "Read the beginning of \"quarry-journal.txt\", limited to 6 lines.",
+      "Give me 6 lines from the beginning of \"quarry-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0123",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "quarry-journal.txt",
+      "count": 11,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 11 bytes of \"quarry-journal.txt\".",
+      "Print 11 bytes from the start of \"quarry-journal.txt\".",
+      "I only want the opening 11 bytes from \"quarry-journal.txt\".",
+      "Display \"quarry-journal.txt\" up to its first 11 bytes.",
+      "Read the beginning of \"quarry-journal.txt\", limited to 11 bytes.",
+      "Give me 11 bytes from the beginning of \"quarry-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0124",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "quarry-journal.txt",
+      "count": 33,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 33 bytes of \"quarry-journal.txt\".",
+      "Print 33 bytes from the start of \"quarry-journal.txt\".",
+      "I only want the opening 33 bytes from \"quarry-journal.txt\".",
+      "Display \"quarry-journal.txt\" up to its first 33 bytes.",
+      "Read the beginning of \"quarry-journal.txt\", limited to 33 bytes.",
+      "Give me 33 bytes from the beginning of \"quarry-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0125",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "ribbon working notes.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"ribbon working notes.txt\".",
+      "Print 1 line from the start of \"ribbon working notes.txt\".",
+      "I only want the opening 1 line from \"ribbon working notes.txt\".",
+      "Display \"ribbon working notes.txt\" up to its first 1 line.",
+      "Read the beginning of \"ribbon working notes.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"ribbon working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0126",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "ribbon working notes.txt",
+      "count": 7,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 7 lines of \"ribbon working notes.txt\".",
+      "Print 7 lines from the start of \"ribbon working notes.txt\".",
+      "I only want the opening 7 lines from \"ribbon working notes.txt\".",
+      "Display \"ribbon working notes.txt\" up to its first 7 lines.",
+      "Read the beginning of \"ribbon working notes.txt\", limited to 7 lines.",
+      "Give me 7 lines from the beginning of \"ribbon working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0127",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "ribbon working notes.txt",
+      "count": 12,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 12 bytes of \"ribbon working notes.txt\".",
+      "Print 12 bytes from the start of \"ribbon working notes.txt\".",
+      "I only want the opening 12 bytes from \"ribbon working notes.txt\".",
+      "Display \"ribbon working notes.txt\" up to its first 12 bytes.",
+      "Read the beginning of \"ribbon working notes.txt\", limited to 12 bytes.",
+      "Give me 12 bytes from the beginning of \"ribbon working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0128",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "ribbon working notes.txt",
+      "count": 34,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 34 bytes of \"ribbon working notes.txt\".",
+      "Print 34 bytes from the start of \"ribbon working notes.txt\".",
+      "I only want the opening 34 bytes from \"ribbon working notes.txt\".",
+      "Display \"ribbon working notes.txt\" up to its first 34 bytes.",
+      "Read the beginning of \"ribbon working notes.txt\", limited to 34 bytes.",
+      "Give me 34 bytes from the beginning of \"ribbon working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0129",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "cassette's notebook.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"cassette's notebook.txt\".",
+      "Print 1 line from the start of \"cassette's notebook.txt\".",
+      "I only want the opening 1 line from \"cassette's notebook.txt\".",
+      "Display \"cassette's notebook.txt\" up to its first 1 line.",
+      "Read the beginning of \"cassette's notebook.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"cassette's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0130",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "cassette's notebook.txt",
+      "count": 8,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 8 lines of \"cassette's notebook.txt\".",
+      "Print 8 lines from the start of \"cassette's notebook.txt\".",
+      "I only want the opening 8 lines from \"cassette's notebook.txt\".",
+      "Display \"cassette's notebook.txt\" up to its first 8 lines.",
+      "Read the beginning of \"cassette's notebook.txt\", limited to 8 lines.",
+      "Give me 8 lines from the beginning of \"cassette's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0131",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "cassette's notebook.txt",
+      "count": 13,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 13 bytes of \"cassette's notebook.txt\".",
+      "Print 13 bytes from the start of \"cassette's notebook.txt\".",
+      "I only want the opening 13 bytes from \"cassette's notebook.txt\".",
+      "Display \"cassette's notebook.txt\" up to its first 13 bytes.",
+      "Read the beginning of \"cassette's notebook.txt\", limited to 13 bytes.",
+      "Give me 13 bytes from the beginning of \"cassette's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0132",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "cassette's notebook.txt",
+      "count": 35,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 35 bytes of \"cassette's notebook.txt\".",
+      "Print 35 bytes from the start of \"cassette's notebook.txt\".",
+      "I only want the opening 35 bytes from \"cassette's notebook.txt\".",
+      "Display \"cassette's notebook.txt\" up to its first 35 bytes.",
+      "Read the beginning of \"cassette's notebook.txt\", limited to 35 bytes.",
+      "Give me 35 bytes from the beginning of \"cassette's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0133",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "-loom-draft.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"-loom-draft.txt\".",
+      "Print 1 line from the start of \"-loom-draft.txt\".",
+      "I only want the opening 1 line from \"-loom-draft.txt\".",
+      "Display \"-loom-draft.txt\" up to its first 1 line.",
+      "Read the beginning of \"-loom-draft.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"-loom-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0134",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "-loom-draft.txt",
+      "count": 9,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 9 lines of \"-loom-draft.txt\".",
+      "Print 9 lines from the start of \"-loom-draft.txt\".",
+      "I only want the opening 9 lines from \"-loom-draft.txt\".",
+      "Display \"-loom-draft.txt\" up to its first 9 lines.",
+      "Read the beginning of \"-loom-draft.txt\", limited to 9 lines.",
+      "Give me 9 lines from the beginning of \"-loom-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0135",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "-loom-draft.txt",
+      "count": 14,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 14 bytes of \"-loom-draft.txt\".",
+      "Print 14 bytes from the start of \"-loom-draft.txt\".",
+      "I only want the opening 14 bytes from \"-loom-draft.txt\".",
+      "Display \"-loom-draft.txt\" up to its first 14 bytes.",
+      "Read the beginning of \"-loom-draft.txt\", limited to 14 bytes.",
+      "Give me 14 bytes from the beginning of \"-loom-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0136",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "-loom-draft.txt",
+      "count": 36,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 36 bytes of \"-loom-draft.txt\".",
+      "Print 36 bytes from the start of \"-loom-draft.txt\".",
+      "I only want the opening 36 bytes from \"-loom-draft.txt\".",
+      "Display \"-loom-draft.txt\" up to its first 36 bytes.",
+      "Read the beginning of \"-loom-draft.txt\", limited to 36 bytes.",
+      "Give me 36 bytes from the beginning of \"-loom-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0137",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "terrace-$budget.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"terrace-$budget.txt\".",
+      "Print 1 line from the start of \"terrace-$budget.txt\".",
+      "I only want the opening 1 line from \"terrace-$budget.txt\".",
+      "Display \"terrace-$budget.txt\" up to its first 1 line.",
+      "Read the beginning of \"terrace-$budget.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"terrace-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0138",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "terrace-$budget.txt",
+      "count": 10,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 10 lines of \"terrace-$budget.txt\".",
+      "Print 10 lines from the start of \"terrace-$budget.txt\".",
+      "I only want the opening 10 lines from \"terrace-$budget.txt\".",
+      "Display \"terrace-$budget.txt\" up to its first 10 lines.",
+      "Read the beginning of \"terrace-$budget.txt\", limited to 10 lines.",
+      "Give me 10 lines from the beginning of \"terrace-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0139",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "terrace-$budget.txt",
+      "count": 15,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 15 bytes of \"terrace-$budget.txt\".",
+      "Print 15 bytes from the start of \"terrace-$budget.txt\".",
+      "I only want the opening 15 bytes from \"terrace-$budget.txt\".",
+      "Display \"terrace-$budget.txt\" up to its first 15 bytes.",
+      "Read the beginning of \"terrace-$budget.txt\", limited to 15 bytes.",
+      "Give me 15 bytes from the beginning of \"terrace-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0140",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "terrace-$budget.txt",
+      "count": 37,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 37 bytes of \"terrace-$budget.txt\".",
+      "Print 37 bytes from the start of \"terrace-$budget.txt\".",
+      "I only want the opening 37 bytes from \"terrace-$budget.txt\".",
+      "Display \"terrace-$budget.txt\" up to its first 37 bytes.",
+      "Read the beginning of \"terrace-$budget.txt\", limited to 37 bytes.",
+      "Give me 37 bytes from the beginning of \"terrace-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0141",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "depot;archive.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"depot;archive.txt\".",
+      "Print 1 line from the start of \"depot;archive.txt\".",
+      "I only want the opening 1 line from \"depot;archive.txt\".",
+      "Display \"depot;archive.txt\" up to its first 1 line.",
+      "Read the beginning of \"depot;archive.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"depot;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0142",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "depot;archive.txt",
+      "count": 11,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 11 lines of \"depot;archive.txt\".",
+      "Print 11 lines from the start of \"depot;archive.txt\".",
+      "I only want the opening 11 lines from \"depot;archive.txt\".",
+      "Display \"depot;archive.txt\" up to its first 11 lines.",
+      "Read the beginning of \"depot;archive.txt\", limited to 11 lines.",
+      "Give me 11 lines from the beginning of \"depot;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0143",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "depot;archive.txt",
+      "count": 16,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 16 bytes of \"depot;archive.txt\".",
+      "Print 16 bytes from the start of \"depot;archive.txt\".",
+      "I only want the opening 16 bytes from \"depot;archive.txt\".",
+      "Display \"depot;archive.txt\" up to its first 16 bytes.",
+      "Read the beginning of \"depot;archive.txt\", limited to 16 bytes.",
+      "Give me 16 bytes from the beginning of \"depot;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0144",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "depot;archive.txt",
+      "count": 31,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 31 bytes of \"depot;archive.txt\".",
+      "Print 31 bytes from the start of \"depot;archive.txt\".",
+      "I only want the opening 31 bytes from \"depot;archive.txt\".",
+      "Display \"depot;archive.txt\" up to its first 31 bytes.",
+      "Read the beginning of \"depot;archive.txt\", limited to 31 bytes.",
+      "Give me 31 bytes from the beginning of \"depot;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0145",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "estuary*literal.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"estuary*literal.txt\".",
+      "Print 1 line from the start of \"estuary*literal.txt\".",
+      "I only want the opening 1 line from \"estuary*literal.txt\".",
+      "Display \"estuary*literal.txt\" up to its first 1 line.",
+      "Read the beginning of \"estuary*literal.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"estuary*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0146",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "estuary*literal.txt",
+      "count": 3,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 3 lines of \"estuary*literal.txt\".",
+      "Print 3 lines from the start of \"estuary*literal.txt\".",
+      "I only want the opening 3 lines from \"estuary*literal.txt\".",
+      "Display \"estuary*literal.txt\" up to its first 3 lines.",
+      "Read the beginning of \"estuary*literal.txt\", limited to 3 lines.",
+      "Give me 3 lines from the beginning of \"estuary*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0147",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "estuary*literal.txt",
+      "count": 17,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 17 bytes of \"estuary*literal.txt\".",
+      "Print 17 bytes from the start of \"estuary*literal.txt\".",
+      "I only want the opening 17 bytes from \"estuary*literal.txt\".",
+      "Display \"estuary*literal.txt\" up to its first 17 bytes.",
+      "Read the beginning of \"estuary*literal.txt\", limited to 17 bytes.",
+      "Give me 17 bytes from the beginning of \"estuary*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0148",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "estuary*literal.txt",
+      "count": 32,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 32 bytes of \"estuary*literal.txt\".",
+      "Print 32 bytes from the start of \"estuary*literal.txt\".",
+      "I only want the opening 32 bytes from \"estuary*literal.txt\".",
+      "Display \"estuary*literal.txt\" up to its first 32 bytes.",
+      "Read the beginning of \"estuary*literal.txt\", limited to 32 bytes.",
+      "Give me 32 bytes from the beginning of \"estuary*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0149",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "thimble[draft].txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"thimble[draft].txt\".",
+      "Print 1 line from the start of \"thimble[draft].txt\".",
+      "I only want the opening 1 line from \"thimble[draft].txt\".",
+      "Display \"thimble[draft].txt\" up to its first 1 line.",
+      "Read the beginning of \"thimble[draft].txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"thimble[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0150",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "thimble[draft].txt",
+      "count": 4,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 4 lines of \"thimble[draft].txt\".",
+      "Print 4 lines from the start of \"thimble[draft].txt\".",
+      "I only want the opening 4 lines from \"thimble[draft].txt\".",
+      "Display \"thimble[draft].txt\" up to its first 4 lines.",
+      "Read the beginning of \"thimble[draft].txt\", limited to 4 lines.",
+      "Give me 4 lines from the beginning of \"thimble[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0151",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "thimble[draft].txt",
+      "count": 18,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 18 bytes of \"thimble[draft].txt\".",
+      "Print 18 bytes from the start of \"thimble[draft].txt\".",
+      "I only want the opening 18 bytes from \"thimble[draft].txt\".",
+      "Display \"thimble[draft].txt\" up to its first 18 bytes.",
+      "Read the beginning of \"thimble[draft].txt\", limited to 18 bytes.",
+      "Give me 18 bytes from the beginning of \"thimble[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0152",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "thimble[draft].txt",
+      "count": 33,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 33 bytes of \"thimble[draft].txt\".",
+      "Print 33 bytes from the start of \"thimble[draft].txt\".",
+      "I only want the opening 33 bytes from \"thimble[draft].txt\".",
+      "Display \"thimble[draft].txt\" up to its first 33 bytes.",
+      "Read the beginning of \"thimble[draft].txt\", limited to 33 bytes.",
+      "Give me 33 bytes from the beginning of \"thimble[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0153",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "pigment-café.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"pigment-café.txt\".",
+      "Print 1 line from the start of \"pigment-café.txt\".",
+      "I only want the opening 1 line from \"pigment-café.txt\".",
+      "Display \"pigment-café.txt\" up to its first 1 line.",
+      "Read the beginning of \"pigment-café.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"pigment-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0154",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "pigment-café.txt",
+      "count": 5,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 5 lines of \"pigment-café.txt\".",
+      "Print 5 lines from the start of \"pigment-café.txt\".",
+      "I only want the opening 5 lines from \"pigment-café.txt\".",
+      "Display \"pigment-café.txt\" up to its first 5 lines.",
+      "Read the beginning of \"pigment-café.txt\", limited to 5 lines.",
+      "Give me 5 lines from the beginning of \"pigment-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0155",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "pigment-café.txt",
+      "count": 19,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 19 bytes of \"pigment-café.txt\".",
+      "Print 19 bytes from the start of \"pigment-café.txt\".",
+      "I only want the opening 19 bytes from \"pigment-café.txt\".",
+      "Display \"pigment-café.txt\" up to its first 19 bytes.",
+      "Read the beginning of \"pigment-café.txt\", limited to 19 bytes.",
+      "Give me 19 bytes from the beginning of \"pigment-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0156",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "pigment-café.txt",
+      "count": 34,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 34 bytes of \"pigment-café.txt\".",
+      "Print 34 bytes from the start of \"pigment-café.txt\".",
+      "I only want the opening 34 bytes from \"pigment-café.txt\".",
+      "Display \"pigment-café.txt\" up to its first 34 bytes.",
+      "Read the beginning of \"pigment-café.txt\", limited to 34 bytes.",
+      "Give me 34 bytes from the beginning of \"pigment-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0157",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "junction field records.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 1 line of \"junction field records.txt\".",
+      "Print 1 line from the start of \"junction field records.txt\".",
+      "I only want the opening 1 line from \"junction field records.txt\".",
+      "Display \"junction field records.txt\" up to its first 1 line.",
+      "Read the beginning of \"junction field records.txt\", limited to 1 line.",
+      "Give me 1 line from the beginning of \"junction field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0158",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "junction field records.txt",
+      "count": 6,
+      "bytes": false
+    },
+    "requests": [
+      "Show the first 6 lines of \"junction field records.txt\".",
+      "Print 6 lines from the start of \"junction field records.txt\".",
+      "I only want the opening 6 lines from \"junction field records.txt\".",
+      "Display \"junction field records.txt\" up to its first 6 lines.",
+      "Read the beginning of \"junction field records.txt\", limited to 6 lines.",
+      "Give me 6 lines from the beginning of \"junction field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0159",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "junction field records.txt",
+      "count": 7,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 7 bytes of \"junction field records.txt\".",
+      "Print 7 bytes from the start of \"junction field records.txt\".",
+      "I only want the opening 7 bytes from \"junction field records.txt\".",
+      "Display \"junction field records.txt\" up to its first 7 bytes.",
+      "Read the beginning of \"junction field records.txt\", limited to 7 bytes.",
+      "Give me 7 bytes from the beginning of \"junction field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0160",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "train",
+    "intent": {
+      "op": "head",
+      "source": "junction field records.txt",
+      "count": 35,
+      "bytes": true
+    },
+    "requests": [
+      "Show the first 35 bytes of \"junction field records.txt\".",
+      "Print 35 bytes from the start of \"junction field records.txt\".",
+      "I only want the opening 35 bytes from \"junction field records.txt\".",
+      "Display \"junction field records.txt\" up to its first 35 bytes.",
+      "Read the beginning of \"junction field records.txt\", limited to 35 bytes.",
+      "Give me 35 bytes from the beginning of \"junction field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0161",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "verdigris-journal.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Return the initial 1 line of \"verdigris-journal.txt\".",
+      "Take 1 line off the front of \"verdigris-journal.txt\" and print them.",
+      "Present just the leading 1 line from \"verdigris-journal.txt\".",
+      "Emit a 1-line prefix of \"verdigris-journal.txt\".",
+      "Output only the first 1 line from \"verdigris-journal.txt\".",
+      "Let me inspect the beginning of \"verdigris-journal.txt\": 1 line."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0162",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "verdigris-journal.txt",
+      "count": 7,
+      "bytes": false
+    },
+    "requests": [
+      "Return the initial 7 lines of \"verdigris-journal.txt\".",
+      "Take 7 lines off the front of \"verdigris-journal.txt\" and print them.",
+      "Present just the leading 7 lines from \"verdigris-journal.txt\".",
+      "Emit a 7-lines prefix of \"verdigris-journal.txt\".",
+      "Output only the first 7 lines from \"verdigris-journal.txt\".",
+      "Let me inspect the beginning of \"verdigris-journal.txt\": 7 lines."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0163",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "verdigris-journal.txt",
+      "count": 8,
+      "bytes": true
+    },
+    "requests": [
+      "Return the initial 8 bytes of \"verdigris-journal.txt\".",
+      "Take 8 bytes off the front of \"verdigris-journal.txt\" and print them.",
+      "Present just the leading 8 bytes from \"verdigris-journal.txt\".",
+      "Emit a 8-bytes prefix of \"verdigris-journal.txt\".",
+      "Output only the first 8 bytes from \"verdigris-journal.txt\".",
+      "Let me inspect the beginning of \"verdigris-journal.txt\": 8 bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0164",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "verdigris-journal.txt",
+      "count": 36,
+      "bytes": true
+    },
+    "requests": [
+      "Return the initial 36 bytes of \"verdigris-journal.txt\".",
+      "Take 36 bytes off the front of \"verdigris-journal.txt\" and print them.",
+      "Present just the leading 36 bytes from \"verdigris-journal.txt\".",
+      "Emit a 36-bytes prefix of \"verdigris-journal.txt\".",
+      "Output only the first 36 bytes from \"verdigris-journal.txt\".",
+      "Let me inspect the beginning of \"verdigris-journal.txt\": 36 bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0165",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "mariner working notes.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Return the initial 1 line of \"mariner working notes.txt\".",
+      "Take 1 line off the front of \"mariner working notes.txt\" and print them.",
+      "Present just the leading 1 line from \"mariner working notes.txt\".",
+      "Emit a 1-line prefix of \"mariner working notes.txt\".",
+      "Output only the first 1 line from \"mariner working notes.txt\".",
+      "Let me inspect the beginning of \"mariner working notes.txt\": 1 line."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0166",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "mariner working notes.txt",
+      "count": 8,
+      "bytes": false
+    },
+    "requests": [
+      "Return the initial 8 lines of \"mariner working notes.txt\".",
+      "Take 8 lines off the front of \"mariner working notes.txt\" and print them.",
+      "Present just the leading 8 lines from \"mariner working notes.txt\".",
+      "Emit a 8-lines prefix of \"mariner working notes.txt\".",
+      "Output only the first 8 lines from \"mariner working notes.txt\".",
+      "Let me inspect the beginning of \"mariner working notes.txt\": 8 lines."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0167",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "mariner working notes.txt",
+      "count": 9,
+      "bytes": true
+    },
+    "requests": [
+      "Return the initial 9 bytes of \"mariner working notes.txt\".",
+      "Take 9 bytes off the front of \"mariner working notes.txt\" and print them.",
+      "Present just the leading 9 bytes from \"mariner working notes.txt\".",
+      "Emit a 9-bytes prefix of \"mariner working notes.txt\".",
+      "Output only the first 9 bytes from \"mariner working notes.txt\".",
+      "Let me inspect the beginning of \"mariner working notes.txt\": 9 bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0168",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "mariner working notes.txt",
+      "count": 37,
+      "bytes": true
+    },
+    "requests": [
+      "Return the initial 37 bytes of \"mariner working notes.txt\".",
+      "Take 37 bytes off the front of \"mariner working notes.txt\" and print them.",
+      "Present just the leading 37 bytes from \"mariner working notes.txt\".",
+      "Emit a 37-bytes prefix of \"mariner working notes.txt\".",
+      "Output only the first 37 bytes from \"mariner working notes.txt\".",
+      "Let me inspect the beginning of \"mariner working notes.txt\": 37 bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0169",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "vellum's notebook.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Return the initial 1 line of \"vellum's notebook.txt\".",
+      "Take 1 line off the front of \"vellum's notebook.txt\" and print them.",
+      "Present just the leading 1 line from \"vellum's notebook.txt\".",
+      "Emit a 1-line prefix of \"vellum's notebook.txt\".",
+      "Output only the first 1 line from \"vellum's notebook.txt\".",
+      "Let me inspect the beginning of \"vellum's notebook.txt\": 1 line."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0170",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "vellum's notebook.txt",
+      "count": 9,
+      "bytes": false
+    },
+    "requests": [
+      "Return the initial 9 lines of \"vellum's notebook.txt\".",
+      "Take 9 lines off the front of \"vellum's notebook.txt\" and print them.",
+      "Present just the leading 9 lines from \"vellum's notebook.txt\".",
+      "Emit a 9-lines prefix of \"vellum's notebook.txt\".",
+      "Output only the first 9 lines from \"vellum's notebook.txt\".",
+      "Let me inspect the beginning of \"vellum's notebook.txt\": 9 lines."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0171",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "vellum's notebook.txt",
+      "count": 10,
+      "bytes": true
+    },
+    "requests": [
+      "Return the initial 10 bytes of \"vellum's notebook.txt\".",
+      "Take 10 bytes off the front of \"vellum's notebook.txt\" and print them.",
+      "Present just the leading 10 bytes from \"vellum's notebook.txt\".",
+      "Emit a 10-bytes prefix of \"vellum's notebook.txt\".",
+      "Output only the first 10 bytes from \"vellum's notebook.txt\".",
+      "Let me inspect the beginning of \"vellum's notebook.txt\": 10 bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0172",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "vellum's notebook.txt",
+      "count": 31,
+      "bytes": true
+    },
+    "requests": [
+      "Return the initial 31 bytes of \"vellum's notebook.txt\".",
+      "Take 31 bytes off the front of \"vellum's notebook.txt\" and print them.",
+      "Present just the leading 31 bytes from \"vellum's notebook.txt\".",
+      "Emit a 31-bytes prefix of \"vellum's notebook.txt\".",
+      "Output only the first 31 bytes from \"vellum's notebook.txt\".",
+      "Let me inspect the beginning of \"vellum's notebook.txt\": 31 bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0173",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "-coracle-draft.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Return the initial 1 line of \"-coracle-draft.txt\".",
+      "Take 1 line off the front of \"-coracle-draft.txt\" and print them.",
+      "Present just the leading 1 line from \"-coracle-draft.txt\".",
+      "Emit a 1-line prefix of \"-coracle-draft.txt\".",
+      "Output only the first 1 line from \"-coracle-draft.txt\".",
+      "Let me inspect the beginning of \"-coracle-draft.txt\": 1 line."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0174",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "-coracle-draft.txt",
+      "count": 10,
+      "bytes": false
+    },
+    "requests": [
+      "Return the initial 10 lines of \"-coracle-draft.txt\".",
+      "Take 10 lines off the front of \"-coracle-draft.txt\" and print them.",
+      "Present just the leading 10 lines from \"-coracle-draft.txt\".",
+      "Emit a 10-lines prefix of \"-coracle-draft.txt\".",
+      "Output only the first 10 lines from \"-coracle-draft.txt\".",
+      "Let me inspect the beginning of \"-coracle-draft.txt\": 10 lines."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0175",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "-coracle-draft.txt",
+      "count": 11,
+      "bytes": true
+    },
+    "requests": [
+      "Return the initial 11 bytes of \"-coracle-draft.txt\".",
+      "Take 11 bytes off the front of \"-coracle-draft.txt\" and print them.",
+      "Present just the leading 11 bytes from \"-coracle-draft.txt\".",
+      "Emit a 11-bytes prefix of \"-coracle-draft.txt\".",
+      "Output only the first 11 bytes from \"-coracle-draft.txt\".",
+      "Let me inspect the beginning of \"-coracle-draft.txt\": 11 bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0176",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "-coracle-draft.txt",
+      "count": 32,
+      "bytes": true
+    },
+    "requests": [
+      "Return the initial 32 bytes of \"-coracle-draft.txt\".",
+      "Take 32 bytes off the front of \"-coracle-draft.txt\" and print them.",
+      "Present just the leading 32 bytes from \"-coracle-draft.txt\".",
+      "Emit a 32-bytes prefix of \"-coracle-draft.txt\".",
+      "Output only the first 32 bytes from \"-coracle-draft.txt\".",
+      "Let me inspect the beginning of \"-coracle-draft.txt\": 32 bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0177",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "fulcrum-$budget.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Return the initial 1 line of \"fulcrum-$budget.txt\".",
+      "Take 1 line off the front of \"fulcrum-$budget.txt\" and print them.",
+      "Present just the leading 1 line from \"fulcrum-$budget.txt\".",
+      "Emit a 1-line prefix of \"fulcrum-$budget.txt\".",
+      "Output only the first 1 line from \"fulcrum-$budget.txt\".",
+      "Let me inspect the beginning of \"fulcrum-$budget.txt\": 1 line."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0178",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "fulcrum-$budget.txt",
+      "count": 11,
+      "bytes": false
+    },
+    "requests": [
+      "Return the initial 11 lines of \"fulcrum-$budget.txt\".",
+      "Take 11 lines off the front of \"fulcrum-$budget.txt\" and print them.",
+      "Present just the leading 11 lines from \"fulcrum-$budget.txt\".",
+      "Emit a 11-lines prefix of \"fulcrum-$budget.txt\".",
+      "Output only the first 11 lines from \"fulcrum-$budget.txt\".",
+      "Let me inspect the beginning of \"fulcrum-$budget.txt\": 11 lines."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0179",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "fulcrum-$budget.txt",
+      "count": 12,
+      "bytes": true
+    },
+    "requests": [
+      "Return the initial 12 bytes of \"fulcrum-$budget.txt\".",
+      "Take 12 bytes off the front of \"fulcrum-$budget.txt\" and print them.",
+      "Present just the leading 12 bytes from \"fulcrum-$budget.txt\".",
+      "Emit a 12-bytes prefix of \"fulcrum-$budget.txt\".",
+      "Output only the first 12 bytes from \"fulcrum-$budget.txt\".",
+      "Let me inspect the beginning of \"fulcrum-$budget.txt\": 12 bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0180",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "fulcrum-$budget.txt",
+      "count": 33,
+      "bytes": true
+    },
+    "requests": [
+      "Return the initial 33 bytes of \"fulcrum-$budget.txt\".",
+      "Take 33 bytes off the front of \"fulcrum-$budget.txt\" and print them.",
+      "Present just the leading 33 bytes from \"fulcrum-$budget.txt\".",
+      "Emit a 33-bytes prefix of \"fulcrum-$budget.txt\".",
+      "Output only the first 33 bytes from \"fulcrum-$budget.txt\".",
+      "Let me inspect the beginning of \"fulcrum-$budget.txt\": 33 bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0181",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "tundralake;archive.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Return the initial 1 line of \"tundralake;archive.txt\".",
+      "Take 1 line off the front of \"tundralake;archive.txt\" and print them.",
+      "Present just the leading 1 line from \"tundralake;archive.txt\".",
+      "Emit a 1-line prefix of \"tundralake;archive.txt\".",
+      "Output only the first 1 line from \"tundralake;archive.txt\".",
+      "Let me inspect the beginning of \"tundralake;archive.txt\": 1 line."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0182",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "tundralake;archive.txt",
+      "count": 3,
+      "bytes": false
+    },
+    "requests": [
+      "Return the initial 3 lines of \"tundralake;archive.txt\".",
+      "Take 3 lines off the front of \"tundralake;archive.txt\" and print them.",
+      "Present just the leading 3 lines from \"tundralake;archive.txt\".",
+      "Emit a 3-lines prefix of \"tundralake;archive.txt\".",
+      "Output only the first 3 lines from \"tundralake;archive.txt\".",
+      "Let me inspect the beginning of \"tundralake;archive.txt\": 3 lines."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0183",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "tundralake;archive.txt",
+      "count": 13,
+      "bytes": true
+    },
+    "requests": [
+      "Return the initial 13 bytes of \"tundralake;archive.txt\".",
+      "Take 13 bytes off the front of \"tundralake;archive.txt\" and print them.",
+      "Present just the leading 13 bytes from \"tundralake;archive.txt\".",
+      "Emit a 13-bytes prefix of \"tundralake;archive.txt\".",
+      "Output only the first 13 bytes from \"tundralake;archive.txt\".",
+      "Let me inspect the beginning of \"tundralake;archive.txt\": 13 bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0184",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "tundralake;archive.txt",
+      "count": 34,
+      "bytes": true
+    },
+    "requests": [
+      "Return the initial 34 bytes of \"tundralake;archive.txt\".",
+      "Take 34 bytes off the front of \"tundralake;archive.txt\" and print them.",
+      "Present just the leading 34 bytes from \"tundralake;archive.txt\".",
+      "Emit a 34-bytes prefix of \"tundralake;archive.txt\".",
+      "Output only the first 34 bytes from \"tundralake;archive.txt\".",
+      "Let me inspect the beginning of \"tundralake;archive.txt\": 34 bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0185",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "obsidian*literal.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Return the initial 1 line of \"obsidian*literal.txt\".",
+      "Take 1 line off the front of \"obsidian*literal.txt\" and print them.",
+      "Present just the leading 1 line from \"obsidian*literal.txt\".",
+      "Emit a 1-line prefix of \"obsidian*literal.txt\".",
+      "Output only the first 1 line from \"obsidian*literal.txt\".",
+      "Let me inspect the beginning of \"obsidian*literal.txt\": 1 line."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0186",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "obsidian*literal.txt",
+      "count": 4,
+      "bytes": false
+    },
+    "requests": [
+      "Return the initial 4 lines of \"obsidian*literal.txt\".",
+      "Take 4 lines off the front of \"obsidian*literal.txt\" and print them.",
+      "Present just the leading 4 lines from \"obsidian*literal.txt\".",
+      "Emit a 4-lines prefix of \"obsidian*literal.txt\".",
+      "Output only the first 4 lines from \"obsidian*literal.txt\".",
+      "Let me inspect the beginning of \"obsidian*literal.txt\": 4 lines."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0187",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "obsidian*literal.txt",
+      "count": 14,
+      "bytes": true
+    },
+    "requests": [
+      "Return the initial 14 bytes of \"obsidian*literal.txt\".",
+      "Take 14 bytes off the front of \"obsidian*literal.txt\" and print them.",
+      "Present just the leading 14 bytes from \"obsidian*literal.txt\".",
+      "Emit a 14-bytes prefix of \"obsidian*literal.txt\".",
+      "Output only the first 14 bytes from \"obsidian*literal.txt\".",
+      "Let me inspect the beginning of \"obsidian*literal.txt\": 14 bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0188",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "obsidian*literal.txt",
+      "count": 35,
+      "bytes": true
+    },
+    "requests": [
+      "Return the initial 35 bytes of \"obsidian*literal.txt\".",
+      "Take 35 bytes off the front of \"obsidian*literal.txt\" and print them.",
+      "Present just the leading 35 bytes from \"obsidian*literal.txt\".",
+      "Emit a 35-bytes prefix of \"obsidian*literal.txt\".",
+      "Output only the first 35 bytes from \"obsidian*literal.txt\".",
+      "Let me inspect the beginning of \"obsidian*literal.txt\": 35 bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0189",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "meridian[draft].txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Return the initial 1 line of \"meridian[draft].txt\".",
+      "Take 1 line off the front of \"meridian[draft].txt\" and print them.",
+      "Present just the leading 1 line from \"meridian[draft].txt\".",
+      "Emit a 1-line prefix of \"meridian[draft].txt\".",
+      "Output only the first 1 line from \"meridian[draft].txt\".",
+      "Let me inspect the beginning of \"meridian[draft].txt\": 1 line."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0190",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "meridian[draft].txt",
+      "count": 5,
+      "bytes": false
+    },
+    "requests": [
+      "Return the initial 5 lines of \"meridian[draft].txt\".",
+      "Take 5 lines off the front of \"meridian[draft].txt\" and print them.",
+      "Present just the leading 5 lines from \"meridian[draft].txt\".",
+      "Emit a 5-lines prefix of \"meridian[draft].txt\".",
+      "Output only the first 5 lines from \"meridian[draft].txt\".",
+      "Let me inspect the beginning of \"meridian[draft].txt\": 5 lines."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0191",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "meridian[draft].txt",
+      "count": 15,
+      "bytes": true
+    },
+    "requests": [
+      "Return the initial 15 bytes of \"meridian[draft].txt\".",
+      "Take 15 bytes off the front of \"meridian[draft].txt\" and print them.",
+      "Present just the leading 15 bytes from \"meridian[draft].txt\".",
+      "Emit a 15-bytes prefix of \"meridian[draft].txt\".",
+      "Output only the first 15 bytes from \"meridian[draft].txt\".",
+      "Let me inspect the beginning of \"meridian[draft].txt\": 15 bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0192",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "meridian[draft].txt",
+      "count": 36,
+      "bytes": true
+    },
+    "requests": [
+      "Return the initial 36 bytes of \"meridian[draft].txt\".",
+      "Take 36 bytes off the front of \"meridian[draft].txt\" and print them.",
+      "Present just the leading 36 bytes from \"meridian[draft].txt\".",
+      "Emit a 36-bytes prefix of \"meridian[draft].txt\".",
+      "Output only the first 36 bytes from \"meridian[draft].txt\".",
+      "Let me inspect the beginning of \"meridian[draft].txt\": 36 bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0193",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "palisade-café.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Return the initial 1 line of \"palisade-café.txt\".",
+      "Take 1 line off the front of \"palisade-café.txt\" and print them.",
+      "Present just the leading 1 line from \"palisade-café.txt\".",
+      "Emit a 1-line prefix of \"palisade-café.txt\".",
+      "Output only the first 1 line from \"palisade-café.txt\".",
+      "Let me inspect the beginning of \"palisade-café.txt\": 1 line."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0194",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "palisade-café.txt",
+      "count": 6,
+      "bytes": false
+    },
+    "requests": [
+      "Return the initial 6 lines of \"palisade-café.txt\".",
+      "Take 6 lines off the front of \"palisade-café.txt\" and print them.",
+      "Present just the leading 6 lines from \"palisade-café.txt\".",
+      "Emit a 6-lines prefix of \"palisade-café.txt\".",
+      "Output only the first 6 lines from \"palisade-café.txt\".",
+      "Let me inspect the beginning of \"palisade-café.txt\": 6 lines."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0195",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "palisade-café.txt",
+      "count": 16,
+      "bytes": true
+    },
+    "requests": [
+      "Return the initial 16 bytes of \"palisade-café.txt\".",
+      "Take 16 bytes off the front of \"palisade-café.txt\" and print them.",
+      "Present just the leading 16 bytes from \"palisade-café.txt\".",
+      "Emit a 16-bytes prefix of \"palisade-café.txt\".",
+      "Output only the first 16 bytes from \"palisade-café.txt\".",
+      "Let me inspect the beginning of \"palisade-café.txt\": 16 bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0196",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "palisade-café.txt",
+      "count": 37,
+      "bytes": true
+    },
+    "requests": [
+      "Return the initial 37 bytes of \"palisade-café.txt\".",
+      "Take 37 bytes off the front of \"palisade-café.txt\" and print them.",
+      "Present just the leading 37 bytes from \"palisade-café.txt\".",
+      "Emit a 37-bytes prefix of \"palisade-café.txt\".",
+      "Output only the first 37 bytes from \"palisade-café.txt\".",
+      "Let me inspect the beginning of \"palisade-café.txt\": 37 bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0197",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "almanac field records.txt",
+      "count": 1,
+      "bytes": false
+    },
+    "requests": [
+      "Return the initial 1 line of \"almanac field records.txt\".",
+      "Take 1 line off the front of \"almanac field records.txt\" and print them.",
+      "Present just the leading 1 line from \"almanac field records.txt\".",
+      "Emit a 1-line prefix of \"almanac field records.txt\".",
+      "Output only the first 1 line from \"almanac field records.txt\".",
+      "Let me inspect the beginning of \"almanac field records.txt\": 1 line."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0198",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "almanac field records.txt",
+      "count": 7,
+      "bytes": false
+    },
+    "requests": [
+      "Return the initial 7 lines of \"almanac field records.txt\".",
+      "Take 7 lines off the front of \"almanac field records.txt\" and print them.",
+      "Present just the leading 7 lines from \"almanac field records.txt\".",
+      "Emit a 7-lines prefix of \"almanac field records.txt\".",
+      "Output only the first 7 lines from \"almanac field records.txt\".",
+      "Let me inspect the beginning of \"almanac field records.txt\": 7 lines."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0199",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "almanac field records.txt",
+      "count": 17,
+      "bytes": true
+    },
+    "requests": [
+      "Return the initial 17 bytes of \"almanac field records.txt\".",
+      "Take 17 bytes off the front of \"almanac field records.txt\" and print them.",
+      "Present just the leading 17 bytes from \"almanac field records.txt\".",
+      "Emit a 17-bytes prefix of \"almanac field records.txt\".",
+      "Output only the first 17 bytes from \"almanac field records.txt\".",
+      "Let me inspect the beginning of \"almanac field records.txt\": 17 bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-head-0200",
+    "family": "head",
+    "topic": "text",
+    "capability": "start-end-lines-bytes",
+    "split": "validation",
+    "intent": {
+      "op": "head",
+      "source": "almanac field records.txt",
+      "count": 31,
+      "bytes": true
+    },
+    "requests": [
+      "Return the initial 31 bytes of \"almanac field records.txt\".",
+      "Take 31 bytes off the front of \"almanac field records.txt\" and print them.",
+      "Present just the leading 31 bytes from \"almanac field records.txt\".",
+      "Emit a 31-bytes prefix of \"almanac field records.txt\".",
+      "Output only the first 31 bytes from \"almanac field records.txt\".",
+      "Let me inspect the beginning of \"almanac field records.txt\": 31 bytes."
+    ]
+  }
+]

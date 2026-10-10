@@ -1,0 +1,94 @@
+[
+  {
+    "id": "pilot-v1-test-01",
+    "topic": "shell-utils",
+    "family": "test",
+    "capability": "regular-file",
+    "split": "train",
+    "intent": {
+      "op": "test",
+      "condition": "file",
+      "target": "notes.txt"
+    },
+    "requests": [
+      "check whether notes.txt is a regular file",
+      "is notes.txt a regular file?",
+      "I want to verify that notes.txt is an ordinary file",
+      "confirm that notes.txt exists as a plain file"
+    ]
+  },
+  {
+    "id": "pilot-v1-test-02",
+    "topic": "shell-utils",
+    "family": "test",
+    "capability": "string-compare",
+    "split": "train",
+    "intent": {
+      "op": "test",
+      "condition": "string_differs",
+      "left": "red apple",
+      "right": "green pear"
+    },
+    "requests": [
+      "check that the strings red apple and green pear are different",
+      "are red apple and green pear different strings?",
+      "I need to confirm that red apple does not equal green pear",
+      "verify the text red apple differs from green pear"
+    ]
+  },
+  {
+    "id": "pilot-v1-test-03",
+    "topic": "shell-utils",
+    "family": "test",
+    "capability": "numeric-compare",
+    "split": "train",
+    "intent": {
+      "op": "test",
+      "condition": "number_lt",
+      "left": "12",
+      "right": "30"
+    },
+    "requests": [
+      "check whether 12 is less than 30",
+      "is 12 smaller than 30?",
+      "I want to confirm numerically that 12 is below 30",
+      "verify that the number 12 is lower than 30"
+    ]
+  },
+  {
+    "id": "pilot-v1-test-04",
+    "topic": "shell-utils",
+    "family": "test",
+    "capability": "nonempty-file",
+    "split": "train",
+    "intent": {
+      "op": "test",
+      "condition": "nonempty",
+      "target": "report.csv"
+    },
+    "requests": [
+      "check that report.csv exists and is not empty",
+      "does report.csv exist with a size greater than zero?",
+      "I need to make sure report.csv has some content",
+      "confirm report.csv is a non-empty file"
+    ]
+  },
+  {
+    "id": "pilot-v1-test-05",
+    "topic": "shell-utils",
+    "family": "test",
+    "capability": "directory-check",
+    "split": "validation",
+    "intent": {
+      "op": "test",
+      "condition": "directory",
+      "target": "zephyr"
+    },
+    "requests": [
+      "is zephyr a directory?",
+      "find out whether zephyr is a folder",
+      "make sure that zephyr exists and is a directory",
+      "I'd like to know if zephyr refers to a directory"
+    ]
+  }
+]

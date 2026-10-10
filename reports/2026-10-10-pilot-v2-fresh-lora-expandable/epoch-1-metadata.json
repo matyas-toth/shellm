@@ -1,0 +1,43 @@
+{
+  "run_id": "2026-10-10-pilot-v2-fresh-lora-expandable",
+  "epoch": 1,
+  "step": 1150,
+  "examples_seen": 18392,
+  "validation_loss": 0.0301990894240446,
+  "dataset_sha256": "d546e6075d539854706eecce78ce0e3667257c067a218722945ddff545265e93",
+  "base_model": "Qwen/Qwen3-0.6B-Base",
+  "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+  "config": {
+    "model": "Qwen/Qwen3-0.6B-Base",
+    "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+    "dataset_release": "pilot-v2",
+    "cuda_allocator_config": "expandable_segments:True",
+    "seed": 42,
+    "epochs": 3,
+    "micro_batch_size": 4,
+    "effective_batch_size": 16,
+    "max_length": 128,
+    "learning_rate": 0.0002,
+    "warmup_steps": 90,
+    "weight_decay": 0.0,
+    "max_grad_norm": 1.0,
+    "lora": {
+      "r": 8,
+      "lora_alpha": 16,
+      "lora_dropout": 0.05,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ],
+      "bias": "none",
+      "task_type": "CAUSAL_LM"
+    }
+  },
+  "adapter_sha256": "792e9c3ce410f20b0bcdfa379046ae0388ed1829a088bcdef6e85dec9dfed631",
+  "checkpoint": "checkpoints/2026-10-10-pilot-v2-fresh-lora-expandable/epoch-1"
+}

@@ -53,3 +53,9 @@ ShellBench Extra v1 adds an explicit periodic measurement of completed runs. Use
 The history CSV now exports `suite` and `benchmark_run` alongside the existing fingerprints. Keep ShellBench v1 and Extra v1 as separate chart series: their case counts and capability distributions differ. The initial Extra charts include their source CSV and leave the original pilot reports intact. All new Extra measurements use batch size eight; per-request generation times are amortized batch times and should not be compared with the old serial measurements as throughput results.
 
 Primary development and checkpoint choices remain based on training validation splits. Extra is a milestone progress gauge. See [ShellBench Extra v1](shellbench-extra-v1.md) for construction, verification, initial scores, and remaining limitations.
+
+## Pilot-v2 final-checkpoint comparison — 2026-10-10
+
+The [completed pilot-v2 experiment](pilot-v2-fresh-lora-experiment.md) adds four evaluations under `reports/2026-10-10-pilot-v2-fresh-lora-expandable/benchmarks/<suite>/{baseline,epoch-3}/`. The final checkpoint was chosen before benchmark evaluation. `tools/evaluate_final.py` checks completed training, adapter fingerprints and matching evaluation settings, measures Base and the selected adapter on both suites, and refreshes the history index. Earlier epochs are saved but were not benchmarked for this milestone.
+
+`reports/history.csv` contains 17 rows after this run. New functional counts are Base/new LoRA 30/104 out of 112 on v1 and 20/103 out of 300 on Extra. `charts/comparison.csv` supplies the four Base/new chart rows. The run's `comparison-to-previous.json` records paired gains and regressions against the previous final adapter; historical differences do not isolate the effect of training-data size. All prior JSON results and chart artifacts remain preserved.

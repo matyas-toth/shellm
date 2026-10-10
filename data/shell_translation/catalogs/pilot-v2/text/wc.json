@@ -1,0 +1,3362 @@
+[
+  {
+    "id": "pilot-v1-wc-01",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "copper text.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "count lines in copper text.txt",
+      "how many lines are in copper text.txt?",
+      "get the number of lines in copper text.txt",
+      "report the lines count for copper text.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-02",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/mango.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "count words in texts/mango.txt",
+      "how many words are in texts/mango.txt?",
+      "get the number of words in texts/mango.txt",
+      "report the words count for texts/mango.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-03",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/falcon.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "count bytes in texts/falcon.txt",
+      "how many bytes are in texts/falcon.txt?",
+      "get the number of bytes in texts/falcon.txt",
+      "report the bytes count for texts/falcon.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-04",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/orchid.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "count lines in texts/orchid.txt",
+      "how many lines are in texts/orchid.txt?",
+      "get the number of lines in texts/orchid.txt",
+      "report the lines count for texts/orchid.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-05",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "nebula text.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "count words in nebula text.txt",
+      "how many words are in nebula text.txt?",
+      "get the number of words in nebula text.txt",
+      "report the words count for nebula text.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-06",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/otter.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "count bytes in texts/otter.txt",
+      "how many bytes are in texts/otter.txt?",
+      "get the number of bytes in texts/otter.txt",
+      "report the bytes count for texts/otter.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-07",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/cedar.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "count lines in texts/cedar.txt",
+      "how many lines are in texts/cedar.txt?",
+      "get the number of lines in texts/cedar.txt",
+      "report the lines count for texts/cedar.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-08",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/saffron.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "count words in texts/saffron.txt",
+      "how many words are in texts/saffron.txt?",
+      "get the number of words in texts/saffron.txt",
+      "report the words count for texts/saffron.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-09",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "marble text.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "count bytes in marble text.txt",
+      "how many bytes are in marble text.txt?",
+      "get the number of bytes in marble text.txt",
+      "report the bytes count for marble text.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-10",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/comet.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "count lines in texts/comet.txt",
+      "how many lines are in texts/comet.txt?",
+      "get the number of lines in texts/comet.txt",
+      "report the lines count for texts/comet.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-11",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/willow.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "count words in texts/willow.txt",
+      "how many words are in texts/willow.txt?",
+      "get the number of words in texts/willow.txt",
+      "report the words count for texts/willow.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-12",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/badger.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "count bytes in texts/badger.txt",
+      "how many bytes are in texts/badger.txt?",
+      "get the number of bytes in texts/badger.txt",
+      "report the bytes count for texts/badger.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-13",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "quartz text.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "count lines in quartz text.txt",
+      "how many lines are in quartz text.txt?",
+      "get the number of lines in quartz text.txt",
+      "report the lines count for quartz text.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-14",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/hazel.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "count words in texts/hazel.txt",
+      "how many words are in texts/hazel.txt?",
+      "get the number of words in texts/hazel.txt",
+      "report the words count for texts/hazel.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-15",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/maple.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "count bytes in texts/maple.txt",
+      "how many bytes are in texts/maple.txt?",
+      "get the number of bytes in texts/maple.txt",
+      "report the bytes count for texts/maple.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-16",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/raven.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "count lines in texts/raven.txt",
+      "how many lines are in texts/raven.txt?",
+      "get the number of lines in texts/raven.txt",
+      "report the lines count for texts/raven.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-17",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "lotus text.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "count words in lotus text.txt",
+      "how many words are in lotus text.txt?",
+      "get the number of words in lotus text.txt",
+      "report the words count for lotus text.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-18",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "texts/birch.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "count bytes in texts/birch.txt",
+      "how many bytes are in texts/birch.txt?",
+      "get the number of bytes in texts/birch.txt",
+      "report the bytes count for texts/birch.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-19",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "texts/tundra.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "count lines in texts/tundra.txt",
+      "how many lines are in texts/tundra.txt?",
+      "get the number of lines in texts/tundra.txt",
+      "report the lines count for texts/tundra.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-wc-20",
+    "topic": "text",
+    "family": "wc",
+    "capability": "count-text",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "texts/zephyr.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "count words in texts/zephyr.txt",
+      "how many words are in texts/zephyr.txt?",
+      "get the number of words in texts/zephyr.txt",
+      "report the words count for texts/zephyr.txt"
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0001",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "cinder-journal.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"cinder-journal.txt\".",
+      "How many lines does \"cinder-journal.txt\" contain?",
+      "Give me the number of lines in \"cinder-journal.txt\".",
+      "Measure \"cinder-journal.txt\" by its total lines.",
+      "I need a count of lines for \"cinder-journal.txt\".",
+      "Report the total number of lines in \"cinder-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0002",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "cinder-journal.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"cinder-journal.txt\".",
+      "How many words does \"cinder-journal.txt\" contain?",
+      "Give me the number of words in \"cinder-journal.txt\".",
+      "Measure \"cinder-journal.txt\" by its total words.",
+      "I need a count of words for \"cinder-journal.txt\".",
+      "Report the total number of words in \"cinder-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0003",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "cinder-journal.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"cinder-journal.txt\".",
+      "How many bytes does \"cinder-journal.txt\" contain?",
+      "Give me the number of bytes in \"cinder-journal.txt\".",
+      "Measure \"cinder-journal.txt\" by its total bytes.",
+      "I need a count of bytes for \"cinder-journal.txt\".",
+      "Report the total number of bytes in \"cinder-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0004",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "kiln working notes.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"kiln working notes.txt\".",
+      "How many lines does \"kiln working notes.txt\" contain?",
+      "Give me the number of lines in \"kiln working notes.txt\".",
+      "Measure \"kiln working notes.txt\" by its total lines.",
+      "I need a count of lines for \"kiln working notes.txt\".",
+      "Report the total number of lines in \"kiln working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0005",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "kiln working notes.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"kiln working notes.txt\".",
+      "How many words does \"kiln working notes.txt\" contain?",
+      "Give me the number of words in \"kiln working notes.txt\".",
+      "Measure \"kiln working notes.txt\" by its total words.",
+      "I need a count of words for \"kiln working notes.txt\".",
+      "Report the total number of words in \"kiln working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0006",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "kiln working notes.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"kiln working notes.txt\".",
+      "How many bytes does \"kiln working notes.txt\" contain?",
+      "Give me the number of bytes in \"kiln working notes.txt\".",
+      "Measure \"kiln working notes.txt\" by its total bytes.",
+      "I need a count of bytes for \"kiln working notes.txt\".",
+      "Report the total number of bytes in \"kiln working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0007",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "ledger's notebook.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"ledger's notebook.txt\".",
+      "How many lines does \"ledger's notebook.txt\" contain?",
+      "Give me the number of lines in \"ledger's notebook.txt\".",
+      "Measure \"ledger's notebook.txt\" by its total lines.",
+      "I need a count of lines for \"ledger's notebook.txt\".",
+      "Report the total number of lines in \"ledger's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0008",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "ledger's notebook.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"ledger's notebook.txt\".",
+      "How many words does \"ledger's notebook.txt\" contain?",
+      "Give me the number of words in \"ledger's notebook.txt\".",
+      "Measure \"ledger's notebook.txt\" by its total words.",
+      "I need a count of words for \"ledger's notebook.txt\".",
+      "Report the total number of words in \"ledger's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0009",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "ledger's notebook.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"ledger's notebook.txt\".",
+      "How many bytes does \"ledger's notebook.txt\" contain?",
+      "Give me the number of bytes in \"ledger's notebook.txt\".",
+      "Measure \"ledger's notebook.txt\" by its total bytes.",
+      "I need a count of bytes for \"ledger's notebook.txt\".",
+      "Report the total number of bytes in \"ledger's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0010",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "-harbor-draft.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"-harbor-draft.txt\".",
+      "How many lines does \"-harbor-draft.txt\" contain?",
+      "Give me the number of lines in \"-harbor-draft.txt\".",
+      "Measure \"-harbor-draft.txt\" by its total lines.",
+      "I need a count of lines for \"-harbor-draft.txt\".",
+      "Report the total number of lines in \"-harbor-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0011",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "-harbor-draft.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"-harbor-draft.txt\".",
+      "How many words does \"-harbor-draft.txt\" contain?",
+      "Give me the number of words in \"-harbor-draft.txt\".",
+      "Measure \"-harbor-draft.txt\" by its total words.",
+      "I need a count of words for \"-harbor-draft.txt\".",
+      "Report the total number of words in \"-harbor-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0012",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "-harbor-draft.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"-harbor-draft.txt\".",
+      "How many bytes does \"-harbor-draft.txt\" contain?",
+      "Give me the number of bytes in \"-harbor-draft.txt\".",
+      "Measure \"-harbor-draft.txt\" by its total bytes.",
+      "I need a count of bytes for \"-harbor-draft.txt\".",
+      "Report the total number of bytes in \"-harbor-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0013",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "prism-$budget.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"prism-$budget.txt\".",
+      "How many lines does \"prism-$budget.txt\" contain?",
+      "Give me the number of lines in \"prism-$budget.txt\".",
+      "Measure \"prism-$budget.txt\" by its total lines.",
+      "I need a count of lines for \"prism-$budget.txt\".",
+      "Report the total number of lines in \"prism-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0014",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "prism-$budget.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"prism-$budget.txt\".",
+      "How many words does \"prism-$budget.txt\" contain?",
+      "Give me the number of words in \"prism-$budget.txt\".",
+      "Measure \"prism-$budget.txt\" by its total words.",
+      "I need a count of words for \"prism-$budget.txt\".",
+      "Report the total number of words in \"prism-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0015",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "prism-$budget.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"prism-$budget.txt\".",
+      "How many bytes does \"prism-$budget.txt\" contain?",
+      "Give me the number of bytes in \"prism-$budget.txt\".",
+      "Measure \"prism-$budget.txt\" by its total bytes.",
+      "I need a count of bytes for \"prism-$budget.txt\".",
+      "Report the total number of bytes in \"prism-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0016",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "orchard;archive.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"orchard;archive.txt\".",
+      "How many lines does \"orchard;archive.txt\" contain?",
+      "Give me the number of lines in \"orchard;archive.txt\".",
+      "Measure \"orchard;archive.txt\" by its total lines.",
+      "I need a count of lines for \"orchard;archive.txt\".",
+      "Report the total number of lines in \"orchard;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0017",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "orchard;archive.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"orchard;archive.txt\".",
+      "How many words does \"orchard;archive.txt\" contain?",
+      "Give me the number of words in \"orchard;archive.txt\".",
+      "Measure \"orchard;archive.txt\" by its total words.",
+      "I need a count of words for \"orchard;archive.txt\".",
+      "Report the total number of words in \"orchard;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0018",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "orchard;archive.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"orchard;archive.txt\".",
+      "How many bytes does \"orchard;archive.txt\" contain?",
+      "Give me the number of bytes in \"orchard;archive.txt\".",
+      "Measure \"orchard;archive.txt\" by its total bytes.",
+      "I need a count of bytes for \"orchard;archive.txt\".",
+      "Report the total number of bytes in \"orchard;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0019",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "canvas*literal.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"canvas*literal.txt\".",
+      "How many lines does \"canvas*literal.txt\" contain?",
+      "Give me the number of lines in \"canvas*literal.txt\".",
+      "Measure \"canvas*literal.txt\" by its total lines.",
+      "I need a count of lines for \"canvas*literal.txt\".",
+      "Report the total number of lines in \"canvas*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0020",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "canvas*literal.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"canvas*literal.txt\".",
+      "How many words does \"canvas*literal.txt\" contain?",
+      "Give me the number of words in \"canvas*literal.txt\".",
+      "Measure \"canvas*literal.txt\" by its total words.",
+      "I need a count of words for \"canvas*literal.txt\".",
+      "Report the total number of words in \"canvas*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0021",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "canvas*literal.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"canvas*literal.txt\".",
+      "How many bytes does \"canvas*literal.txt\" contain?",
+      "Give me the number of bytes in \"canvas*literal.txt\".",
+      "Measure \"canvas*literal.txt\" by its total bytes.",
+      "I need a count of bytes for \"canvas*literal.txt\".",
+      "Report the total number of bytes in \"canvas*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0022",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "spool[draft].txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"spool[draft].txt\".",
+      "How many lines does \"spool[draft].txt\" contain?",
+      "Give me the number of lines in \"spool[draft].txt\".",
+      "Measure \"spool[draft].txt\" by its total lines.",
+      "I need a count of lines for \"spool[draft].txt\".",
+      "Report the total number of lines in \"spool[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0023",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "spool[draft].txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"spool[draft].txt\".",
+      "How many words does \"spool[draft].txt\" contain?",
+      "Give me the number of words in \"spool[draft].txt\".",
+      "Measure \"spool[draft].txt\" by its total words.",
+      "I need a count of words for \"spool[draft].txt\".",
+      "Report the total number of words in \"spool[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0024",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "spool[draft].txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"spool[draft].txt\".",
+      "How many bytes does \"spool[draft].txt\" contain?",
+      "Give me the number of bytes in \"spool[draft].txt\".",
+      "Measure \"spool[draft].txt\" by its total bytes.",
+      "I need a count of bytes for \"spool[draft].txt\".",
+      "Report the total number of bytes in \"spool[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0025",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "beacon-café.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"beacon-café.txt\".",
+      "How many lines does \"beacon-café.txt\" contain?",
+      "Give me the number of lines in \"beacon-café.txt\".",
+      "Measure \"beacon-café.txt\" by its total lines.",
+      "I need a count of lines for \"beacon-café.txt\".",
+      "Report the total number of lines in \"beacon-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0026",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "beacon-café.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"beacon-café.txt\".",
+      "How many words does \"beacon-café.txt\" contain?",
+      "Give me the number of words in \"beacon-café.txt\".",
+      "Measure \"beacon-café.txt\" by its total words.",
+      "I need a count of words for \"beacon-café.txt\".",
+      "Report the total number of words in \"beacon-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0027",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "beacon-café.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"beacon-café.txt\".",
+      "How many bytes does \"beacon-café.txt\" contain?",
+      "Give me the number of bytes in \"beacon-café.txt\".",
+      "Measure \"beacon-café.txt\" by its total bytes.",
+      "I need a count of bytes for \"beacon-café.txt\".",
+      "Report the total number of bytes in \"beacon-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0028",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "lantern field records.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"lantern field records.txt\".",
+      "How many lines does \"lantern field records.txt\" contain?",
+      "Give me the number of lines in \"lantern field records.txt\".",
+      "Measure \"lantern field records.txt\" by its total lines.",
+      "I need a count of lines for \"lantern field records.txt\".",
+      "Report the total number of lines in \"lantern field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0029",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "lantern field records.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"lantern field records.txt\".",
+      "How many words does \"lantern field records.txt\" contain?",
+      "Give me the number of words in \"lantern field records.txt\".",
+      "Measure \"lantern field records.txt\" by its total words.",
+      "I need a count of words for \"lantern field records.txt\".",
+      "Report the total number of words in \"lantern field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0030",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "lantern field records.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"lantern field records.txt\".",
+      "How many bytes does \"lantern field records.txt\" contain?",
+      "Give me the number of bytes in \"lantern field records.txt\".",
+      "Measure \"lantern field records.txt\" by its total bytes.",
+      "I need a count of bytes for \"lantern field records.txt\".",
+      "Report the total number of bytes in \"lantern field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0031",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "quartz-journal.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"quartz-journal.txt\".",
+      "How many lines does \"quartz-journal.txt\" contain?",
+      "Give me the number of lines in \"quartz-journal.txt\".",
+      "Measure \"quartz-journal.txt\" by its total lines.",
+      "I need a count of lines for \"quartz-journal.txt\".",
+      "Report the total number of lines in \"quartz-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0032",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "quartz-journal.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"quartz-journal.txt\".",
+      "How many words does \"quartz-journal.txt\" contain?",
+      "Give me the number of words in \"quartz-journal.txt\".",
+      "Measure \"quartz-journal.txt\" by its total words.",
+      "I need a count of words for \"quartz-journal.txt\".",
+      "Report the total number of words in \"quartz-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0033",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "quartz-journal.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"quartz-journal.txt\".",
+      "How many bytes does \"quartz-journal.txt\" contain?",
+      "Give me the number of bytes in \"quartz-journal.txt\".",
+      "Measure \"quartz-journal.txt\" by its total bytes.",
+      "I need a count of bytes for \"quartz-journal.txt\".",
+      "Report the total number of bytes in \"quartz-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0034",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "meadow working notes.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"meadow working notes.txt\".",
+      "How many lines does \"meadow working notes.txt\" contain?",
+      "Give me the number of lines in \"meadow working notes.txt\".",
+      "Measure \"meadow working notes.txt\" by its total lines.",
+      "I need a count of lines for \"meadow working notes.txt\".",
+      "Report the total number of lines in \"meadow working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0035",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "meadow working notes.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"meadow working notes.txt\".",
+      "How many words does \"meadow working notes.txt\" contain?",
+      "Give me the number of words in \"meadow working notes.txt\".",
+      "Measure \"meadow working notes.txt\" by its total words.",
+      "I need a count of words for \"meadow working notes.txt\".",
+      "Report the total number of words in \"meadow working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0036",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "meadow working notes.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"meadow working notes.txt\".",
+      "How many bytes does \"meadow working notes.txt\" contain?",
+      "Give me the number of bytes in \"meadow working notes.txt\".",
+      "Measure \"meadow working notes.txt\" by its total bytes.",
+      "I need a count of bytes for \"meadow working notes.txt\".",
+      "Report the total number of bytes in \"meadow working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0037",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "parcel's notebook.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"parcel's notebook.txt\".",
+      "How many lines does \"parcel's notebook.txt\" contain?",
+      "Give me the number of lines in \"parcel's notebook.txt\".",
+      "Measure \"parcel's notebook.txt\" by its total lines.",
+      "I need a count of lines for \"parcel's notebook.txt\".",
+      "Report the total number of lines in \"parcel's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0038",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "parcel's notebook.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"parcel's notebook.txt\".",
+      "How many words does \"parcel's notebook.txt\" contain?",
+      "Give me the number of words in \"parcel's notebook.txt\".",
+      "Measure \"parcel's notebook.txt\" by its total words.",
+      "I need a count of words for \"parcel's notebook.txt\".",
+      "Report the total number of words in \"parcel's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0039",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "parcel's notebook.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"parcel's notebook.txt\".",
+      "How many bytes does \"parcel's notebook.txt\" contain?",
+      "Give me the number of bytes in \"parcel's notebook.txt\".",
+      "Measure \"parcel's notebook.txt\" by its total bytes.",
+      "I need a count of bytes for \"parcel's notebook.txt\".",
+      "Report the total number of bytes in \"parcel's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0040",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "-cobalt-draft.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"-cobalt-draft.txt\".",
+      "How many lines does \"-cobalt-draft.txt\" contain?",
+      "Give me the number of lines in \"-cobalt-draft.txt\".",
+      "Measure \"-cobalt-draft.txt\" by its total lines.",
+      "I need a count of lines for \"-cobalt-draft.txt\".",
+      "Report the total number of lines in \"-cobalt-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0041",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "-cobalt-draft.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"-cobalt-draft.txt\".",
+      "How many words does \"-cobalt-draft.txt\" contain?",
+      "Give me the number of words in \"-cobalt-draft.txt\".",
+      "Measure \"-cobalt-draft.txt\" by its total words.",
+      "I need a count of words for \"-cobalt-draft.txt\".",
+      "Report the total number of words in \"-cobalt-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0042",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "-cobalt-draft.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"-cobalt-draft.txt\".",
+      "How many bytes does \"-cobalt-draft.txt\" contain?",
+      "Give me the number of bytes in \"-cobalt-draft.txt\".",
+      "Measure \"-cobalt-draft.txt\" by its total bytes.",
+      "I need a count of bytes for \"-cobalt-draft.txt\".",
+      "Report the total number of bytes in \"-cobalt-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0043",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "atlas-$budget.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"atlas-$budget.txt\".",
+      "How many lines does \"atlas-$budget.txt\" contain?",
+      "Give me the number of lines in \"atlas-$budget.txt\".",
+      "Measure \"atlas-$budget.txt\" by its total lines.",
+      "I need a count of lines for \"atlas-$budget.txt\".",
+      "Report the total number of lines in \"atlas-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0044",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "atlas-$budget.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"atlas-$budget.txt\".",
+      "How many words does \"atlas-$budget.txt\" contain?",
+      "Give me the number of words in \"atlas-$budget.txt\".",
+      "Measure \"atlas-$budget.txt\" by its total words.",
+      "I need a count of words for \"atlas-$budget.txt\".",
+      "Report the total number of words in \"atlas-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0045",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "atlas-$budget.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"atlas-$budget.txt\".",
+      "How many bytes does \"atlas-$budget.txt\" contain?",
+      "Give me the number of bytes in \"atlas-$budget.txt\".",
+      "Measure \"atlas-$budget.txt\" by its total bytes.",
+      "I need a count of bytes for \"atlas-$budget.txt\".",
+      "Report the total number of bytes in \"atlas-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0046",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "rivet;archive.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"rivet;archive.txt\".",
+      "How many lines does \"rivet;archive.txt\" contain?",
+      "Give me the number of lines in \"rivet;archive.txt\".",
+      "Measure \"rivet;archive.txt\" by its total lines.",
+      "I need a count of lines for \"rivet;archive.txt\".",
+      "Report the total number of lines in \"rivet;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0047",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "rivet;archive.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"rivet;archive.txt\".",
+      "How many words does \"rivet;archive.txt\" contain?",
+      "Give me the number of words in \"rivet;archive.txt\".",
+      "Measure \"rivet;archive.txt\" by its total words.",
+      "I need a count of words for \"rivet;archive.txt\".",
+      "Report the total number of words in \"rivet;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0048",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "rivet;archive.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"rivet;archive.txt\".",
+      "How many bytes does \"rivet;archive.txt\" contain?",
+      "Give me the number of bytes in \"rivet;archive.txt\".",
+      "Measure \"rivet;archive.txt\" by its total bytes.",
+      "I need a count of bytes for \"rivet;archive.txt\".",
+      "Report the total number of bytes in \"rivet;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0049",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "gasket*literal.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"gasket*literal.txt\".",
+      "How many lines does \"gasket*literal.txt\" contain?",
+      "Give me the number of lines in \"gasket*literal.txt\".",
+      "Measure \"gasket*literal.txt\" by its total lines.",
+      "I need a count of lines for \"gasket*literal.txt\".",
+      "Report the total number of lines in \"gasket*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0050",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "gasket*literal.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"gasket*literal.txt\".",
+      "How many words does \"gasket*literal.txt\" contain?",
+      "Give me the number of words in \"gasket*literal.txt\".",
+      "Measure \"gasket*literal.txt\" by its total words.",
+      "I need a count of words for \"gasket*literal.txt\".",
+      "Report the total number of words in \"gasket*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0051",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "gasket*literal.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"gasket*literal.txt\".",
+      "How many bytes does \"gasket*literal.txt\" contain?",
+      "Give me the number of bytes in \"gasket*literal.txt\".",
+      "Measure \"gasket*literal.txt\" by its total bytes.",
+      "I need a count of bytes for \"gasket*literal.txt\".",
+      "Report the total number of bytes in \"gasket*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0052",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "spindle[draft].txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"spindle[draft].txt\".",
+      "How many lines does \"spindle[draft].txt\" contain?",
+      "Give me the number of lines in \"spindle[draft].txt\".",
+      "Measure \"spindle[draft].txt\" by its total lines.",
+      "I need a count of lines for \"spindle[draft].txt\".",
+      "Report the total number of lines in \"spindle[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0053",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "spindle[draft].txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"spindle[draft].txt\".",
+      "How many words does \"spindle[draft].txt\" contain?",
+      "Give me the number of words in \"spindle[draft].txt\".",
+      "Measure \"spindle[draft].txt\" by its total words.",
+      "I need a count of words for \"spindle[draft].txt\".",
+      "Report the total number of words in \"spindle[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0054",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "spindle[draft].txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"spindle[draft].txt\".",
+      "How many bytes does \"spindle[draft].txt\" contain?",
+      "Give me the number of bytes in \"spindle[draft].txt\".",
+      "Measure \"spindle[draft].txt\" by its total bytes.",
+      "I need a count of bytes for \"spindle[draft].txt\".",
+      "Report the total number of bytes in \"spindle[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0055",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "vault-café.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"vault-café.txt\".",
+      "How many lines does \"vault-café.txt\" contain?",
+      "Give me the number of lines in \"vault-café.txt\".",
+      "Measure \"vault-café.txt\" by its total lines.",
+      "I need a count of lines for \"vault-café.txt\".",
+      "Report the total number of lines in \"vault-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0056",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "vault-café.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"vault-café.txt\".",
+      "How many words does \"vault-café.txt\" contain?",
+      "Give me the number of words in \"vault-café.txt\".",
+      "Measure \"vault-café.txt\" by its total words.",
+      "I need a count of words for \"vault-café.txt\".",
+      "Report the total number of words in \"vault-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0057",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "vault-café.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"vault-café.txt\".",
+      "How many bytes does \"vault-café.txt\" contain?",
+      "Give me the number of bytes in \"vault-café.txt\".",
+      "Measure \"vault-café.txt\" by its total bytes.",
+      "I need a count of bytes for \"vault-café.txt\".",
+      "Report the total number of bytes in \"vault-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0058",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "basket field records.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"basket field records.txt\".",
+      "How many lines does \"basket field records.txt\" contain?",
+      "Give me the number of lines in \"basket field records.txt\".",
+      "Measure \"basket field records.txt\" by its total lines.",
+      "I need a count of lines for \"basket field records.txt\".",
+      "Report the total number of lines in \"basket field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0059",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "basket field records.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"basket field records.txt\".",
+      "How many words does \"basket field records.txt\" contain?",
+      "Give me the number of words in \"basket field records.txt\".",
+      "Measure \"basket field records.txt\" by its total words.",
+      "I need a count of words for \"basket field records.txt\".",
+      "Report the total number of words in \"basket field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0060",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "basket field records.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"basket field records.txt\".",
+      "How many bytes does \"basket field records.txt\" contain?",
+      "Give me the number of bytes in \"basket field records.txt\".",
+      "Measure \"basket field records.txt\" by its total bytes.",
+      "I need a count of bytes for \"basket field records.txt\".",
+      "Report the total number of bytes in \"basket field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0061",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "ember-journal.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"ember-journal.txt\".",
+      "How many lines does \"ember-journal.txt\" contain?",
+      "Give me the number of lines in \"ember-journal.txt\".",
+      "Measure \"ember-journal.txt\" by its total lines.",
+      "I need a count of lines for \"ember-journal.txt\".",
+      "Report the total number of lines in \"ember-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0062",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "ember-journal.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"ember-journal.txt\".",
+      "How many words does \"ember-journal.txt\" contain?",
+      "Give me the number of words in \"ember-journal.txt\".",
+      "Measure \"ember-journal.txt\" by its total words.",
+      "I need a count of words for \"ember-journal.txt\".",
+      "Report the total number of words in \"ember-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0063",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "ember-journal.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"ember-journal.txt\".",
+      "How many bytes does \"ember-journal.txt\" contain?",
+      "Give me the number of bytes in \"ember-journal.txt\".",
+      "Measure \"ember-journal.txt\" by its total bytes.",
+      "I need a count of bytes for \"ember-journal.txt\".",
+      "Report the total number of bytes in \"ember-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0064",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "pollen working notes.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"pollen working notes.txt\".",
+      "How many lines does \"pollen working notes.txt\" contain?",
+      "Give me the number of lines in \"pollen working notes.txt\".",
+      "Measure \"pollen working notes.txt\" by its total lines.",
+      "I need a count of lines for \"pollen working notes.txt\".",
+      "Report the total number of lines in \"pollen working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0065",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "pollen working notes.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"pollen working notes.txt\".",
+      "How many words does \"pollen working notes.txt\" contain?",
+      "Give me the number of words in \"pollen working notes.txt\".",
+      "Measure \"pollen working notes.txt\" by its total words.",
+      "I need a count of words for \"pollen working notes.txt\".",
+      "Report the total number of words in \"pollen working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0066",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "pollen working notes.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"pollen working notes.txt\".",
+      "How many bytes does \"pollen working notes.txt\" contain?",
+      "Give me the number of bytes in \"pollen working notes.txt\".",
+      "Measure \"pollen working notes.txt\" by its total bytes.",
+      "I need a count of bytes for \"pollen working notes.txt\".",
+      "Report the total number of bytes in \"pollen working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0067",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "turbine's notebook.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"turbine's notebook.txt\".",
+      "How many lines does \"turbine's notebook.txt\" contain?",
+      "Give me the number of lines in \"turbine's notebook.txt\".",
+      "Measure \"turbine's notebook.txt\" by its total lines.",
+      "I need a count of lines for \"turbine's notebook.txt\".",
+      "Report the total number of lines in \"turbine's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0068",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "turbine's notebook.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"turbine's notebook.txt\".",
+      "How many words does \"turbine's notebook.txt\" contain?",
+      "Give me the number of words in \"turbine's notebook.txt\".",
+      "Measure \"turbine's notebook.txt\" by its total words.",
+      "I need a count of words for \"turbine's notebook.txt\".",
+      "Report the total number of words in \"turbine's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0069",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "turbine's notebook.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"turbine's notebook.txt\".",
+      "How many bytes does \"turbine's notebook.txt\" contain?",
+      "Give me the number of bytes in \"turbine's notebook.txt\".",
+      "Measure \"turbine's notebook.txt\" by its total bytes.",
+      "I need a count of bytes for \"turbine's notebook.txt\".",
+      "Report the total number of bytes in \"turbine's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0070",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "-compass-draft.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"-compass-draft.txt\".",
+      "How many lines does \"-compass-draft.txt\" contain?",
+      "Give me the number of lines in \"-compass-draft.txt\".",
+      "Measure \"-compass-draft.txt\" by its total lines.",
+      "I need a count of lines for \"-compass-draft.txt\".",
+      "Report the total number of lines in \"-compass-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0071",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "-compass-draft.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"-compass-draft.txt\".",
+      "How many words does \"-compass-draft.txt\" contain?",
+      "Give me the number of words in \"-compass-draft.txt\".",
+      "Measure \"-compass-draft.txt\" by its total words.",
+      "I need a count of words for \"-compass-draft.txt\".",
+      "Report the total number of words in \"-compass-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0072",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "-compass-draft.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"-compass-draft.txt\".",
+      "How many bytes does \"-compass-draft.txt\" contain?",
+      "Give me the number of bytes in \"-compass-draft.txt\".",
+      "Measure \"-compass-draft.txt\" by its total bytes.",
+      "I need a count of bytes for \"-compass-draft.txt\".",
+      "Report the total number of bytes in \"-compass-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0073",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "willowbrook-$budget.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"willowbrook-$budget.txt\".",
+      "How many lines does \"willowbrook-$budget.txt\" contain?",
+      "Give me the number of lines in \"willowbrook-$budget.txt\".",
+      "Measure \"willowbrook-$budget.txt\" by its total lines.",
+      "I need a count of lines for \"willowbrook-$budget.txt\".",
+      "Report the total number of lines in \"willowbrook-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0074",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "willowbrook-$budget.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"willowbrook-$budget.txt\".",
+      "How many words does \"willowbrook-$budget.txt\" contain?",
+      "Give me the number of words in \"willowbrook-$budget.txt\".",
+      "Measure \"willowbrook-$budget.txt\" by its total words.",
+      "I need a count of words for \"willowbrook-$budget.txt\".",
+      "Report the total number of words in \"willowbrook-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0075",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "willowbrook-$budget.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"willowbrook-$budget.txt\".",
+      "How many bytes does \"willowbrook-$budget.txt\" contain?",
+      "Give me the number of bytes in \"willowbrook-$budget.txt\".",
+      "Measure \"willowbrook-$budget.txt\" by its total bytes.",
+      "I need a count of bytes for \"willowbrook-$budget.txt\".",
+      "Report the total number of bytes in \"willowbrook-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0076",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "satchel;archive.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"satchel;archive.txt\".",
+      "How many lines does \"satchel;archive.txt\" contain?",
+      "Give me the number of lines in \"satchel;archive.txt\".",
+      "Measure \"satchel;archive.txt\" by its total lines.",
+      "I need a count of lines for \"satchel;archive.txt\".",
+      "Report the total number of lines in \"satchel;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0077",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "satchel;archive.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"satchel;archive.txt\".",
+      "How many words does \"satchel;archive.txt\" contain?",
+      "Give me the number of words in \"satchel;archive.txt\".",
+      "Measure \"satchel;archive.txt\" by its total words.",
+      "I need a count of words for \"satchel;archive.txt\".",
+      "Report the total number of words in \"satchel;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0078",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "satchel;archive.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"satchel;archive.txt\".",
+      "How many bytes does \"satchel;archive.txt\" contain?",
+      "Give me the number of bytes in \"satchel;archive.txt\".",
+      "Measure \"satchel;archive.txt\" by its total bytes.",
+      "I need a count of bytes for \"satchel;archive.txt\".",
+      "Report the total number of bytes in \"satchel;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0079",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "mosaic*literal.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"mosaic*literal.txt\".",
+      "How many lines does \"mosaic*literal.txt\" contain?",
+      "Give me the number of lines in \"mosaic*literal.txt\".",
+      "Measure \"mosaic*literal.txt\" by its total lines.",
+      "I need a count of lines for \"mosaic*literal.txt\".",
+      "Report the total number of lines in \"mosaic*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0080",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "mosaic*literal.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"mosaic*literal.txt\".",
+      "How many words does \"mosaic*literal.txt\" contain?",
+      "Give me the number of words in \"mosaic*literal.txt\".",
+      "Measure \"mosaic*literal.txt\" by its total words.",
+      "I need a count of words for \"mosaic*literal.txt\".",
+      "Report the total number of words in \"mosaic*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0081",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "mosaic*literal.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"mosaic*literal.txt\".",
+      "How many bytes does \"mosaic*literal.txt\" contain?",
+      "Give me the number of bytes in \"mosaic*literal.txt\".",
+      "Measure \"mosaic*literal.txt\" by its total bytes.",
+      "I need a count of bytes for \"mosaic*literal.txt\".",
+      "Report the total number of bytes in \"mosaic*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0082",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "relay[draft].txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"relay[draft].txt\".",
+      "How many lines does \"relay[draft].txt\" contain?",
+      "Give me the number of lines in \"relay[draft].txt\".",
+      "Measure \"relay[draft].txt\" by its total lines.",
+      "I need a count of lines for \"relay[draft].txt\".",
+      "Report the total number of lines in \"relay[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0083",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "relay[draft].txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"relay[draft].txt\".",
+      "How many words does \"relay[draft].txt\" contain?",
+      "Give me the number of words in \"relay[draft].txt\".",
+      "Measure \"relay[draft].txt\" by its total words.",
+      "I need a count of words for \"relay[draft].txt\".",
+      "Report the total number of words in \"relay[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0084",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "relay[draft].txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"relay[draft].txt\".",
+      "How many bytes does \"relay[draft].txt\" contain?",
+      "Give me the number of bytes in \"relay[draft].txt\".",
+      "Measure \"relay[draft].txt\" by its total bytes.",
+      "I need a count of bytes for \"relay[draft].txt\".",
+      "Report the total number of bytes in \"relay[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0085",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "vector-café.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"vector-café.txt\".",
+      "How many lines does \"vector-café.txt\" contain?",
+      "Give me the number of lines in \"vector-café.txt\".",
+      "Measure \"vector-café.txt\" by its total lines.",
+      "I need a count of lines for \"vector-café.txt\".",
+      "Report the total number of lines in \"vector-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0086",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "vector-café.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"vector-café.txt\".",
+      "How many words does \"vector-café.txt\" contain?",
+      "Give me the number of words in \"vector-café.txt\".",
+      "Measure \"vector-café.txt\" by its total words.",
+      "I need a count of words for \"vector-café.txt\".",
+      "Report the total number of words in \"vector-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0087",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "vector-café.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"vector-café.txt\".",
+      "How many bytes does \"vector-café.txt\" contain?",
+      "Give me the number of bytes in \"vector-café.txt\".",
+      "Measure \"vector-café.txt\" by its total bytes.",
+      "I need a count of bytes for \"vector-café.txt\".",
+      "Report the total number of bytes in \"vector-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0088",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "loam field records.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"loam field records.txt\".",
+      "How many lines does \"loam field records.txt\" contain?",
+      "Give me the number of lines in \"loam field records.txt\".",
+      "Measure \"loam field records.txt\" by its total lines.",
+      "I need a count of lines for \"loam field records.txt\".",
+      "Report the total number of lines in \"loam field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0089",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "loam field records.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"loam field records.txt\".",
+      "How many words does \"loam field records.txt\" contain?",
+      "Give me the number of words in \"loam field records.txt\".",
+      "Measure \"loam field records.txt\" by its total words.",
+      "I need a count of words for \"loam field records.txt\".",
+      "Report the total number of words in \"loam field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0090",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "loam field records.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"loam field records.txt\".",
+      "How many bytes does \"loam field records.txt\" contain?",
+      "Give me the number of bytes in \"loam field records.txt\".",
+      "Measure \"loam field records.txt\" by its total bytes.",
+      "I need a count of bytes for \"loam field records.txt\".",
+      "Report the total number of bytes in \"loam field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0091",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "quarry-journal.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"quarry-journal.txt\".",
+      "How many lines does \"quarry-journal.txt\" contain?",
+      "Give me the number of lines in \"quarry-journal.txt\".",
+      "Measure \"quarry-journal.txt\" by its total lines.",
+      "I need a count of lines for \"quarry-journal.txt\".",
+      "Report the total number of lines in \"quarry-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0092",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "quarry-journal.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"quarry-journal.txt\".",
+      "How many words does \"quarry-journal.txt\" contain?",
+      "Give me the number of words in \"quarry-journal.txt\".",
+      "Measure \"quarry-journal.txt\" by its total words.",
+      "I need a count of words for \"quarry-journal.txt\".",
+      "Report the total number of words in \"quarry-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0093",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "quarry-journal.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"quarry-journal.txt\".",
+      "How many bytes does \"quarry-journal.txt\" contain?",
+      "Give me the number of bytes in \"quarry-journal.txt\".",
+      "Measure \"quarry-journal.txt\" by its total bytes.",
+      "I need a count of bytes for \"quarry-journal.txt\".",
+      "Report the total number of bytes in \"quarry-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0094",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "ribbon working notes.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"ribbon working notes.txt\".",
+      "How many lines does \"ribbon working notes.txt\" contain?",
+      "Give me the number of lines in \"ribbon working notes.txt\".",
+      "Measure \"ribbon working notes.txt\" by its total lines.",
+      "I need a count of lines for \"ribbon working notes.txt\".",
+      "Report the total number of lines in \"ribbon working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0095",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "ribbon working notes.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"ribbon working notes.txt\".",
+      "How many words does \"ribbon working notes.txt\" contain?",
+      "Give me the number of words in \"ribbon working notes.txt\".",
+      "Measure \"ribbon working notes.txt\" by its total words.",
+      "I need a count of words for \"ribbon working notes.txt\".",
+      "Report the total number of words in \"ribbon working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0096",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "ribbon working notes.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"ribbon working notes.txt\".",
+      "How many bytes does \"ribbon working notes.txt\" contain?",
+      "Give me the number of bytes in \"ribbon working notes.txt\".",
+      "Measure \"ribbon working notes.txt\" by its total bytes.",
+      "I need a count of bytes for \"ribbon working notes.txt\".",
+      "Report the total number of bytes in \"ribbon working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0097",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "cassette's notebook.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"cassette's notebook.txt\".",
+      "How many lines does \"cassette's notebook.txt\" contain?",
+      "Give me the number of lines in \"cassette's notebook.txt\".",
+      "Measure \"cassette's notebook.txt\" by its total lines.",
+      "I need a count of lines for \"cassette's notebook.txt\".",
+      "Report the total number of lines in \"cassette's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0098",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "cassette's notebook.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"cassette's notebook.txt\".",
+      "How many words does \"cassette's notebook.txt\" contain?",
+      "Give me the number of words in \"cassette's notebook.txt\".",
+      "Measure \"cassette's notebook.txt\" by its total words.",
+      "I need a count of words for \"cassette's notebook.txt\".",
+      "Report the total number of words in \"cassette's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0099",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "cassette's notebook.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"cassette's notebook.txt\".",
+      "How many bytes does \"cassette's notebook.txt\" contain?",
+      "Give me the number of bytes in \"cassette's notebook.txt\".",
+      "Measure \"cassette's notebook.txt\" by its total bytes.",
+      "I need a count of bytes for \"cassette's notebook.txt\".",
+      "Report the total number of bytes in \"cassette's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0100",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "-loom-draft.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"-loom-draft.txt\".",
+      "How many lines does \"-loom-draft.txt\" contain?",
+      "Give me the number of lines in \"-loom-draft.txt\".",
+      "Measure \"-loom-draft.txt\" by its total lines.",
+      "I need a count of lines for \"-loom-draft.txt\".",
+      "Report the total number of lines in \"-loom-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0101",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "-loom-draft.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"-loom-draft.txt\".",
+      "How many words does \"-loom-draft.txt\" contain?",
+      "Give me the number of words in \"-loom-draft.txt\".",
+      "Measure \"-loom-draft.txt\" by its total words.",
+      "I need a count of words for \"-loom-draft.txt\".",
+      "Report the total number of words in \"-loom-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0102",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "-loom-draft.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"-loom-draft.txt\".",
+      "How many bytes does \"-loom-draft.txt\" contain?",
+      "Give me the number of bytes in \"-loom-draft.txt\".",
+      "Measure \"-loom-draft.txt\" by its total bytes.",
+      "I need a count of bytes for \"-loom-draft.txt\".",
+      "Report the total number of bytes in \"-loom-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0103",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "terrace-$budget.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"terrace-$budget.txt\".",
+      "How many lines does \"terrace-$budget.txt\" contain?",
+      "Give me the number of lines in \"terrace-$budget.txt\".",
+      "Measure \"terrace-$budget.txt\" by its total lines.",
+      "I need a count of lines for \"terrace-$budget.txt\".",
+      "Report the total number of lines in \"terrace-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0104",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "terrace-$budget.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"terrace-$budget.txt\".",
+      "How many words does \"terrace-$budget.txt\" contain?",
+      "Give me the number of words in \"terrace-$budget.txt\".",
+      "Measure \"terrace-$budget.txt\" by its total words.",
+      "I need a count of words for \"terrace-$budget.txt\".",
+      "Report the total number of words in \"terrace-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0105",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "terrace-$budget.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"terrace-$budget.txt\".",
+      "How many bytes does \"terrace-$budget.txt\" contain?",
+      "Give me the number of bytes in \"terrace-$budget.txt\".",
+      "Measure \"terrace-$budget.txt\" by its total bytes.",
+      "I need a count of bytes for \"terrace-$budget.txt\".",
+      "Report the total number of bytes in \"terrace-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0106",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "depot;archive.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"depot;archive.txt\".",
+      "How many lines does \"depot;archive.txt\" contain?",
+      "Give me the number of lines in \"depot;archive.txt\".",
+      "Measure \"depot;archive.txt\" by its total lines.",
+      "I need a count of lines for \"depot;archive.txt\".",
+      "Report the total number of lines in \"depot;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0107",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "depot;archive.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"depot;archive.txt\".",
+      "How many words does \"depot;archive.txt\" contain?",
+      "Give me the number of words in \"depot;archive.txt\".",
+      "Measure \"depot;archive.txt\" by its total words.",
+      "I need a count of words for \"depot;archive.txt\".",
+      "Report the total number of words in \"depot;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0108",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "depot;archive.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"depot;archive.txt\".",
+      "How many bytes does \"depot;archive.txt\" contain?",
+      "Give me the number of bytes in \"depot;archive.txt\".",
+      "Measure \"depot;archive.txt\" by its total bytes.",
+      "I need a count of bytes for \"depot;archive.txt\".",
+      "Report the total number of bytes in \"depot;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0109",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "estuary*literal.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"estuary*literal.txt\".",
+      "How many lines does \"estuary*literal.txt\" contain?",
+      "Give me the number of lines in \"estuary*literal.txt\".",
+      "Measure \"estuary*literal.txt\" by its total lines.",
+      "I need a count of lines for \"estuary*literal.txt\".",
+      "Report the total number of lines in \"estuary*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0110",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "estuary*literal.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"estuary*literal.txt\".",
+      "How many words does \"estuary*literal.txt\" contain?",
+      "Give me the number of words in \"estuary*literal.txt\".",
+      "Measure \"estuary*literal.txt\" by its total words.",
+      "I need a count of words for \"estuary*literal.txt\".",
+      "Report the total number of words in \"estuary*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0111",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "estuary*literal.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"estuary*literal.txt\".",
+      "How many bytes does \"estuary*literal.txt\" contain?",
+      "Give me the number of bytes in \"estuary*literal.txt\".",
+      "Measure \"estuary*literal.txt\" by its total bytes.",
+      "I need a count of bytes for \"estuary*literal.txt\".",
+      "Report the total number of bytes in \"estuary*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0112",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "thimble[draft].txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"thimble[draft].txt\".",
+      "How many lines does \"thimble[draft].txt\" contain?",
+      "Give me the number of lines in \"thimble[draft].txt\".",
+      "Measure \"thimble[draft].txt\" by its total lines.",
+      "I need a count of lines for \"thimble[draft].txt\".",
+      "Report the total number of lines in \"thimble[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0113",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "thimble[draft].txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"thimble[draft].txt\".",
+      "How many words does \"thimble[draft].txt\" contain?",
+      "Give me the number of words in \"thimble[draft].txt\".",
+      "Measure \"thimble[draft].txt\" by its total words.",
+      "I need a count of words for \"thimble[draft].txt\".",
+      "Report the total number of words in \"thimble[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0114",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "thimble[draft].txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"thimble[draft].txt\".",
+      "How many bytes does \"thimble[draft].txt\" contain?",
+      "Give me the number of bytes in \"thimble[draft].txt\".",
+      "Measure \"thimble[draft].txt\" by its total bytes.",
+      "I need a count of bytes for \"thimble[draft].txt\".",
+      "Report the total number of bytes in \"thimble[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0115",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "pigment-café.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"pigment-café.txt\".",
+      "How many lines does \"pigment-café.txt\" contain?",
+      "Give me the number of lines in \"pigment-café.txt\".",
+      "Measure \"pigment-café.txt\" by its total lines.",
+      "I need a count of lines for \"pigment-café.txt\".",
+      "Report the total number of lines in \"pigment-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0116",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "pigment-café.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"pigment-café.txt\".",
+      "How many words does \"pigment-café.txt\" contain?",
+      "Give me the number of words in \"pigment-café.txt\".",
+      "Measure \"pigment-café.txt\" by its total words.",
+      "I need a count of words for \"pigment-café.txt\".",
+      "Report the total number of words in \"pigment-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0117",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "pigment-café.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"pigment-café.txt\".",
+      "How many bytes does \"pigment-café.txt\" contain?",
+      "Give me the number of bytes in \"pigment-café.txt\".",
+      "Measure \"pigment-café.txt\" by its total bytes.",
+      "I need a count of bytes for \"pigment-café.txt\".",
+      "Report the total number of bytes in \"pigment-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0118",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "junction field records.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "Count the lines in \"junction field records.txt\".",
+      "How many lines does \"junction field records.txt\" contain?",
+      "Give me the number of lines in \"junction field records.txt\".",
+      "Measure \"junction field records.txt\" by its total lines.",
+      "I need a count of lines for \"junction field records.txt\".",
+      "Report the total number of lines in \"junction field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0119",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "junction field records.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "Count the words in \"junction field records.txt\".",
+      "How many words does \"junction field records.txt\" contain?",
+      "Give me the number of words in \"junction field records.txt\".",
+      "Measure \"junction field records.txt\" by its total words.",
+      "I need a count of words for \"junction field records.txt\".",
+      "Report the total number of words in \"junction field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0120",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "train",
+    "intent": {
+      "op": "wc",
+      "source": "junction field records.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "Count the bytes in \"junction field records.txt\".",
+      "How many bytes does \"junction field records.txt\" contain?",
+      "Give me the number of bytes in \"junction field records.txt\".",
+      "Measure \"junction field records.txt\" by its total bytes.",
+      "I need a count of bytes for \"junction field records.txt\".",
+      "Report the total number of bytes in \"junction field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0121",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "verdigris-journal.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "What's the lines count for \"verdigris-journal.txt\"?",
+      "Calculate how many lines are in \"verdigris-journal.txt\".",
+      "Tell me \"verdigris-journal.txt\"'s total lines.",
+      "Determine the number of lines contained in \"verdigris-journal.txt\".",
+      "Return a tally of lines from \"verdigris-journal.txt\".",
+      "Get the total lines in \"verdigris-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0122",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "verdigris-journal.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "What's the words count for \"verdigris-journal.txt\"?",
+      "Calculate how many words are in \"verdigris-journal.txt\".",
+      "Tell me \"verdigris-journal.txt\"'s total words.",
+      "Determine the number of words contained in \"verdigris-journal.txt\".",
+      "Return a tally of words from \"verdigris-journal.txt\".",
+      "Get the total words in \"verdigris-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0123",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "verdigris-journal.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "What's the bytes count for \"verdigris-journal.txt\"?",
+      "Calculate how many bytes are in \"verdigris-journal.txt\".",
+      "Tell me \"verdigris-journal.txt\"'s total bytes.",
+      "Determine the number of bytes contained in \"verdigris-journal.txt\".",
+      "Return a tally of bytes from \"verdigris-journal.txt\".",
+      "Get the total bytes in \"verdigris-journal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0124",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "mariner working notes.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "What's the lines count for \"mariner working notes.txt\"?",
+      "Calculate how many lines are in \"mariner working notes.txt\".",
+      "Tell me \"mariner working notes.txt\"'s total lines.",
+      "Determine the number of lines contained in \"mariner working notes.txt\".",
+      "Return a tally of lines from \"mariner working notes.txt\".",
+      "Get the total lines in \"mariner working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0125",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "mariner working notes.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "What's the words count for \"mariner working notes.txt\"?",
+      "Calculate how many words are in \"mariner working notes.txt\".",
+      "Tell me \"mariner working notes.txt\"'s total words.",
+      "Determine the number of words contained in \"mariner working notes.txt\".",
+      "Return a tally of words from \"mariner working notes.txt\".",
+      "Get the total words in \"mariner working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0126",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "mariner working notes.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "What's the bytes count for \"mariner working notes.txt\"?",
+      "Calculate how many bytes are in \"mariner working notes.txt\".",
+      "Tell me \"mariner working notes.txt\"'s total bytes.",
+      "Determine the number of bytes contained in \"mariner working notes.txt\".",
+      "Return a tally of bytes from \"mariner working notes.txt\".",
+      "Get the total bytes in \"mariner working notes.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0127",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "vellum's notebook.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "What's the lines count for \"vellum's notebook.txt\"?",
+      "Calculate how many lines are in \"vellum's notebook.txt\".",
+      "Tell me \"vellum's notebook.txt\"'s total lines.",
+      "Determine the number of lines contained in \"vellum's notebook.txt\".",
+      "Return a tally of lines from \"vellum's notebook.txt\".",
+      "Get the total lines in \"vellum's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0128",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "vellum's notebook.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "What's the words count for \"vellum's notebook.txt\"?",
+      "Calculate how many words are in \"vellum's notebook.txt\".",
+      "Tell me \"vellum's notebook.txt\"'s total words.",
+      "Determine the number of words contained in \"vellum's notebook.txt\".",
+      "Return a tally of words from \"vellum's notebook.txt\".",
+      "Get the total words in \"vellum's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0129",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "vellum's notebook.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "What's the bytes count for \"vellum's notebook.txt\"?",
+      "Calculate how many bytes are in \"vellum's notebook.txt\".",
+      "Tell me \"vellum's notebook.txt\"'s total bytes.",
+      "Determine the number of bytes contained in \"vellum's notebook.txt\".",
+      "Return a tally of bytes from \"vellum's notebook.txt\".",
+      "Get the total bytes in \"vellum's notebook.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0130",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "-coracle-draft.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "What's the lines count for \"-coracle-draft.txt\"?",
+      "Calculate how many lines are in \"-coracle-draft.txt\".",
+      "Tell me \"-coracle-draft.txt\"'s total lines.",
+      "Determine the number of lines contained in \"-coracle-draft.txt\".",
+      "Return a tally of lines from \"-coracle-draft.txt\".",
+      "Get the total lines in \"-coracle-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0131",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "-coracle-draft.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "What's the words count for \"-coracle-draft.txt\"?",
+      "Calculate how many words are in \"-coracle-draft.txt\".",
+      "Tell me \"-coracle-draft.txt\"'s total words.",
+      "Determine the number of words contained in \"-coracle-draft.txt\".",
+      "Return a tally of words from \"-coracle-draft.txt\".",
+      "Get the total words in \"-coracle-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0132",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "-coracle-draft.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "What's the bytes count for \"-coracle-draft.txt\"?",
+      "Calculate how many bytes are in \"-coracle-draft.txt\".",
+      "Tell me \"-coracle-draft.txt\"'s total bytes.",
+      "Determine the number of bytes contained in \"-coracle-draft.txt\".",
+      "Return a tally of bytes from \"-coracle-draft.txt\".",
+      "Get the total bytes in \"-coracle-draft.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0133",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "fulcrum-$budget.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "What's the lines count for \"fulcrum-$budget.txt\"?",
+      "Calculate how many lines are in \"fulcrum-$budget.txt\".",
+      "Tell me \"fulcrum-$budget.txt\"'s total lines.",
+      "Determine the number of lines contained in \"fulcrum-$budget.txt\".",
+      "Return a tally of lines from \"fulcrum-$budget.txt\".",
+      "Get the total lines in \"fulcrum-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0134",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "fulcrum-$budget.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "What's the words count for \"fulcrum-$budget.txt\"?",
+      "Calculate how many words are in \"fulcrum-$budget.txt\".",
+      "Tell me \"fulcrum-$budget.txt\"'s total words.",
+      "Determine the number of words contained in \"fulcrum-$budget.txt\".",
+      "Return a tally of words from \"fulcrum-$budget.txt\".",
+      "Get the total words in \"fulcrum-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0135",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "fulcrum-$budget.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "What's the bytes count for \"fulcrum-$budget.txt\"?",
+      "Calculate how many bytes are in \"fulcrum-$budget.txt\".",
+      "Tell me \"fulcrum-$budget.txt\"'s total bytes.",
+      "Determine the number of bytes contained in \"fulcrum-$budget.txt\".",
+      "Return a tally of bytes from \"fulcrum-$budget.txt\".",
+      "Get the total bytes in \"fulcrum-$budget.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0136",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "tundralake;archive.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "What's the lines count for \"tundralake;archive.txt\"?",
+      "Calculate how many lines are in \"tundralake;archive.txt\".",
+      "Tell me \"tundralake;archive.txt\"'s total lines.",
+      "Determine the number of lines contained in \"tundralake;archive.txt\".",
+      "Return a tally of lines from \"tundralake;archive.txt\".",
+      "Get the total lines in \"tundralake;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0137",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "tundralake;archive.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "What's the words count for \"tundralake;archive.txt\"?",
+      "Calculate how many words are in \"tundralake;archive.txt\".",
+      "Tell me \"tundralake;archive.txt\"'s total words.",
+      "Determine the number of words contained in \"tundralake;archive.txt\".",
+      "Return a tally of words from \"tundralake;archive.txt\".",
+      "Get the total words in \"tundralake;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0138",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "tundralake;archive.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "What's the bytes count for \"tundralake;archive.txt\"?",
+      "Calculate how many bytes are in \"tundralake;archive.txt\".",
+      "Tell me \"tundralake;archive.txt\"'s total bytes.",
+      "Determine the number of bytes contained in \"tundralake;archive.txt\".",
+      "Return a tally of bytes from \"tundralake;archive.txt\".",
+      "Get the total bytes in \"tundralake;archive.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0139",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "obsidian*literal.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "What's the lines count for \"obsidian*literal.txt\"?",
+      "Calculate how many lines are in \"obsidian*literal.txt\".",
+      "Tell me \"obsidian*literal.txt\"'s total lines.",
+      "Determine the number of lines contained in \"obsidian*literal.txt\".",
+      "Return a tally of lines from \"obsidian*literal.txt\".",
+      "Get the total lines in \"obsidian*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0140",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "obsidian*literal.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "What's the words count for \"obsidian*literal.txt\"?",
+      "Calculate how many words are in \"obsidian*literal.txt\".",
+      "Tell me \"obsidian*literal.txt\"'s total words.",
+      "Determine the number of words contained in \"obsidian*literal.txt\".",
+      "Return a tally of words from \"obsidian*literal.txt\".",
+      "Get the total words in \"obsidian*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0141",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "obsidian*literal.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "What's the bytes count for \"obsidian*literal.txt\"?",
+      "Calculate how many bytes are in \"obsidian*literal.txt\".",
+      "Tell me \"obsidian*literal.txt\"'s total bytes.",
+      "Determine the number of bytes contained in \"obsidian*literal.txt\".",
+      "Return a tally of bytes from \"obsidian*literal.txt\".",
+      "Get the total bytes in \"obsidian*literal.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0142",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "meridian[draft].txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "What's the lines count for \"meridian[draft].txt\"?",
+      "Calculate how many lines are in \"meridian[draft].txt\".",
+      "Tell me \"meridian[draft].txt\"'s total lines.",
+      "Determine the number of lines contained in \"meridian[draft].txt\".",
+      "Return a tally of lines from \"meridian[draft].txt\".",
+      "Get the total lines in \"meridian[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0143",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "meridian[draft].txt",
+      "unit": "words"
+    },
+    "requests": [
+      "What's the words count for \"meridian[draft].txt\"?",
+      "Calculate how many words are in \"meridian[draft].txt\".",
+      "Tell me \"meridian[draft].txt\"'s total words.",
+      "Determine the number of words contained in \"meridian[draft].txt\".",
+      "Return a tally of words from \"meridian[draft].txt\".",
+      "Get the total words in \"meridian[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0144",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "meridian[draft].txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "What's the bytes count for \"meridian[draft].txt\"?",
+      "Calculate how many bytes are in \"meridian[draft].txt\".",
+      "Tell me \"meridian[draft].txt\"'s total bytes.",
+      "Determine the number of bytes contained in \"meridian[draft].txt\".",
+      "Return a tally of bytes from \"meridian[draft].txt\".",
+      "Get the total bytes in \"meridian[draft].txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0145",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "palisade-café.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "What's the lines count for \"palisade-café.txt\"?",
+      "Calculate how many lines are in \"palisade-café.txt\".",
+      "Tell me \"palisade-café.txt\"'s total lines.",
+      "Determine the number of lines contained in \"palisade-café.txt\".",
+      "Return a tally of lines from \"palisade-café.txt\".",
+      "Get the total lines in \"palisade-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0146",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "palisade-café.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "What's the words count for \"palisade-café.txt\"?",
+      "Calculate how many words are in \"palisade-café.txt\".",
+      "Tell me \"palisade-café.txt\"'s total words.",
+      "Determine the number of words contained in \"palisade-café.txt\".",
+      "Return a tally of words from \"palisade-café.txt\".",
+      "Get the total words in \"palisade-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0147",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "palisade-café.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "What's the bytes count for \"palisade-café.txt\"?",
+      "Calculate how many bytes are in \"palisade-café.txt\".",
+      "Tell me \"palisade-café.txt\"'s total bytes.",
+      "Determine the number of bytes contained in \"palisade-café.txt\".",
+      "Return a tally of bytes from \"palisade-café.txt\".",
+      "Get the total bytes in \"palisade-café.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0148",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "almanac field records.txt",
+      "unit": "lines"
+    },
+    "requests": [
+      "What's the lines count for \"almanac field records.txt\"?",
+      "Calculate how many lines are in \"almanac field records.txt\".",
+      "Tell me \"almanac field records.txt\"'s total lines.",
+      "Determine the number of lines contained in \"almanac field records.txt\".",
+      "Return a tally of lines from \"almanac field records.txt\".",
+      "Get the total lines in \"almanac field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0149",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "almanac field records.txt",
+      "unit": "words"
+    },
+    "requests": [
+      "What's the words count for \"almanac field records.txt\"?",
+      "Calculate how many words are in \"almanac field records.txt\".",
+      "Tell me \"almanac field records.txt\"'s total words.",
+      "Determine the number of words contained in \"almanac field records.txt\".",
+      "Return a tally of words from \"almanac field records.txt\".",
+      "Get the total words in \"almanac field records.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-wc-0150",
+    "family": "wc",
+    "topic": "text",
+    "capability": "count-units",
+    "split": "validation",
+    "intent": {
+      "op": "wc",
+      "source": "almanac field records.txt",
+      "unit": "bytes"
+    },
+    "requests": [
+      "What's the bytes count for \"almanac field records.txt\"?",
+      "Calculate how many bytes are in \"almanac field records.txt\".",
+      "Tell me \"almanac field records.txt\"'s total bytes.",
+      "Determine the number of bytes contained in \"almanac field records.txt\".",
+      "Return a tally of bytes from \"almanac field records.txt\".",
+      "Get the total bytes in \"almanac field records.txt\"."
+    ]
+  }
+]

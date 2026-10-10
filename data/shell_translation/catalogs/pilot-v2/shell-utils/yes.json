@@ -1,0 +1,91 @@
+[
+  {
+    "id": "pilot-v1-yes-01",
+    "topic": "shell-utils",
+    "family": "yes",
+    "capability": "repeat-line",
+    "split": "train",
+    "intent": {
+      "op": "yes",
+      "text": "ok",
+      "count": 3
+    },
+    "requests": [
+      "print the line ok 3 times",
+      "I want ok repeated on 3 lines",
+      "can you output ok 3 times, one per line?",
+      "show 3 lines that each say ok"
+    ]
+  },
+  {
+    "id": "pilot-v1-yes-02",
+    "topic": "shell-utils",
+    "family": "yes",
+    "capability": "repeat-phrase",
+    "split": "train",
+    "intent": {
+      "op": "yes",
+      "text": "all systems go",
+      "count": 2
+    },
+    "requests": [
+      "repeat the line all systems go 2 times",
+      "I need all systems go printed on 2 consecutive lines",
+      "how can I print all systems go 2 times, each time on a new line?",
+      "give me 2 lines reading all systems go"
+    ]
+  },
+  {
+    "id": "pilot-v1-yes-03",
+    "topic": "shell-utils",
+    "family": "yes",
+    "capability": "default-y",
+    "split": "train",
+    "intent": {
+      "op": "yes",
+      "count": 5
+    },
+    "requests": [
+      "print the letter y on 5 lines",
+      "I want 5 lines containing just y",
+      "how do I get a column of 5 y characters?",
+      "output y 5 times, once per line"
+    ]
+  },
+  {
+    "id": "pilot-v1-yes-04",
+    "topic": "shell-utils",
+    "family": "yes",
+    "capability": "repeat-phrase",
+    "split": "train",
+    "intent": {
+      "op": "yes",
+      "text": "it's fine",
+      "count": 4
+    },
+    "requests": [
+      "write it's fine 4 times, one line each",
+      "I'd like the phrase it's fine repeated 4 times",
+      "can you print 4 copies of the line it's fine?",
+      "display it's fine on each of 4 lines"
+    ]
+  },
+  {
+    "id": "pilot-v1-yes-05",
+    "topic": "shell-utils",
+    "family": "yes",
+    "capability": "repeat-line",
+    "split": "validation",
+    "intent": {
+      "op": "yes",
+      "text": "tundra zephyr",
+      "count": 6
+    },
+    "requests": [
+      "produce 6 lines that all read tundra zephyr",
+      "tundra zephyr should appear 6 times, each on a separate line",
+      "could you emit the text tundra zephyr on 6 lines?",
+      "I'm looking for 6 repetitions of the line tundra zephyr"
+    ]
+  }
+]

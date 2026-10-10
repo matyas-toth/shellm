@@ -1,0 +1,4218 @@
+[
+  {
+    "id": "pilot-v1-cd-01",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/"
+    },
+    "requests": [
+      "change the working directory to the filesystem's top-level directory",
+      "navigate into the filesystem's top-level directory",
+      "switch folders to the filesystem's top-level directory",
+      "take this shell to the filesystem's top-level directory"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-02",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "~"
+    },
+    "requests": [
+      "change the working directory to my user's home folder",
+      "navigate into my user's home folder",
+      "switch folders to my user's home folder",
+      "take this shell to my user's home folder"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-03",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": ".."
+    },
+    "requests": [
+      "change the working directory to the parent of this directory",
+      "navigate into the parent of this directory",
+      "switch folders to the parent of this directory",
+      "take this shell to the parent of this directory"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-04",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "orchid workspace"
+    },
+    "requests": [
+      "change the working directory to the directory named orchid workspace",
+      "navigate into the directory named orchid workspace",
+      "switch folders to the directory named orchid workspace",
+      "take this shell to the directory named orchid workspace"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-05",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/nebula-area"
+    },
+    "requests": [
+      "change the working directory to the directory named /workspace/nebula-area",
+      "navigate into the directory named /workspace/nebula-area",
+      "switch folders to the directory named /workspace/nebula-area",
+      "take this shell to the directory named /workspace/nebula-area"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-06",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "otter-area"
+    },
+    "requests": [
+      "change the working directory to the directory named otter-area",
+      "navigate into the directory named otter-area",
+      "switch folders to the directory named otter-area",
+      "take this shell to the directory named otter-area"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-07",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "cedar workspace"
+    },
+    "requests": [
+      "change the working directory to the directory named cedar workspace",
+      "navigate into the directory named cedar workspace",
+      "switch folders to the directory named cedar workspace",
+      "take this shell to the directory named cedar workspace"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-08",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "client's saffron folder"
+    },
+    "requests": [
+      "change the working directory to the directory named client's saffron folder",
+      "navigate into the directory named client's saffron folder",
+      "switch folders to the directory named client's saffron folder",
+      "take this shell to the directory named client's saffron folder"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-09",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/marble-area"
+    },
+    "requests": [
+      "change the working directory to the directory named /workspace/marble-area",
+      "navigate into the directory named /workspace/marble-area",
+      "switch folders to the directory named /workspace/marble-area",
+      "take this shell to the directory named /workspace/marble-area"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-10",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "comet workspace"
+    },
+    "requests": [
+      "change the working directory to the directory named comet workspace",
+      "navigate into the directory named comet workspace",
+      "switch folders to the directory named comet workspace",
+      "take this shell to the directory named comet workspace"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-11",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "-willow-area"
+    },
+    "requests": [
+      "change the working directory to the directory named -willow-area",
+      "navigate into the directory named -willow-area",
+      "switch folders to the directory named -willow-area",
+      "take this shell to the directory named -willow-area"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-12",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "badger-area"
+    },
+    "requests": [
+      "change the working directory to the directory named badger-area",
+      "navigate into the directory named badger-area",
+      "switch folders to the directory named badger-area",
+      "take this shell to the directory named badger-area"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-13",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/quartz workspace"
+    },
+    "requests": [
+      "change the working directory to the directory named /workspace/quartz workspace",
+      "navigate into the directory named /workspace/quartz workspace",
+      "switch folders to the directory named /workspace/quartz workspace",
+      "take this shell to the directory named /workspace/quartz workspace"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-14",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "hazel-area"
+    },
+    "requests": [
+      "change the working directory to the directory named hazel-area",
+      "navigate into the directory named hazel-area",
+      "switch folders to the directory named hazel-area",
+      "take this shell to the directory named hazel-area"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-15",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "maple-area"
+    },
+    "requests": [
+      "change the working directory to the directory named maple-area",
+      "navigate into the directory named maple-area",
+      "switch folders to the directory named maple-area",
+      "take this shell to the directory named maple-area"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-16",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "raven workspace"
+    },
+    "requests": [
+      "change the working directory to the directory named raven workspace",
+      "navigate into the directory named raven workspace",
+      "switch folders to the directory named raven workspace",
+      "take this shell to the directory named raven workspace"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-17",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/lotus-area"
+    },
+    "requests": [
+      "change the working directory to the directory named /workspace/lotus-area",
+      "navigate into the directory named /workspace/lotus-area",
+      "switch folders to the directory named /workspace/lotus-area",
+      "take this shell to the directory named /workspace/lotus-area"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-18",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "birch-area"
+    },
+    "requests": [
+      "change the working directory to the directory named birch-area",
+      "navigate into the directory named birch-area",
+      "switch folders to the directory named birch-area",
+      "take this shell to the directory named birch-area"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-19",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "tundra workspace"
+    },
+    "requests": [
+      "change the working directory to the directory named tundra workspace",
+      "navigate into the directory named tundra workspace",
+      "switch folders to the directory named tundra workspace",
+      "take this shell to the directory named tundra workspace"
+    ]
+  },
+  {
+    "id": "pilot-v1-cd-20",
+    "topic": "navigation",
+    "family": "cd",
+    "capability": "navigation",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "zephyr-area"
+    },
+    "requests": [
+      "change the working directory to the directory named zephyr-area",
+      "navigate into the directory named zephyr-area",
+      "switch folders to the directory named zephyr-area",
+      "take this shell to the directory named zephyr-area"
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0001",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "cinder-journal"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"cinder-journal\".",
+      "I want this shell to work from the relative directory path \"cinder-journal\".",
+      "Make the relative directory path \"cinder-journal\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"cinder-journal\".",
+      "Can I start working inside the relative directory path \"cinder-journal\"?",
+      "Go to the relative directory path \"cinder-journal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0002",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./cinder-journal"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./cinder-journal\".",
+      "I want this shell to work from the dot-relative directory path \"./cinder-journal\".",
+      "Make the dot-relative directory path \"./cinder-journal\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./cinder-journal\".",
+      "Can I start working inside the dot-relative directory path \"./cinder-journal\"?",
+      "Go to the dot-relative directory path \"./cinder-journal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0003",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/cinder-journal"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/cinder-journal\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/cinder-journal\".",
+      "Make the parent-relative directory path \"../workspace/cinder-journal\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/cinder-journal\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/cinder-journal\"?",
+      "Go to the parent-relative directory path \"../workspace/cinder-journal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0004",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/cinder-journal"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/cinder-journal\".",
+      "I want this shell to work from the absolute directory path \"/workspace/cinder-journal\".",
+      "Make the absolute directory path \"/workspace/cinder-journal\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/cinder-journal\".",
+      "Can I start working inside the absolute directory path \"/workspace/cinder-journal\"?",
+      "Go to the absolute directory path \"/workspace/cinder-journal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0005",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "kiln working notes"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"kiln working notes\".",
+      "I want this shell to work from the relative directory path \"kiln working notes\".",
+      "Make the relative directory path \"kiln working notes\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"kiln working notes\".",
+      "Can I start working inside the relative directory path \"kiln working notes\"?",
+      "Go to the relative directory path \"kiln working notes\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0006",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./kiln working notes"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./kiln working notes\".",
+      "I want this shell to work from the dot-relative directory path \"./kiln working notes\".",
+      "Make the dot-relative directory path \"./kiln working notes\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./kiln working notes\".",
+      "Can I start working inside the dot-relative directory path \"./kiln working notes\"?",
+      "Go to the dot-relative directory path \"./kiln working notes\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0007",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/kiln working notes"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/kiln working notes\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/kiln working notes\".",
+      "Make the parent-relative directory path \"../workspace/kiln working notes\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/kiln working notes\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/kiln working notes\"?",
+      "Go to the parent-relative directory path \"../workspace/kiln working notes\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0008",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/kiln working notes"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/kiln working notes\".",
+      "I want this shell to work from the absolute directory path \"/workspace/kiln working notes\".",
+      "Make the absolute directory path \"/workspace/kiln working notes\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/kiln working notes\".",
+      "Can I start working inside the absolute directory path \"/workspace/kiln working notes\"?",
+      "Go to the absolute directory path \"/workspace/kiln working notes\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0009",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "ledger's notebook"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"ledger's notebook\".",
+      "I want this shell to work from the relative directory path \"ledger's notebook\".",
+      "Make the relative directory path \"ledger's notebook\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"ledger's notebook\".",
+      "Can I start working inside the relative directory path \"ledger's notebook\"?",
+      "Go to the relative directory path \"ledger's notebook\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0010",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./ledger's notebook"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./ledger's notebook\".",
+      "I want this shell to work from the dot-relative directory path \"./ledger's notebook\".",
+      "Make the dot-relative directory path \"./ledger's notebook\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./ledger's notebook\".",
+      "Can I start working inside the dot-relative directory path \"./ledger's notebook\"?",
+      "Go to the dot-relative directory path \"./ledger's notebook\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0011",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/ledger's notebook"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/ledger's notebook\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/ledger's notebook\".",
+      "Make the parent-relative directory path \"../workspace/ledger's notebook\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/ledger's notebook\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/ledger's notebook\"?",
+      "Go to the parent-relative directory path \"../workspace/ledger's notebook\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0012",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/ledger's notebook"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/ledger's notebook\".",
+      "I want this shell to work from the absolute directory path \"/workspace/ledger's notebook\".",
+      "Make the absolute directory path \"/workspace/ledger's notebook\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/ledger's notebook\".",
+      "Can I start working inside the absolute directory path \"/workspace/ledger's notebook\"?",
+      "Go to the absolute directory path \"/workspace/ledger's notebook\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0013",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "-harbor-draft"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"-harbor-draft\".",
+      "I want this shell to work from the relative directory path \"-harbor-draft\".",
+      "Make the relative directory path \"-harbor-draft\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"-harbor-draft\".",
+      "Can I start working inside the relative directory path \"-harbor-draft\"?",
+      "Go to the relative directory path \"-harbor-draft\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0014",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./-harbor-draft"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./-harbor-draft\".",
+      "I want this shell to work from the dot-relative directory path \"./-harbor-draft\".",
+      "Make the dot-relative directory path \"./-harbor-draft\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./-harbor-draft\".",
+      "Can I start working inside the dot-relative directory path \"./-harbor-draft\"?",
+      "Go to the dot-relative directory path \"./-harbor-draft\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0015",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/-harbor-draft"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/-harbor-draft\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/-harbor-draft\".",
+      "Make the parent-relative directory path \"../workspace/-harbor-draft\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/-harbor-draft\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/-harbor-draft\"?",
+      "Go to the parent-relative directory path \"../workspace/-harbor-draft\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0016",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/-harbor-draft"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/-harbor-draft\".",
+      "I want this shell to work from the absolute directory path \"/workspace/-harbor-draft\".",
+      "Make the absolute directory path \"/workspace/-harbor-draft\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/-harbor-draft\".",
+      "Can I start working inside the absolute directory path \"/workspace/-harbor-draft\"?",
+      "Go to the absolute directory path \"/workspace/-harbor-draft\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0017",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "prism-$budget"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"prism-$budget\".",
+      "I want this shell to work from the relative directory path \"prism-$budget\".",
+      "Make the relative directory path \"prism-$budget\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"prism-$budget\".",
+      "Can I start working inside the relative directory path \"prism-$budget\"?",
+      "Go to the relative directory path \"prism-$budget\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0018",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./prism-$budget"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./prism-$budget\".",
+      "I want this shell to work from the dot-relative directory path \"./prism-$budget\".",
+      "Make the dot-relative directory path \"./prism-$budget\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./prism-$budget\".",
+      "Can I start working inside the dot-relative directory path \"./prism-$budget\"?",
+      "Go to the dot-relative directory path \"./prism-$budget\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0019",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/prism-$budget"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/prism-$budget\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/prism-$budget\".",
+      "Make the parent-relative directory path \"../workspace/prism-$budget\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/prism-$budget\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/prism-$budget\"?",
+      "Go to the parent-relative directory path \"../workspace/prism-$budget\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0020",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/prism-$budget"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/prism-$budget\".",
+      "I want this shell to work from the absolute directory path \"/workspace/prism-$budget\".",
+      "Make the absolute directory path \"/workspace/prism-$budget\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/prism-$budget\".",
+      "Can I start working inside the absolute directory path \"/workspace/prism-$budget\"?",
+      "Go to the absolute directory path \"/workspace/prism-$budget\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0021",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "orchard;archive"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"orchard;archive\".",
+      "I want this shell to work from the relative directory path \"orchard;archive\".",
+      "Make the relative directory path \"orchard;archive\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"orchard;archive\".",
+      "Can I start working inside the relative directory path \"orchard;archive\"?",
+      "Go to the relative directory path \"orchard;archive\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0022",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./orchard;archive"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./orchard;archive\".",
+      "I want this shell to work from the dot-relative directory path \"./orchard;archive\".",
+      "Make the dot-relative directory path \"./orchard;archive\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./orchard;archive\".",
+      "Can I start working inside the dot-relative directory path \"./orchard;archive\"?",
+      "Go to the dot-relative directory path \"./orchard;archive\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0023",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/orchard;archive"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/orchard;archive\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/orchard;archive\".",
+      "Make the parent-relative directory path \"../workspace/orchard;archive\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/orchard;archive\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/orchard;archive\"?",
+      "Go to the parent-relative directory path \"../workspace/orchard;archive\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0024",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/orchard;archive"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/orchard;archive\".",
+      "I want this shell to work from the absolute directory path \"/workspace/orchard;archive\".",
+      "Make the absolute directory path \"/workspace/orchard;archive\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/orchard;archive\".",
+      "Can I start working inside the absolute directory path \"/workspace/orchard;archive\"?",
+      "Go to the absolute directory path \"/workspace/orchard;archive\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0025",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "canvas*literal"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"canvas*literal\".",
+      "I want this shell to work from the relative directory path \"canvas*literal\".",
+      "Make the relative directory path \"canvas*literal\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"canvas*literal\".",
+      "Can I start working inside the relative directory path \"canvas*literal\"?",
+      "Go to the relative directory path \"canvas*literal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0026",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./canvas*literal"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./canvas*literal\".",
+      "I want this shell to work from the dot-relative directory path \"./canvas*literal\".",
+      "Make the dot-relative directory path \"./canvas*literal\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./canvas*literal\".",
+      "Can I start working inside the dot-relative directory path \"./canvas*literal\"?",
+      "Go to the dot-relative directory path \"./canvas*literal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0027",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/canvas*literal"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/canvas*literal\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/canvas*literal\".",
+      "Make the parent-relative directory path \"../workspace/canvas*literal\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/canvas*literal\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/canvas*literal\"?",
+      "Go to the parent-relative directory path \"../workspace/canvas*literal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0028",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/canvas*literal"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/canvas*literal\".",
+      "I want this shell to work from the absolute directory path \"/workspace/canvas*literal\".",
+      "Make the absolute directory path \"/workspace/canvas*literal\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/canvas*literal\".",
+      "Can I start working inside the absolute directory path \"/workspace/canvas*literal\"?",
+      "Go to the absolute directory path \"/workspace/canvas*literal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0029",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "spool[draft]"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"spool[draft]\".",
+      "I want this shell to work from the relative directory path \"spool[draft]\".",
+      "Make the relative directory path \"spool[draft]\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"spool[draft]\".",
+      "Can I start working inside the relative directory path \"spool[draft]\"?",
+      "Go to the relative directory path \"spool[draft]\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0030",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./spool[draft]"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./spool[draft]\".",
+      "I want this shell to work from the dot-relative directory path \"./spool[draft]\".",
+      "Make the dot-relative directory path \"./spool[draft]\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./spool[draft]\".",
+      "Can I start working inside the dot-relative directory path \"./spool[draft]\"?",
+      "Go to the dot-relative directory path \"./spool[draft]\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0031",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/spool[draft]"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/spool[draft]\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/spool[draft]\".",
+      "Make the parent-relative directory path \"../workspace/spool[draft]\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/spool[draft]\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/spool[draft]\"?",
+      "Go to the parent-relative directory path \"../workspace/spool[draft]\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0032",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/spool[draft]"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/spool[draft]\".",
+      "I want this shell to work from the absolute directory path \"/workspace/spool[draft]\".",
+      "Make the absolute directory path \"/workspace/spool[draft]\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/spool[draft]\".",
+      "Can I start working inside the absolute directory path \"/workspace/spool[draft]\"?",
+      "Go to the absolute directory path \"/workspace/spool[draft]\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0033",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "beacon-café"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"beacon-café\".",
+      "I want this shell to work from the relative directory path \"beacon-café\".",
+      "Make the relative directory path \"beacon-café\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"beacon-café\".",
+      "Can I start working inside the relative directory path \"beacon-café\"?",
+      "Go to the relative directory path \"beacon-café\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0034",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./beacon-café"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./beacon-café\".",
+      "I want this shell to work from the dot-relative directory path \"./beacon-café\".",
+      "Make the dot-relative directory path \"./beacon-café\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./beacon-café\".",
+      "Can I start working inside the dot-relative directory path \"./beacon-café\"?",
+      "Go to the dot-relative directory path \"./beacon-café\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0035",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/beacon-café"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/beacon-café\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/beacon-café\".",
+      "Make the parent-relative directory path \"../workspace/beacon-café\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/beacon-café\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/beacon-café\"?",
+      "Go to the parent-relative directory path \"../workspace/beacon-café\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0036",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/beacon-café"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/beacon-café\".",
+      "I want this shell to work from the absolute directory path \"/workspace/beacon-café\".",
+      "Make the absolute directory path \"/workspace/beacon-café\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/beacon-café\".",
+      "Can I start working inside the absolute directory path \"/workspace/beacon-café\"?",
+      "Go to the absolute directory path \"/workspace/beacon-café\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0037",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "lantern field records"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"lantern field records\".",
+      "I want this shell to work from the relative directory path \"lantern field records\".",
+      "Make the relative directory path \"lantern field records\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"lantern field records\".",
+      "Can I start working inside the relative directory path \"lantern field records\"?",
+      "Go to the relative directory path \"lantern field records\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0038",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./lantern field records"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./lantern field records\".",
+      "I want this shell to work from the dot-relative directory path \"./lantern field records\".",
+      "Make the dot-relative directory path \"./lantern field records\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./lantern field records\".",
+      "Can I start working inside the dot-relative directory path \"./lantern field records\"?",
+      "Go to the dot-relative directory path \"./lantern field records\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0039",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/lantern field records"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/lantern field records\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/lantern field records\".",
+      "Make the parent-relative directory path \"../workspace/lantern field records\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/lantern field records\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/lantern field records\"?",
+      "Go to the parent-relative directory path \"../workspace/lantern field records\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0040",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/lantern field records"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/lantern field records\".",
+      "I want this shell to work from the absolute directory path \"/workspace/lantern field records\".",
+      "Make the absolute directory path \"/workspace/lantern field records\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/lantern field records\".",
+      "Can I start working inside the absolute directory path \"/workspace/lantern field records\"?",
+      "Go to the absolute directory path \"/workspace/lantern field records\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0041",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "quartz-journal"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"quartz-journal\".",
+      "I want this shell to work from the relative directory path \"quartz-journal\".",
+      "Make the relative directory path \"quartz-journal\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"quartz-journal\".",
+      "Can I start working inside the relative directory path \"quartz-journal\"?",
+      "Go to the relative directory path \"quartz-journal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0042",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./quartz-journal"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./quartz-journal\".",
+      "I want this shell to work from the dot-relative directory path \"./quartz-journal\".",
+      "Make the dot-relative directory path \"./quartz-journal\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./quartz-journal\".",
+      "Can I start working inside the dot-relative directory path \"./quartz-journal\"?",
+      "Go to the dot-relative directory path \"./quartz-journal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0043",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/quartz-journal"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/quartz-journal\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/quartz-journal\".",
+      "Make the parent-relative directory path \"../workspace/quartz-journal\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/quartz-journal\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/quartz-journal\"?",
+      "Go to the parent-relative directory path \"../workspace/quartz-journal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0044",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/quartz-journal"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/quartz-journal\".",
+      "I want this shell to work from the absolute directory path \"/workspace/quartz-journal\".",
+      "Make the absolute directory path \"/workspace/quartz-journal\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/quartz-journal\".",
+      "Can I start working inside the absolute directory path \"/workspace/quartz-journal\"?",
+      "Go to the absolute directory path \"/workspace/quartz-journal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0045",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "meadow working notes"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"meadow working notes\".",
+      "I want this shell to work from the relative directory path \"meadow working notes\".",
+      "Make the relative directory path \"meadow working notes\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"meadow working notes\".",
+      "Can I start working inside the relative directory path \"meadow working notes\"?",
+      "Go to the relative directory path \"meadow working notes\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0046",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./meadow working notes"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./meadow working notes\".",
+      "I want this shell to work from the dot-relative directory path \"./meadow working notes\".",
+      "Make the dot-relative directory path \"./meadow working notes\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./meadow working notes\".",
+      "Can I start working inside the dot-relative directory path \"./meadow working notes\"?",
+      "Go to the dot-relative directory path \"./meadow working notes\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0047",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/meadow working notes"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/meadow working notes\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/meadow working notes\".",
+      "Make the parent-relative directory path \"../workspace/meadow working notes\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/meadow working notes\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/meadow working notes\"?",
+      "Go to the parent-relative directory path \"../workspace/meadow working notes\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0048",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/meadow working notes"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/meadow working notes\".",
+      "I want this shell to work from the absolute directory path \"/workspace/meadow working notes\".",
+      "Make the absolute directory path \"/workspace/meadow working notes\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/meadow working notes\".",
+      "Can I start working inside the absolute directory path \"/workspace/meadow working notes\"?",
+      "Go to the absolute directory path \"/workspace/meadow working notes\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0049",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "parcel's notebook"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"parcel's notebook\".",
+      "I want this shell to work from the relative directory path \"parcel's notebook\".",
+      "Make the relative directory path \"parcel's notebook\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"parcel's notebook\".",
+      "Can I start working inside the relative directory path \"parcel's notebook\"?",
+      "Go to the relative directory path \"parcel's notebook\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0050",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./parcel's notebook"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./parcel's notebook\".",
+      "I want this shell to work from the dot-relative directory path \"./parcel's notebook\".",
+      "Make the dot-relative directory path \"./parcel's notebook\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./parcel's notebook\".",
+      "Can I start working inside the dot-relative directory path \"./parcel's notebook\"?",
+      "Go to the dot-relative directory path \"./parcel's notebook\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0051",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/parcel's notebook"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/parcel's notebook\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/parcel's notebook\".",
+      "Make the parent-relative directory path \"../workspace/parcel's notebook\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/parcel's notebook\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/parcel's notebook\"?",
+      "Go to the parent-relative directory path \"../workspace/parcel's notebook\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0052",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/parcel's notebook"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/parcel's notebook\".",
+      "I want this shell to work from the absolute directory path \"/workspace/parcel's notebook\".",
+      "Make the absolute directory path \"/workspace/parcel's notebook\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/parcel's notebook\".",
+      "Can I start working inside the absolute directory path \"/workspace/parcel's notebook\"?",
+      "Go to the absolute directory path \"/workspace/parcel's notebook\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0053",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "-cobalt-draft"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"-cobalt-draft\".",
+      "I want this shell to work from the relative directory path \"-cobalt-draft\".",
+      "Make the relative directory path \"-cobalt-draft\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"-cobalt-draft\".",
+      "Can I start working inside the relative directory path \"-cobalt-draft\"?",
+      "Go to the relative directory path \"-cobalt-draft\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0054",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./-cobalt-draft"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./-cobalt-draft\".",
+      "I want this shell to work from the dot-relative directory path \"./-cobalt-draft\".",
+      "Make the dot-relative directory path \"./-cobalt-draft\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./-cobalt-draft\".",
+      "Can I start working inside the dot-relative directory path \"./-cobalt-draft\"?",
+      "Go to the dot-relative directory path \"./-cobalt-draft\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0055",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/-cobalt-draft"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/-cobalt-draft\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/-cobalt-draft\".",
+      "Make the parent-relative directory path \"../workspace/-cobalt-draft\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/-cobalt-draft\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/-cobalt-draft\"?",
+      "Go to the parent-relative directory path \"../workspace/-cobalt-draft\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0056",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/-cobalt-draft"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/-cobalt-draft\".",
+      "I want this shell to work from the absolute directory path \"/workspace/-cobalt-draft\".",
+      "Make the absolute directory path \"/workspace/-cobalt-draft\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/-cobalt-draft\".",
+      "Can I start working inside the absolute directory path \"/workspace/-cobalt-draft\"?",
+      "Go to the absolute directory path \"/workspace/-cobalt-draft\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0057",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "atlas-$budget"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"atlas-$budget\".",
+      "I want this shell to work from the relative directory path \"atlas-$budget\".",
+      "Make the relative directory path \"atlas-$budget\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"atlas-$budget\".",
+      "Can I start working inside the relative directory path \"atlas-$budget\"?",
+      "Go to the relative directory path \"atlas-$budget\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0058",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./atlas-$budget"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./atlas-$budget\".",
+      "I want this shell to work from the dot-relative directory path \"./atlas-$budget\".",
+      "Make the dot-relative directory path \"./atlas-$budget\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./atlas-$budget\".",
+      "Can I start working inside the dot-relative directory path \"./atlas-$budget\"?",
+      "Go to the dot-relative directory path \"./atlas-$budget\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0059",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/atlas-$budget"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/atlas-$budget\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/atlas-$budget\".",
+      "Make the parent-relative directory path \"../workspace/atlas-$budget\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/atlas-$budget\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/atlas-$budget\"?",
+      "Go to the parent-relative directory path \"../workspace/atlas-$budget\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0060",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/atlas-$budget"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/atlas-$budget\".",
+      "I want this shell to work from the absolute directory path \"/workspace/atlas-$budget\".",
+      "Make the absolute directory path \"/workspace/atlas-$budget\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/atlas-$budget\".",
+      "Can I start working inside the absolute directory path \"/workspace/atlas-$budget\"?",
+      "Go to the absolute directory path \"/workspace/atlas-$budget\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0061",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "rivet;archive"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"rivet;archive\".",
+      "I want this shell to work from the relative directory path \"rivet;archive\".",
+      "Make the relative directory path \"rivet;archive\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"rivet;archive\".",
+      "Can I start working inside the relative directory path \"rivet;archive\"?",
+      "Go to the relative directory path \"rivet;archive\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0062",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./rivet;archive"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./rivet;archive\".",
+      "I want this shell to work from the dot-relative directory path \"./rivet;archive\".",
+      "Make the dot-relative directory path \"./rivet;archive\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./rivet;archive\".",
+      "Can I start working inside the dot-relative directory path \"./rivet;archive\"?",
+      "Go to the dot-relative directory path \"./rivet;archive\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0063",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/rivet;archive"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/rivet;archive\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/rivet;archive\".",
+      "Make the parent-relative directory path \"../workspace/rivet;archive\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/rivet;archive\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/rivet;archive\"?",
+      "Go to the parent-relative directory path \"../workspace/rivet;archive\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0064",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/rivet;archive"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/rivet;archive\".",
+      "I want this shell to work from the absolute directory path \"/workspace/rivet;archive\".",
+      "Make the absolute directory path \"/workspace/rivet;archive\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/rivet;archive\".",
+      "Can I start working inside the absolute directory path \"/workspace/rivet;archive\"?",
+      "Go to the absolute directory path \"/workspace/rivet;archive\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0065",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "gasket*literal"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"gasket*literal\".",
+      "I want this shell to work from the relative directory path \"gasket*literal\".",
+      "Make the relative directory path \"gasket*literal\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"gasket*literal\".",
+      "Can I start working inside the relative directory path \"gasket*literal\"?",
+      "Go to the relative directory path \"gasket*literal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0066",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./gasket*literal"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./gasket*literal\".",
+      "I want this shell to work from the dot-relative directory path \"./gasket*literal\".",
+      "Make the dot-relative directory path \"./gasket*literal\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./gasket*literal\".",
+      "Can I start working inside the dot-relative directory path \"./gasket*literal\"?",
+      "Go to the dot-relative directory path \"./gasket*literal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0067",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/gasket*literal"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/gasket*literal\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/gasket*literal\".",
+      "Make the parent-relative directory path \"../workspace/gasket*literal\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/gasket*literal\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/gasket*literal\"?",
+      "Go to the parent-relative directory path \"../workspace/gasket*literal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0068",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/gasket*literal"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/gasket*literal\".",
+      "I want this shell to work from the absolute directory path \"/workspace/gasket*literal\".",
+      "Make the absolute directory path \"/workspace/gasket*literal\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/gasket*literal\".",
+      "Can I start working inside the absolute directory path \"/workspace/gasket*literal\"?",
+      "Go to the absolute directory path \"/workspace/gasket*literal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0069",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "spindle[draft]"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"spindle[draft]\".",
+      "I want this shell to work from the relative directory path \"spindle[draft]\".",
+      "Make the relative directory path \"spindle[draft]\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"spindle[draft]\".",
+      "Can I start working inside the relative directory path \"spindle[draft]\"?",
+      "Go to the relative directory path \"spindle[draft]\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0070",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./spindle[draft]"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./spindle[draft]\".",
+      "I want this shell to work from the dot-relative directory path \"./spindle[draft]\".",
+      "Make the dot-relative directory path \"./spindle[draft]\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./spindle[draft]\".",
+      "Can I start working inside the dot-relative directory path \"./spindle[draft]\"?",
+      "Go to the dot-relative directory path \"./spindle[draft]\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0071",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/spindle[draft]"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/spindle[draft]\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/spindle[draft]\".",
+      "Make the parent-relative directory path \"../workspace/spindle[draft]\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/spindle[draft]\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/spindle[draft]\"?",
+      "Go to the parent-relative directory path \"../workspace/spindle[draft]\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0072",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/spindle[draft]"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/spindle[draft]\".",
+      "I want this shell to work from the absolute directory path \"/workspace/spindle[draft]\".",
+      "Make the absolute directory path \"/workspace/spindle[draft]\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/spindle[draft]\".",
+      "Can I start working inside the absolute directory path \"/workspace/spindle[draft]\"?",
+      "Go to the absolute directory path \"/workspace/spindle[draft]\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0073",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "vault-café"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"vault-café\".",
+      "I want this shell to work from the relative directory path \"vault-café\".",
+      "Make the relative directory path \"vault-café\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"vault-café\".",
+      "Can I start working inside the relative directory path \"vault-café\"?",
+      "Go to the relative directory path \"vault-café\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0074",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./vault-café"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./vault-café\".",
+      "I want this shell to work from the dot-relative directory path \"./vault-café\".",
+      "Make the dot-relative directory path \"./vault-café\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./vault-café\".",
+      "Can I start working inside the dot-relative directory path \"./vault-café\"?",
+      "Go to the dot-relative directory path \"./vault-café\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0075",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/vault-café"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/vault-café\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/vault-café\".",
+      "Make the parent-relative directory path \"../workspace/vault-café\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/vault-café\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/vault-café\"?",
+      "Go to the parent-relative directory path \"../workspace/vault-café\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0076",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/vault-café"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/vault-café\".",
+      "I want this shell to work from the absolute directory path \"/workspace/vault-café\".",
+      "Make the absolute directory path \"/workspace/vault-café\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/vault-café\".",
+      "Can I start working inside the absolute directory path \"/workspace/vault-café\"?",
+      "Go to the absolute directory path \"/workspace/vault-café\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0077",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "basket field records"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"basket field records\".",
+      "I want this shell to work from the relative directory path \"basket field records\".",
+      "Make the relative directory path \"basket field records\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"basket field records\".",
+      "Can I start working inside the relative directory path \"basket field records\"?",
+      "Go to the relative directory path \"basket field records\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0078",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./basket field records"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./basket field records\".",
+      "I want this shell to work from the dot-relative directory path \"./basket field records\".",
+      "Make the dot-relative directory path \"./basket field records\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./basket field records\".",
+      "Can I start working inside the dot-relative directory path \"./basket field records\"?",
+      "Go to the dot-relative directory path \"./basket field records\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0079",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/basket field records"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/basket field records\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/basket field records\".",
+      "Make the parent-relative directory path \"../workspace/basket field records\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/basket field records\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/basket field records\"?",
+      "Go to the parent-relative directory path \"../workspace/basket field records\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0080",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/basket field records"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/basket field records\".",
+      "I want this shell to work from the absolute directory path \"/workspace/basket field records\".",
+      "Make the absolute directory path \"/workspace/basket field records\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/basket field records\".",
+      "Can I start working inside the absolute directory path \"/workspace/basket field records\"?",
+      "Go to the absolute directory path \"/workspace/basket field records\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0081",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "ember-journal"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"ember-journal\".",
+      "I want this shell to work from the relative directory path \"ember-journal\".",
+      "Make the relative directory path \"ember-journal\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"ember-journal\".",
+      "Can I start working inside the relative directory path \"ember-journal\"?",
+      "Go to the relative directory path \"ember-journal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0082",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./ember-journal"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./ember-journal\".",
+      "I want this shell to work from the dot-relative directory path \"./ember-journal\".",
+      "Make the dot-relative directory path \"./ember-journal\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./ember-journal\".",
+      "Can I start working inside the dot-relative directory path \"./ember-journal\"?",
+      "Go to the dot-relative directory path \"./ember-journal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0083",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/ember-journal"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/ember-journal\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/ember-journal\".",
+      "Make the parent-relative directory path \"../workspace/ember-journal\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/ember-journal\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/ember-journal\"?",
+      "Go to the parent-relative directory path \"../workspace/ember-journal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0084",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/ember-journal"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/ember-journal\".",
+      "I want this shell to work from the absolute directory path \"/workspace/ember-journal\".",
+      "Make the absolute directory path \"/workspace/ember-journal\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/ember-journal\".",
+      "Can I start working inside the absolute directory path \"/workspace/ember-journal\"?",
+      "Go to the absolute directory path \"/workspace/ember-journal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0085",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "pollen working notes"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"pollen working notes\".",
+      "I want this shell to work from the relative directory path \"pollen working notes\".",
+      "Make the relative directory path \"pollen working notes\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"pollen working notes\".",
+      "Can I start working inside the relative directory path \"pollen working notes\"?",
+      "Go to the relative directory path \"pollen working notes\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0086",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./pollen working notes"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./pollen working notes\".",
+      "I want this shell to work from the dot-relative directory path \"./pollen working notes\".",
+      "Make the dot-relative directory path \"./pollen working notes\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./pollen working notes\".",
+      "Can I start working inside the dot-relative directory path \"./pollen working notes\"?",
+      "Go to the dot-relative directory path \"./pollen working notes\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0087",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/pollen working notes"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/pollen working notes\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/pollen working notes\".",
+      "Make the parent-relative directory path \"../workspace/pollen working notes\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/pollen working notes\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/pollen working notes\"?",
+      "Go to the parent-relative directory path \"../workspace/pollen working notes\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0088",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/pollen working notes"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/pollen working notes\".",
+      "I want this shell to work from the absolute directory path \"/workspace/pollen working notes\".",
+      "Make the absolute directory path \"/workspace/pollen working notes\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/pollen working notes\".",
+      "Can I start working inside the absolute directory path \"/workspace/pollen working notes\"?",
+      "Go to the absolute directory path \"/workspace/pollen working notes\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0089",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "turbine's notebook"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"turbine's notebook\".",
+      "I want this shell to work from the relative directory path \"turbine's notebook\".",
+      "Make the relative directory path \"turbine's notebook\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"turbine's notebook\".",
+      "Can I start working inside the relative directory path \"turbine's notebook\"?",
+      "Go to the relative directory path \"turbine's notebook\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0090",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./turbine's notebook"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./turbine's notebook\".",
+      "I want this shell to work from the dot-relative directory path \"./turbine's notebook\".",
+      "Make the dot-relative directory path \"./turbine's notebook\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./turbine's notebook\".",
+      "Can I start working inside the dot-relative directory path \"./turbine's notebook\"?",
+      "Go to the dot-relative directory path \"./turbine's notebook\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0091",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/turbine's notebook"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/turbine's notebook\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/turbine's notebook\".",
+      "Make the parent-relative directory path \"../workspace/turbine's notebook\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/turbine's notebook\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/turbine's notebook\"?",
+      "Go to the parent-relative directory path \"../workspace/turbine's notebook\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0092",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/turbine's notebook"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/turbine's notebook\".",
+      "I want this shell to work from the absolute directory path \"/workspace/turbine's notebook\".",
+      "Make the absolute directory path \"/workspace/turbine's notebook\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/turbine's notebook\".",
+      "Can I start working inside the absolute directory path \"/workspace/turbine's notebook\"?",
+      "Go to the absolute directory path \"/workspace/turbine's notebook\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0093",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "-compass-draft"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"-compass-draft\".",
+      "I want this shell to work from the relative directory path \"-compass-draft\".",
+      "Make the relative directory path \"-compass-draft\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"-compass-draft\".",
+      "Can I start working inside the relative directory path \"-compass-draft\"?",
+      "Go to the relative directory path \"-compass-draft\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0094",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./-compass-draft"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./-compass-draft\".",
+      "I want this shell to work from the dot-relative directory path \"./-compass-draft\".",
+      "Make the dot-relative directory path \"./-compass-draft\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./-compass-draft\".",
+      "Can I start working inside the dot-relative directory path \"./-compass-draft\"?",
+      "Go to the dot-relative directory path \"./-compass-draft\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0095",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/-compass-draft"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/-compass-draft\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/-compass-draft\".",
+      "Make the parent-relative directory path \"../workspace/-compass-draft\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/-compass-draft\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/-compass-draft\"?",
+      "Go to the parent-relative directory path \"../workspace/-compass-draft\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0096",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/-compass-draft"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/-compass-draft\".",
+      "I want this shell to work from the absolute directory path \"/workspace/-compass-draft\".",
+      "Make the absolute directory path \"/workspace/-compass-draft\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/-compass-draft\".",
+      "Can I start working inside the absolute directory path \"/workspace/-compass-draft\"?",
+      "Go to the absolute directory path \"/workspace/-compass-draft\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0097",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "willowbrook-$budget"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"willowbrook-$budget\".",
+      "I want this shell to work from the relative directory path \"willowbrook-$budget\".",
+      "Make the relative directory path \"willowbrook-$budget\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"willowbrook-$budget\".",
+      "Can I start working inside the relative directory path \"willowbrook-$budget\"?",
+      "Go to the relative directory path \"willowbrook-$budget\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0098",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./willowbrook-$budget"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./willowbrook-$budget\".",
+      "I want this shell to work from the dot-relative directory path \"./willowbrook-$budget\".",
+      "Make the dot-relative directory path \"./willowbrook-$budget\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./willowbrook-$budget\".",
+      "Can I start working inside the dot-relative directory path \"./willowbrook-$budget\"?",
+      "Go to the dot-relative directory path \"./willowbrook-$budget\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0099",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/willowbrook-$budget"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/willowbrook-$budget\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/willowbrook-$budget\".",
+      "Make the parent-relative directory path \"../workspace/willowbrook-$budget\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/willowbrook-$budget\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/willowbrook-$budget\"?",
+      "Go to the parent-relative directory path \"../workspace/willowbrook-$budget\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0100",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/willowbrook-$budget"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/willowbrook-$budget\".",
+      "I want this shell to work from the absolute directory path \"/workspace/willowbrook-$budget\".",
+      "Make the absolute directory path \"/workspace/willowbrook-$budget\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/willowbrook-$budget\".",
+      "Can I start working inside the absolute directory path \"/workspace/willowbrook-$budget\"?",
+      "Go to the absolute directory path \"/workspace/willowbrook-$budget\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0101",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "satchel;archive"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"satchel;archive\".",
+      "I want this shell to work from the relative directory path \"satchel;archive\".",
+      "Make the relative directory path \"satchel;archive\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"satchel;archive\".",
+      "Can I start working inside the relative directory path \"satchel;archive\"?",
+      "Go to the relative directory path \"satchel;archive\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0102",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./satchel;archive"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./satchel;archive\".",
+      "I want this shell to work from the dot-relative directory path \"./satchel;archive\".",
+      "Make the dot-relative directory path \"./satchel;archive\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./satchel;archive\".",
+      "Can I start working inside the dot-relative directory path \"./satchel;archive\"?",
+      "Go to the dot-relative directory path \"./satchel;archive\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0103",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/satchel;archive"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/satchel;archive\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/satchel;archive\".",
+      "Make the parent-relative directory path \"../workspace/satchel;archive\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/satchel;archive\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/satchel;archive\"?",
+      "Go to the parent-relative directory path \"../workspace/satchel;archive\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0104",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/satchel;archive"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/satchel;archive\".",
+      "I want this shell to work from the absolute directory path \"/workspace/satchel;archive\".",
+      "Make the absolute directory path \"/workspace/satchel;archive\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/satchel;archive\".",
+      "Can I start working inside the absolute directory path \"/workspace/satchel;archive\"?",
+      "Go to the absolute directory path \"/workspace/satchel;archive\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0105",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "mosaic*literal"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"mosaic*literal\".",
+      "I want this shell to work from the relative directory path \"mosaic*literal\".",
+      "Make the relative directory path \"mosaic*literal\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"mosaic*literal\".",
+      "Can I start working inside the relative directory path \"mosaic*literal\"?",
+      "Go to the relative directory path \"mosaic*literal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0106",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./mosaic*literal"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./mosaic*literal\".",
+      "I want this shell to work from the dot-relative directory path \"./mosaic*literal\".",
+      "Make the dot-relative directory path \"./mosaic*literal\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./mosaic*literal\".",
+      "Can I start working inside the dot-relative directory path \"./mosaic*literal\"?",
+      "Go to the dot-relative directory path \"./mosaic*literal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0107",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/mosaic*literal"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/mosaic*literal\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/mosaic*literal\".",
+      "Make the parent-relative directory path \"../workspace/mosaic*literal\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/mosaic*literal\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/mosaic*literal\"?",
+      "Go to the parent-relative directory path \"../workspace/mosaic*literal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0108",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/mosaic*literal"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/mosaic*literal\".",
+      "I want this shell to work from the absolute directory path \"/workspace/mosaic*literal\".",
+      "Make the absolute directory path \"/workspace/mosaic*literal\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/mosaic*literal\".",
+      "Can I start working inside the absolute directory path \"/workspace/mosaic*literal\"?",
+      "Go to the absolute directory path \"/workspace/mosaic*literal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0109",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "relay[draft]"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"relay[draft]\".",
+      "I want this shell to work from the relative directory path \"relay[draft]\".",
+      "Make the relative directory path \"relay[draft]\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"relay[draft]\".",
+      "Can I start working inside the relative directory path \"relay[draft]\"?",
+      "Go to the relative directory path \"relay[draft]\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0110",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./relay[draft]"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./relay[draft]\".",
+      "I want this shell to work from the dot-relative directory path \"./relay[draft]\".",
+      "Make the dot-relative directory path \"./relay[draft]\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./relay[draft]\".",
+      "Can I start working inside the dot-relative directory path \"./relay[draft]\"?",
+      "Go to the dot-relative directory path \"./relay[draft]\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0111",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/relay[draft]"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/relay[draft]\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/relay[draft]\".",
+      "Make the parent-relative directory path \"../workspace/relay[draft]\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/relay[draft]\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/relay[draft]\"?",
+      "Go to the parent-relative directory path \"../workspace/relay[draft]\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0112",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/relay[draft]"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/relay[draft]\".",
+      "I want this shell to work from the absolute directory path \"/workspace/relay[draft]\".",
+      "Make the absolute directory path \"/workspace/relay[draft]\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/relay[draft]\".",
+      "Can I start working inside the absolute directory path \"/workspace/relay[draft]\"?",
+      "Go to the absolute directory path \"/workspace/relay[draft]\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0113",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "vector-café"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"vector-café\".",
+      "I want this shell to work from the relative directory path \"vector-café\".",
+      "Make the relative directory path \"vector-café\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"vector-café\".",
+      "Can I start working inside the relative directory path \"vector-café\"?",
+      "Go to the relative directory path \"vector-café\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0114",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./vector-café"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./vector-café\".",
+      "I want this shell to work from the dot-relative directory path \"./vector-café\".",
+      "Make the dot-relative directory path \"./vector-café\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./vector-café\".",
+      "Can I start working inside the dot-relative directory path \"./vector-café\"?",
+      "Go to the dot-relative directory path \"./vector-café\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0115",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/vector-café"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/vector-café\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/vector-café\".",
+      "Make the parent-relative directory path \"../workspace/vector-café\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/vector-café\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/vector-café\"?",
+      "Go to the parent-relative directory path \"../workspace/vector-café\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0116",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/vector-café"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/vector-café\".",
+      "I want this shell to work from the absolute directory path \"/workspace/vector-café\".",
+      "Make the absolute directory path \"/workspace/vector-café\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/vector-café\".",
+      "Can I start working inside the absolute directory path \"/workspace/vector-café\"?",
+      "Go to the absolute directory path \"/workspace/vector-café\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0117",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "loam field records"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"loam field records\".",
+      "I want this shell to work from the relative directory path \"loam field records\".",
+      "Make the relative directory path \"loam field records\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"loam field records\".",
+      "Can I start working inside the relative directory path \"loam field records\"?",
+      "Go to the relative directory path \"loam field records\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0118",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./loam field records"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./loam field records\".",
+      "I want this shell to work from the dot-relative directory path \"./loam field records\".",
+      "Make the dot-relative directory path \"./loam field records\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./loam field records\".",
+      "Can I start working inside the dot-relative directory path \"./loam field records\"?",
+      "Go to the dot-relative directory path \"./loam field records\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0119",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/loam field records"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/loam field records\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/loam field records\".",
+      "Make the parent-relative directory path \"../workspace/loam field records\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/loam field records\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/loam field records\"?",
+      "Go to the parent-relative directory path \"../workspace/loam field records\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0120",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/loam field records"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/loam field records\".",
+      "I want this shell to work from the absolute directory path \"/workspace/loam field records\".",
+      "Make the absolute directory path \"/workspace/loam field records\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/loam field records\".",
+      "Can I start working inside the absolute directory path \"/workspace/loam field records\"?",
+      "Go to the absolute directory path \"/workspace/loam field records\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0121",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "quarry-journal"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"quarry-journal\".",
+      "I want this shell to work from the relative directory path \"quarry-journal\".",
+      "Make the relative directory path \"quarry-journal\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"quarry-journal\".",
+      "Can I start working inside the relative directory path \"quarry-journal\"?",
+      "Go to the relative directory path \"quarry-journal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0122",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./quarry-journal"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./quarry-journal\".",
+      "I want this shell to work from the dot-relative directory path \"./quarry-journal\".",
+      "Make the dot-relative directory path \"./quarry-journal\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./quarry-journal\".",
+      "Can I start working inside the dot-relative directory path \"./quarry-journal\"?",
+      "Go to the dot-relative directory path \"./quarry-journal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0123",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/quarry-journal"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/quarry-journal\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/quarry-journal\".",
+      "Make the parent-relative directory path \"../workspace/quarry-journal\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/quarry-journal\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/quarry-journal\"?",
+      "Go to the parent-relative directory path \"../workspace/quarry-journal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0124",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/quarry-journal"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/quarry-journal\".",
+      "I want this shell to work from the absolute directory path \"/workspace/quarry-journal\".",
+      "Make the absolute directory path \"/workspace/quarry-journal\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/quarry-journal\".",
+      "Can I start working inside the absolute directory path \"/workspace/quarry-journal\"?",
+      "Go to the absolute directory path \"/workspace/quarry-journal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0125",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "ribbon working notes"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"ribbon working notes\".",
+      "I want this shell to work from the relative directory path \"ribbon working notes\".",
+      "Make the relative directory path \"ribbon working notes\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"ribbon working notes\".",
+      "Can I start working inside the relative directory path \"ribbon working notes\"?",
+      "Go to the relative directory path \"ribbon working notes\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0126",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./ribbon working notes"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./ribbon working notes\".",
+      "I want this shell to work from the dot-relative directory path \"./ribbon working notes\".",
+      "Make the dot-relative directory path \"./ribbon working notes\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./ribbon working notes\".",
+      "Can I start working inside the dot-relative directory path \"./ribbon working notes\"?",
+      "Go to the dot-relative directory path \"./ribbon working notes\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0127",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/ribbon working notes"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/ribbon working notes\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/ribbon working notes\".",
+      "Make the parent-relative directory path \"../workspace/ribbon working notes\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/ribbon working notes\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/ribbon working notes\"?",
+      "Go to the parent-relative directory path \"../workspace/ribbon working notes\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0128",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/ribbon working notes"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/ribbon working notes\".",
+      "I want this shell to work from the absolute directory path \"/workspace/ribbon working notes\".",
+      "Make the absolute directory path \"/workspace/ribbon working notes\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/ribbon working notes\".",
+      "Can I start working inside the absolute directory path \"/workspace/ribbon working notes\"?",
+      "Go to the absolute directory path \"/workspace/ribbon working notes\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0129",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "cassette's notebook"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"cassette's notebook\".",
+      "I want this shell to work from the relative directory path \"cassette's notebook\".",
+      "Make the relative directory path \"cassette's notebook\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"cassette's notebook\".",
+      "Can I start working inside the relative directory path \"cassette's notebook\"?",
+      "Go to the relative directory path \"cassette's notebook\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0130",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./cassette's notebook"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./cassette's notebook\".",
+      "I want this shell to work from the dot-relative directory path \"./cassette's notebook\".",
+      "Make the dot-relative directory path \"./cassette's notebook\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./cassette's notebook\".",
+      "Can I start working inside the dot-relative directory path \"./cassette's notebook\"?",
+      "Go to the dot-relative directory path \"./cassette's notebook\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0131",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/cassette's notebook"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/cassette's notebook\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/cassette's notebook\".",
+      "Make the parent-relative directory path \"../workspace/cassette's notebook\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/cassette's notebook\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/cassette's notebook\"?",
+      "Go to the parent-relative directory path \"../workspace/cassette's notebook\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0132",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/cassette's notebook"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/cassette's notebook\".",
+      "I want this shell to work from the absolute directory path \"/workspace/cassette's notebook\".",
+      "Make the absolute directory path \"/workspace/cassette's notebook\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/cassette's notebook\".",
+      "Can I start working inside the absolute directory path \"/workspace/cassette's notebook\"?",
+      "Go to the absolute directory path \"/workspace/cassette's notebook\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0133",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "-loom-draft"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"-loom-draft\".",
+      "I want this shell to work from the relative directory path \"-loom-draft\".",
+      "Make the relative directory path \"-loom-draft\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"-loom-draft\".",
+      "Can I start working inside the relative directory path \"-loom-draft\"?",
+      "Go to the relative directory path \"-loom-draft\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0134",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./-loom-draft"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./-loom-draft\".",
+      "I want this shell to work from the dot-relative directory path \"./-loom-draft\".",
+      "Make the dot-relative directory path \"./-loom-draft\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./-loom-draft\".",
+      "Can I start working inside the dot-relative directory path \"./-loom-draft\"?",
+      "Go to the dot-relative directory path \"./-loom-draft\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0135",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/-loom-draft"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/-loom-draft\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/-loom-draft\".",
+      "Make the parent-relative directory path \"../workspace/-loom-draft\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/-loom-draft\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/-loom-draft\"?",
+      "Go to the parent-relative directory path \"../workspace/-loom-draft\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0136",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/-loom-draft"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/-loom-draft\".",
+      "I want this shell to work from the absolute directory path \"/workspace/-loom-draft\".",
+      "Make the absolute directory path \"/workspace/-loom-draft\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/-loom-draft\".",
+      "Can I start working inside the absolute directory path \"/workspace/-loom-draft\"?",
+      "Go to the absolute directory path \"/workspace/-loom-draft\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0137",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "terrace-$budget"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"terrace-$budget\".",
+      "I want this shell to work from the relative directory path \"terrace-$budget\".",
+      "Make the relative directory path \"terrace-$budget\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"terrace-$budget\".",
+      "Can I start working inside the relative directory path \"terrace-$budget\"?",
+      "Go to the relative directory path \"terrace-$budget\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0138",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./terrace-$budget"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./terrace-$budget\".",
+      "I want this shell to work from the dot-relative directory path \"./terrace-$budget\".",
+      "Make the dot-relative directory path \"./terrace-$budget\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./terrace-$budget\".",
+      "Can I start working inside the dot-relative directory path \"./terrace-$budget\"?",
+      "Go to the dot-relative directory path \"./terrace-$budget\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0139",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/terrace-$budget"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/terrace-$budget\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/terrace-$budget\".",
+      "Make the parent-relative directory path \"../workspace/terrace-$budget\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/terrace-$budget\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/terrace-$budget\"?",
+      "Go to the parent-relative directory path \"../workspace/terrace-$budget\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0140",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/terrace-$budget"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/terrace-$budget\".",
+      "I want this shell to work from the absolute directory path \"/workspace/terrace-$budget\".",
+      "Make the absolute directory path \"/workspace/terrace-$budget\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/terrace-$budget\".",
+      "Can I start working inside the absolute directory path \"/workspace/terrace-$budget\"?",
+      "Go to the absolute directory path \"/workspace/terrace-$budget\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0141",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "depot;archive"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"depot;archive\".",
+      "I want this shell to work from the relative directory path \"depot;archive\".",
+      "Make the relative directory path \"depot;archive\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"depot;archive\".",
+      "Can I start working inside the relative directory path \"depot;archive\"?",
+      "Go to the relative directory path \"depot;archive\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0142",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./depot;archive"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./depot;archive\".",
+      "I want this shell to work from the dot-relative directory path \"./depot;archive\".",
+      "Make the dot-relative directory path \"./depot;archive\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./depot;archive\".",
+      "Can I start working inside the dot-relative directory path \"./depot;archive\"?",
+      "Go to the dot-relative directory path \"./depot;archive\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0143",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/depot;archive"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/depot;archive\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/depot;archive\".",
+      "Make the parent-relative directory path \"../workspace/depot;archive\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/depot;archive\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/depot;archive\"?",
+      "Go to the parent-relative directory path \"../workspace/depot;archive\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0144",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/depot;archive"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/depot;archive\".",
+      "I want this shell to work from the absolute directory path \"/workspace/depot;archive\".",
+      "Make the absolute directory path \"/workspace/depot;archive\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/depot;archive\".",
+      "Can I start working inside the absolute directory path \"/workspace/depot;archive\"?",
+      "Go to the absolute directory path \"/workspace/depot;archive\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0145",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "estuary*literal"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"estuary*literal\".",
+      "I want this shell to work from the relative directory path \"estuary*literal\".",
+      "Make the relative directory path \"estuary*literal\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"estuary*literal\".",
+      "Can I start working inside the relative directory path \"estuary*literal\"?",
+      "Go to the relative directory path \"estuary*literal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0146",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./estuary*literal"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./estuary*literal\".",
+      "I want this shell to work from the dot-relative directory path \"./estuary*literal\".",
+      "Make the dot-relative directory path \"./estuary*literal\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./estuary*literal\".",
+      "Can I start working inside the dot-relative directory path \"./estuary*literal\"?",
+      "Go to the dot-relative directory path \"./estuary*literal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0147",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/estuary*literal"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/estuary*literal\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/estuary*literal\".",
+      "Make the parent-relative directory path \"../workspace/estuary*literal\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/estuary*literal\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/estuary*literal\"?",
+      "Go to the parent-relative directory path \"../workspace/estuary*literal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0148",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/estuary*literal"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/estuary*literal\".",
+      "I want this shell to work from the absolute directory path \"/workspace/estuary*literal\".",
+      "Make the absolute directory path \"/workspace/estuary*literal\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/estuary*literal\".",
+      "Can I start working inside the absolute directory path \"/workspace/estuary*literal\"?",
+      "Go to the absolute directory path \"/workspace/estuary*literal\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0149",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "thimble[draft]"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"thimble[draft]\".",
+      "I want this shell to work from the relative directory path \"thimble[draft]\".",
+      "Make the relative directory path \"thimble[draft]\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"thimble[draft]\".",
+      "Can I start working inside the relative directory path \"thimble[draft]\"?",
+      "Go to the relative directory path \"thimble[draft]\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0150",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./thimble[draft]"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./thimble[draft]\".",
+      "I want this shell to work from the dot-relative directory path \"./thimble[draft]\".",
+      "Make the dot-relative directory path \"./thimble[draft]\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./thimble[draft]\".",
+      "Can I start working inside the dot-relative directory path \"./thimble[draft]\"?",
+      "Go to the dot-relative directory path \"./thimble[draft]\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0151",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/thimble[draft]"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/thimble[draft]\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/thimble[draft]\".",
+      "Make the parent-relative directory path \"../workspace/thimble[draft]\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/thimble[draft]\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/thimble[draft]\"?",
+      "Go to the parent-relative directory path \"../workspace/thimble[draft]\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0152",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/thimble[draft]"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/thimble[draft]\".",
+      "I want this shell to work from the absolute directory path \"/workspace/thimble[draft]\".",
+      "Make the absolute directory path \"/workspace/thimble[draft]\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/thimble[draft]\".",
+      "Can I start working inside the absolute directory path \"/workspace/thimble[draft]\"?",
+      "Go to the absolute directory path \"/workspace/thimble[draft]\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0153",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "pigment-café"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"pigment-café\".",
+      "I want this shell to work from the relative directory path \"pigment-café\".",
+      "Make the relative directory path \"pigment-café\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"pigment-café\".",
+      "Can I start working inside the relative directory path \"pigment-café\"?",
+      "Go to the relative directory path \"pigment-café\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0154",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./pigment-café"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./pigment-café\".",
+      "I want this shell to work from the dot-relative directory path \"./pigment-café\".",
+      "Make the dot-relative directory path \"./pigment-café\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./pigment-café\".",
+      "Can I start working inside the dot-relative directory path \"./pigment-café\"?",
+      "Go to the dot-relative directory path \"./pigment-café\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0155",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/pigment-café"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/pigment-café\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/pigment-café\".",
+      "Make the parent-relative directory path \"../workspace/pigment-café\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/pigment-café\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/pigment-café\"?",
+      "Go to the parent-relative directory path \"../workspace/pigment-café\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0156",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/pigment-café"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/pigment-café\".",
+      "I want this shell to work from the absolute directory path \"/workspace/pigment-café\".",
+      "Make the absolute directory path \"/workspace/pigment-café\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/pigment-café\".",
+      "Can I start working inside the absolute directory path \"/workspace/pigment-café\"?",
+      "Go to the absolute directory path \"/workspace/pigment-café\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0157",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "junction field records"
+    },
+    "requests": [
+      "Take my terminal into the relative directory path \"junction field records\".",
+      "I want this shell to work from the relative directory path \"junction field records\".",
+      "Make the relative directory path \"junction field records\" the active working directory.",
+      "Switch the terminal's location to the relative directory path \"junction field records\".",
+      "Can I start working inside the relative directory path \"junction field records\"?",
+      "Go to the relative directory path \"junction field records\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0158",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "./junction field records"
+    },
+    "requests": [
+      "Take my terminal into the dot-relative directory path \"./junction field records\".",
+      "I want this shell to work from the dot-relative directory path \"./junction field records\".",
+      "Make the dot-relative directory path \"./junction field records\" the active working directory.",
+      "Switch the terminal's location to the dot-relative directory path \"./junction field records\".",
+      "Can I start working inside the dot-relative directory path \"./junction field records\"?",
+      "Go to the dot-relative directory path \"./junction field records\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0159",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/junction field records"
+    },
+    "requests": [
+      "Take my terminal into the parent-relative directory path \"../workspace/junction field records\".",
+      "I want this shell to work from the parent-relative directory path \"../workspace/junction field records\".",
+      "Make the parent-relative directory path \"../workspace/junction field records\" the active working directory.",
+      "Switch the terminal's location to the parent-relative directory path \"../workspace/junction field records\".",
+      "Can I start working inside the parent-relative directory path \"../workspace/junction field records\"?",
+      "Go to the parent-relative directory path \"../workspace/junction field records\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0160",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/junction field records"
+    },
+    "requests": [
+      "Take my terminal into the absolute directory path \"/workspace/junction field records\".",
+      "I want this shell to work from the absolute directory path \"/workspace/junction field records\".",
+      "Make the absolute directory path \"/workspace/junction field records\" the active working directory.",
+      "Switch the terminal's location to the absolute directory path \"/workspace/junction field records\".",
+      "Can I start working inside the absolute directory path \"/workspace/junction field records\"?",
+      "Go to the absolute directory path \"/workspace/junction field records\" in this shell session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0161",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "verdigris-journal"
+    },
+    "requests": [
+      "Set the session's working location to the relative directory path \"verdigris-journal\".",
+      "From now on, operate in the relative directory path \"verdigris-journal\".",
+      "Move the shell's current location into the relative directory path \"verdigris-journal\".",
+      "Use the relative directory path \"verdigris-journal\" as my current directory.",
+      "The terminal should be positioned at the relative directory path \"verdigris-journal\".",
+      "Change where this session is working: the relative directory path \"verdigris-journal\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0162",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "./verdigris-journal"
+    },
+    "requests": [
+      "Set the session's working location to the dot-relative directory path \"./verdigris-journal\".",
+      "From now on, operate in the dot-relative directory path \"./verdigris-journal\".",
+      "Move the shell's current location into the dot-relative directory path \"./verdigris-journal\".",
+      "Use the dot-relative directory path \"./verdigris-journal\" as my current directory.",
+      "The terminal should be positioned at the dot-relative directory path \"./verdigris-journal\".",
+      "Change where this session is working: the dot-relative directory path \"./verdigris-journal\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0163",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/verdigris-journal"
+    },
+    "requests": [
+      "Set the session's working location to the parent-relative directory path \"../workspace/verdigris-journal\".",
+      "From now on, operate in the parent-relative directory path \"../workspace/verdigris-journal\".",
+      "Move the shell's current location into the parent-relative directory path \"../workspace/verdigris-journal\".",
+      "Use the parent-relative directory path \"../workspace/verdigris-journal\" as my current directory.",
+      "The terminal should be positioned at the parent-relative directory path \"../workspace/verdigris-journal\".",
+      "Change where this session is working: the parent-relative directory path \"../workspace/verdigris-journal\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0164",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/verdigris-journal"
+    },
+    "requests": [
+      "Set the session's working location to the absolute directory path \"/workspace/verdigris-journal\".",
+      "From now on, operate in the absolute directory path \"/workspace/verdigris-journal\".",
+      "Move the shell's current location into the absolute directory path \"/workspace/verdigris-journal\".",
+      "Use the absolute directory path \"/workspace/verdigris-journal\" as my current directory.",
+      "The terminal should be positioned at the absolute directory path \"/workspace/verdigris-journal\".",
+      "Change where this session is working: the absolute directory path \"/workspace/verdigris-journal\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0165",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "mariner working notes"
+    },
+    "requests": [
+      "Set the session's working location to the relative directory path \"mariner working notes\".",
+      "From now on, operate in the relative directory path \"mariner working notes\".",
+      "Move the shell's current location into the relative directory path \"mariner working notes\".",
+      "Use the relative directory path \"mariner working notes\" as my current directory.",
+      "The terminal should be positioned at the relative directory path \"mariner working notes\".",
+      "Change where this session is working: the relative directory path \"mariner working notes\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0166",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "./mariner working notes"
+    },
+    "requests": [
+      "Set the session's working location to the dot-relative directory path \"./mariner working notes\".",
+      "From now on, operate in the dot-relative directory path \"./mariner working notes\".",
+      "Move the shell's current location into the dot-relative directory path \"./mariner working notes\".",
+      "Use the dot-relative directory path \"./mariner working notes\" as my current directory.",
+      "The terminal should be positioned at the dot-relative directory path \"./mariner working notes\".",
+      "Change where this session is working: the dot-relative directory path \"./mariner working notes\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0167",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/mariner working notes"
+    },
+    "requests": [
+      "Set the session's working location to the parent-relative directory path \"../workspace/mariner working notes\".",
+      "From now on, operate in the parent-relative directory path \"../workspace/mariner working notes\".",
+      "Move the shell's current location into the parent-relative directory path \"../workspace/mariner working notes\".",
+      "Use the parent-relative directory path \"../workspace/mariner working notes\" as my current directory.",
+      "The terminal should be positioned at the parent-relative directory path \"../workspace/mariner working notes\".",
+      "Change where this session is working: the parent-relative directory path \"../workspace/mariner working notes\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0168",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/mariner working notes"
+    },
+    "requests": [
+      "Set the session's working location to the absolute directory path \"/workspace/mariner working notes\".",
+      "From now on, operate in the absolute directory path \"/workspace/mariner working notes\".",
+      "Move the shell's current location into the absolute directory path \"/workspace/mariner working notes\".",
+      "Use the absolute directory path \"/workspace/mariner working notes\" as my current directory.",
+      "The terminal should be positioned at the absolute directory path \"/workspace/mariner working notes\".",
+      "Change where this session is working: the absolute directory path \"/workspace/mariner working notes\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0169",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "vellum's notebook"
+    },
+    "requests": [
+      "Set the session's working location to the relative directory path \"vellum's notebook\".",
+      "From now on, operate in the relative directory path \"vellum's notebook\".",
+      "Move the shell's current location into the relative directory path \"vellum's notebook\".",
+      "Use the relative directory path \"vellum's notebook\" as my current directory.",
+      "The terminal should be positioned at the relative directory path \"vellum's notebook\".",
+      "Change where this session is working: the relative directory path \"vellum's notebook\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0170",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "./vellum's notebook"
+    },
+    "requests": [
+      "Set the session's working location to the dot-relative directory path \"./vellum's notebook\".",
+      "From now on, operate in the dot-relative directory path \"./vellum's notebook\".",
+      "Move the shell's current location into the dot-relative directory path \"./vellum's notebook\".",
+      "Use the dot-relative directory path \"./vellum's notebook\" as my current directory.",
+      "The terminal should be positioned at the dot-relative directory path \"./vellum's notebook\".",
+      "Change where this session is working: the dot-relative directory path \"./vellum's notebook\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0171",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/vellum's notebook"
+    },
+    "requests": [
+      "Set the session's working location to the parent-relative directory path \"../workspace/vellum's notebook\".",
+      "From now on, operate in the parent-relative directory path \"../workspace/vellum's notebook\".",
+      "Move the shell's current location into the parent-relative directory path \"../workspace/vellum's notebook\".",
+      "Use the parent-relative directory path \"../workspace/vellum's notebook\" as my current directory.",
+      "The terminal should be positioned at the parent-relative directory path \"../workspace/vellum's notebook\".",
+      "Change where this session is working: the parent-relative directory path \"../workspace/vellum's notebook\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0172",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/vellum's notebook"
+    },
+    "requests": [
+      "Set the session's working location to the absolute directory path \"/workspace/vellum's notebook\".",
+      "From now on, operate in the absolute directory path \"/workspace/vellum's notebook\".",
+      "Move the shell's current location into the absolute directory path \"/workspace/vellum's notebook\".",
+      "Use the absolute directory path \"/workspace/vellum's notebook\" as my current directory.",
+      "The terminal should be positioned at the absolute directory path \"/workspace/vellum's notebook\".",
+      "Change where this session is working: the absolute directory path \"/workspace/vellum's notebook\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0173",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "-coracle-draft"
+    },
+    "requests": [
+      "Set the session's working location to the relative directory path \"-coracle-draft\".",
+      "From now on, operate in the relative directory path \"-coracle-draft\".",
+      "Move the shell's current location into the relative directory path \"-coracle-draft\".",
+      "Use the relative directory path \"-coracle-draft\" as my current directory.",
+      "The terminal should be positioned at the relative directory path \"-coracle-draft\".",
+      "Change where this session is working: the relative directory path \"-coracle-draft\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0174",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "./-coracle-draft"
+    },
+    "requests": [
+      "Set the session's working location to the dot-relative directory path \"./-coracle-draft\".",
+      "From now on, operate in the dot-relative directory path \"./-coracle-draft\".",
+      "Move the shell's current location into the dot-relative directory path \"./-coracle-draft\".",
+      "Use the dot-relative directory path \"./-coracle-draft\" as my current directory.",
+      "The terminal should be positioned at the dot-relative directory path \"./-coracle-draft\".",
+      "Change where this session is working: the dot-relative directory path \"./-coracle-draft\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0175",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/-coracle-draft"
+    },
+    "requests": [
+      "Set the session's working location to the parent-relative directory path \"../workspace/-coracle-draft\".",
+      "From now on, operate in the parent-relative directory path \"../workspace/-coracle-draft\".",
+      "Move the shell's current location into the parent-relative directory path \"../workspace/-coracle-draft\".",
+      "Use the parent-relative directory path \"../workspace/-coracle-draft\" as my current directory.",
+      "The terminal should be positioned at the parent-relative directory path \"../workspace/-coracle-draft\".",
+      "Change where this session is working: the parent-relative directory path \"../workspace/-coracle-draft\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0176",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/-coracle-draft"
+    },
+    "requests": [
+      "Set the session's working location to the absolute directory path \"/workspace/-coracle-draft\".",
+      "From now on, operate in the absolute directory path \"/workspace/-coracle-draft\".",
+      "Move the shell's current location into the absolute directory path \"/workspace/-coracle-draft\".",
+      "Use the absolute directory path \"/workspace/-coracle-draft\" as my current directory.",
+      "The terminal should be positioned at the absolute directory path \"/workspace/-coracle-draft\".",
+      "Change where this session is working: the absolute directory path \"/workspace/-coracle-draft\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0177",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "fulcrum-$budget"
+    },
+    "requests": [
+      "Set the session's working location to the relative directory path \"fulcrum-$budget\".",
+      "From now on, operate in the relative directory path \"fulcrum-$budget\".",
+      "Move the shell's current location into the relative directory path \"fulcrum-$budget\".",
+      "Use the relative directory path \"fulcrum-$budget\" as my current directory.",
+      "The terminal should be positioned at the relative directory path \"fulcrum-$budget\".",
+      "Change where this session is working: the relative directory path \"fulcrum-$budget\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0178",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "./fulcrum-$budget"
+    },
+    "requests": [
+      "Set the session's working location to the dot-relative directory path \"./fulcrum-$budget\".",
+      "From now on, operate in the dot-relative directory path \"./fulcrum-$budget\".",
+      "Move the shell's current location into the dot-relative directory path \"./fulcrum-$budget\".",
+      "Use the dot-relative directory path \"./fulcrum-$budget\" as my current directory.",
+      "The terminal should be positioned at the dot-relative directory path \"./fulcrum-$budget\".",
+      "Change where this session is working: the dot-relative directory path \"./fulcrum-$budget\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0179",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/fulcrum-$budget"
+    },
+    "requests": [
+      "Set the session's working location to the parent-relative directory path \"../workspace/fulcrum-$budget\".",
+      "From now on, operate in the parent-relative directory path \"../workspace/fulcrum-$budget\".",
+      "Move the shell's current location into the parent-relative directory path \"../workspace/fulcrum-$budget\".",
+      "Use the parent-relative directory path \"../workspace/fulcrum-$budget\" as my current directory.",
+      "The terminal should be positioned at the parent-relative directory path \"../workspace/fulcrum-$budget\".",
+      "Change where this session is working: the parent-relative directory path \"../workspace/fulcrum-$budget\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0180",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/fulcrum-$budget"
+    },
+    "requests": [
+      "Set the session's working location to the absolute directory path \"/workspace/fulcrum-$budget\".",
+      "From now on, operate in the absolute directory path \"/workspace/fulcrum-$budget\".",
+      "Move the shell's current location into the absolute directory path \"/workspace/fulcrum-$budget\".",
+      "Use the absolute directory path \"/workspace/fulcrum-$budget\" as my current directory.",
+      "The terminal should be positioned at the absolute directory path \"/workspace/fulcrum-$budget\".",
+      "Change where this session is working: the absolute directory path \"/workspace/fulcrum-$budget\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0181",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "tundralake;archive"
+    },
+    "requests": [
+      "Set the session's working location to the relative directory path \"tundralake;archive\".",
+      "From now on, operate in the relative directory path \"tundralake;archive\".",
+      "Move the shell's current location into the relative directory path \"tundralake;archive\".",
+      "Use the relative directory path \"tundralake;archive\" as my current directory.",
+      "The terminal should be positioned at the relative directory path \"tundralake;archive\".",
+      "Change where this session is working: the relative directory path \"tundralake;archive\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0182",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "./tundralake;archive"
+    },
+    "requests": [
+      "Set the session's working location to the dot-relative directory path \"./tundralake;archive\".",
+      "From now on, operate in the dot-relative directory path \"./tundralake;archive\".",
+      "Move the shell's current location into the dot-relative directory path \"./tundralake;archive\".",
+      "Use the dot-relative directory path \"./tundralake;archive\" as my current directory.",
+      "The terminal should be positioned at the dot-relative directory path \"./tundralake;archive\".",
+      "Change where this session is working: the dot-relative directory path \"./tundralake;archive\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0183",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/tundralake;archive"
+    },
+    "requests": [
+      "Set the session's working location to the parent-relative directory path \"../workspace/tundralake;archive\".",
+      "From now on, operate in the parent-relative directory path \"../workspace/tundralake;archive\".",
+      "Move the shell's current location into the parent-relative directory path \"../workspace/tundralake;archive\".",
+      "Use the parent-relative directory path \"../workspace/tundralake;archive\" as my current directory.",
+      "The terminal should be positioned at the parent-relative directory path \"../workspace/tundralake;archive\".",
+      "Change where this session is working: the parent-relative directory path \"../workspace/tundralake;archive\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0184",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/tundralake;archive"
+    },
+    "requests": [
+      "Set the session's working location to the absolute directory path \"/workspace/tundralake;archive\".",
+      "From now on, operate in the absolute directory path \"/workspace/tundralake;archive\".",
+      "Move the shell's current location into the absolute directory path \"/workspace/tundralake;archive\".",
+      "Use the absolute directory path \"/workspace/tundralake;archive\" as my current directory.",
+      "The terminal should be positioned at the absolute directory path \"/workspace/tundralake;archive\".",
+      "Change where this session is working: the absolute directory path \"/workspace/tundralake;archive\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0185",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "obsidian*literal"
+    },
+    "requests": [
+      "Set the session's working location to the relative directory path \"obsidian*literal\".",
+      "From now on, operate in the relative directory path \"obsidian*literal\".",
+      "Move the shell's current location into the relative directory path \"obsidian*literal\".",
+      "Use the relative directory path \"obsidian*literal\" as my current directory.",
+      "The terminal should be positioned at the relative directory path \"obsidian*literal\".",
+      "Change where this session is working: the relative directory path \"obsidian*literal\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0186",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "./obsidian*literal"
+    },
+    "requests": [
+      "Set the session's working location to the dot-relative directory path \"./obsidian*literal\".",
+      "From now on, operate in the dot-relative directory path \"./obsidian*literal\".",
+      "Move the shell's current location into the dot-relative directory path \"./obsidian*literal\".",
+      "Use the dot-relative directory path \"./obsidian*literal\" as my current directory.",
+      "The terminal should be positioned at the dot-relative directory path \"./obsidian*literal\".",
+      "Change where this session is working: the dot-relative directory path \"./obsidian*literal\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0187",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/obsidian*literal"
+    },
+    "requests": [
+      "Set the session's working location to the parent-relative directory path \"../workspace/obsidian*literal\".",
+      "From now on, operate in the parent-relative directory path \"../workspace/obsidian*literal\".",
+      "Move the shell's current location into the parent-relative directory path \"../workspace/obsidian*literal\".",
+      "Use the parent-relative directory path \"../workspace/obsidian*literal\" as my current directory.",
+      "The terminal should be positioned at the parent-relative directory path \"../workspace/obsidian*literal\".",
+      "Change where this session is working: the parent-relative directory path \"../workspace/obsidian*literal\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0188",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/obsidian*literal"
+    },
+    "requests": [
+      "Set the session's working location to the absolute directory path \"/workspace/obsidian*literal\".",
+      "From now on, operate in the absolute directory path \"/workspace/obsidian*literal\".",
+      "Move the shell's current location into the absolute directory path \"/workspace/obsidian*literal\".",
+      "Use the absolute directory path \"/workspace/obsidian*literal\" as my current directory.",
+      "The terminal should be positioned at the absolute directory path \"/workspace/obsidian*literal\".",
+      "Change where this session is working: the absolute directory path \"/workspace/obsidian*literal\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0189",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "meridian[draft]"
+    },
+    "requests": [
+      "Set the session's working location to the relative directory path \"meridian[draft]\".",
+      "From now on, operate in the relative directory path \"meridian[draft]\".",
+      "Move the shell's current location into the relative directory path \"meridian[draft]\".",
+      "Use the relative directory path \"meridian[draft]\" as my current directory.",
+      "The terminal should be positioned at the relative directory path \"meridian[draft]\".",
+      "Change where this session is working: the relative directory path \"meridian[draft]\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0190",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "./meridian[draft]"
+    },
+    "requests": [
+      "Set the session's working location to the dot-relative directory path \"./meridian[draft]\".",
+      "From now on, operate in the dot-relative directory path \"./meridian[draft]\".",
+      "Move the shell's current location into the dot-relative directory path \"./meridian[draft]\".",
+      "Use the dot-relative directory path \"./meridian[draft]\" as my current directory.",
+      "The terminal should be positioned at the dot-relative directory path \"./meridian[draft]\".",
+      "Change where this session is working: the dot-relative directory path \"./meridian[draft]\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0191",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/meridian[draft]"
+    },
+    "requests": [
+      "Set the session's working location to the parent-relative directory path \"../workspace/meridian[draft]\".",
+      "From now on, operate in the parent-relative directory path \"../workspace/meridian[draft]\".",
+      "Move the shell's current location into the parent-relative directory path \"../workspace/meridian[draft]\".",
+      "Use the parent-relative directory path \"../workspace/meridian[draft]\" as my current directory.",
+      "The terminal should be positioned at the parent-relative directory path \"../workspace/meridian[draft]\".",
+      "Change where this session is working: the parent-relative directory path \"../workspace/meridian[draft]\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0192",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/meridian[draft]"
+    },
+    "requests": [
+      "Set the session's working location to the absolute directory path \"/workspace/meridian[draft]\".",
+      "From now on, operate in the absolute directory path \"/workspace/meridian[draft]\".",
+      "Move the shell's current location into the absolute directory path \"/workspace/meridian[draft]\".",
+      "Use the absolute directory path \"/workspace/meridian[draft]\" as my current directory.",
+      "The terminal should be positioned at the absolute directory path \"/workspace/meridian[draft]\".",
+      "Change where this session is working: the absolute directory path \"/workspace/meridian[draft]\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0193",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "palisade-café"
+    },
+    "requests": [
+      "Set the session's working location to the relative directory path \"palisade-café\".",
+      "From now on, operate in the relative directory path \"palisade-café\".",
+      "Move the shell's current location into the relative directory path \"palisade-café\".",
+      "Use the relative directory path \"palisade-café\" as my current directory.",
+      "The terminal should be positioned at the relative directory path \"palisade-café\".",
+      "Change where this session is working: the relative directory path \"palisade-café\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0194",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "./palisade-café"
+    },
+    "requests": [
+      "Set the session's working location to the dot-relative directory path \"./palisade-café\".",
+      "From now on, operate in the dot-relative directory path \"./palisade-café\".",
+      "Move the shell's current location into the dot-relative directory path \"./palisade-café\".",
+      "Use the dot-relative directory path \"./palisade-café\" as my current directory.",
+      "The terminal should be positioned at the dot-relative directory path \"./palisade-café\".",
+      "Change where this session is working: the dot-relative directory path \"./palisade-café\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0195",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/palisade-café"
+    },
+    "requests": [
+      "Set the session's working location to the parent-relative directory path \"../workspace/palisade-café\".",
+      "From now on, operate in the parent-relative directory path \"../workspace/palisade-café\".",
+      "Move the shell's current location into the parent-relative directory path \"../workspace/palisade-café\".",
+      "Use the parent-relative directory path \"../workspace/palisade-café\" as my current directory.",
+      "The terminal should be positioned at the parent-relative directory path \"../workspace/palisade-café\".",
+      "Change where this session is working: the parent-relative directory path \"../workspace/palisade-café\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0196",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/palisade-café"
+    },
+    "requests": [
+      "Set the session's working location to the absolute directory path \"/workspace/palisade-café\".",
+      "From now on, operate in the absolute directory path \"/workspace/palisade-café\".",
+      "Move the shell's current location into the absolute directory path \"/workspace/palisade-café\".",
+      "Use the absolute directory path \"/workspace/palisade-café\" as my current directory.",
+      "The terminal should be positioned at the absolute directory path \"/workspace/palisade-café\".",
+      "Change where this session is working: the absolute directory path \"/workspace/palisade-café\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0197",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "almanac field records"
+    },
+    "requests": [
+      "Set the session's working location to the relative directory path \"almanac field records\".",
+      "From now on, operate in the relative directory path \"almanac field records\".",
+      "Move the shell's current location into the relative directory path \"almanac field records\".",
+      "Use the relative directory path \"almanac field records\" as my current directory.",
+      "The terminal should be positioned at the relative directory path \"almanac field records\".",
+      "Change where this session is working: the relative directory path \"almanac field records\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0198",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "./almanac field records"
+    },
+    "requests": [
+      "Set the session's working location to the dot-relative directory path \"./almanac field records\".",
+      "From now on, operate in the dot-relative directory path \"./almanac field records\".",
+      "Move the shell's current location into the dot-relative directory path \"./almanac field records\".",
+      "Use the dot-relative directory path \"./almanac field records\" as my current directory.",
+      "The terminal should be positioned at the dot-relative directory path \"./almanac field records\".",
+      "Change where this session is working: the dot-relative directory path \"./almanac field records\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0199",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "../workspace/almanac field records"
+    },
+    "requests": [
+      "Set the session's working location to the parent-relative directory path \"../workspace/almanac field records\".",
+      "From now on, operate in the parent-relative directory path \"../workspace/almanac field records\".",
+      "Move the shell's current location into the parent-relative directory path \"../workspace/almanac field records\".",
+      "Use the parent-relative directory path \"../workspace/almanac field records\" as my current directory.",
+      "The terminal should be positioned at the parent-relative directory path \"../workspace/almanac field records\".",
+      "Change where this session is working: the parent-relative directory path \"../workspace/almanac field records\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-0200",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "path-resolution",
+    "split": "validation",
+    "intent": {
+      "op": "cd",
+      "destination": "/workspace/almanac field records"
+    },
+    "requests": [
+      "Set the session's working location to the absolute directory path \"/workspace/almanac field records\".",
+      "From now on, operate in the absolute directory path \"/workspace/almanac field records\".",
+      "Move the shell's current location into the absolute directory path \"/workspace/almanac field records\".",
+      "Use the absolute directory path \"/workspace/almanac field records\" as my current directory.",
+      "The terminal should be positioned at the absolute directory path \"/workspace/almanac field records\".",
+      "Change where this session is working: the absolute directory path \"/workspace/almanac field records\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-primitive-0",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "root-home-parent-current",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "/"
+    },
+    "requests": [
+      "Put the terminal at the filesystem root.",
+      "Go all the way to the top of the filesystem.",
+      "I want to work in the root of the Linux directory tree.",
+      "Take this session to the slash directory.",
+      "Switch into the filesystem's root folder.",
+      "Set my shell's directory to the topmost filesystem location."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-primitive-1",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "root-home-parent-current",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "~"
+    },
+    "requests": [
+      "Take the terminal back to my home folder.",
+      "Go to the personal home directory for this user.",
+      "I want to work from my account's home.",
+      "Switch the shell into my own home directory.",
+      "Use my login user's home as the working folder.",
+      "Navigate to my personal home folder in this session."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-primitive-2",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "root-home-parent-current",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": ".."
+    },
+    "requests": [
+      "Move this terminal up one directory level.",
+      "Go to the folder containing the current one.",
+      "I want to work in this folder's parent.",
+      "Take the shell one level higher in the directory tree.",
+      "Switch from this directory to its immediate parent.",
+      "Set the current location to the enclosing directory."
+    ]
+  },
+  {
+    "id": "coverage-v2-cd-primitive-3",
+    "family": "cd",
+    "topic": "navigation",
+    "capability": "root-home-parent-current",
+    "split": "train",
+    "intent": {
+      "op": "cd",
+      "destination": "."
+    },
+    "requests": [
+      "Keep this terminal in its current working directory.",
+      "Change directory to this same folder.",
+      "Stay at the working directory I'm already using.",
+      "Use the present folder as the shell's directory.",
+      "Switch to the directory represented by a single dot.",
+      "Go to the current directory itself."
+    ]
+  }
+]

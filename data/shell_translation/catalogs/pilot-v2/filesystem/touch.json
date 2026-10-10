@@ -1,0 +1,3587 @@
+[
+  {
+    "id": "pilot-v1-touch-01",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "copper scratch.txt"
+      ]
+    },
+    "requests": [
+      "create an empty file named copper scratch.txt",
+      "make an empty file named copper scratch.txt",
+      "I need an empty file named copper scratch.txt",
+      "add an empty file named copper scratch.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-02",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "blanks/mango.txt"
+      ]
+    },
+    "requests": [
+      "create an empty file named blanks/mango.txt",
+      "make an empty file named blanks/mango.txt",
+      "I need an empty file named blanks/mango.txt",
+      "add an empty file named blanks/mango.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-03",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "falcon-a.txt",
+        "falcon-b.txt"
+      ]
+    },
+    "requests": [
+      "create empty files named falcon-a.txt and falcon-b.txt",
+      "make empty files named falcon-a.txt and falcon-b.txt",
+      "I need empty files named falcon-a.txt and falcon-b.txt",
+      "add empty files named falcon-a.txt and falcon-b.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-04",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "orchid.new"
+      ]
+    },
+    "requests": [
+      "create an empty file named orchid.new",
+      "make an empty file named orchid.new",
+      "I need an empty file named orchid.new",
+      "add an empty file named orchid.new to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-05",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "nebula scratch.txt"
+      ]
+    },
+    "requests": [
+      "create an empty file named nebula scratch.txt",
+      "make an empty file named nebula scratch.txt",
+      "I need an empty file named nebula scratch.txt",
+      "add an empty file named nebula scratch.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-06",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "blanks/otter.txt"
+      ]
+    },
+    "requests": [
+      "create an empty file named blanks/otter.txt",
+      "make an empty file named blanks/otter.txt",
+      "I need an empty file named blanks/otter.txt",
+      "add an empty file named blanks/otter.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-07",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "cedar-a.txt",
+        "cedar-b.txt"
+      ]
+    },
+    "requests": [
+      "create empty files named cedar-a.txt and cedar-b.txt",
+      "make empty files named cedar-a.txt and cedar-b.txt",
+      "I need empty files named cedar-a.txt and cedar-b.txt",
+      "add empty files named cedar-a.txt and cedar-b.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-08",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "client's saffron scratch.txt"
+      ]
+    },
+    "requests": [
+      "create an empty file named client's saffron scratch.txt",
+      "make an empty file named client's saffron scratch.txt",
+      "I need an empty file named client's saffron scratch.txt",
+      "add an empty file named client's saffron scratch.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-09",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "marble scratch.txt"
+      ]
+    },
+    "requests": [
+      "create an empty file named marble scratch.txt",
+      "make an empty file named marble scratch.txt",
+      "I need an empty file named marble scratch.txt",
+      "add an empty file named marble scratch.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-10",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "blanks/comet.txt"
+      ]
+    },
+    "requests": [
+      "create an empty file named blanks/comet.txt",
+      "make an empty file named blanks/comet.txt",
+      "I need an empty file named blanks/comet.txt",
+      "add an empty file named blanks/comet.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-11",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "willow-a.txt",
+        "willow-b.txt"
+      ]
+    },
+    "requests": [
+      "create empty files named willow-a.txt and willow-b.txt",
+      "make empty files named willow-a.txt and willow-b.txt",
+      "I need empty files named willow-a.txt and willow-b.txt",
+      "add empty files named willow-a.txt and willow-b.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-12",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "-badger.new"
+      ]
+    },
+    "requests": [
+      "create an empty file named -badger.new",
+      "make an empty file named -badger.new",
+      "I need an empty file named -badger.new",
+      "add an empty file named -badger.new to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-13",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "quartz scratch.txt"
+      ]
+    },
+    "requests": [
+      "create an empty file named quartz scratch.txt",
+      "make an empty file named quartz scratch.txt",
+      "I need an empty file named quartz scratch.txt",
+      "add an empty file named quartz scratch.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-14",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "blanks/hazel.txt"
+      ]
+    },
+    "requests": [
+      "create an empty file named blanks/hazel.txt",
+      "make an empty file named blanks/hazel.txt",
+      "I need an empty file named blanks/hazel.txt",
+      "add an empty file named blanks/hazel.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-15",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "maple-a.txt",
+        "maple-b.txt"
+      ]
+    },
+    "requests": [
+      "create empty files named maple-a.txt and maple-b.txt",
+      "make empty files named maple-a.txt and maple-b.txt",
+      "I need empty files named maple-a.txt and maple-b.txt",
+      "add empty files named maple-a.txt and maple-b.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-16",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "raven.new"
+      ]
+    },
+    "requests": [
+      "create an empty file named raven.new",
+      "make an empty file named raven.new",
+      "I need an empty file named raven.new",
+      "add an empty file named raven.new to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-17",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "lotus scratch.txt"
+      ]
+    },
+    "requests": [
+      "create an empty file named lotus scratch.txt",
+      "make an empty file named lotus scratch.txt",
+      "I need an empty file named lotus scratch.txt",
+      "add an empty file named lotus scratch.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-18",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "blanks/birch.txt"
+      ]
+    },
+    "requests": [
+      "create an empty file named blanks/birch.txt",
+      "make an empty file named blanks/birch.txt",
+      "I need an empty file named blanks/birch.txt",
+      "add an empty file named blanks/birch.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-19",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "tundra-a.txt",
+        "tundra-b.txt"
+      ]
+    },
+    "requests": [
+      "create empty files named tundra-a.txt and tundra-b.txt",
+      "make empty files named tundra-a.txt and tundra-b.txt",
+      "I need empty files named tundra-a.txt and tundra-b.txt",
+      "add empty files named tundra-a.txt and tundra-b.txt to the filesystem"
+    ]
+  },
+  {
+    "id": "pilot-v1-touch-20",
+    "topic": "filesystem",
+    "family": "touch",
+    "capability": "empty-file-creation",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "zephyr.new"
+      ]
+    },
+    "requests": [
+      "create an empty file named zephyr.new",
+      "make an empty file named zephyr.new",
+      "I need an empty file named zephyr.new",
+      "add an empty file named zephyr.new to the filesystem"
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0001",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "cinder-journal.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"cinder-journal.txt\"; they don't exist yet.",
+      "I need a file named \"cinder-journal.txt\" with no contents yet.",
+      "Make a file named \"cinder-journal.txt\", leaving them empty.",
+      "Add a file named \"cinder-journal.txt\" as empty placeholders.",
+      "Can you create a file named \"cinder-journal.txt\" without writing any text?",
+      "Start with a file named \"cinder-journal.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0002",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "cinder-journal.txt",
+        "cinder-journal-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"cinder-journal.txt\" and \"cinder-journal-second.txt\"; they don't exist yet.",
+      "I need files named \"cinder-journal.txt\" and \"cinder-journal-second.txt\" with no contents yet.",
+      "Make files named \"cinder-journal.txt\" and \"cinder-journal-second.txt\", leaving them empty.",
+      "Add files named \"cinder-journal.txt\" and \"cinder-journal-second.txt\" as empty placeholders.",
+      "Can you create files named \"cinder-journal.txt\" and \"cinder-journal-second.txt\" without writing any text?",
+      "Start with files named \"cinder-journal.txt\" and \"cinder-journal-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0003",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "cinder-journal-tree/cinder-journal.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"cinder-journal.txt\" inside the existing folder \"cinder-journal-tree\".",
+      "Put a new blank file named \"cinder-journal.txt\" in \"cinder-journal-tree\".",
+      "I need an empty \"cinder-journal.txt\" file under \"cinder-journal-tree\".",
+      "Inside \"cinder-journal-tree\", create a file named \"cinder-journal.txt\" with no contents.",
+      "Make a zero-byte file named \"cinder-journal.txt\" in the directory \"cinder-journal-tree\".",
+      "Add an empty placeholder named \"cinder-journal.txt\" to \"cinder-journal-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0004",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "kiln working notes.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"kiln working notes.txt\"; they don't exist yet.",
+      "I need a file named \"kiln working notes.txt\" with no contents yet.",
+      "Make a file named \"kiln working notes.txt\", leaving them empty.",
+      "Add a file named \"kiln working notes.txt\" as empty placeholders.",
+      "Can you create a file named \"kiln working notes.txt\" without writing any text?",
+      "Start with a file named \"kiln working notes.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0005",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "kiln working notes.txt",
+        "kiln working notes-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"kiln working notes.txt\" and \"kiln working notes-second.txt\"; they don't exist yet.",
+      "I need files named \"kiln working notes.txt\" and \"kiln working notes-second.txt\" with no contents yet.",
+      "Make files named \"kiln working notes.txt\" and \"kiln working notes-second.txt\", leaving them empty.",
+      "Add files named \"kiln working notes.txt\" and \"kiln working notes-second.txt\" as empty placeholders.",
+      "Can you create files named \"kiln working notes.txt\" and \"kiln working notes-second.txt\" without writing any text?",
+      "Start with files named \"kiln working notes.txt\" and \"kiln working notes-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0006",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "kiln working notes-tree/kiln working notes.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"kiln working notes.txt\" inside the existing folder \"kiln working notes-tree\".",
+      "Put a new blank file named \"kiln working notes.txt\" in \"kiln working notes-tree\".",
+      "I need an empty \"kiln working notes.txt\" file under \"kiln working notes-tree\".",
+      "Inside \"kiln working notes-tree\", create a file named \"kiln working notes.txt\" with no contents.",
+      "Make a zero-byte file named \"kiln working notes.txt\" in the directory \"kiln working notes-tree\".",
+      "Add an empty placeholder named \"kiln working notes.txt\" to \"kiln working notes-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0007",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "ledger's notebook.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"ledger's notebook.txt\"; they don't exist yet.",
+      "I need a file named \"ledger's notebook.txt\" with no contents yet.",
+      "Make a file named \"ledger's notebook.txt\", leaving them empty.",
+      "Add a file named \"ledger's notebook.txt\" as empty placeholders.",
+      "Can you create a file named \"ledger's notebook.txt\" without writing any text?",
+      "Start with a file named \"ledger's notebook.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0008",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "ledger's notebook.txt",
+        "ledger's notebook-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"ledger's notebook.txt\" and \"ledger's notebook-second.txt\"; they don't exist yet.",
+      "I need files named \"ledger's notebook.txt\" and \"ledger's notebook-second.txt\" with no contents yet.",
+      "Make files named \"ledger's notebook.txt\" and \"ledger's notebook-second.txt\", leaving them empty.",
+      "Add files named \"ledger's notebook.txt\" and \"ledger's notebook-second.txt\" as empty placeholders.",
+      "Can you create files named \"ledger's notebook.txt\" and \"ledger's notebook-second.txt\" without writing any text?",
+      "Start with files named \"ledger's notebook.txt\" and \"ledger's notebook-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0009",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "ledger's notebook-tree/ledger's notebook.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"ledger's notebook.txt\" inside the existing folder \"ledger's notebook-tree\".",
+      "Put a new blank file named \"ledger's notebook.txt\" in \"ledger's notebook-tree\".",
+      "I need an empty \"ledger's notebook.txt\" file under \"ledger's notebook-tree\".",
+      "Inside \"ledger's notebook-tree\", create a file named \"ledger's notebook.txt\" with no contents.",
+      "Make a zero-byte file named \"ledger's notebook.txt\" in the directory \"ledger's notebook-tree\".",
+      "Add an empty placeholder named \"ledger's notebook.txt\" to \"ledger's notebook-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0010",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "-harbor-draft.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"-harbor-draft.txt\"; they don't exist yet.",
+      "I need a file named \"-harbor-draft.txt\" with no contents yet.",
+      "Make a file named \"-harbor-draft.txt\", leaving them empty.",
+      "Add a file named \"-harbor-draft.txt\" as empty placeholders.",
+      "Can you create a file named \"-harbor-draft.txt\" without writing any text?",
+      "Start with a file named \"-harbor-draft.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0011",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "-harbor-draft.txt",
+        "-harbor-draft-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"-harbor-draft.txt\" and \"-harbor-draft-second.txt\"; they don't exist yet.",
+      "I need files named \"-harbor-draft.txt\" and \"-harbor-draft-second.txt\" with no contents yet.",
+      "Make files named \"-harbor-draft.txt\" and \"-harbor-draft-second.txt\", leaving them empty.",
+      "Add files named \"-harbor-draft.txt\" and \"-harbor-draft-second.txt\" as empty placeholders.",
+      "Can you create files named \"-harbor-draft.txt\" and \"-harbor-draft-second.txt\" without writing any text?",
+      "Start with files named \"-harbor-draft.txt\" and \"-harbor-draft-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0012",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "./-harbor-draft-tree/-harbor-draft.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"-harbor-draft.txt\" inside the existing folder \"./-harbor-draft-tree\".",
+      "Put a new blank file named \"-harbor-draft.txt\" in \"./-harbor-draft-tree\".",
+      "I need an empty \"-harbor-draft.txt\" file under \"./-harbor-draft-tree\".",
+      "Inside \"./-harbor-draft-tree\", create a file named \"-harbor-draft.txt\" with no contents.",
+      "Make a zero-byte file named \"-harbor-draft.txt\" in the directory \"./-harbor-draft-tree\".",
+      "Add an empty placeholder named \"-harbor-draft.txt\" to \"./-harbor-draft-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0013",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "prism-$budget.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"prism-$budget.txt\"; they don't exist yet.",
+      "I need a file named \"prism-$budget.txt\" with no contents yet.",
+      "Make a file named \"prism-$budget.txt\", leaving them empty.",
+      "Add a file named \"prism-$budget.txt\" as empty placeholders.",
+      "Can you create a file named \"prism-$budget.txt\" without writing any text?",
+      "Start with a file named \"prism-$budget.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0014",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "prism-$budget.txt",
+        "prism-$budget-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"prism-$budget.txt\" and \"prism-$budget-second.txt\"; they don't exist yet.",
+      "I need files named \"prism-$budget.txt\" and \"prism-$budget-second.txt\" with no contents yet.",
+      "Make files named \"prism-$budget.txt\" and \"prism-$budget-second.txt\", leaving them empty.",
+      "Add files named \"prism-$budget.txt\" and \"prism-$budget-second.txt\" as empty placeholders.",
+      "Can you create files named \"prism-$budget.txt\" and \"prism-$budget-second.txt\" without writing any text?",
+      "Start with files named \"prism-$budget.txt\" and \"prism-$budget-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0015",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "prism-$budget-tree/prism-$budget.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"prism-$budget.txt\" inside the existing folder \"prism-$budget-tree\".",
+      "Put a new blank file named \"prism-$budget.txt\" in \"prism-$budget-tree\".",
+      "I need an empty \"prism-$budget.txt\" file under \"prism-$budget-tree\".",
+      "Inside \"prism-$budget-tree\", create a file named \"prism-$budget.txt\" with no contents.",
+      "Make a zero-byte file named \"prism-$budget.txt\" in the directory \"prism-$budget-tree\".",
+      "Add an empty placeholder named \"prism-$budget.txt\" to \"prism-$budget-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0016",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "orchard;archive.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"orchard;archive.txt\"; they don't exist yet.",
+      "I need a file named \"orchard;archive.txt\" with no contents yet.",
+      "Make a file named \"orchard;archive.txt\", leaving them empty.",
+      "Add a file named \"orchard;archive.txt\" as empty placeholders.",
+      "Can you create a file named \"orchard;archive.txt\" without writing any text?",
+      "Start with a file named \"orchard;archive.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0017",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "orchard;archive.txt",
+        "orchard;archive-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"orchard;archive.txt\" and \"orchard;archive-second.txt\"; they don't exist yet.",
+      "I need files named \"orchard;archive.txt\" and \"orchard;archive-second.txt\" with no contents yet.",
+      "Make files named \"orchard;archive.txt\" and \"orchard;archive-second.txt\", leaving them empty.",
+      "Add files named \"orchard;archive.txt\" and \"orchard;archive-second.txt\" as empty placeholders.",
+      "Can you create files named \"orchard;archive.txt\" and \"orchard;archive-second.txt\" without writing any text?",
+      "Start with files named \"orchard;archive.txt\" and \"orchard;archive-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0018",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "orchard;archive-tree/orchard;archive.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"orchard;archive.txt\" inside the existing folder \"orchard;archive-tree\".",
+      "Put a new blank file named \"orchard;archive.txt\" in \"orchard;archive-tree\".",
+      "I need an empty \"orchard;archive.txt\" file under \"orchard;archive-tree\".",
+      "Inside \"orchard;archive-tree\", create a file named \"orchard;archive.txt\" with no contents.",
+      "Make a zero-byte file named \"orchard;archive.txt\" in the directory \"orchard;archive-tree\".",
+      "Add an empty placeholder named \"orchard;archive.txt\" to \"orchard;archive-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0019",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "canvas*literal.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"canvas*literal.txt\"; they don't exist yet.",
+      "I need a file named \"canvas*literal.txt\" with no contents yet.",
+      "Make a file named \"canvas*literal.txt\", leaving them empty.",
+      "Add a file named \"canvas*literal.txt\" as empty placeholders.",
+      "Can you create a file named \"canvas*literal.txt\" without writing any text?",
+      "Start with a file named \"canvas*literal.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0020",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "canvas*literal.txt",
+        "canvas*literal-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"canvas*literal.txt\" and \"canvas*literal-second.txt\"; they don't exist yet.",
+      "I need files named \"canvas*literal.txt\" and \"canvas*literal-second.txt\" with no contents yet.",
+      "Make files named \"canvas*literal.txt\" and \"canvas*literal-second.txt\", leaving them empty.",
+      "Add files named \"canvas*literal.txt\" and \"canvas*literal-second.txt\" as empty placeholders.",
+      "Can you create files named \"canvas*literal.txt\" and \"canvas*literal-second.txt\" without writing any text?",
+      "Start with files named \"canvas*literal.txt\" and \"canvas*literal-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0021",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "canvas*literal-tree/canvas*literal.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"canvas*literal.txt\" inside the existing folder \"canvas*literal-tree\".",
+      "Put a new blank file named \"canvas*literal.txt\" in \"canvas*literal-tree\".",
+      "I need an empty \"canvas*literal.txt\" file under \"canvas*literal-tree\".",
+      "Inside \"canvas*literal-tree\", create a file named \"canvas*literal.txt\" with no contents.",
+      "Make a zero-byte file named \"canvas*literal.txt\" in the directory \"canvas*literal-tree\".",
+      "Add an empty placeholder named \"canvas*literal.txt\" to \"canvas*literal-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0022",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "spool[draft].txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"spool[draft].txt\"; they don't exist yet.",
+      "I need a file named \"spool[draft].txt\" with no contents yet.",
+      "Make a file named \"spool[draft].txt\", leaving them empty.",
+      "Add a file named \"spool[draft].txt\" as empty placeholders.",
+      "Can you create a file named \"spool[draft].txt\" without writing any text?",
+      "Start with a file named \"spool[draft].txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0023",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "spool[draft].txt",
+        "spool[draft]-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"spool[draft].txt\" and \"spool[draft]-second.txt\"; they don't exist yet.",
+      "I need files named \"spool[draft].txt\" and \"spool[draft]-second.txt\" with no contents yet.",
+      "Make files named \"spool[draft].txt\" and \"spool[draft]-second.txt\", leaving them empty.",
+      "Add files named \"spool[draft].txt\" and \"spool[draft]-second.txt\" as empty placeholders.",
+      "Can you create files named \"spool[draft].txt\" and \"spool[draft]-second.txt\" without writing any text?",
+      "Start with files named \"spool[draft].txt\" and \"spool[draft]-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0024",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "spool[draft]-tree/spool[draft].txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"spool[draft].txt\" inside the existing folder \"spool[draft]-tree\".",
+      "Put a new blank file named \"spool[draft].txt\" in \"spool[draft]-tree\".",
+      "I need an empty \"spool[draft].txt\" file under \"spool[draft]-tree\".",
+      "Inside \"spool[draft]-tree\", create a file named \"spool[draft].txt\" with no contents.",
+      "Make a zero-byte file named \"spool[draft].txt\" in the directory \"spool[draft]-tree\".",
+      "Add an empty placeholder named \"spool[draft].txt\" to \"spool[draft]-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0025",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "beacon-café.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"beacon-café.txt\"; they don't exist yet.",
+      "I need a file named \"beacon-café.txt\" with no contents yet.",
+      "Make a file named \"beacon-café.txt\", leaving them empty.",
+      "Add a file named \"beacon-café.txt\" as empty placeholders.",
+      "Can you create a file named \"beacon-café.txt\" without writing any text?",
+      "Start with a file named \"beacon-café.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0026",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "beacon-café.txt",
+        "beacon-café-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"beacon-café.txt\" and \"beacon-café-second.txt\"; they don't exist yet.",
+      "I need files named \"beacon-café.txt\" and \"beacon-café-second.txt\" with no contents yet.",
+      "Make files named \"beacon-café.txt\" and \"beacon-café-second.txt\", leaving them empty.",
+      "Add files named \"beacon-café.txt\" and \"beacon-café-second.txt\" as empty placeholders.",
+      "Can you create files named \"beacon-café.txt\" and \"beacon-café-second.txt\" without writing any text?",
+      "Start with files named \"beacon-café.txt\" and \"beacon-café-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0027",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "beacon-café-tree/beacon-café.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"beacon-café.txt\" inside the existing folder \"beacon-café-tree\".",
+      "Put a new blank file named \"beacon-café.txt\" in \"beacon-café-tree\".",
+      "I need an empty \"beacon-café.txt\" file under \"beacon-café-tree\".",
+      "Inside \"beacon-café-tree\", create a file named \"beacon-café.txt\" with no contents.",
+      "Make a zero-byte file named \"beacon-café.txt\" in the directory \"beacon-café-tree\".",
+      "Add an empty placeholder named \"beacon-café.txt\" to \"beacon-café-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0028",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "lantern field records.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"lantern field records.txt\"; they don't exist yet.",
+      "I need a file named \"lantern field records.txt\" with no contents yet.",
+      "Make a file named \"lantern field records.txt\", leaving them empty.",
+      "Add a file named \"lantern field records.txt\" as empty placeholders.",
+      "Can you create a file named \"lantern field records.txt\" without writing any text?",
+      "Start with a file named \"lantern field records.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0029",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "lantern field records.txt",
+        "lantern field records-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"lantern field records.txt\" and \"lantern field records-second.txt\"; they don't exist yet.",
+      "I need files named \"lantern field records.txt\" and \"lantern field records-second.txt\" with no contents yet.",
+      "Make files named \"lantern field records.txt\" and \"lantern field records-second.txt\", leaving them empty.",
+      "Add files named \"lantern field records.txt\" and \"lantern field records-second.txt\" as empty placeholders.",
+      "Can you create files named \"lantern field records.txt\" and \"lantern field records-second.txt\" without writing any text?",
+      "Start with files named \"lantern field records.txt\" and \"lantern field records-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0030",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "lantern field records-tree/lantern field records.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"lantern field records.txt\" inside the existing folder \"lantern field records-tree\".",
+      "Put a new blank file named \"lantern field records.txt\" in \"lantern field records-tree\".",
+      "I need an empty \"lantern field records.txt\" file under \"lantern field records-tree\".",
+      "Inside \"lantern field records-tree\", create a file named \"lantern field records.txt\" with no contents.",
+      "Make a zero-byte file named \"lantern field records.txt\" in the directory \"lantern field records-tree\".",
+      "Add an empty placeholder named \"lantern field records.txt\" to \"lantern field records-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0031",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "quartz-journal.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"quartz-journal.txt\"; they don't exist yet.",
+      "I need a file named \"quartz-journal.txt\" with no contents yet.",
+      "Make a file named \"quartz-journal.txt\", leaving them empty.",
+      "Add a file named \"quartz-journal.txt\" as empty placeholders.",
+      "Can you create a file named \"quartz-journal.txt\" without writing any text?",
+      "Start with a file named \"quartz-journal.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0032",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "quartz-journal.txt",
+        "quartz-journal-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"quartz-journal.txt\" and \"quartz-journal-second.txt\"; they don't exist yet.",
+      "I need files named \"quartz-journal.txt\" and \"quartz-journal-second.txt\" with no contents yet.",
+      "Make files named \"quartz-journal.txt\" and \"quartz-journal-second.txt\", leaving them empty.",
+      "Add files named \"quartz-journal.txt\" and \"quartz-journal-second.txt\" as empty placeholders.",
+      "Can you create files named \"quartz-journal.txt\" and \"quartz-journal-second.txt\" without writing any text?",
+      "Start with files named \"quartz-journal.txt\" and \"quartz-journal-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0033",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "quartz-journal-tree/quartz-journal.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"quartz-journal.txt\" inside the existing folder \"quartz-journal-tree\".",
+      "Put a new blank file named \"quartz-journal.txt\" in \"quartz-journal-tree\".",
+      "I need an empty \"quartz-journal.txt\" file under \"quartz-journal-tree\".",
+      "Inside \"quartz-journal-tree\", create a file named \"quartz-journal.txt\" with no contents.",
+      "Make a zero-byte file named \"quartz-journal.txt\" in the directory \"quartz-journal-tree\".",
+      "Add an empty placeholder named \"quartz-journal.txt\" to \"quartz-journal-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0034",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "meadow working notes.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"meadow working notes.txt\"; they don't exist yet.",
+      "I need a file named \"meadow working notes.txt\" with no contents yet.",
+      "Make a file named \"meadow working notes.txt\", leaving them empty.",
+      "Add a file named \"meadow working notes.txt\" as empty placeholders.",
+      "Can you create a file named \"meadow working notes.txt\" without writing any text?",
+      "Start with a file named \"meadow working notes.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0035",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "meadow working notes.txt",
+        "meadow working notes-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"meadow working notes.txt\" and \"meadow working notes-second.txt\"; they don't exist yet.",
+      "I need files named \"meadow working notes.txt\" and \"meadow working notes-second.txt\" with no contents yet.",
+      "Make files named \"meadow working notes.txt\" and \"meadow working notes-second.txt\", leaving them empty.",
+      "Add files named \"meadow working notes.txt\" and \"meadow working notes-second.txt\" as empty placeholders.",
+      "Can you create files named \"meadow working notes.txt\" and \"meadow working notes-second.txt\" without writing any text?",
+      "Start with files named \"meadow working notes.txt\" and \"meadow working notes-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0036",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "meadow working notes-tree/meadow working notes.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"meadow working notes.txt\" inside the existing folder \"meadow working notes-tree\".",
+      "Put a new blank file named \"meadow working notes.txt\" in \"meadow working notes-tree\".",
+      "I need an empty \"meadow working notes.txt\" file under \"meadow working notes-tree\".",
+      "Inside \"meadow working notes-tree\", create a file named \"meadow working notes.txt\" with no contents.",
+      "Make a zero-byte file named \"meadow working notes.txt\" in the directory \"meadow working notes-tree\".",
+      "Add an empty placeholder named \"meadow working notes.txt\" to \"meadow working notes-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0037",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "parcel's notebook.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"parcel's notebook.txt\"; they don't exist yet.",
+      "I need a file named \"parcel's notebook.txt\" with no contents yet.",
+      "Make a file named \"parcel's notebook.txt\", leaving them empty.",
+      "Add a file named \"parcel's notebook.txt\" as empty placeholders.",
+      "Can you create a file named \"parcel's notebook.txt\" without writing any text?",
+      "Start with a file named \"parcel's notebook.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0038",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "parcel's notebook.txt",
+        "parcel's notebook-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"parcel's notebook.txt\" and \"parcel's notebook-second.txt\"; they don't exist yet.",
+      "I need files named \"parcel's notebook.txt\" and \"parcel's notebook-second.txt\" with no contents yet.",
+      "Make files named \"parcel's notebook.txt\" and \"parcel's notebook-second.txt\", leaving them empty.",
+      "Add files named \"parcel's notebook.txt\" and \"parcel's notebook-second.txt\" as empty placeholders.",
+      "Can you create files named \"parcel's notebook.txt\" and \"parcel's notebook-second.txt\" without writing any text?",
+      "Start with files named \"parcel's notebook.txt\" and \"parcel's notebook-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0039",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "parcel's notebook-tree/parcel's notebook.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"parcel's notebook.txt\" inside the existing folder \"parcel's notebook-tree\".",
+      "Put a new blank file named \"parcel's notebook.txt\" in \"parcel's notebook-tree\".",
+      "I need an empty \"parcel's notebook.txt\" file under \"parcel's notebook-tree\".",
+      "Inside \"parcel's notebook-tree\", create a file named \"parcel's notebook.txt\" with no contents.",
+      "Make a zero-byte file named \"parcel's notebook.txt\" in the directory \"parcel's notebook-tree\".",
+      "Add an empty placeholder named \"parcel's notebook.txt\" to \"parcel's notebook-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0040",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "-cobalt-draft.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"-cobalt-draft.txt\"; they don't exist yet.",
+      "I need a file named \"-cobalt-draft.txt\" with no contents yet.",
+      "Make a file named \"-cobalt-draft.txt\", leaving them empty.",
+      "Add a file named \"-cobalt-draft.txt\" as empty placeholders.",
+      "Can you create a file named \"-cobalt-draft.txt\" without writing any text?",
+      "Start with a file named \"-cobalt-draft.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0041",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "-cobalt-draft.txt",
+        "-cobalt-draft-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"-cobalt-draft.txt\" and \"-cobalt-draft-second.txt\"; they don't exist yet.",
+      "I need files named \"-cobalt-draft.txt\" and \"-cobalt-draft-second.txt\" with no contents yet.",
+      "Make files named \"-cobalt-draft.txt\" and \"-cobalt-draft-second.txt\", leaving them empty.",
+      "Add files named \"-cobalt-draft.txt\" and \"-cobalt-draft-second.txt\" as empty placeholders.",
+      "Can you create files named \"-cobalt-draft.txt\" and \"-cobalt-draft-second.txt\" without writing any text?",
+      "Start with files named \"-cobalt-draft.txt\" and \"-cobalt-draft-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0042",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "./-cobalt-draft-tree/-cobalt-draft.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"-cobalt-draft.txt\" inside the existing folder \"./-cobalt-draft-tree\".",
+      "Put a new blank file named \"-cobalt-draft.txt\" in \"./-cobalt-draft-tree\".",
+      "I need an empty \"-cobalt-draft.txt\" file under \"./-cobalt-draft-tree\".",
+      "Inside \"./-cobalt-draft-tree\", create a file named \"-cobalt-draft.txt\" with no contents.",
+      "Make a zero-byte file named \"-cobalt-draft.txt\" in the directory \"./-cobalt-draft-tree\".",
+      "Add an empty placeholder named \"-cobalt-draft.txt\" to \"./-cobalt-draft-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0043",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "atlas-$budget.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"atlas-$budget.txt\"; they don't exist yet.",
+      "I need a file named \"atlas-$budget.txt\" with no contents yet.",
+      "Make a file named \"atlas-$budget.txt\", leaving them empty.",
+      "Add a file named \"atlas-$budget.txt\" as empty placeholders.",
+      "Can you create a file named \"atlas-$budget.txt\" without writing any text?",
+      "Start with a file named \"atlas-$budget.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0044",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "atlas-$budget.txt",
+        "atlas-$budget-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"atlas-$budget.txt\" and \"atlas-$budget-second.txt\"; they don't exist yet.",
+      "I need files named \"atlas-$budget.txt\" and \"atlas-$budget-second.txt\" with no contents yet.",
+      "Make files named \"atlas-$budget.txt\" and \"atlas-$budget-second.txt\", leaving them empty.",
+      "Add files named \"atlas-$budget.txt\" and \"atlas-$budget-second.txt\" as empty placeholders.",
+      "Can you create files named \"atlas-$budget.txt\" and \"atlas-$budget-second.txt\" without writing any text?",
+      "Start with files named \"atlas-$budget.txt\" and \"atlas-$budget-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0045",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "atlas-$budget-tree/atlas-$budget.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"atlas-$budget.txt\" inside the existing folder \"atlas-$budget-tree\".",
+      "Put a new blank file named \"atlas-$budget.txt\" in \"atlas-$budget-tree\".",
+      "I need an empty \"atlas-$budget.txt\" file under \"atlas-$budget-tree\".",
+      "Inside \"atlas-$budget-tree\", create a file named \"atlas-$budget.txt\" with no contents.",
+      "Make a zero-byte file named \"atlas-$budget.txt\" in the directory \"atlas-$budget-tree\".",
+      "Add an empty placeholder named \"atlas-$budget.txt\" to \"atlas-$budget-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0046",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "rivet;archive.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"rivet;archive.txt\"; they don't exist yet.",
+      "I need a file named \"rivet;archive.txt\" with no contents yet.",
+      "Make a file named \"rivet;archive.txt\", leaving them empty.",
+      "Add a file named \"rivet;archive.txt\" as empty placeholders.",
+      "Can you create a file named \"rivet;archive.txt\" without writing any text?",
+      "Start with a file named \"rivet;archive.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0047",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "rivet;archive.txt",
+        "rivet;archive-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"rivet;archive.txt\" and \"rivet;archive-second.txt\"; they don't exist yet.",
+      "I need files named \"rivet;archive.txt\" and \"rivet;archive-second.txt\" with no contents yet.",
+      "Make files named \"rivet;archive.txt\" and \"rivet;archive-second.txt\", leaving them empty.",
+      "Add files named \"rivet;archive.txt\" and \"rivet;archive-second.txt\" as empty placeholders.",
+      "Can you create files named \"rivet;archive.txt\" and \"rivet;archive-second.txt\" without writing any text?",
+      "Start with files named \"rivet;archive.txt\" and \"rivet;archive-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0048",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "rivet;archive-tree/rivet;archive.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"rivet;archive.txt\" inside the existing folder \"rivet;archive-tree\".",
+      "Put a new blank file named \"rivet;archive.txt\" in \"rivet;archive-tree\".",
+      "I need an empty \"rivet;archive.txt\" file under \"rivet;archive-tree\".",
+      "Inside \"rivet;archive-tree\", create a file named \"rivet;archive.txt\" with no contents.",
+      "Make a zero-byte file named \"rivet;archive.txt\" in the directory \"rivet;archive-tree\".",
+      "Add an empty placeholder named \"rivet;archive.txt\" to \"rivet;archive-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0049",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "gasket*literal.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"gasket*literal.txt\"; they don't exist yet.",
+      "I need a file named \"gasket*literal.txt\" with no contents yet.",
+      "Make a file named \"gasket*literal.txt\", leaving them empty.",
+      "Add a file named \"gasket*literal.txt\" as empty placeholders.",
+      "Can you create a file named \"gasket*literal.txt\" without writing any text?",
+      "Start with a file named \"gasket*literal.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0050",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "gasket*literal.txt",
+        "gasket*literal-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"gasket*literal.txt\" and \"gasket*literal-second.txt\"; they don't exist yet.",
+      "I need files named \"gasket*literal.txt\" and \"gasket*literal-second.txt\" with no contents yet.",
+      "Make files named \"gasket*literal.txt\" and \"gasket*literal-second.txt\", leaving them empty.",
+      "Add files named \"gasket*literal.txt\" and \"gasket*literal-second.txt\" as empty placeholders.",
+      "Can you create files named \"gasket*literal.txt\" and \"gasket*literal-second.txt\" without writing any text?",
+      "Start with files named \"gasket*literal.txt\" and \"gasket*literal-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0051",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "gasket*literal-tree/gasket*literal.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"gasket*literal.txt\" inside the existing folder \"gasket*literal-tree\".",
+      "Put a new blank file named \"gasket*literal.txt\" in \"gasket*literal-tree\".",
+      "I need an empty \"gasket*literal.txt\" file under \"gasket*literal-tree\".",
+      "Inside \"gasket*literal-tree\", create a file named \"gasket*literal.txt\" with no contents.",
+      "Make a zero-byte file named \"gasket*literal.txt\" in the directory \"gasket*literal-tree\".",
+      "Add an empty placeholder named \"gasket*literal.txt\" to \"gasket*literal-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0052",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "spindle[draft].txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"spindle[draft].txt\"; they don't exist yet.",
+      "I need a file named \"spindle[draft].txt\" with no contents yet.",
+      "Make a file named \"spindle[draft].txt\", leaving them empty.",
+      "Add a file named \"spindle[draft].txt\" as empty placeholders.",
+      "Can you create a file named \"spindle[draft].txt\" without writing any text?",
+      "Start with a file named \"spindle[draft].txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0053",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "spindle[draft].txt",
+        "spindle[draft]-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"spindle[draft].txt\" and \"spindle[draft]-second.txt\"; they don't exist yet.",
+      "I need files named \"spindle[draft].txt\" and \"spindle[draft]-second.txt\" with no contents yet.",
+      "Make files named \"spindle[draft].txt\" and \"spindle[draft]-second.txt\", leaving them empty.",
+      "Add files named \"spindle[draft].txt\" and \"spindle[draft]-second.txt\" as empty placeholders.",
+      "Can you create files named \"spindle[draft].txt\" and \"spindle[draft]-second.txt\" without writing any text?",
+      "Start with files named \"spindle[draft].txt\" and \"spindle[draft]-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0054",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "spindle[draft]-tree/spindle[draft].txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"spindle[draft].txt\" inside the existing folder \"spindle[draft]-tree\".",
+      "Put a new blank file named \"spindle[draft].txt\" in \"spindle[draft]-tree\".",
+      "I need an empty \"spindle[draft].txt\" file under \"spindle[draft]-tree\".",
+      "Inside \"spindle[draft]-tree\", create a file named \"spindle[draft].txt\" with no contents.",
+      "Make a zero-byte file named \"spindle[draft].txt\" in the directory \"spindle[draft]-tree\".",
+      "Add an empty placeholder named \"spindle[draft].txt\" to \"spindle[draft]-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0055",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "vault-café.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"vault-café.txt\"; they don't exist yet.",
+      "I need a file named \"vault-café.txt\" with no contents yet.",
+      "Make a file named \"vault-café.txt\", leaving them empty.",
+      "Add a file named \"vault-café.txt\" as empty placeholders.",
+      "Can you create a file named \"vault-café.txt\" without writing any text?",
+      "Start with a file named \"vault-café.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0056",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "vault-café.txt",
+        "vault-café-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"vault-café.txt\" and \"vault-café-second.txt\"; they don't exist yet.",
+      "I need files named \"vault-café.txt\" and \"vault-café-second.txt\" with no contents yet.",
+      "Make files named \"vault-café.txt\" and \"vault-café-second.txt\", leaving them empty.",
+      "Add files named \"vault-café.txt\" and \"vault-café-second.txt\" as empty placeholders.",
+      "Can you create files named \"vault-café.txt\" and \"vault-café-second.txt\" without writing any text?",
+      "Start with files named \"vault-café.txt\" and \"vault-café-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0057",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "vault-café-tree/vault-café.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"vault-café.txt\" inside the existing folder \"vault-café-tree\".",
+      "Put a new blank file named \"vault-café.txt\" in \"vault-café-tree\".",
+      "I need an empty \"vault-café.txt\" file under \"vault-café-tree\".",
+      "Inside \"vault-café-tree\", create a file named \"vault-café.txt\" with no contents.",
+      "Make a zero-byte file named \"vault-café.txt\" in the directory \"vault-café-tree\".",
+      "Add an empty placeholder named \"vault-café.txt\" to \"vault-café-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0058",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "basket field records.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"basket field records.txt\"; they don't exist yet.",
+      "I need a file named \"basket field records.txt\" with no contents yet.",
+      "Make a file named \"basket field records.txt\", leaving them empty.",
+      "Add a file named \"basket field records.txt\" as empty placeholders.",
+      "Can you create a file named \"basket field records.txt\" without writing any text?",
+      "Start with a file named \"basket field records.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0059",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "basket field records.txt",
+        "basket field records-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"basket field records.txt\" and \"basket field records-second.txt\"; they don't exist yet.",
+      "I need files named \"basket field records.txt\" and \"basket field records-second.txt\" with no contents yet.",
+      "Make files named \"basket field records.txt\" and \"basket field records-second.txt\", leaving them empty.",
+      "Add files named \"basket field records.txt\" and \"basket field records-second.txt\" as empty placeholders.",
+      "Can you create files named \"basket field records.txt\" and \"basket field records-second.txt\" without writing any text?",
+      "Start with files named \"basket field records.txt\" and \"basket field records-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0060",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "basket field records-tree/basket field records.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"basket field records.txt\" inside the existing folder \"basket field records-tree\".",
+      "Put a new blank file named \"basket field records.txt\" in \"basket field records-tree\".",
+      "I need an empty \"basket field records.txt\" file under \"basket field records-tree\".",
+      "Inside \"basket field records-tree\", create a file named \"basket field records.txt\" with no contents.",
+      "Make a zero-byte file named \"basket field records.txt\" in the directory \"basket field records-tree\".",
+      "Add an empty placeholder named \"basket field records.txt\" to \"basket field records-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0061",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "ember-journal.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"ember-journal.txt\"; they don't exist yet.",
+      "I need a file named \"ember-journal.txt\" with no contents yet.",
+      "Make a file named \"ember-journal.txt\", leaving them empty.",
+      "Add a file named \"ember-journal.txt\" as empty placeholders.",
+      "Can you create a file named \"ember-journal.txt\" without writing any text?",
+      "Start with a file named \"ember-journal.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0062",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "ember-journal.txt",
+        "ember-journal-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"ember-journal.txt\" and \"ember-journal-second.txt\"; they don't exist yet.",
+      "I need files named \"ember-journal.txt\" and \"ember-journal-second.txt\" with no contents yet.",
+      "Make files named \"ember-journal.txt\" and \"ember-journal-second.txt\", leaving them empty.",
+      "Add files named \"ember-journal.txt\" and \"ember-journal-second.txt\" as empty placeholders.",
+      "Can you create files named \"ember-journal.txt\" and \"ember-journal-second.txt\" without writing any text?",
+      "Start with files named \"ember-journal.txt\" and \"ember-journal-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0063",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "ember-journal-tree/ember-journal.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"ember-journal.txt\" inside the existing folder \"ember-journal-tree\".",
+      "Put a new blank file named \"ember-journal.txt\" in \"ember-journal-tree\".",
+      "I need an empty \"ember-journal.txt\" file under \"ember-journal-tree\".",
+      "Inside \"ember-journal-tree\", create a file named \"ember-journal.txt\" with no contents.",
+      "Make a zero-byte file named \"ember-journal.txt\" in the directory \"ember-journal-tree\".",
+      "Add an empty placeholder named \"ember-journal.txt\" to \"ember-journal-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0064",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "pollen working notes.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"pollen working notes.txt\"; they don't exist yet.",
+      "I need a file named \"pollen working notes.txt\" with no contents yet.",
+      "Make a file named \"pollen working notes.txt\", leaving them empty.",
+      "Add a file named \"pollen working notes.txt\" as empty placeholders.",
+      "Can you create a file named \"pollen working notes.txt\" without writing any text?",
+      "Start with a file named \"pollen working notes.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0065",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "pollen working notes.txt",
+        "pollen working notes-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"pollen working notes.txt\" and \"pollen working notes-second.txt\"; they don't exist yet.",
+      "I need files named \"pollen working notes.txt\" and \"pollen working notes-second.txt\" with no contents yet.",
+      "Make files named \"pollen working notes.txt\" and \"pollen working notes-second.txt\", leaving them empty.",
+      "Add files named \"pollen working notes.txt\" and \"pollen working notes-second.txt\" as empty placeholders.",
+      "Can you create files named \"pollen working notes.txt\" and \"pollen working notes-second.txt\" without writing any text?",
+      "Start with files named \"pollen working notes.txt\" and \"pollen working notes-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0066",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "pollen working notes-tree/pollen working notes.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"pollen working notes.txt\" inside the existing folder \"pollen working notes-tree\".",
+      "Put a new blank file named \"pollen working notes.txt\" in \"pollen working notes-tree\".",
+      "I need an empty \"pollen working notes.txt\" file under \"pollen working notes-tree\".",
+      "Inside \"pollen working notes-tree\", create a file named \"pollen working notes.txt\" with no contents.",
+      "Make a zero-byte file named \"pollen working notes.txt\" in the directory \"pollen working notes-tree\".",
+      "Add an empty placeholder named \"pollen working notes.txt\" to \"pollen working notes-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0067",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "turbine's notebook.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"turbine's notebook.txt\"; they don't exist yet.",
+      "I need a file named \"turbine's notebook.txt\" with no contents yet.",
+      "Make a file named \"turbine's notebook.txt\", leaving them empty.",
+      "Add a file named \"turbine's notebook.txt\" as empty placeholders.",
+      "Can you create a file named \"turbine's notebook.txt\" without writing any text?",
+      "Start with a file named \"turbine's notebook.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0068",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "turbine's notebook.txt",
+        "turbine's notebook-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"turbine's notebook.txt\" and \"turbine's notebook-second.txt\"; they don't exist yet.",
+      "I need files named \"turbine's notebook.txt\" and \"turbine's notebook-second.txt\" with no contents yet.",
+      "Make files named \"turbine's notebook.txt\" and \"turbine's notebook-second.txt\", leaving them empty.",
+      "Add files named \"turbine's notebook.txt\" and \"turbine's notebook-second.txt\" as empty placeholders.",
+      "Can you create files named \"turbine's notebook.txt\" and \"turbine's notebook-second.txt\" without writing any text?",
+      "Start with files named \"turbine's notebook.txt\" and \"turbine's notebook-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0069",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "turbine's notebook-tree/turbine's notebook.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"turbine's notebook.txt\" inside the existing folder \"turbine's notebook-tree\".",
+      "Put a new blank file named \"turbine's notebook.txt\" in \"turbine's notebook-tree\".",
+      "I need an empty \"turbine's notebook.txt\" file under \"turbine's notebook-tree\".",
+      "Inside \"turbine's notebook-tree\", create a file named \"turbine's notebook.txt\" with no contents.",
+      "Make a zero-byte file named \"turbine's notebook.txt\" in the directory \"turbine's notebook-tree\".",
+      "Add an empty placeholder named \"turbine's notebook.txt\" to \"turbine's notebook-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0070",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "-compass-draft.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"-compass-draft.txt\"; they don't exist yet.",
+      "I need a file named \"-compass-draft.txt\" with no contents yet.",
+      "Make a file named \"-compass-draft.txt\", leaving them empty.",
+      "Add a file named \"-compass-draft.txt\" as empty placeholders.",
+      "Can you create a file named \"-compass-draft.txt\" without writing any text?",
+      "Start with a file named \"-compass-draft.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0071",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "-compass-draft.txt",
+        "-compass-draft-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"-compass-draft.txt\" and \"-compass-draft-second.txt\"; they don't exist yet.",
+      "I need files named \"-compass-draft.txt\" and \"-compass-draft-second.txt\" with no contents yet.",
+      "Make files named \"-compass-draft.txt\" and \"-compass-draft-second.txt\", leaving them empty.",
+      "Add files named \"-compass-draft.txt\" and \"-compass-draft-second.txt\" as empty placeholders.",
+      "Can you create files named \"-compass-draft.txt\" and \"-compass-draft-second.txt\" without writing any text?",
+      "Start with files named \"-compass-draft.txt\" and \"-compass-draft-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0072",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "./-compass-draft-tree/-compass-draft.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"-compass-draft.txt\" inside the existing folder \"./-compass-draft-tree\".",
+      "Put a new blank file named \"-compass-draft.txt\" in \"./-compass-draft-tree\".",
+      "I need an empty \"-compass-draft.txt\" file under \"./-compass-draft-tree\".",
+      "Inside \"./-compass-draft-tree\", create a file named \"-compass-draft.txt\" with no contents.",
+      "Make a zero-byte file named \"-compass-draft.txt\" in the directory \"./-compass-draft-tree\".",
+      "Add an empty placeholder named \"-compass-draft.txt\" to \"./-compass-draft-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0073",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "willowbrook-$budget.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"willowbrook-$budget.txt\"; they don't exist yet.",
+      "I need a file named \"willowbrook-$budget.txt\" with no contents yet.",
+      "Make a file named \"willowbrook-$budget.txt\", leaving them empty.",
+      "Add a file named \"willowbrook-$budget.txt\" as empty placeholders.",
+      "Can you create a file named \"willowbrook-$budget.txt\" without writing any text?",
+      "Start with a file named \"willowbrook-$budget.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0074",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "willowbrook-$budget.txt",
+        "willowbrook-$budget-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"willowbrook-$budget.txt\" and \"willowbrook-$budget-second.txt\"; they don't exist yet.",
+      "I need files named \"willowbrook-$budget.txt\" and \"willowbrook-$budget-second.txt\" with no contents yet.",
+      "Make files named \"willowbrook-$budget.txt\" and \"willowbrook-$budget-second.txt\", leaving them empty.",
+      "Add files named \"willowbrook-$budget.txt\" and \"willowbrook-$budget-second.txt\" as empty placeholders.",
+      "Can you create files named \"willowbrook-$budget.txt\" and \"willowbrook-$budget-second.txt\" without writing any text?",
+      "Start with files named \"willowbrook-$budget.txt\" and \"willowbrook-$budget-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0075",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "willowbrook-$budget-tree/willowbrook-$budget.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"willowbrook-$budget.txt\" inside the existing folder \"willowbrook-$budget-tree\".",
+      "Put a new blank file named \"willowbrook-$budget.txt\" in \"willowbrook-$budget-tree\".",
+      "I need an empty \"willowbrook-$budget.txt\" file under \"willowbrook-$budget-tree\".",
+      "Inside \"willowbrook-$budget-tree\", create a file named \"willowbrook-$budget.txt\" with no contents.",
+      "Make a zero-byte file named \"willowbrook-$budget.txt\" in the directory \"willowbrook-$budget-tree\".",
+      "Add an empty placeholder named \"willowbrook-$budget.txt\" to \"willowbrook-$budget-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0076",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "satchel;archive.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"satchel;archive.txt\"; they don't exist yet.",
+      "I need a file named \"satchel;archive.txt\" with no contents yet.",
+      "Make a file named \"satchel;archive.txt\", leaving them empty.",
+      "Add a file named \"satchel;archive.txt\" as empty placeholders.",
+      "Can you create a file named \"satchel;archive.txt\" without writing any text?",
+      "Start with a file named \"satchel;archive.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0077",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "satchel;archive.txt",
+        "satchel;archive-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"satchel;archive.txt\" and \"satchel;archive-second.txt\"; they don't exist yet.",
+      "I need files named \"satchel;archive.txt\" and \"satchel;archive-second.txt\" with no contents yet.",
+      "Make files named \"satchel;archive.txt\" and \"satchel;archive-second.txt\", leaving them empty.",
+      "Add files named \"satchel;archive.txt\" and \"satchel;archive-second.txt\" as empty placeholders.",
+      "Can you create files named \"satchel;archive.txt\" and \"satchel;archive-second.txt\" without writing any text?",
+      "Start with files named \"satchel;archive.txt\" and \"satchel;archive-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0078",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "satchel;archive-tree/satchel;archive.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"satchel;archive.txt\" inside the existing folder \"satchel;archive-tree\".",
+      "Put a new blank file named \"satchel;archive.txt\" in \"satchel;archive-tree\".",
+      "I need an empty \"satchel;archive.txt\" file under \"satchel;archive-tree\".",
+      "Inside \"satchel;archive-tree\", create a file named \"satchel;archive.txt\" with no contents.",
+      "Make a zero-byte file named \"satchel;archive.txt\" in the directory \"satchel;archive-tree\".",
+      "Add an empty placeholder named \"satchel;archive.txt\" to \"satchel;archive-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0079",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "mosaic*literal.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"mosaic*literal.txt\"; they don't exist yet.",
+      "I need a file named \"mosaic*literal.txt\" with no contents yet.",
+      "Make a file named \"mosaic*literal.txt\", leaving them empty.",
+      "Add a file named \"mosaic*literal.txt\" as empty placeholders.",
+      "Can you create a file named \"mosaic*literal.txt\" without writing any text?",
+      "Start with a file named \"mosaic*literal.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0080",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "mosaic*literal.txt",
+        "mosaic*literal-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"mosaic*literal.txt\" and \"mosaic*literal-second.txt\"; they don't exist yet.",
+      "I need files named \"mosaic*literal.txt\" and \"mosaic*literal-second.txt\" with no contents yet.",
+      "Make files named \"mosaic*literal.txt\" and \"mosaic*literal-second.txt\", leaving them empty.",
+      "Add files named \"mosaic*literal.txt\" and \"mosaic*literal-second.txt\" as empty placeholders.",
+      "Can you create files named \"mosaic*literal.txt\" and \"mosaic*literal-second.txt\" without writing any text?",
+      "Start with files named \"mosaic*literal.txt\" and \"mosaic*literal-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0081",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "mosaic*literal-tree/mosaic*literal.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"mosaic*literal.txt\" inside the existing folder \"mosaic*literal-tree\".",
+      "Put a new blank file named \"mosaic*literal.txt\" in \"mosaic*literal-tree\".",
+      "I need an empty \"mosaic*literal.txt\" file under \"mosaic*literal-tree\".",
+      "Inside \"mosaic*literal-tree\", create a file named \"mosaic*literal.txt\" with no contents.",
+      "Make a zero-byte file named \"mosaic*literal.txt\" in the directory \"mosaic*literal-tree\".",
+      "Add an empty placeholder named \"mosaic*literal.txt\" to \"mosaic*literal-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0082",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "relay[draft].txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"relay[draft].txt\"; they don't exist yet.",
+      "I need a file named \"relay[draft].txt\" with no contents yet.",
+      "Make a file named \"relay[draft].txt\", leaving them empty.",
+      "Add a file named \"relay[draft].txt\" as empty placeholders.",
+      "Can you create a file named \"relay[draft].txt\" without writing any text?",
+      "Start with a file named \"relay[draft].txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0083",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "relay[draft].txt",
+        "relay[draft]-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"relay[draft].txt\" and \"relay[draft]-second.txt\"; they don't exist yet.",
+      "I need files named \"relay[draft].txt\" and \"relay[draft]-second.txt\" with no contents yet.",
+      "Make files named \"relay[draft].txt\" and \"relay[draft]-second.txt\", leaving them empty.",
+      "Add files named \"relay[draft].txt\" and \"relay[draft]-second.txt\" as empty placeholders.",
+      "Can you create files named \"relay[draft].txt\" and \"relay[draft]-second.txt\" without writing any text?",
+      "Start with files named \"relay[draft].txt\" and \"relay[draft]-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0084",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "relay[draft]-tree/relay[draft].txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"relay[draft].txt\" inside the existing folder \"relay[draft]-tree\".",
+      "Put a new blank file named \"relay[draft].txt\" in \"relay[draft]-tree\".",
+      "I need an empty \"relay[draft].txt\" file under \"relay[draft]-tree\".",
+      "Inside \"relay[draft]-tree\", create a file named \"relay[draft].txt\" with no contents.",
+      "Make a zero-byte file named \"relay[draft].txt\" in the directory \"relay[draft]-tree\".",
+      "Add an empty placeholder named \"relay[draft].txt\" to \"relay[draft]-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0085",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "vector-café.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"vector-café.txt\"; they don't exist yet.",
+      "I need a file named \"vector-café.txt\" with no contents yet.",
+      "Make a file named \"vector-café.txt\", leaving them empty.",
+      "Add a file named \"vector-café.txt\" as empty placeholders.",
+      "Can you create a file named \"vector-café.txt\" without writing any text?",
+      "Start with a file named \"vector-café.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0086",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "vector-café.txt",
+        "vector-café-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"vector-café.txt\" and \"vector-café-second.txt\"; they don't exist yet.",
+      "I need files named \"vector-café.txt\" and \"vector-café-second.txt\" with no contents yet.",
+      "Make files named \"vector-café.txt\" and \"vector-café-second.txt\", leaving them empty.",
+      "Add files named \"vector-café.txt\" and \"vector-café-second.txt\" as empty placeholders.",
+      "Can you create files named \"vector-café.txt\" and \"vector-café-second.txt\" without writing any text?",
+      "Start with files named \"vector-café.txt\" and \"vector-café-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0087",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "vector-café-tree/vector-café.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"vector-café.txt\" inside the existing folder \"vector-café-tree\".",
+      "Put a new blank file named \"vector-café.txt\" in \"vector-café-tree\".",
+      "I need an empty \"vector-café.txt\" file under \"vector-café-tree\".",
+      "Inside \"vector-café-tree\", create a file named \"vector-café.txt\" with no contents.",
+      "Make a zero-byte file named \"vector-café.txt\" in the directory \"vector-café-tree\".",
+      "Add an empty placeholder named \"vector-café.txt\" to \"vector-café-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0088",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "loam field records.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"loam field records.txt\"; they don't exist yet.",
+      "I need a file named \"loam field records.txt\" with no contents yet.",
+      "Make a file named \"loam field records.txt\", leaving them empty.",
+      "Add a file named \"loam field records.txt\" as empty placeholders.",
+      "Can you create a file named \"loam field records.txt\" without writing any text?",
+      "Start with a file named \"loam field records.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0089",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "loam field records.txt",
+        "loam field records-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"loam field records.txt\" and \"loam field records-second.txt\"; they don't exist yet.",
+      "I need files named \"loam field records.txt\" and \"loam field records-second.txt\" with no contents yet.",
+      "Make files named \"loam field records.txt\" and \"loam field records-second.txt\", leaving them empty.",
+      "Add files named \"loam field records.txt\" and \"loam field records-second.txt\" as empty placeholders.",
+      "Can you create files named \"loam field records.txt\" and \"loam field records-second.txt\" without writing any text?",
+      "Start with files named \"loam field records.txt\" and \"loam field records-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0090",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "loam field records-tree/loam field records.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"loam field records.txt\" inside the existing folder \"loam field records-tree\".",
+      "Put a new blank file named \"loam field records.txt\" in \"loam field records-tree\".",
+      "I need an empty \"loam field records.txt\" file under \"loam field records-tree\".",
+      "Inside \"loam field records-tree\", create a file named \"loam field records.txt\" with no contents.",
+      "Make a zero-byte file named \"loam field records.txt\" in the directory \"loam field records-tree\".",
+      "Add an empty placeholder named \"loam field records.txt\" to \"loam field records-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0091",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "quarry-journal.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"quarry-journal.txt\"; they don't exist yet.",
+      "I need a file named \"quarry-journal.txt\" with no contents yet.",
+      "Make a file named \"quarry-journal.txt\", leaving them empty.",
+      "Add a file named \"quarry-journal.txt\" as empty placeholders.",
+      "Can you create a file named \"quarry-journal.txt\" without writing any text?",
+      "Start with a file named \"quarry-journal.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0092",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "quarry-journal.txt",
+        "quarry-journal-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"quarry-journal.txt\" and \"quarry-journal-second.txt\"; they don't exist yet.",
+      "I need files named \"quarry-journal.txt\" and \"quarry-journal-second.txt\" with no contents yet.",
+      "Make files named \"quarry-journal.txt\" and \"quarry-journal-second.txt\", leaving them empty.",
+      "Add files named \"quarry-journal.txt\" and \"quarry-journal-second.txt\" as empty placeholders.",
+      "Can you create files named \"quarry-journal.txt\" and \"quarry-journal-second.txt\" without writing any text?",
+      "Start with files named \"quarry-journal.txt\" and \"quarry-journal-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0093",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "quarry-journal-tree/quarry-journal.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"quarry-journal.txt\" inside the existing folder \"quarry-journal-tree\".",
+      "Put a new blank file named \"quarry-journal.txt\" in \"quarry-journal-tree\".",
+      "I need an empty \"quarry-journal.txt\" file under \"quarry-journal-tree\".",
+      "Inside \"quarry-journal-tree\", create a file named \"quarry-journal.txt\" with no contents.",
+      "Make a zero-byte file named \"quarry-journal.txt\" in the directory \"quarry-journal-tree\".",
+      "Add an empty placeholder named \"quarry-journal.txt\" to \"quarry-journal-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0094",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "ribbon working notes.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"ribbon working notes.txt\"; they don't exist yet.",
+      "I need a file named \"ribbon working notes.txt\" with no contents yet.",
+      "Make a file named \"ribbon working notes.txt\", leaving them empty.",
+      "Add a file named \"ribbon working notes.txt\" as empty placeholders.",
+      "Can you create a file named \"ribbon working notes.txt\" without writing any text?",
+      "Start with a file named \"ribbon working notes.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0095",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "ribbon working notes.txt",
+        "ribbon working notes-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"ribbon working notes.txt\" and \"ribbon working notes-second.txt\"; they don't exist yet.",
+      "I need files named \"ribbon working notes.txt\" and \"ribbon working notes-second.txt\" with no contents yet.",
+      "Make files named \"ribbon working notes.txt\" and \"ribbon working notes-second.txt\", leaving them empty.",
+      "Add files named \"ribbon working notes.txt\" and \"ribbon working notes-second.txt\" as empty placeholders.",
+      "Can you create files named \"ribbon working notes.txt\" and \"ribbon working notes-second.txt\" without writing any text?",
+      "Start with files named \"ribbon working notes.txt\" and \"ribbon working notes-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0096",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "ribbon working notes-tree/ribbon working notes.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"ribbon working notes.txt\" inside the existing folder \"ribbon working notes-tree\".",
+      "Put a new blank file named \"ribbon working notes.txt\" in \"ribbon working notes-tree\".",
+      "I need an empty \"ribbon working notes.txt\" file under \"ribbon working notes-tree\".",
+      "Inside \"ribbon working notes-tree\", create a file named \"ribbon working notes.txt\" with no contents.",
+      "Make a zero-byte file named \"ribbon working notes.txt\" in the directory \"ribbon working notes-tree\".",
+      "Add an empty placeholder named \"ribbon working notes.txt\" to \"ribbon working notes-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0097",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "cassette's notebook.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"cassette's notebook.txt\"; they don't exist yet.",
+      "I need a file named \"cassette's notebook.txt\" with no contents yet.",
+      "Make a file named \"cassette's notebook.txt\", leaving them empty.",
+      "Add a file named \"cassette's notebook.txt\" as empty placeholders.",
+      "Can you create a file named \"cassette's notebook.txt\" without writing any text?",
+      "Start with a file named \"cassette's notebook.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0098",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "cassette's notebook.txt",
+        "cassette's notebook-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"cassette's notebook.txt\" and \"cassette's notebook-second.txt\"; they don't exist yet.",
+      "I need files named \"cassette's notebook.txt\" and \"cassette's notebook-second.txt\" with no contents yet.",
+      "Make files named \"cassette's notebook.txt\" and \"cassette's notebook-second.txt\", leaving them empty.",
+      "Add files named \"cassette's notebook.txt\" and \"cassette's notebook-second.txt\" as empty placeholders.",
+      "Can you create files named \"cassette's notebook.txt\" and \"cassette's notebook-second.txt\" without writing any text?",
+      "Start with files named \"cassette's notebook.txt\" and \"cassette's notebook-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0099",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "cassette's notebook-tree/cassette's notebook.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"cassette's notebook.txt\" inside the existing folder \"cassette's notebook-tree\".",
+      "Put a new blank file named \"cassette's notebook.txt\" in \"cassette's notebook-tree\".",
+      "I need an empty \"cassette's notebook.txt\" file under \"cassette's notebook-tree\".",
+      "Inside \"cassette's notebook-tree\", create a file named \"cassette's notebook.txt\" with no contents.",
+      "Make a zero-byte file named \"cassette's notebook.txt\" in the directory \"cassette's notebook-tree\".",
+      "Add an empty placeholder named \"cassette's notebook.txt\" to \"cassette's notebook-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0100",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "-loom-draft.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"-loom-draft.txt\"; they don't exist yet.",
+      "I need a file named \"-loom-draft.txt\" with no contents yet.",
+      "Make a file named \"-loom-draft.txt\", leaving them empty.",
+      "Add a file named \"-loom-draft.txt\" as empty placeholders.",
+      "Can you create a file named \"-loom-draft.txt\" without writing any text?",
+      "Start with a file named \"-loom-draft.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0101",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "-loom-draft.txt",
+        "-loom-draft-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"-loom-draft.txt\" and \"-loom-draft-second.txt\"; they don't exist yet.",
+      "I need files named \"-loom-draft.txt\" and \"-loom-draft-second.txt\" with no contents yet.",
+      "Make files named \"-loom-draft.txt\" and \"-loom-draft-second.txt\", leaving them empty.",
+      "Add files named \"-loom-draft.txt\" and \"-loom-draft-second.txt\" as empty placeholders.",
+      "Can you create files named \"-loom-draft.txt\" and \"-loom-draft-second.txt\" without writing any text?",
+      "Start with files named \"-loom-draft.txt\" and \"-loom-draft-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0102",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "./-loom-draft-tree/-loom-draft.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"-loom-draft.txt\" inside the existing folder \"./-loom-draft-tree\".",
+      "Put a new blank file named \"-loom-draft.txt\" in \"./-loom-draft-tree\".",
+      "I need an empty \"-loom-draft.txt\" file under \"./-loom-draft-tree\".",
+      "Inside \"./-loom-draft-tree\", create a file named \"-loom-draft.txt\" with no contents.",
+      "Make a zero-byte file named \"-loom-draft.txt\" in the directory \"./-loom-draft-tree\".",
+      "Add an empty placeholder named \"-loom-draft.txt\" to \"./-loom-draft-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0103",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "terrace-$budget.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"terrace-$budget.txt\"; they don't exist yet.",
+      "I need a file named \"terrace-$budget.txt\" with no contents yet.",
+      "Make a file named \"terrace-$budget.txt\", leaving them empty.",
+      "Add a file named \"terrace-$budget.txt\" as empty placeholders.",
+      "Can you create a file named \"terrace-$budget.txt\" without writing any text?",
+      "Start with a file named \"terrace-$budget.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0104",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "terrace-$budget.txt",
+        "terrace-$budget-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"terrace-$budget.txt\" and \"terrace-$budget-second.txt\"; they don't exist yet.",
+      "I need files named \"terrace-$budget.txt\" and \"terrace-$budget-second.txt\" with no contents yet.",
+      "Make files named \"terrace-$budget.txt\" and \"terrace-$budget-second.txt\", leaving them empty.",
+      "Add files named \"terrace-$budget.txt\" and \"terrace-$budget-second.txt\" as empty placeholders.",
+      "Can you create files named \"terrace-$budget.txt\" and \"terrace-$budget-second.txt\" without writing any text?",
+      "Start with files named \"terrace-$budget.txt\" and \"terrace-$budget-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0105",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "terrace-$budget-tree/terrace-$budget.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"terrace-$budget.txt\" inside the existing folder \"terrace-$budget-tree\".",
+      "Put a new blank file named \"terrace-$budget.txt\" in \"terrace-$budget-tree\".",
+      "I need an empty \"terrace-$budget.txt\" file under \"terrace-$budget-tree\".",
+      "Inside \"terrace-$budget-tree\", create a file named \"terrace-$budget.txt\" with no contents.",
+      "Make a zero-byte file named \"terrace-$budget.txt\" in the directory \"terrace-$budget-tree\".",
+      "Add an empty placeholder named \"terrace-$budget.txt\" to \"terrace-$budget-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0106",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "depot;archive.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"depot;archive.txt\"; they don't exist yet.",
+      "I need a file named \"depot;archive.txt\" with no contents yet.",
+      "Make a file named \"depot;archive.txt\", leaving them empty.",
+      "Add a file named \"depot;archive.txt\" as empty placeholders.",
+      "Can you create a file named \"depot;archive.txt\" without writing any text?",
+      "Start with a file named \"depot;archive.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0107",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "depot;archive.txt",
+        "depot;archive-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"depot;archive.txt\" and \"depot;archive-second.txt\"; they don't exist yet.",
+      "I need files named \"depot;archive.txt\" and \"depot;archive-second.txt\" with no contents yet.",
+      "Make files named \"depot;archive.txt\" and \"depot;archive-second.txt\", leaving them empty.",
+      "Add files named \"depot;archive.txt\" and \"depot;archive-second.txt\" as empty placeholders.",
+      "Can you create files named \"depot;archive.txt\" and \"depot;archive-second.txt\" without writing any text?",
+      "Start with files named \"depot;archive.txt\" and \"depot;archive-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0108",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "depot;archive-tree/depot;archive.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"depot;archive.txt\" inside the existing folder \"depot;archive-tree\".",
+      "Put a new blank file named \"depot;archive.txt\" in \"depot;archive-tree\".",
+      "I need an empty \"depot;archive.txt\" file under \"depot;archive-tree\".",
+      "Inside \"depot;archive-tree\", create a file named \"depot;archive.txt\" with no contents.",
+      "Make a zero-byte file named \"depot;archive.txt\" in the directory \"depot;archive-tree\".",
+      "Add an empty placeholder named \"depot;archive.txt\" to \"depot;archive-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0109",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "estuary*literal.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"estuary*literal.txt\"; they don't exist yet.",
+      "I need a file named \"estuary*literal.txt\" with no contents yet.",
+      "Make a file named \"estuary*literal.txt\", leaving them empty.",
+      "Add a file named \"estuary*literal.txt\" as empty placeholders.",
+      "Can you create a file named \"estuary*literal.txt\" without writing any text?",
+      "Start with a file named \"estuary*literal.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0110",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "estuary*literal.txt",
+        "estuary*literal-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"estuary*literal.txt\" and \"estuary*literal-second.txt\"; they don't exist yet.",
+      "I need files named \"estuary*literal.txt\" and \"estuary*literal-second.txt\" with no contents yet.",
+      "Make files named \"estuary*literal.txt\" and \"estuary*literal-second.txt\", leaving them empty.",
+      "Add files named \"estuary*literal.txt\" and \"estuary*literal-second.txt\" as empty placeholders.",
+      "Can you create files named \"estuary*literal.txt\" and \"estuary*literal-second.txt\" without writing any text?",
+      "Start with files named \"estuary*literal.txt\" and \"estuary*literal-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0111",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "estuary*literal-tree/estuary*literal.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"estuary*literal.txt\" inside the existing folder \"estuary*literal-tree\".",
+      "Put a new blank file named \"estuary*literal.txt\" in \"estuary*literal-tree\".",
+      "I need an empty \"estuary*literal.txt\" file under \"estuary*literal-tree\".",
+      "Inside \"estuary*literal-tree\", create a file named \"estuary*literal.txt\" with no contents.",
+      "Make a zero-byte file named \"estuary*literal.txt\" in the directory \"estuary*literal-tree\".",
+      "Add an empty placeholder named \"estuary*literal.txt\" to \"estuary*literal-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0112",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "thimble[draft].txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"thimble[draft].txt\"; they don't exist yet.",
+      "I need a file named \"thimble[draft].txt\" with no contents yet.",
+      "Make a file named \"thimble[draft].txt\", leaving them empty.",
+      "Add a file named \"thimble[draft].txt\" as empty placeholders.",
+      "Can you create a file named \"thimble[draft].txt\" without writing any text?",
+      "Start with a file named \"thimble[draft].txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0113",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "thimble[draft].txt",
+        "thimble[draft]-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"thimble[draft].txt\" and \"thimble[draft]-second.txt\"; they don't exist yet.",
+      "I need files named \"thimble[draft].txt\" and \"thimble[draft]-second.txt\" with no contents yet.",
+      "Make files named \"thimble[draft].txt\" and \"thimble[draft]-second.txt\", leaving them empty.",
+      "Add files named \"thimble[draft].txt\" and \"thimble[draft]-second.txt\" as empty placeholders.",
+      "Can you create files named \"thimble[draft].txt\" and \"thimble[draft]-second.txt\" without writing any text?",
+      "Start with files named \"thimble[draft].txt\" and \"thimble[draft]-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0114",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "thimble[draft]-tree/thimble[draft].txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"thimble[draft].txt\" inside the existing folder \"thimble[draft]-tree\".",
+      "Put a new blank file named \"thimble[draft].txt\" in \"thimble[draft]-tree\".",
+      "I need an empty \"thimble[draft].txt\" file under \"thimble[draft]-tree\".",
+      "Inside \"thimble[draft]-tree\", create a file named \"thimble[draft].txt\" with no contents.",
+      "Make a zero-byte file named \"thimble[draft].txt\" in the directory \"thimble[draft]-tree\".",
+      "Add an empty placeholder named \"thimble[draft].txt\" to \"thimble[draft]-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0115",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "pigment-café.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"pigment-café.txt\"; they don't exist yet.",
+      "I need a file named \"pigment-café.txt\" with no contents yet.",
+      "Make a file named \"pigment-café.txt\", leaving them empty.",
+      "Add a file named \"pigment-café.txt\" as empty placeholders.",
+      "Can you create a file named \"pigment-café.txt\" without writing any text?",
+      "Start with a file named \"pigment-café.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0116",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "pigment-café.txt",
+        "pigment-café-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"pigment-café.txt\" and \"pigment-café-second.txt\"; they don't exist yet.",
+      "I need files named \"pigment-café.txt\" and \"pigment-café-second.txt\" with no contents yet.",
+      "Make files named \"pigment-café.txt\" and \"pigment-café-second.txt\", leaving them empty.",
+      "Add files named \"pigment-café.txt\" and \"pigment-café-second.txt\" as empty placeholders.",
+      "Can you create files named \"pigment-café.txt\" and \"pigment-café-second.txt\" without writing any text?",
+      "Start with files named \"pigment-café.txt\" and \"pigment-café-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0117",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "pigment-café-tree/pigment-café.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"pigment-café.txt\" inside the existing folder \"pigment-café-tree\".",
+      "Put a new blank file named \"pigment-café.txt\" in \"pigment-café-tree\".",
+      "I need an empty \"pigment-café.txt\" file under \"pigment-café-tree\".",
+      "Inside \"pigment-café-tree\", create a file named \"pigment-café.txt\" with no contents.",
+      "Make a zero-byte file named \"pigment-café.txt\" in the directory \"pigment-café-tree\".",
+      "Add an empty placeholder named \"pigment-café.txt\" to \"pigment-café-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0118",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "junction field records.txt"
+      ]
+    },
+    "requests": [
+      "Create a file named \"junction field records.txt\"; they don't exist yet.",
+      "I need a file named \"junction field records.txt\" with no contents yet.",
+      "Make a file named \"junction field records.txt\", leaving them empty.",
+      "Add a file named \"junction field records.txt\" as empty placeholders.",
+      "Can you create a file named \"junction field records.txt\" without writing any text?",
+      "Start with a file named \"junction field records.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0119",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "junction field records.txt",
+        "junction field records-second.txt"
+      ]
+    },
+    "requests": [
+      "Create files named \"junction field records.txt\" and \"junction field records-second.txt\"; they don't exist yet.",
+      "I need files named \"junction field records.txt\" and \"junction field records-second.txt\" with no contents yet.",
+      "Make files named \"junction field records.txt\" and \"junction field records-second.txt\", leaving them empty.",
+      "Add files named \"junction field records.txt\" and \"junction field records-second.txt\" as empty placeholders.",
+      "Can you create files named \"junction field records.txt\" and \"junction field records-second.txt\" without writing any text?",
+      "Start with files named \"junction field records.txt\" and \"junction field records-second.txt\" containing zero bytes."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0120",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "train",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "junction field records-tree/junction field records.txt"
+      ]
+    },
+    "requests": [
+      "Create an empty file called \"junction field records.txt\" inside the existing folder \"junction field records-tree\".",
+      "Put a new blank file named \"junction field records.txt\" in \"junction field records-tree\".",
+      "I need an empty \"junction field records.txt\" file under \"junction field records-tree\".",
+      "Inside \"junction field records-tree\", create a file named \"junction field records.txt\" with no contents.",
+      "Make a zero-byte file named \"junction field records.txt\" in the directory \"junction field records-tree\".",
+      "Add an empty placeholder named \"junction field records.txt\" to \"junction field records-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0121",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "verdigris-journal.txt"
+      ]
+    },
+    "requests": [
+      "Put a file named \"verdigris-journal.txt\" on disk as empty new files.",
+      "Initialize a file named \"verdigris-journal.txt\" with no data in them.",
+      "Set up a file named \"verdigris-journal.txt\" as zero-length files.",
+      "I'd like blank placeholders at a file named \"verdigris-journal.txt\".",
+      "Produce a file named \"verdigris-journal.txt\", but leave their contents blank.",
+      "Prepare a file named \"verdigris-journal.txt\" as new empty files."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0122",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "verdigris-journal.txt",
+        "verdigris-journal-second.txt"
+      ]
+    },
+    "requests": [
+      "Put files named \"verdigris-journal.txt\" and \"verdigris-journal-second.txt\" on disk as empty new files.",
+      "Initialize files named \"verdigris-journal.txt\" and \"verdigris-journal-second.txt\" with no data in them.",
+      "Set up files named \"verdigris-journal.txt\" and \"verdigris-journal-second.txt\" as zero-length files.",
+      "I'd like blank placeholders at files named \"verdigris-journal.txt\" and \"verdigris-journal-second.txt\".",
+      "Produce files named \"verdigris-journal.txt\" and \"verdigris-journal-second.txt\", but leave their contents blank.",
+      "Prepare files named \"verdigris-journal.txt\" and \"verdigris-journal-second.txt\" as new empty files."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0123",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "verdigris-journal-tree/verdigris-journal.txt"
+      ]
+    },
+    "requests": [
+      "Initialize a blank file called \"verdigris-journal.txt\" within \"verdigris-journal-tree\".",
+      "Under the folder \"verdigris-journal-tree\", set up the empty file \"verdigris-journal.txt\".",
+      "Give me a new zero-length \"verdigris-journal.txt\" file inside \"verdigris-journal-tree\".",
+      "The existing directory \"verdigris-journal-tree\" needs a new empty file called \"verdigris-journal.txt\".",
+      "Place a blank placeholder named \"verdigris-journal.txt\" within \"verdigris-journal-tree\".",
+      "Prepare \"verdigris-journal.txt\" as an empty new file in the folder \"verdigris-journal-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0124",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "mariner working notes.txt"
+      ]
+    },
+    "requests": [
+      "Put a file named \"mariner working notes.txt\" on disk as empty new files.",
+      "Initialize a file named \"mariner working notes.txt\" with no data in them.",
+      "Set up a file named \"mariner working notes.txt\" as zero-length files.",
+      "I'd like blank placeholders at a file named \"mariner working notes.txt\".",
+      "Produce a file named \"mariner working notes.txt\", but leave their contents blank.",
+      "Prepare a file named \"mariner working notes.txt\" as new empty files."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0125",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "mariner working notes.txt",
+        "mariner working notes-second.txt"
+      ]
+    },
+    "requests": [
+      "Put files named \"mariner working notes.txt\" and \"mariner working notes-second.txt\" on disk as empty new files.",
+      "Initialize files named \"mariner working notes.txt\" and \"mariner working notes-second.txt\" with no data in them.",
+      "Set up files named \"mariner working notes.txt\" and \"mariner working notes-second.txt\" as zero-length files.",
+      "I'd like blank placeholders at files named \"mariner working notes.txt\" and \"mariner working notes-second.txt\".",
+      "Produce files named \"mariner working notes.txt\" and \"mariner working notes-second.txt\", but leave their contents blank.",
+      "Prepare files named \"mariner working notes.txt\" and \"mariner working notes-second.txt\" as new empty files."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0126",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "mariner working notes-tree/mariner working notes.txt"
+      ]
+    },
+    "requests": [
+      "Initialize a blank file called \"mariner working notes.txt\" within \"mariner working notes-tree\".",
+      "Under the folder \"mariner working notes-tree\", set up the empty file \"mariner working notes.txt\".",
+      "Give me a new zero-length \"mariner working notes.txt\" file inside \"mariner working notes-tree\".",
+      "The existing directory \"mariner working notes-tree\" needs a new empty file called \"mariner working notes.txt\".",
+      "Place a blank placeholder named \"mariner working notes.txt\" within \"mariner working notes-tree\".",
+      "Prepare \"mariner working notes.txt\" as an empty new file in the folder \"mariner working notes-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0127",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "vellum's notebook.txt"
+      ]
+    },
+    "requests": [
+      "Put a file named \"vellum's notebook.txt\" on disk as empty new files.",
+      "Initialize a file named \"vellum's notebook.txt\" with no data in them.",
+      "Set up a file named \"vellum's notebook.txt\" as zero-length files.",
+      "I'd like blank placeholders at a file named \"vellum's notebook.txt\".",
+      "Produce a file named \"vellum's notebook.txt\", but leave their contents blank.",
+      "Prepare a file named \"vellum's notebook.txt\" as new empty files."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0128",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "vellum's notebook.txt",
+        "vellum's notebook-second.txt"
+      ]
+    },
+    "requests": [
+      "Put files named \"vellum's notebook.txt\" and \"vellum's notebook-second.txt\" on disk as empty new files.",
+      "Initialize files named \"vellum's notebook.txt\" and \"vellum's notebook-second.txt\" with no data in them.",
+      "Set up files named \"vellum's notebook.txt\" and \"vellum's notebook-second.txt\" as zero-length files.",
+      "I'd like blank placeholders at files named \"vellum's notebook.txt\" and \"vellum's notebook-second.txt\".",
+      "Produce files named \"vellum's notebook.txt\" and \"vellum's notebook-second.txt\", but leave their contents blank.",
+      "Prepare files named \"vellum's notebook.txt\" and \"vellum's notebook-second.txt\" as new empty files."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0129",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "vellum's notebook-tree/vellum's notebook.txt"
+      ]
+    },
+    "requests": [
+      "Initialize a blank file called \"vellum's notebook.txt\" within \"vellum's notebook-tree\".",
+      "Under the folder \"vellum's notebook-tree\", set up the empty file \"vellum's notebook.txt\".",
+      "Give me a new zero-length \"vellum's notebook.txt\" file inside \"vellum's notebook-tree\".",
+      "The existing directory \"vellum's notebook-tree\" needs a new empty file called \"vellum's notebook.txt\".",
+      "Place a blank placeholder named \"vellum's notebook.txt\" within \"vellum's notebook-tree\".",
+      "Prepare \"vellum's notebook.txt\" as an empty new file in the folder \"vellum's notebook-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0130",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "-coracle-draft.txt"
+      ]
+    },
+    "requests": [
+      "Put a file named \"-coracle-draft.txt\" on disk as empty new files.",
+      "Initialize a file named \"-coracle-draft.txt\" with no data in them.",
+      "Set up a file named \"-coracle-draft.txt\" as zero-length files.",
+      "I'd like blank placeholders at a file named \"-coracle-draft.txt\".",
+      "Produce a file named \"-coracle-draft.txt\", but leave their contents blank.",
+      "Prepare a file named \"-coracle-draft.txt\" as new empty files."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0131",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "-coracle-draft.txt",
+        "-coracle-draft-second.txt"
+      ]
+    },
+    "requests": [
+      "Put files named \"-coracle-draft.txt\" and \"-coracle-draft-second.txt\" on disk as empty new files.",
+      "Initialize files named \"-coracle-draft.txt\" and \"-coracle-draft-second.txt\" with no data in them.",
+      "Set up files named \"-coracle-draft.txt\" and \"-coracle-draft-second.txt\" as zero-length files.",
+      "I'd like blank placeholders at files named \"-coracle-draft.txt\" and \"-coracle-draft-second.txt\".",
+      "Produce files named \"-coracle-draft.txt\" and \"-coracle-draft-second.txt\", but leave their contents blank.",
+      "Prepare files named \"-coracle-draft.txt\" and \"-coracle-draft-second.txt\" as new empty files."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0132",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "./-coracle-draft-tree/-coracle-draft.txt"
+      ]
+    },
+    "requests": [
+      "Initialize a blank file called \"-coracle-draft.txt\" within \"./-coracle-draft-tree\".",
+      "Under the folder \"./-coracle-draft-tree\", set up the empty file \"-coracle-draft.txt\".",
+      "Give me a new zero-length \"-coracle-draft.txt\" file inside \"./-coracle-draft-tree\".",
+      "The existing directory \"./-coracle-draft-tree\" needs a new empty file called \"-coracle-draft.txt\".",
+      "Place a blank placeholder named \"-coracle-draft.txt\" within \"./-coracle-draft-tree\".",
+      "Prepare \"-coracle-draft.txt\" as an empty new file in the folder \"./-coracle-draft-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0133",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "fulcrum-$budget.txt"
+      ]
+    },
+    "requests": [
+      "Put a file named \"fulcrum-$budget.txt\" on disk as empty new files.",
+      "Initialize a file named \"fulcrum-$budget.txt\" with no data in them.",
+      "Set up a file named \"fulcrum-$budget.txt\" as zero-length files.",
+      "I'd like blank placeholders at a file named \"fulcrum-$budget.txt\".",
+      "Produce a file named \"fulcrum-$budget.txt\", but leave their contents blank.",
+      "Prepare a file named \"fulcrum-$budget.txt\" as new empty files."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0134",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "fulcrum-$budget.txt",
+        "fulcrum-$budget-second.txt"
+      ]
+    },
+    "requests": [
+      "Put files named \"fulcrum-$budget.txt\" and \"fulcrum-$budget-second.txt\" on disk as empty new files.",
+      "Initialize files named \"fulcrum-$budget.txt\" and \"fulcrum-$budget-second.txt\" with no data in them.",
+      "Set up files named \"fulcrum-$budget.txt\" and \"fulcrum-$budget-second.txt\" as zero-length files.",
+      "I'd like blank placeholders at files named \"fulcrum-$budget.txt\" and \"fulcrum-$budget-second.txt\".",
+      "Produce files named \"fulcrum-$budget.txt\" and \"fulcrum-$budget-second.txt\", but leave their contents blank.",
+      "Prepare files named \"fulcrum-$budget.txt\" and \"fulcrum-$budget-second.txt\" as new empty files."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0135",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "fulcrum-$budget-tree/fulcrum-$budget.txt"
+      ]
+    },
+    "requests": [
+      "Initialize a blank file called \"fulcrum-$budget.txt\" within \"fulcrum-$budget-tree\".",
+      "Under the folder \"fulcrum-$budget-tree\", set up the empty file \"fulcrum-$budget.txt\".",
+      "Give me a new zero-length \"fulcrum-$budget.txt\" file inside \"fulcrum-$budget-tree\".",
+      "The existing directory \"fulcrum-$budget-tree\" needs a new empty file called \"fulcrum-$budget.txt\".",
+      "Place a blank placeholder named \"fulcrum-$budget.txt\" within \"fulcrum-$budget-tree\".",
+      "Prepare \"fulcrum-$budget.txt\" as an empty new file in the folder \"fulcrum-$budget-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0136",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "tundralake;archive.txt"
+      ]
+    },
+    "requests": [
+      "Put a file named \"tundralake;archive.txt\" on disk as empty new files.",
+      "Initialize a file named \"tundralake;archive.txt\" with no data in them.",
+      "Set up a file named \"tundralake;archive.txt\" as zero-length files.",
+      "I'd like blank placeholders at a file named \"tundralake;archive.txt\".",
+      "Produce a file named \"tundralake;archive.txt\", but leave their contents blank.",
+      "Prepare a file named \"tundralake;archive.txt\" as new empty files."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0137",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "tundralake;archive.txt",
+        "tundralake;archive-second.txt"
+      ]
+    },
+    "requests": [
+      "Put files named \"tundralake;archive.txt\" and \"tundralake;archive-second.txt\" on disk as empty new files.",
+      "Initialize files named \"tundralake;archive.txt\" and \"tundralake;archive-second.txt\" with no data in them.",
+      "Set up files named \"tundralake;archive.txt\" and \"tundralake;archive-second.txt\" as zero-length files.",
+      "I'd like blank placeholders at files named \"tundralake;archive.txt\" and \"tundralake;archive-second.txt\".",
+      "Produce files named \"tundralake;archive.txt\" and \"tundralake;archive-second.txt\", but leave their contents blank.",
+      "Prepare files named \"tundralake;archive.txt\" and \"tundralake;archive-second.txt\" as new empty files."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0138",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "tundralake;archive-tree/tundralake;archive.txt"
+      ]
+    },
+    "requests": [
+      "Initialize a blank file called \"tundralake;archive.txt\" within \"tundralake;archive-tree\".",
+      "Under the folder \"tundralake;archive-tree\", set up the empty file \"tundralake;archive.txt\".",
+      "Give me a new zero-length \"tundralake;archive.txt\" file inside \"tundralake;archive-tree\".",
+      "The existing directory \"tundralake;archive-tree\" needs a new empty file called \"tundralake;archive.txt\".",
+      "Place a blank placeholder named \"tundralake;archive.txt\" within \"tundralake;archive-tree\".",
+      "Prepare \"tundralake;archive.txt\" as an empty new file in the folder \"tundralake;archive-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0139",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "obsidian*literal.txt"
+      ]
+    },
+    "requests": [
+      "Put a file named \"obsidian*literal.txt\" on disk as empty new files.",
+      "Initialize a file named \"obsidian*literal.txt\" with no data in them.",
+      "Set up a file named \"obsidian*literal.txt\" as zero-length files.",
+      "I'd like blank placeholders at a file named \"obsidian*literal.txt\".",
+      "Produce a file named \"obsidian*literal.txt\", but leave their contents blank.",
+      "Prepare a file named \"obsidian*literal.txt\" as new empty files."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0140",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "obsidian*literal.txt",
+        "obsidian*literal-second.txt"
+      ]
+    },
+    "requests": [
+      "Put files named \"obsidian*literal.txt\" and \"obsidian*literal-second.txt\" on disk as empty new files.",
+      "Initialize files named \"obsidian*literal.txt\" and \"obsidian*literal-second.txt\" with no data in them.",
+      "Set up files named \"obsidian*literal.txt\" and \"obsidian*literal-second.txt\" as zero-length files.",
+      "I'd like blank placeholders at files named \"obsidian*literal.txt\" and \"obsidian*literal-second.txt\".",
+      "Produce files named \"obsidian*literal.txt\" and \"obsidian*literal-second.txt\", but leave their contents blank.",
+      "Prepare files named \"obsidian*literal.txt\" and \"obsidian*literal-second.txt\" as new empty files."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0141",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "obsidian*literal-tree/obsidian*literal.txt"
+      ]
+    },
+    "requests": [
+      "Initialize a blank file called \"obsidian*literal.txt\" within \"obsidian*literal-tree\".",
+      "Under the folder \"obsidian*literal-tree\", set up the empty file \"obsidian*literal.txt\".",
+      "Give me a new zero-length \"obsidian*literal.txt\" file inside \"obsidian*literal-tree\".",
+      "The existing directory \"obsidian*literal-tree\" needs a new empty file called \"obsidian*literal.txt\".",
+      "Place a blank placeholder named \"obsidian*literal.txt\" within \"obsidian*literal-tree\".",
+      "Prepare \"obsidian*literal.txt\" as an empty new file in the folder \"obsidian*literal-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0142",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "meridian[draft].txt"
+      ]
+    },
+    "requests": [
+      "Put a file named \"meridian[draft].txt\" on disk as empty new files.",
+      "Initialize a file named \"meridian[draft].txt\" with no data in them.",
+      "Set up a file named \"meridian[draft].txt\" as zero-length files.",
+      "I'd like blank placeholders at a file named \"meridian[draft].txt\".",
+      "Produce a file named \"meridian[draft].txt\", but leave their contents blank.",
+      "Prepare a file named \"meridian[draft].txt\" as new empty files."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0143",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "meridian[draft].txt",
+        "meridian[draft]-second.txt"
+      ]
+    },
+    "requests": [
+      "Put files named \"meridian[draft].txt\" and \"meridian[draft]-second.txt\" on disk as empty new files.",
+      "Initialize files named \"meridian[draft].txt\" and \"meridian[draft]-second.txt\" with no data in them.",
+      "Set up files named \"meridian[draft].txt\" and \"meridian[draft]-second.txt\" as zero-length files.",
+      "I'd like blank placeholders at files named \"meridian[draft].txt\" and \"meridian[draft]-second.txt\".",
+      "Produce files named \"meridian[draft].txt\" and \"meridian[draft]-second.txt\", but leave their contents blank.",
+      "Prepare files named \"meridian[draft].txt\" and \"meridian[draft]-second.txt\" as new empty files."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0144",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "meridian[draft]-tree/meridian[draft].txt"
+      ]
+    },
+    "requests": [
+      "Initialize a blank file called \"meridian[draft].txt\" within \"meridian[draft]-tree\".",
+      "Under the folder \"meridian[draft]-tree\", set up the empty file \"meridian[draft].txt\".",
+      "Give me a new zero-length \"meridian[draft].txt\" file inside \"meridian[draft]-tree\".",
+      "The existing directory \"meridian[draft]-tree\" needs a new empty file called \"meridian[draft].txt\".",
+      "Place a blank placeholder named \"meridian[draft].txt\" within \"meridian[draft]-tree\".",
+      "Prepare \"meridian[draft].txt\" as an empty new file in the folder \"meridian[draft]-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0145",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "palisade-café.txt"
+      ]
+    },
+    "requests": [
+      "Put a file named \"palisade-café.txt\" on disk as empty new files.",
+      "Initialize a file named \"palisade-café.txt\" with no data in them.",
+      "Set up a file named \"palisade-café.txt\" as zero-length files.",
+      "I'd like blank placeholders at a file named \"palisade-café.txt\".",
+      "Produce a file named \"palisade-café.txt\", but leave their contents blank.",
+      "Prepare a file named \"palisade-café.txt\" as new empty files."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0146",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "palisade-café.txt",
+        "palisade-café-second.txt"
+      ]
+    },
+    "requests": [
+      "Put files named \"palisade-café.txt\" and \"palisade-café-second.txt\" on disk as empty new files.",
+      "Initialize files named \"palisade-café.txt\" and \"palisade-café-second.txt\" with no data in them.",
+      "Set up files named \"palisade-café.txt\" and \"palisade-café-second.txt\" as zero-length files.",
+      "I'd like blank placeholders at files named \"palisade-café.txt\" and \"palisade-café-second.txt\".",
+      "Produce files named \"palisade-café.txt\" and \"palisade-café-second.txt\", but leave their contents blank.",
+      "Prepare files named \"palisade-café.txt\" and \"palisade-café-second.txt\" as new empty files."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0147",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "palisade-café-tree/palisade-café.txt"
+      ]
+    },
+    "requests": [
+      "Initialize a blank file called \"palisade-café.txt\" within \"palisade-café-tree\".",
+      "Under the folder \"palisade-café-tree\", set up the empty file \"palisade-café.txt\".",
+      "Give me a new zero-length \"palisade-café.txt\" file inside \"palisade-café-tree\".",
+      "The existing directory \"palisade-café-tree\" needs a new empty file called \"palisade-café.txt\".",
+      "Place a blank placeholder named \"palisade-café.txt\" within \"palisade-café-tree\".",
+      "Prepare \"palisade-café.txt\" as an empty new file in the folder \"palisade-café-tree\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0148",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "almanac field records.txt"
+      ]
+    },
+    "requests": [
+      "Put a file named \"almanac field records.txt\" on disk as empty new files.",
+      "Initialize a file named \"almanac field records.txt\" with no data in them.",
+      "Set up a file named \"almanac field records.txt\" as zero-length files.",
+      "I'd like blank placeholders at a file named \"almanac field records.txt\".",
+      "Produce a file named \"almanac field records.txt\", but leave their contents blank.",
+      "Prepare a file named \"almanac field records.txt\" as new empty files."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0149",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "literal-empty-files",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "almanac field records.txt",
+        "almanac field records-second.txt"
+      ]
+    },
+    "requests": [
+      "Put files named \"almanac field records.txt\" and \"almanac field records-second.txt\" on disk as empty new files.",
+      "Initialize files named \"almanac field records.txt\" and \"almanac field records-second.txt\" with no data in them.",
+      "Set up files named \"almanac field records.txt\" and \"almanac field records-second.txt\" as zero-length files.",
+      "I'd like blank placeholders at files named \"almanac field records.txt\" and \"almanac field records-second.txt\".",
+      "Produce files named \"almanac field records.txt\" and \"almanac field records-second.txt\", but leave their contents blank.",
+      "Prepare files named \"almanac field records.txt\" and \"almanac field records-second.txt\" as new empty files."
+    ]
+  },
+  {
+    "id": "coverage-v2-touch-0150",
+    "family": "touch",
+    "topic": "filesystem",
+    "capability": "filename-directory-composition",
+    "split": "validation",
+    "intent": {
+      "op": "touch",
+      "targets": [
+        "almanac field records-tree/almanac field records.txt"
+      ]
+    },
+    "requests": [
+      "Initialize a blank file called \"almanac field records.txt\" within \"almanac field records-tree\".",
+      "Under the folder \"almanac field records-tree\", set up the empty file \"almanac field records.txt\".",
+      "Give me a new zero-length \"almanac field records.txt\" file inside \"almanac field records-tree\".",
+      "The existing directory \"almanac field records-tree\" needs a new empty file called \"almanac field records.txt\".",
+      "Place a blank placeholder named \"almanac field records.txt\" within \"almanac field records-tree\".",
+      "Prepare \"almanac field records.txt\" as an empty new file in the folder \"almanac field records-tree\"."
+    ]
+  }
+]

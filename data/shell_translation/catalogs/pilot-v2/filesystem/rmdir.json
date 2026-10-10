@@ -1,0 +1,101 @@
+[
+  {
+    "id": "pilot-v1-rmdir-01",
+    "topic": "filesystem",
+    "family": "rmdir",
+    "capability": "remove-empty-directory",
+    "split": "train",
+    "intent": {
+      "op": "rmdir",
+      "targets": [
+        "empty-folder"
+      ]
+    },
+    "requests": [
+      "remove the empty directory empty-folder",
+      "how do I delete the empty folder empty-folder?",
+      "I want to get rid of empty-folder, which is an empty directory",
+      "empty-folder is an empty directory that should be removed"
+    ]
+  },
+  {
+    "id": "pilot-v1-rmdir-02",
+    "topic": "filesystem",
+    "family": "rmdir",
+    "capability": "multiple-targets",
+    "split": "train",
+    "intent": {
+      "op": "rmdir",
+      "targets": [
+        "empty-one",
+        "empty-two"
+      ]
+    },
+    "requests": [
+      "delete the empty directories empty-one and empty-two",
+      "how can I remove both empty folders, empty-one and empty-two?",
+      "I need the empty directories empty-one and empty-two gone",
+      "get rid of empty-one and empty-two, since both are empty directories"
+    ]
+  },
+  {
+    "id": "pilot-v1-rmdir-03",
+    "topic": "filesystem",
+    "family": "rmdir",
+    "capability": "remove-with-parents",
+    "split": "train",
+    "intent": {
+      "op": "rmdir",
+      "targets": [
+        "reports/2024/drafts"
+      ],
+      "parents": true
+    },
+    "requests": [
+      "remove the empty directory reports/2024/drafts and then each parent directory that becomes empty",
+      "how do I delete reports/2024/drafts together with its empty parent directories in one go?",
+      "I want reports/2024/drafts removed along with the empty folders above it",
+      "the empty directory chain reports/2024/drafts should be deleted all the way up"
+    ]
+  },
+  {
+    "id": "pilot-v1-rmdir-04",
+    "topic": "filesystem",
+    "family": "rmdir",
+    "capability": "quoted-names",
+    "split": "train",
+    "intent": {
+      "op": "rmdir",
+      "targets": [
+        "old stuff",
+        "client's temp"
+      ]
+    },
+    "requests": [
+      "the folders old stuff and client's temp are empty; remove them both",
+      "how would I remove the two empty directories named old stuff and client's temp?",
+      "I'd like old stuff and client's temp, two empty directories, to be deleted",
+      "get rid of the empty folders old stuff and client's temp"
+    ]
+  },
+  {
+    "id": "pilot-v1-rmdir-05",
+    "topic": "filesystem",
+    "family": "rmdir",
+    "capability": "remove-with-parents",
+    "split": "validation",
+    "intent": {
+      "op": "rmdir",
+      "targets": [
+        "tundra/zephyr-cache"
+      ],
+      "parents": true
+    },
+    "requests": [
+      "prune tundra/zephyr-cache and every empty parent directory above it",
+      "could you delete tundra/zephyr-cache and then tundra itself, since both will be empty?",
+      "my empty folder path tundra/zephyr-cache needs removing, parents included",
+      "tear down the empty directories along the path tundra/zephyr-cache"
+    ]
+  }
+]

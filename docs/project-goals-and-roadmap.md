@@ -25,6 +25,9 @@ The initial candidate is `Qwen/Qwen3-0.6B-Base`. The first supervised LoRA exper
 6. Created this documentation notebook and repository instructions for keeping it updated.
 7. On 2026-10-01, established the task contract, built a 112-case Docker functional evaluation suite, validated its references and scoring behavior, and recorded a reproducible Base-model baseline.
 8. On 2026-10-01, built a versioned dataset with 1,008 training and 112 validation examples, validated 280 command scenarios on two fixtures, and completed a three-epoch LoRA training run. Checkpoint evaluations and report history preserve progress for future charts.
+9. On 2026-10-02, added the separate 300-case ShellBench Extra v1 progress benchmark; it remains outside training and validation.
+10. On 2026-10-03, completed a fresh expanded-data adapter using 2,072 training examples: 84.8% on v1 and 25.7% on Extra.
+11. On 2026-10-10, prepared and validated pilot-v2, then trained a fresh adapter on its 18,392 training examples for three epochs. Functional scores reached 92.9% on v1 and 34.3% on Extra; reports, regressions and Base comparison charts are preserved in [the experiment notebook](pilot-v2-fresh-lora-experiment.md). Stronger independent composition validation remains proposed work.
 
 ## Proposed progression
 

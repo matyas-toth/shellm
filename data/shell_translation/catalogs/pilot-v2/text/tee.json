@@ -1,0 +1,101 @@
+[
+  {
+    "id": "pilot-v1-tee-01",
+    "topic": "text",
+    "family": "tee",
+    "capability": "append",
+    "split": "train",
+    "intent": {
+      "op": "tee",
+      "source": "new.txt",
+      "destination": "history.txt",
+      "append": true
+    },
+    "requests": [
+      "print the contents of new.txt and also append them to history.txt",
+      "how do I show new.txt on screen while adding its contents to the end of history.txt?",
+      "I want new.txt displayed and appended to history.txt at the same time",
+      "append new.txt to history.txt, showing the appended text in the terminal as well"
+    ]
+  },
+  {
+    "id": "pilot-v1-tee-02",
+    "topic": "text",
+    "family": "tee",
+    "capability": "write-and-print",
+    "split": "train",
+    "intent": {
+      "op": "tee",
+      "source": "draft text.txt",
+      "destination": "backup copy.txt"
+    },
+    "requests": [
+      "save the contents of draft text.txt into backup copy.txt, overwriting it, and print them too",
+      "how can I write draft text.txt into backup copy.txt while also seeing the text on screen?",
+      "I need draft text.txt written to backup copy.txt, replacing what it had, and shown in the terminal",
+      "display draft text.txt and at the same time overwrite backup copy.txt with it"
+    ]
+  },
+  {
+    "id": "pilot-v1-tee-03",
+    "topic": "text",
+    "family": "tee",
+    "capability": "multiple-destinations",
+    "split": "train",
+    "intent": {
+      "op": "tee",
+      "source": "notes.txt",
+      "destinations": [
+        "out1.txt",
+        "out2.txt"
+      ]
+    },
+    "requests": [
+      "write the contents of notes.txt to both out1.txt and out2.txt, replacing their contents, and print it as well",
+      "how do I save notes.txt into out1.txt and out2.txt at once while also printing it?",
+      "I want notes.txt shown on screen and stored in out1.txt and out2.txt, overwriting both",
+      "send notes.txt to the terminal and to the files out1.txt and out2.txt simultaneously"
+    ]
+  },
+  {
+    "id": "pilot-v1-tee-04",
+    "topic": "text",
+    "family": "tee",
+    "capability": "append",
+    "split": "train",
+    "intent": {
+      "op": "tee",
+      "source": "entries.txt",
+      "destination": "-log.txt",
+      "append": true
+    },
+    "requests": [
+      "add the contents of entries.txt to the end of -log.txt and show them on screen too",
+      "how can I append entries.txt to the file -log.txt while also printing it?",
+      "I need entries.txt appended to -log.txt, with the appended text displayed as well",
+      "print entries.txt and at the same time add it to the end of the file named -log.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-tee-05",
+    "topic": "text",
+    "family": "tee",
+    "capability": "multiple-destinations",
+    "split": "validation",
+    "intent": {
+      "op": "tee",
+      "source": "tundra-input.txt",
+      "destinations": [
+        "zephyr/a.txt",
+        "zephyr/b.txt"
+      ],
+      "append": true
+    },
+    "requests": [
+      "could you print tundra-input.txt while appending it to both zephyr/a.txt and zephyr/b.txt?",
+      "add tundra-input.txt to the end of zephyr/a.txt as well as zephyr/b.txt, and show it on the terminal",
+      "what is the way to display tundra-input.txt and tack it onto zephyr/a.txt and zephyr/b.txt in one go?",
+      "stream tundra-input.txt to the screen and onto the ends of zephyr/a.txt and zephyr/b.txt"
+    ]
+  }
+]

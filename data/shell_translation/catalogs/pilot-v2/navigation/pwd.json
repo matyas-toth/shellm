@@ -1,0 +1,322 @@
+[
+  {
+    "id": "pilot-v1-pwd-01",
+    "topic": "navigation",
+    "family": "pwd",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "pwd"
+    },
+    "requests": [
+      "print my present directory path",
+      "which directory is this terminal using?",
+      "give the full pathname of this working folder",
+      "show the shell's present directory"
+    ]
+  },
+  {
+    "id": "pilot-v1-pwd-02",
+    "topic": "navigation",
+    "family": "pwd",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "pwd"
+    },
+    "requests": [
+      "I need the absolute name of my current folder",
+      "write out this folder's full filesystem path",
+      "output the path I am working from",
+      "identify the directory this shell is in"
+    ]
+  },
+  {
+    "id": "pilot-v1-pwd-03",
+    "topic": "navigation",
+    "family": "pwd",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "pwd"
+    },
+    "requests": [
+      "what is my present working folder?",
+      "display the full directory name for this location",
+      "show me this session's working path",
+      "print the filesystem location of this terminal"
+    ]
+  },
+  {
+    "id": "pilot-v1-pwd-04",
+    "topic": "navigation",
+    "family": "pwd",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "pwd"
+    },
+    "requests": [
+      "get the absolute pathname for the working folder",
+      "tell me which directory the shell currently occupies",
+      "what directory path is active here?",
+      "write the current folder location to stdout"
+    ]
+  },
+  {
+    "id": "pilot-v1-pwd-05",
+    "topic": "navigation",
+    "family": "pwd",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "pwd"
+    },
+    "requests": [
+      "show this terminal's absolute directory path",
+      "what's the complete name of the folder I'm in?",
+      "output the pathname of the working directory",
+      "give my shell's current folder location"
+    ]
+  },
+  {
+    "id": "pilot-v1-pwd-06",
+    "topic": "navigation",
+    "family": "pwd",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "pwd"
+    },
+    "requests": [
+      "display my present filesystem location",
+      "print the path for the folder this session uses",
+      "which folder does this shell currently point at?",
+      "show the absolute working-folder pathname"
+    ]
+  },
+  {
+    "id": "pilot-v1-pwd-07",
+    "topic": "navigation",
+    "family": "pwd",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "pwd"
+    },
+    "requests": [
+      "retrieve my terminal's working directory",
+      "I want to see the folder path for this shell",
+      "report the current directory as a full path",
+      "what path is this session working inside?"
+    ]
+  },
+  {
+    "id": "pilot-v1-pwd-08",
+    "topic": "navigation",
+    "family": "pwd",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "pwd"
+    },
+    "requests": [
+      "show me the current working folder's name in full",
+      "display the directory pathname for this terminal",
+      "which absolute folder path am I using?",
+      "print out the shell's working location"
+    ]
+  },
+  {
+    "id": "pilot-v1-pwd-09",
+    "topic": "navigation",
+    "family": "pwd",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "pwd"
+    },
+    "requests": [
+      "get the full filesystem path for my working folder",
+      "what's the shell's present location on disk?",
+      "show the current directory pathname in the terminal",
+      "tell me the full directory location of this session"
+    ]
+  },
+  {
+    "id": "pilot-v1-pwd-10",
+    "topic": "navigation",
+    "family": "pwd",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "pwd"
+    },
+    "requests": [
+      "output this session's active folder path",
+      "print the folder location where commands are running",
+      "show the full path of the shell's active directory",
+      "what is the complete working-directory pathname?"
+    ]
+  },
+  {
+    "id": "pilot-v1-pwd-11",
+    "topic": "navigation",
+    "family": "pwd",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "pwd"
+    },
+    "requests": [
+      "can you print this working folder's absolute path?",
+      "let me see the pathname of the directory I'm in",
+      "report the directory this terminal is working from",
+      "output my present folder as a full path"
+    ]
+  },
+  {
+    "id": "pilot-v1-pwd-12",
+    "topic": "navigation",
+    "family": "pwd",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "pwd"
+    },
+    "requests": [
+      "I need to check my shell's working location",
+      "print the full location of the active directory",
+      "which directory is active in this terminal?",
+      "display the current folder as an absolute pathname"
+    ]
+  },
+  {
+    "id": "pilot-v1-pwd-13",
+    "topic": "navigation",
+    "family": "pwd",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "pwd"
+    },
+    "requests": [
+      "what full path corresponds to this working directory?",
+      "show this shell session's directory location",
+      "write out my present working-folder path",
+      "display the full path that this terminal is using"
+    ]
+  },
+  {
+    "id": "pilot-v1-pwd-14",
+    "topic": "navigation",
+    "family": "pwd",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "pwd"
+    },
+    "requests": [
+      "need to know the pathname of my working folder",
+      "print this session's current folder location",
+      "get the shell's active directory path",
+      "what absolute directory am I standing in?"
+    ]
+  },
+  {
+    "id": "pilot-v1-pwd-15",
+    "topic": "navigation",
+    "family": "pwd",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "pwd"
+    },
+    "requests": [
+      "report the pathname of this shell's working folder",
+      "show the full location of my terminal session",
+      "give the absolute directory name for this shell",
+      "print my active folder's filesystem pathname"
+    ]
+  },
+  {
+    "id": "pilot-v1-pwd-16",
+    "topic": "navigation",
+    "family": "pwd",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "pwd"
+    },
+    "requests": [
+      "where is the working folder for this terminal session?",
+      "display the directory path currently used by the shell",
+      "output the complete location of the current folder",
+      "tell me the terminal's active directory pathname"
+    ]
+  },
+  {
+    "id": "pilot-v1-pwd-17",
+    "topic": "navigation",
+    "family": "pwd",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "pwd"
+    },
+    "requests": [
+      "I'd like the full path of this session's folder",
+      "write the shell's current directory path",
+      "what pathname identifies this working folder?",
+      "print the directory location for the active terminal"
+    ]
+  },
+  {
+    "id": "pilot-v1-pwd-18",
+    "topic": "navigation",
+    "family": "pwd",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "pwd"
+    },
+    "requests": [
+      "show the absolute location of the working directory",
+      "get me this terminal's present folder path",
+      "report my current working location as a pathname",
+      "which full directory name is this shell using?"
+    ]
+  },
+  {
+    "id": "pilot-v1-pwd-19",
+    "topic": "navigation",
+    "family": "pwd",
+    "capability": "phrasing",
+    "split": "validation",
+    "intent": {
+      "op": "pwd"
+    },
+    "requests": [
+      "locate this shell session by printing its directory path",
+      "give me the pathname for my present working location",
+      "write the absolute folder location of the terminal",
+      "display which directory this session is operating in"
+    ]
+  },
+  {
+    "id": "pilot-v1-pwd-20",
+    "topic": "navigation",
+    "family": "pwd",
+    "capability": "phrasing",
+    "split": "validation",
+    "intent": {
+      "op": "pwd"
+    },
+    "requests": [
+      "show this session's location as a complete directory path",
+      "what is the absolute pathname of my active folder?",
+      "print the location from which this shell runs commands",
+      "identify my present working directory by its full pathname"
+    ]
+  }
+]

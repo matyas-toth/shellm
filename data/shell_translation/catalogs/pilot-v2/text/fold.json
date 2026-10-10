@@ -1,0 +1,93 @@
+[
+  {
+    "id": "pilot-v1-fold-01",
+    "topic": "text",
+    "family": "fold",
+    "capability": "break-at-spaces",
+    "split": "train",
+    "intent": {
+      "op": "fold",
+      "source": "article.txt",
+      "width": 30,
+      "spaces": true
+    },
+    "requests": [
+      "wrap the lines of article.txt at 30 characters, breaking only at spaces",
+      "how do I wrap article.txt to a width of 30 without cutting words in half?",
+      "I want article.txt reflowed so that no line is longer than 30 characters, with breaks at spaces",
+      "print article.txt with long lines wrapped at word boundaries to at most 30 characters"
+    ]
+  },
+  {
+    "id": "pilot-v1-fold-02",
+    "topic": "text",
+    "family": "fold",
+    "capability": "wrap-at-width",
+    "split": "train",
+    "intent": {
+      "op": "fold",
+      "source": "long lines.txt",
+      "width": 20
+    },
+    "requests": [
+      "wrap every line of long lines.txt at exactly 20 characters, even in the middle of a word",
+      "how can I break long lines.txt into lines of at most 20 characters, splitting wherever the limit falls?",
+      "I need long lines.txt cut into pieces of 20 characters per line, ignoring word boundaries",
+      "print long lines.txt hard-wrapped at a width of 20"
+    ]
+  },
+  {
+    "id": "pilot-v1-fold-03",
+    "topic": "text",
+    "family": "fold",
+    "capability": "default-width",
+    "split": "train",
+    "intent": {
+      "op": "fold",
+      "source": "wide.txt"
+    },
+    "requests": [
+      "wrap the lines of wide.txt at the standard width of 80 characters",
+      "how do I break the long lines in wide.txt so that none exceeds 80 columns, even if words get split?",
+      "I want wide.txt wrapped to 80 columns, the default line width",
+      "print wide.txt with any line longer than 80 characters broken into pieces of 80"
+    ]
+  },
+  {
+    "id": "pilot-v1-fold-04",
+    "topic": "text",
+    "family": "fold",
+    "capability": "break-at-spaces",
+    "split": "train",
+    "intent": {
+      "op": "fold",
+      "source": "my article.txt",
+      "width": 50,
+      "spaces": true
+    },
+    "requests": [
+      "reflow my article.txt into lines of at most 50 characters, breaking at the last space that fits",
+      "how can I wrap my article.txt at 50 characters while keeping words whole?",
+      "I need my article.txt word-wrapped at a width of 50",
+      "show my article.txt with each long line split at spaces so that it fits in 50 columns"
+    ]
+  },
+  {
+    "id": "pilot-v1-fold-05",
+    "topic": "text",
+    "family": "fold",
+    "capability": "wrap-at-width",
+    "split": "validation",
+    "intent": {
+      "op": "fold",
+      "source": "tundra-report.txt",
+      "width": 12
+    },
+    "requests": [
+      "could you chop each line of tundra-report.txt into pieces of 12 characters?",
+      "what does tundra-report.txt look like if its lines are forcibly wrapped every 12 characters?",
+      "limit tundra-report.txt to 12 characters per line by breaking lines at exactly that column",
+      "break every line of tundra-report.txt after 12 characters, regardless of where the spaces are"
+    ]
+  }
+]

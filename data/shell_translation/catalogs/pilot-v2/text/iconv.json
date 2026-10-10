@@ -1,0 +1,100 @@
+[
+  {
+    "id": "pilot-v1-iconv-01",
+    "topic": "text",
+    "family": "iconv",
+    "capability": "convert-encoding",
+    "split": "train",
+    "intent": {
+      "op": "iconv",
+      "source": "latin.txt",
+      "from": "ISO-8859-1",
+      "to": "UTF-8"
+    },
+    "requests": [
+      "convert latin.txt from ISO-8859-1 to UTF-8 and print the result",
+      "how do I read latin.txt, which is encoded in ISO-8859-1, as UTF-8 text?",
+      "I want latin.txt re-encoded from ISO-8859-1 into UTF-8 on standard output",
+      "show latin.txt transcoded from the ISO-8859-1 encoding to UTF-8"
+    ]
+  },
+  {
+    "id": "pilot-v1-iconv-02",
+    "topic": "text",
+    "family": "iconv",
+    "capability": "convert-to-file",
+    "split": "train",
+    "intent": {
+      "op": "iconv",
+      "source": "notes utf8.txt",
+      "from": "UTF-8",
+      "to": "ISO-8859-1",
+      "output": "notes-latin1.txt"
+    },
+    "requests": [
+      "save a copy of notes utf8.txt converted from UTF-8 to ISO-8859-1 as notes-latin1.txt",
+      "how can I write the UTF-8 file notes utf8.txt in ISO-8859-1 encoding to notes-latin1.txt?",
+      "I need notes-latin1.txt to contain notes utf8.txt re-encoded from UTF-8 into ISO-8859-1",
+      "transcode the UTF-8 file notes utf8.txt to ISO-8859-1, writing the output to notes-latin1.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-iconv-03",
+    "topic": "text",
+    "family": "iconv",
+    "capability": "discard-unconvertible",
+    "split": "train",
+    "intent": {
+      "op": "iconv",
+      "source": "cafe menu.txt",
+      "from": "UTF-8",
+      "to": "ASCII",
+      "discard": true
+    },
+    "requests": [
+      "convert cafe menu.txt from UTF-8 to plain ASCII, dropping any characters that ASCII cannot represent",
+      "how do I print cafe menu.txt as pure ASCII, silently removing the UTF-8 characters that do not convert?",
+      "I want the UTF-8 file cafe menu.txt turned into ASCII text with unconvertible characters omitted",
+      "show cafe menu.txt re-encoded from UTF-8 to ASCII, skipping characters that have no ASCII equivalent"
+    ]
+  },
+  {
+    "id": "pilot-v1-iconv-04",
+    "topic": "text",
+    "family": "iconv",
+    "capability": "convert-from-utf16",
+    "split": "train",
+    "intent": {
+      "op": "iconv",
+      "source": "windows.txt",
+      "from": "UTF-16LE",
+      "to": "UTF-8"
+    },
+    "requests": [
+      "decode the UTF-16LE file windows.txt and output it as UTF-8",
+      "how can I display windows.txt, which is little-endian UTF-16 (UTF-16LE), as UTF-8?",
+      "I need the text in windows.txt turned from UTF-16LE into readable UTF-8",
+      "what does windows.txt say when converted from its UTF-16LE encoding to UTF-8?"
+    ]
+  },
+  {
+    "id": "pilot-v1-iconv-05",
+    "topic": "text",
+    "family": "iconv",
+    "capability": "convert-to-file",
+    "split": "validation",
+    "intent": {
+      "op": "iconv",
+      "source": "tundra-latin.txt",
+      "from": "ISO-8859-1",
+      "to": "UTF-8",
+      "output": "zephyr-utf8.txt"
+    },
+    "requests": [
+      "could you produce zephyr-utf8.txt as a UTF-8 version of the ISO-8859-1 file tundra-latin.txt?",
+      "create zephyr-utf8.txt by changing the encoding of tundra-latin.txt from ISO-8859-1 to UTF-8",
+      "what is the way to store tundra-latin.txt, currently ISO-8859-1, in UTF-8 under the name zephyr-utf8.txt?",
+      "re-save tundra-latin.txt with UTF-8 encoding instead of ISO-8859-1, writing it to zephyr-utf8.txt"
+    ]
+  }
+]

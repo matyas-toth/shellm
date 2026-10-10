@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-10T03:16:29.304535+02:00",
+  "run_id": "2026-10-10-pilot-v2-fresh-lora-expandable",
+  "source_hashes": {
+    "tools/evaluate_final.py": "8c93ca5e4897010e1674763d02b1452b4d83a9575310c7494332f1bd913cc046",
+    "tools/plot_final_comparison.py": "1278b43723c64e0905b095be1256f87ae4537d885833caa1f459f97e34f48b25",
+    "tools/report_history.py": "462af1ade9e1a5d31179497723ae910659598b56476b4a84603600eaa9af31a6",
+    "eval/cases.jsonl": "0b0ad3c730398c7473e0f40e99ee1588e497c1cbf1c3df1c906466177240240c",
+    "eval/shellbench-extra-v1/cases.jsonl": "ccdaa672f1112f9793f0f761ad980f22f6f591100c9bc3c11285b3ce26f8f7e4"
+  },
+  "selected_epoch": 3,
+  "adapter_sha256": "11e702fb8d699cf88244d542bfab234a33588cfb0b4e9685239d78a5916cef3c",
+  "selection": "Final epoch selected before benchmark evaluation",
+  "benchmarks": {
+    "shellbench-v1": {
+      "baseline": {
+        "evaluation_sha256": "442a274117a6100b08413cf17beef790f7fd7636dc91bc24ad2ee4df838015ed",
+        "predictions_sha256": "cf84750ac951714c3c33af26abead601af1b54b7f0bd5fe84817f78c1cd1e1ca"
+      },
+      "epoch-3": {
+        "evaluation_sha256": "96f112dfa7c7e56dfca684cf846a762e1813559fc46dae68dab779856453e5cf",
+        "predictions_sha256": "b3e9cfbaa3147dc4b2cce4dfad4671683d635f7d67c1d366c690e82c39f04e52"
+      }
+    },
+    "shellbench-extra-v1": {
+      "baseline": {
+        "evaluation_sha256": "44893cecdd37748440324738a8101c415c44d3a96fa827d72e0bbca4d3025dcf",
+        "predictions_sha256": "86619a0eebdc35ea60dace6ac82be7f045e8168ce4c13234a60892566d9ad6ea"
+      },
+      "epoch-3": {
+        "evaluation_sha256": "d83f305eb2f39a7712cd3b0792dd3c033e43f790f1567f79777e807bedaa8f7b",
+        "predictions_sha256": "59dbc9b567800755c2553f8df9d71e03812bc6c77aa9de3d3de740936cadc272"
+      }
+    }
+  }
+}

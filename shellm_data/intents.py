@@ -32,7 +32,7 @@ INTENT_FIELDS = {
     "cp": ({"sources", "destination"}, {"into", "directory_source"}),
     "mv": ({"sources", "destination"}, {"into", "directory_source"}),
     "rm": ({"targets"}, {"recursive"}),
-    "cat": ({"sources"}, set()),
+    "cat": ({"sources"}, {"output", "append"}),
     "head": ({"source", "count"}, {"bytes"}),
     "tail": ({"source", "count"}, {"bytes"}),
     "wc": ({"source", "unit"}, set()),
@@ -89,7 +89,7 @@ def validate_intent(intent):
     if intent["op"] in UTILITY_SPECS:
         UTILITY_SPECS[intent["op"]].validate(intent)
         return
-    text_fields = {"destination", "directory", "source", "pattern", "mode", "unit", "type"}
+    text_fields = {"destination", "directory", "source", "pattern", "mode", "unit", "type", "output"}
     for name, value in intent.items():
         if name in text_fields:
             if not isinstance(value, str) or not value or any(c in value for c in "\n\r\0"):
@@ -121,6 +121,11 @@ def validate_intent(intent):
         raise ValueError("Unsupported unit or file type")
     if intent["op"] in ("cp", "mv") and len(intent["sources"]) > 1 and not intent.get("into"):
         raise ValueError("Multiple sources require a destination directory")
+    if intent["op"] == "cat":
+        if intent.get("append") and "output" not in intent:
+            raise ValueError("Appending requires an output path")
+        if "output" in intent and path(intent["output"]) in {path(s) for s in intent["sources"]}:
+            raise ValueError("Output must differ from every source")
     if intent["op"] == "grep" and intent.get("recursive") and any(intent.get(k) for k in ("invert", "line_numbers", "count")):
         raise ValueError("Recursive grep supports matching file paths only")
 
@@ -149,7 +154,10 @@ def render(intent):
         spec = intent["mode"] if "mode" in intent else ",".join(c["who"] + c["op"] + c["perms"] for c in intent["changes"])
         return "chmod" + (" -R" if intent.get("recursive") else "") + " " + spec + " " + arguments(intent["targets"])
     if op == "cat":
-        return "cat " + arguments(intent["sources"])
+        command = "cat " + arguments(intent["sources"])
+        if "output" in intent:
+            command += (" >> " if intent.get("append") else " > ") + quote(intent["output"])
+        return command
     if op in ("head", "tail"):
         return f"{op} -{'c' if intent.get('bytes') else 'n'} {intent['count']} " + arguments([intent["source"]])
     if op == "wc":
@@ -198,7 +206,7 @@ def make_fixture(intent, seed):
             raise ValueError(f"File outside fixture: {name}")
         directory(posixpath.dirname(absolute))
         spec["files"][absolute.removeprefix("/workspace/")] = text if text is not None else "".join(
-            f"entry {i:02d} variant {seed} from {posixpath.basename(name)}\n" for i in range(1, 21 + seed))
+            f"entry {i:02d} variant {seed} from {posixpath.basename(name).encode('ascii', 'backslashreplace').decode()}\n" for i in range(1, 21 + seed))
     def binary(name, data):
         absolute = path(name)
         if not absolute.startswith("/workspace/"):
@@ -253,6 +261,8 @@ def make_fixture(intent, seed):
     elif op == "cat":
         for source in intent["sources"]:
             file(source)
+        if "output" in intent:
+            file(intent["output"], f"previous destination content {seed}\n")
     elif op in ("head", "tail", "wc"):
         file(intent["source"])
     elif op == "grep":
@@ -271,11 +281,16 @@ def make_fixture(intent, seed):
         base = intent["directory"]
         directory(base)
         extension = intent.get("pattern", "*.txt").rsplit(".", 1)[-1]
-        file(posixpath.join(base, "first." + extension), "x" * (50 + seed))
-        file(posixpath.join(base, "nested", "second." + extension), "y" * (300 + seed))
+        # Straddle a size boundary exactly; an omitted or off-by-one filter must fail.
+        threshold = intent.get("size_gt", 125)
+        file(posixpath.join(base, "first." + extension), "x" * threshold)
+        file(posixpath.join(base, "nested", "second." + extension), "y" * (threshold + 1 + seed))
+        file(posixpath.join(base, "nested", "deeper", "third." + extension), "z" * (threshold + 2))
         file(posixpath.join(base, "empty." + extension), "")
         file(posixpath.join(base, "unrelated.bin"), "z\n")
         directory(posixpath.join(base, "directory." + extension))
+        file(posixpath.join(base, "occupied." + extension, "item.bin"), "occupied\n")
+        symlink(posixpath.join(base, "linked." + extension), "first." + extension)
     elif op in UTILITY_SPECS:
         UTILITY_SPECS[op].fixture(intent, seed, SimpleNamespace(file=file, directory=directory, binary=binary, symlink=symlink, seed=seed))
     return spec
@@ -301,6 +316,13 @@ def check_intent(intent, spec, outcome):
     elif op == "touch":
         for target in intent["targets"]:
             add_empty(target)
+    elif op == "cat" and "output" in intent:
+        data = "".join(spec["files"][path(s).removeprefix("/workspace/")] for s in intent["sources"])
+        if intent.get("append"):
+            data = spec["files"][path(intent["output"]).removeprefix("/workspace/")] + data
+        encoded = data.encode()
+        state[path(intent["output"])] = {"mode": 0o644, "type": "file", "size": len(encoded),
+                                         "sha256": hashlib.sha256(encoded).hexdigest()}
     elif op in ("cp", "mv"):
         for source in intent["sources"]:
             src = path(source)
@@ -335,7 +357,7 @@ def check_intent(intent, spec, outcome):
     if op == "pwd":
         expected = "/workspace\n"
     elif op == "cat":
-        expected = "".join(files[path(name)] for name in intent["sources"])
+        expected = "" if "output" in intent else "".join(files[path(name)] for name in intent["sources"])
     elif op in ("head", "tail"):
         text, count = files[path(intent["source"])], intent["count"]
         if intent.get("bytes"):
@@ -354,7 +376,7 @@ def check_intent(intent, spec, outcome):
         if intent.get("recursive"):
             base = path(intent["source"]) + "/"
             selected = [name for name, text in files.items() if name.startswith(base) and any(matches(line) for line in text.splitlines())]
-            expected = "".join(name.removeprefix("/workspace/") + "\n" for name in selected)
+            expected = "".join(posixpath.join(intent["source"], posixpath.relpath(name, path(intent["source"]))) + "\n" for name in selected)
             mode = "lines"
         else:
             lines = []
@@ -379,8 +401,10 @@ def check_intent(intent, spec, outcome):
                 continue
             if intent.get("pattern") and not fnmatch.fnmatchcase(posixpath.basename(name), intent["pattern"]):
                 continue
-            if intent.get("empty") and info.get("size") != 0:
-                continue
+            if intent.get("empty"):
+                is_empty = not any(other.startswith(name + "/") for other in state) if info["type"] == "directory" else info.get("size") == 0
+                if not is_empty:
+                    continue
             if intent.get("size_gt") and info.get("size", 0) <= intent["size_gt"]:
                 continue
             selected.append(intent["directory"] if relative == "." else posixpath.join(intent["directory"], relative))

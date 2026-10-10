@@ -1,0 +1,12 @@
+{
+  "release": "pilot-v2",
+  "dataset_sha256": "d546e6075d539854706eecce78ce0e3667257c067a218722945ddff545265e93",
+  "image_id": "sha256:66da86ce8a79e4847adee80e063b5bea9e9d4b1d457caec2c62084d9055a4068",
+  "examples": 22784,
+  "validated_groups": 4001,
+  "fixtures_per_group": 2,
+  "command_executions": 8002,
+  "all_passed": true,
+  "evaluation_request_overlap": 0,
+  "validator_sha256": "205af3e91e36f670cc13328f1df0ca8f68c401c7ac72282befcbbb97a45acb49"
+}

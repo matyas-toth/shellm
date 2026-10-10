@@ -1,0 +1,163 @@
+Validated 112 references on 2 fixtures; all exited successfully.
+Loading Qwen/Qwen3-0.6B-Base at da87bfb608c14b7cf20ba1ce41287e8de496c0cd
+Generated 8/112
+Generated 24/112
+Generated 40/112
+Generated 56/112
+Generated 72/112
+Generated 88/112
+Generated 104/112
+Generated 112/112
+Saved predictions to /mnt/c/Users/reign/Documents/ChatGPT/SheLLM-0.6B-Project/reports/2026-10-10-pilot-v2-fresh-lora-expandable/benchmarks/shellbench-v1/baseline
+Evaluated 14/112
+Evaluated 28/112
+Evaluated 42/112
+Evaluated 56/112
+Evaluated 70/112
+Evaluated 84/112
+Evaluated 98/112
+Evaluated 112/112
+{
+  "functional_ok": 30,
+  "format_ok": 111,
+  "syntax_ok": 108,
+  "exact_match": 14,
+  "usable": 30,
+  "total": 112
+}
+shellbench-v1 baseline: 30/112 (26.8%)
+Loading Qwen/Qwen3-0.6B-Base at da87bfb608c14b7cf20ba1ce41287e8de496c0cd
+Generated 8/112
+Generated 24/112
+Generated 40/112
+Generated 56/112
+Generated 72/112
+Generated 88/112
+Generated 104/112
+Generated 112/112
+Saved predictions to /mnt/c/Users/reign/Documents/ChatGPT/SheLLM-0.6B-Project/reports/2026-10-10-pilot-v2-fresh-lora-expandable/benchmarks/shellbench-v1/epoch-3
+Evaluated 14/112
+Evaluated 28/112
+Evaluated 42/112
+Evaluated 56/112
+Evaluated 70/112
+Evaluated 84/112
+Evaluated 98/112
+Evaluated 112/112
+{
+  "functional_ok": 104,
+  "format_ok": 112,
+  "syntax_ok": 112,
+  "exact_match": 89,
+  "usable": 104,
+  "total": 112
+}
+shellbench-v1 epoch-3: 104/112 (92.9%)
+Validated 300 references on 2 fixtures; all exited successfully.
+Loading Qwen/Qwen3-0.6B-Base at da87bfb608c14b7cf20ba1ce41287e8de496c0cd
+Generated 8/300
+Generated 24/300
+Generated 40/300
+Generated 56/300
+Generated 72/300
+Generated 88/300
+Generated 104/300
+Generated 120/300
+Generated 136/300
+Generated 152/300
+Generated 168/300
+Generated 184/300
+Generated 200/300
+Generated 216/300
+Generated 232/300
+Generated 248/300
+Generated 264/300
+Generated 280/300
+Generated 296/300
+Generated 300/300
+Saved predictions to /mnt/c/Users/reign/Documents/ChatGPT/SheLLM-0.6B-Project/reports/2026-10-10-pilot-v2-fresh-lora-expandable/benchmarks/shellbench-extra-v1/baseline
+Evaluated 14/300
+Evaluated 28/300
+Evaluated 42/300
+Evaluated 56/300
+Evaluated 70/300
+Evaluated 84/300
+Evaluated 98/300
+Evaluated 112/300
+Evaluated 126/300
+Evaluated 140/300
+Evaluated 154/300
+Evaluated 168/300
+Evaluated 182/300
+Evaluated 196/300
+Evaluated 210/300
+Evaluated 224/300
+Evaluated 238/300
+Evaluated 252/300
+Evaluated 266/300
+Evaluated 280/300
+Evaluated 294/300
+Evaluated 300/300
+{
+  "functional_ok": 20,
+  "format_ok": 265,
+  "syntax_ok": 281,
+  "exact_match": 10,
+  "usable": 17,
+  "total": 300
+}
+shellbench-extra-v1 baseline: 20/300 (6.7%)
+Loading Qwen/Qwen3-0.6B-Base at da87bfb608c14b7cf20ba1ce41287e8de496c0cd
+Generated 8/300
+Generated 24/300
+Generated 40/300
+Generated 56/300
+Generated 72/300
+Generated 88/300
+Generated 104/300
+Generated 120/300
+Generated 136/300
+Generated 152/300
+Generated 168/300
+Generated 184/300
+Generated 200/300
+Generated 216/300
+Generated 232/300
+Generated 248/300
+Generated 264/300
+Generated 280/300
+Generated 296/300
+Generated 300/300
+Saved predictions to /mnt/c/Users/reign/Documents/ChatGPT/SheLLM-0.6B-Project/reports/2026-10-10-pilot-v2-fresh-lora-expandable/benchmarks/shellbench-extra-v1/epoch-3
+Evaluated 14/300
+Evaluated 28/300
+Evaluated 42/300
+Evaluated 56/300
+Evaluated 70/300
+Evaluated 84/300
+Evaluated 98/300
+Evaluated 112/300
+Evaluated 126/300
+Evaluated 140/300
+Evaluated 154/300
+Evaluated 168/300
+Evaluated 182/300
+Evaluated 196/300
+Evaluated 210/300
+Evaluated 224/300
+Evaluated 238/300
+Evaluated 252/300
+Evaluated 266/300
+Evaluated 280/300
+Evaluated 294/300
+Evaluated 300/300
+{
+  "functional_ok": 103,
+  "format_ok": 300,
+  "syntax_ok": 292,
+  "exact_match": 53,
+  "usable": 103,
+  "total": 300
+}
+shellbench-extra-v1 epoch-3: 103/300 (34.3%)
+Exported 17 evaluations to reports/history.csv

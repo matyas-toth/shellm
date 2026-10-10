@@ -1,0 +1,477 @@
+{
+  "date": "2026-10-10T03:16:29.304535+02:00",
+  "run_id": "2026-10-10-pilot-v2-fresh-lora-expandable",
+  "previous_run_id": "2026-10-03-csanad-fresh-lora",
+  "note": "Historical comparison; training data and schedule/batching differ. Not a controlled dataset-size experiment.",
+  "suites": {
+    "shellbench-v1": {
+      "previous_summary": {
+        "functional_ok": 95,
+        "format_ok": 112,
+        "syntax_ok": 112,
+        "exact_match": 82,
+        "usable": 95,
+        "total": 112
+      },
+      "current_summary": {
+        "functional_ok": 104,
+        "format_ok": 112,
+        "syntax_ok": 112,
+        "exact_match": 89,
+        "usable": 104,
+        "total": 112
+      },
+      "newly_passing": 11,
+      "regressions": 2,
+      "passing_both": 93,
+      "failing_both": 6,
+      "current_by_family": {
+        "cat": {
+          "total": 8,
+          "functional_ok": 7,
+          "format_ok": 8,
+          "syntax_ok": 8,
+          "exact_match": 7
+        },
+        "cd": {
+          "total": 8,
+          "functional_ok": 8,
+          "format_ok": 8,
+          "syntax_ok": 8,
+          "exact_match": 8
+        },
+        "cp": {
+          "total": 8,
+          "functional_ok": 7,
+          "format_ok": 8,
+          "syntax_ok": 8,
+          "exact_match": 5
+        },
+        "find": {
+          "total": 8,
+          "functional_ok": 7,
+          "format_ok": 8,
+          "syntax_ok": 8,
+          "exact_match": 6
+        },
+        "grep": {
+          "total": 8,
+          "functional_ok": 7,
+          "format_ok": 8,
+          "syntax_ok": 8,
+          "exact_match": 0
+        },
+        "head": {
+          "total": 8,
+          "functional_ok": 8,
+          "format_ok": 8,
+          "syntax_ok": 8,
+          "exact_match": 8
+        },
+        "ls": {
+          "total": 8,
+          "functional_ok": 6,
+          "format_ok": 8,
+          "syntax_ok": 8,
+          "exact_match": 6
+        },
+        "mkdir": {
+          "total": 8,
+          "functional_ok": 8,
+          "format_ok": 8,
+          "syntax_ok": 8,
+          "exact_match": 8
+        },
+        "mv": {
+          "total": 8,
+          "functional_ok": 7,
+          "format_ok": 8,
+          "syntax_ok": 8,
+          "exact_match": 4
+        },
+        "pwd": {
+          "total": 8,
+          "functional_ok": 8,
+          "format_ok": 8,
+          "syntax_ok": 8,
+          "exact_match": 8
+        },
+        "rm": {
+          "total": 8,
+          "functional_ok": 8,
+          "format_ok": 8,
+          "syntax_ok": 8,
+          "exact_match": 8
+        },
+        "tail": {
+          "total": 8,
+          "functional_ok": 8,
+          "format_ok": 8,
+          "syntax_ok": 8,
+          "exact_match": 8
+        },
+        "touch": {
+          "total": 8,
+          "functional_ok": 7,
+          "format_ok": 8,
+          "syntax_ok": 8,
+          "exact_match": 5
+        },
+        "wc": {
+          "total": 8,
+          "functional_ok": 8,
+          "format_ok": 8,
+          "syntax_ok": 8,
+          "exact_match": 8
+        }
+      },
+      "current_by_coverage": {
+        "argument": {
+          "total": 29,
+          "functional_ok": 29,
+          "format_ok": 29,
+          "syntax_ok": 29,
+          "exact_match": 26
+        },
+        "basic": {
+          "total": 18,
+          "functional_ok": 18,
+          "format_ok": 18,
+          "syntax_ok": 18,
+          "exact_match": 17
+        },
+        "composition": {
+          "total": 11,
+          "functional_ok": 7,
+          "format_ok": 11,
+          "syntax_ok": 11,
+          "exact_match": 5
+        },
+        "informal": {
+          "total": 7,
+          "functional_ok": 7,
+          "format_ok": 7,
+          "syntax_ok": 7,
+          "exact_match": 6
+        },
+        "literal_pattern": {
+          "total": 1,
+          "functional_ok": 1,
+          "format_ok": 1,
+          "syntax_ok": 1,
+          "exact_match": 0
+        },
+        "option": {
+          "total": 16,
+          "functional_ok": 15,
+          "format_ok": 16,
+          "syntax_ok": 16,
+          "exact_match": 11
+        },
+        "paraphrase": {
+          "total": 5,
+          "functional_ok": 5,
+          "format_ok": 5,
+          "syntax_ok": 5,
+          "exact_match": 5
+        },
+        "quoted_argument": {
+          "total": 25,
+          "functional_ok": 22,
+          "format_ok": 25,
+          "syntax_ok": 25,
+          "exact_match": 19
+        }
+      },
+      "current_by_difficulty": {
+        "unspecified": {
+          "total": 112,
+          "functional_ok": 104,
+          "format_ok": 112,
+          "syntax_ok": 112,
+          "exact_match": 89
+        }
+      }
+    },
+    "shellbench-extra-v1": {
+      "previous_summary": {
+        "functional_ok": 77,
+        "format_ok": 300,
+        "syntax_ok": 294,
+        "exact_match": 40,
+        "usable": 77,
+        "total": 300
+      },
+      "current_summary": {
+        "functional_ok": 103,
+        "format_ok": 300,
+        "syntax_ok": 292,
+        "exact_match": 53,
+        "usable": 103,
+        "total": 300
+      },
+      "newly_passing": 39,
+      "regressions": 13,
+      "passing_both": 64,
+      "failing_both": 184,
+      "current_by_family": {
+        "conditional": {
+          "total": 15,
+          "functional_ok": 1,
+          "format_ok": 15,
+          "syntax_ok": 14,
+          "exact_match": 0
+        },
+        "copy": {
+          "total": 15,
+          "functional_ok": 6,
+          "format_ok": 15,
+          "syntax_ok": 14,
+          "exact_match": 1
+        },
+        "count": {
+          "total": 15,
+          "functional_ok": 2,
+          "format_ok": 15,
+          "syntax_ok": 15,
+          "exact_match": 0
+        },
+        "fields": {
+          "total": 15,
+          "functional_ok": 4,
+          "format_ok": 15,
+          "syntax_ok": 14,
+          "exact_match": 3
+        },
+        "find": {
+          "total": 15,
+          "functional_ok": 8,
+          "format_ok": 15,
+          "syntax_ok": 15,
+          "exact_match": 6
+        },
+        "grep": {
+          "total": 15,
+          "functional_ok": 7,
+          "format_ok": 15,
+          "syntax_ok": 15,
+          "exact_match": 0
+        },
+        "links": {
+          "total": 15,
+          "functional_ok": 9,
+          "format_ok": 15,
+          "syntax_ok": 14,
+          "exact_match": 4
+        },
+        "listing": {
+          "total": 15,
+          "functional_ok": 2,
+          "format_ok": 15,
+          "syntax_ok": 15,
+          "exact_match": 1
+        },
+        "mkdir": {
+          "total": 15,
+          "functional_ok": 4,
+          "format_ok": 15,
+          "syntax_ok": 14,
+          "exact_match": 3
+        },
+        "move": {
+          "total": 15,
+          "functional_ok": 9,
+          "format_ok": 15,
+          "syntax_ok": 15,
+          "exact_match": 2
+        },
+        "navigation": {
+          "total": 15,
+          "functional_ok": 2,
+          "format_ok": 15,
+          "syntax_ok": 15,
+          "exact_match": 1
+        },
+        "permissions": {
+          "total": 15,
+          "functional_ok": 11,
+          "format_ok": 15,
+          "syntax_ok": 15,
+          "exact_match": 8
+        },
+        "pipeline": {
+          "total": 15,
+          "functional_ok": 1,
+          "format_ok": 15,
+          "syntax_ok": 15,
+          "exact_match": 0
+        },
+        "read": {
+          "total": 15,
+          "functional_ok": 7,
+          "format_ok": 15,
+          "syntax_ok": 15,
+          "exact_match": 7
+        },
+        "remove": {
+          "total": 15,
+          "functional_ok": 8,
+          "format_ok": 15,
+          "syntax_ok": 15,
+          "exact_match": 4
+        },
+        "slice": {
+          "total": 15,
+          "functional_ok": 7,
+          "format_ok": 15,
+          "syntax_ok": 15,
+          "exact_match": 5
+        },
+        "sort": {
+          "total": 15,
+          "functional_ok": 3,
+          "format_ok": 15,
+          "syntax_ok": 15,
+          "exact_match": 1
+        },
+        "touch": {
+          "total": 15,
+          "functional_ok": 4,
+          "format_ok": 15,
+          "syntax_ok": 13,
+          "exact_match": 3
+        },
+        "transform": {
+          "total": 15,
+          "functional_ok": 3,
+          "format_ok": 15,
+          "syntax_ok": 14,
+          "exact_match": 2
+        },
+        "write": {
+          "total": 15,
+          "functional_ok": 5,
+          "format_ok": 15,
+          "syntax_ok": 15,
+          "exact_match": 2
+        }
+      },
+      "current_by_coverage": {
+        "composition": {
+          "total": 63,
+          "functional_ok": 19,
+          "format_ok": 63,
+          "syntax_ok": 62,
+          "exact_match": 10
+        },
+        "conditional": {
+          "total": 13,
+          "functional_ok": 1,
+          "format_ok": 13,
+          "syntax_ok": 12,
+          "exact_match": 0
+        },
+        "literal-filenames": {
+          "total": 34,
+          "functional_ok": 15,
+          "format_ok": 34,
+          "syntax_ok": 33,
+          "exact_match": 4
+        },
+        "multi-step": {
+          "total": 18,
+          "functional_ok": 0,
+          "format_ok": 18,
+          "syntax_ok": 18,
+          "exact_match": 0
+        },
+        "path-interpretation": {
+          "total": 7,
+          "functional_ok": 2,
+          "format_ok": 7,
+          "syntax_ok": 7,
+          "exact_match": 0
+        },
+        "permissions": {
+          "total": 10,
+          "functional_ok": 7,
+          "format_ok": 10,
+          "syntax_ok": 10,
+          "exact_match": 4
+        },
+        "pipeline": {
+          "total": 32,
+          "functional_ok": 2,
+          "format_ok": 32,
+          "syntax_ok": 32,
+          "exact_match": 0
+        },
+        "precision": {
+          "total": 51,
+          "functional_ok": 20,
+          "format_ok": 51,
+          "syntax_ok": 51,
+          "exact_match": 11
+        },
+        "quoting": {
+          "total": 32,
+          "functional_ok": 14,
+          "format_ok": 32,
+          "syntax_ok": 29,
+          "exact_match": 12
+        },
+        "recursive": {
+          "total": 3,
+          "functional_ok": 3,
+          "format_ok": 3,
+          "syntax_ok": 3,
+          "exact_match": 3
+        },
+        "regex": {
+          "total": 11,
+          "functional_ok": 6,
+          "format_ok": 11,
+          "syntax_ok": 10,
+          "exact_match": 1
+        },
+        "symlinks": {
+          "total": 21,
+          "functional_ok": 12,
+          "format_ok": 21,
+          "syntax_ok": 20,
+          "exact_match": 6
+        },
+        "wording": {
+          "total": 5,
+          "functional_ok": 2,
+          "format_ok": 5,
+          "syntax_ok": 5,
+          "exact_match": 2
+        }
+      },
+      "current_by_difficulty": {
+        "composition": {
+          "total": 126,
+          "functional_ok": 22,
+          "format_ok": 126,
+          "syntax_ok": 124,
+          "exact_match": 10
+        },
+        "edge": {
+          "total": 105,
+          "functional_ok": 49,
+          "format_ok": 105,
+          "syntax_ok": 99,
+          "exact_match": 23
+        },
+        "practical": {
+          "total": 69,
+          "functional_ok": 32,
+          "format_ok": 69,
+          "syntax_ok": 69,
+          "exact_match": 20
+        }
+      }
+    }
+  }
+}

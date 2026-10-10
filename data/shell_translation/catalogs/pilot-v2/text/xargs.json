@@ -1,0 +1,94 @@
+[
+  {
+    "id": "pilot-v1-xargs-01",
+    "topic": "text",
+    "family": "xargs",
+    "capability": "delete-listed-files",
+    "split": "train",
+    "intent": {
+      "op": "xargs",
+      "source": "stale.txt",
+      "command": "rm"
+    },
+    "requests": [
+      "delete every file whose name is listed in stale.txt",
+      "how do I remove all the files named in stale.txt?",
+      "I want to get rid of the files listed in stale.txt",
+      "stale.txt contains file names, one per line; delete those files"
+    ]
+  },
+  {
+    "id": "pilot-v1-xargs-02",
+    "topic": "text",
+    "family": "xargs",
+    "capability": "concatenate-listed-files",
+    "split": "train",
+    "intent": {
+      "op": "xargs",
+      "source": "parts.txt",
+      "command": "cat"
+    },
+    "requests": [
+      "concatenate the files listed in parts.txt and print the result",
+      "how can I print the contents of every file named in parts.txt, one after another?",
+      "I need the files whose names are in parts.txt joined together on the screen",
+      "parts.txt lists some file names; show their contents in that order"
+    ]
+  },
+  {
+    "id": "pilot-v1-xargs-03",
+    "topic": "text",
+    "family": "xargs",
+    "capability": "create-listed-files",
+    "split": "train",
+    "intent": {
+      "op": "xargs",
+      "source": "new files.txt",
+      "command": "touch"
+    },
+    "requests": [
+      "create the empty files whose names are listed in new files.txt",
+      "how do I make a file for each name in new files.txt?",
+      "I want every file named in new files.txt to exist, created empty if it is missing",
+      "new files.txt has one file name per line; create all of those files"
+    ]
+  },
+  {
+    "id": "pilot-v1-xargs-04",
+    "topic": "text",
+    "family": "xargs",
+    "capability": "backup-listed-files",
+    "split": "train",
+    "intent": {
+      "op": "xargs",
+      "source": "important.txt",
+      "command": "cp",
+      "suffix": ".bak"
+    },
+    "requests": [
+      "back up each file listed in important.txt by copying it to the same name with .bak appended",
+      "how can I make a .bak copy of every file named in important.txt?",
+      "I need a backup copy ending in .bak next to each file whose name is in important.txt",
+      "for every file listed in important.txt, create a duplicate with .bak added to its name"
+    ]
+  },
+  {
+    "id": "pilot-v1-xargs-05",
+    "topic": "text",
+    "family": "xargs",
+    "capability": "backup-listed-files",
+    "split": "validation",
+    "intent": {
+      "op": "xargs",
+      "source": "tundra-files.txt",
+      "command": "cp",
+      "suffix": ".orig"
+    },
+    "requests": [
+      "could you save a copy of each file named in tundra-files.txt with .orig tacked onto the name?",
+      "what is the way to keep a .orig duplicate of every file whose name appears in tundra-files.txt?",
+      "copy each of the files listed in tundra-files.txt to a new file whose name ends with .orig",
+      "make a safety copy with the suffix .orig for every file mentioned in tundra-files.txt"
+    ]
+  }
+]

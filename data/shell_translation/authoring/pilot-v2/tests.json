@@ -1,0 +1,19 @@
+{
+  "release": "pilot-v2",
+  "runs": [
+    {
+      "observed_duration_seconds": 24.718,
+      "exit_code": 0,
+      "tests": 4,
+      "command": "uv run python -m unittest tests.test_coverage_data"
+    },
+    {
+      "exit_code": 0,
+      "tests": 18,
+      "command": "uv run python -m unittest tests.test_training_data.DatasetTests tests.test_chmod_intent"
+    }
+  ],
+  "note": "Process exit codes verified. Temporary WSL logs were ephemeral; no raw log is claimed to be archived.",
+  "tests_passed": 22,
+  "date": "2026-10-10"
+}

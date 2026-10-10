@@ -1,0 +1,5 @@
+{"event": "validation", "epoch": 0, "step": 0, "loss": 1.1379307960726532, "examples_seen": 0}
+{"event": "train", "epoch": 1, "step": 1, "examples_seen": 16, "loss": 1.4275065743096984, "learning_rate": 2.2222222222222225e-06, "skipped_updates": 0, "seconds": 485.51180354499957, "peak_pytorch_gib": 2.119309425354004}
+{"event": "train", "epoch": 1, "step": 2, "examples_seen": 32, "loss": 1.4708493236820073, "learning_rate": 4.444444444444445e-06, "skipped_updates": 0, "seconds": 490.30958868400194, "peak_pytorch_gib": 2.119309425354004}
+{"event": "train", "epoch": 1, "step": 3, "examples_seen": 48, "loss": 1.3855574492897307, "learning_rate": 6.666666666666667e-06, "skipped_updates": 0, "seconds": 495.6100236709972, "peak_pytorch_gib": 2.3257508277893066}
+{"event": "train", "epoch": 1, "step": 4, "examples_seen": 64, "loss": 1.1531409951422713, "learning_rate": 8.88888888888889e-06, "skipped_updates": 0, "seconds": 497.68141769700014, "peak_pytorch_gib": 2.3257551193237305}

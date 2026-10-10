@@ -1,0 +1,5 @@
+suite,benchmark,model,epoch,correct,total,percent,report,adapter_sha256
+shellbench-v1,ShellBench v1,Qwen3 0.6B Base,0,30,112,26.785714285714285,reports/2026-10-10-pilot-v2-fresh-lora-expandable/benchmarks/shellbench-v1/baseline/evaluation.json,
+shellbench-v1,ShellBench v1,Fresh SheLLM LoRA,3,104,112,92.85714285714286,reports/2026-10-10-pilot-v2-fresh-lora-expandable/benchmarks/shellbench-v1/epoch-3/evaluation.json,11e702fb8d699cf88244d542bfab234a33588cfb0b4e9685239d78a5916cef3c
+shellbench-extra-v1,ShellBench Extra v1,Qwen3 0.6B Base,0,20,300,6.666666666666667,reports/2026-10-10-pilot-v2-fresh-lora-expandable/benchmarks/shellbench-extra-v1/baseline/evaluation.json,
+shellbench-extra-v1,ShellBench Extra v1,Fresh SheLLM LoRA,3,103,300,34.333333333333336,reports/2026-10-10-pilot-v2-fresh-lora-expandable/benchmarks/shellbench-extra-v1/epoch-3/evaluation.json,11e702fb8d699cf88244d542bfab234a33588cfb0b4e9685239d78a5916cef3c

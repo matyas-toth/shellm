@@ -1,0 +1,2657 @@
+[
+  {
+    "id": "pilot-v1-rm-01",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "discard-copper"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "delete the directory discard-copper and everything inside it",
+      "remove the directory discard-copper and everything inside it",
+      "erase the directory discard-copper and everything inside it",
+      "get rid of the directory discard-copper and everything inside it"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-02",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "mango old memo.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the file mango old memo.txt",
+      "remove the file mango old memo.txt",
+      "erase the file mango old memo.txt",
+      "get rid of the file mango old memo.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-03",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "falcon-a.old",
+        "falcon-b.old"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the files falcon-a.old and falcon-b.old",
+      "remove the files falcon-a.old and falcon-b.old",
+      "erase the files falcon-a.old and falcon-b.old",
+      "get rid of the files falcon-a.old and falcon-b.old"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-04",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "orchid.old"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the file orchid.old",
+      "remove the file orchid.old",
+      "erase the file orchid.old",
+      "get rid of the file orchid.old"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-05",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "discard-nebula"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "delete the directory discard-nebula and everything inside it",
+      "remove the directory discard-nebula and everything inside it",
+      "erase the directory discard-nebula and everything inside it",
+      "get rid of the directory discard-nebula and everything inside it"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-06",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "otter old memo.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the file otter old memo.txt",
+      "remove the file otter old memo.txt",
+      "erase the file otter old memo.txt",
+      "get rid of the file otter old memo.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-07",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "cedar-a.old",
+        "cedar-b.old"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the files cedar-a.old and cedar-b.old",
+      "remove the files cedar-a.old and cedar-b.old",
+      "erase the files cedar-a.old and cedar-b.old",
+      "get rid of the files cedar-a.old and cedar-b.old"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-08",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "saffron.old"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the file saffron.old",
+      "remove the file saffron.old",
+      "erase the file saffron.old",
+      "get rid of the file saffron.old"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-09",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "discard-marble"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "delete the directory discard-marble and everything inside it",
+      "remove the directory discard-marble and everything inside it",
+      "erase the directory discard-marble and everything inside it",
+      "get rid of the directory discard-marble and everything inside it"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-10",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "comet old memo.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the file comet old memo.txt",
+      "remove the file comet old memo.txt",
+      "erase the file comet old memo.txt",
+      "get rid of the file comet old memo.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-11",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "willow-a.old",
+        "willow-b.old"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the files willow-a.old and willow-b.old",
+      "remove the files willow-a.old and willow-b.old",
+      "erase the files willow-a.old and willow-b.old",
+      "get rid of the files willow-a.old and willow-b.old"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-12",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "-badger.old"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the file -badger.old",
+      "remove the file -badger.old",
+      "erase the file -badger.old",
+      "get rid of the file -badger.old"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-13",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "discard-quartz"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "delete the directory discard-quartz and everything inside it",
+      "remove the directory discard-quartz and everything inside it",
+      "erase the directory discard-quartz and everything inside it",
+      "get rid of the directory discard-quartz and everything inside it"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-14",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "hazel old memo.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the file hazel old memo.txt",
+      "remove the file hazel old memo.txt",
+      "erase the file hazel old memo.txt",
+      "get rid of the file hazel old memo.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-15",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "maple-a.old",
+        "maple-b.old"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the files maple-a.old and maple-b.old",
+      "remove the files maple-a.old and maple-b.old",
+      "erase the files maple-a.old and maple-b.old",
+      "get rid of the files maple-a.old and maple-b.old"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-16",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "client's raven old memo.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the file client's raven old memo.txt",
+      "remove the file client's raven old memo.txt",
+      "erase the file client's raven old memo.txt",
+      "get rid of the file client's raven old memo.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-17",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "discard-lotus"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "delete the directory discard-lotus and everything inside it",
+      "remove the directory discard-lotus and everything inside it",
+      "erase the directory discard-lotus and everything inside it",
+      "get rid of the directory discard-lotus and everything inside it"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-18",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "birch old memo.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the file birch old memo.txt",
+      "remove the file birch old memo.txt",
+      "erase the file birch old memo.txt",
+      "get rid of the file birch old memo.txt"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-19",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "tundra-a.old",
+        "tundra-b.old"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the files tundra-a.old and tundra-b.old",
+      "remove the files tundra-a.old and tundra-b.old",
+      "erase the files tundra-a.old and tundra-b.old",
+      "get rid of the files tundra-a.old and tundra-b.old"
+    ]
+  },
+  {
+    "id": "pilot-v1-rm-20",
+    "topic": "filesystem",
+    "family": "rm",
+    "capability": "removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "zephyr.old"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "delete the file zephyr.old",
+      "remove the file zephyr.old",
+      "erase the file zephyr.old",
+      "get rid of the file zephyr.old"
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0001",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "cinder-journal.txt",
+        "cinder-journal-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"cinder-journal.txt\" and \"cinder-journal-second.txt\".",
+      "Remove the files \"cinder-journal.txt\" and \"cinder-journal-second.txt\" from disk.",
+      "I don't need the files \"cinder-journal.txt\" and \"cinder-journal-second.txt\"; erase it.",
+      "Get rid of the files \"cinder-journal.txt\" and \"cinder-journal-second.txt\".",
+      "Can you delete the files \"cinder-journal.txt\" and \"cinder-journal-second.txt\" for me?",
+      "Erase the files \"cinder-journal.txt\" and \"cinder-journal-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0002",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "cinder-journal-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"cinder-journal-tree\" and everything underneath it.",
+      "Remove the directory \"cinder-journal-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"cinder-journal-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"cinder-journal-tree\" and everything underneath it.",
+      "Can you delete the directory \"cinder-journal-tree\" and everything underneath it for me?",
+      "Erase the directory \"cinder-journal-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0003",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "kiln working notes.txt",
+        "kiln working notes-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"kiln working notes.txt\" and \"kiln working notes-second.txt\".",
+      "Remove the files \"kiln working notes.txt\" and \"kiln working notes-second.txt\" from disk.",
+      "I don't need the files \"kiln working notes.txt\" and \"kiln working notes-second.txt\"; erase it.",
+      "Get rid of the files \"kiln working notes.txt\" and \"kiln working notes-second.txt\".",
+      "Can you delete the files \"kiln working notes.txt\" and \"kiln working notes-second.txt\" for me?",
+      "Erase the files \"kiln working notes.txt\" and \"kiln working notes-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0004",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "kiln working notes-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"kiln working notes-tree\" and everything underneath it.",
+      "Remove the directory \"kiln working notes-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"kiln working notes-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"kiln working notes-tree\" and everything underneath it.",
+      "Can you delete the directory \"kiln working notes-tree\" and everything underneath it for me?",
+      "Erase the directory \"kiln working notes-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0005",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "ledger's notebook.txt",
+        "ledger's notebook-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"ledger's notebook.txt\" and \"ledger's notebook-second.txt\".",
+      "Remove the files \"ledger's notebook.txt\" and \"ledger's notebook-second.txt\" from disk.",
+      "I don't need the files \"ledger's notebook.txt\" and \"ledger's notebook-second.txt\"; erase it.",
+      "Get rid of the files \"ledger's notebook.txt\" and \"ledger's notebook-second.txt\".",
+      "Can you delete the files \"ledger's notebook.txt\" and \"ledger's notebook-second.txt\" for me?",
+      "Erase the files \"ledger's notebook.txt\" and \"ledger's notebook-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0006",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "ledger's notebook-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"ledger's notebook-tree\" and everything underneath it.",
+      "Remove the directory \"ledger's notebook-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"ledger's notebook-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"ledger's notebook-tree\" and everything underneath it.",
+      "Can you delete the directory \"ledger's notebook-tree\" and everything underneath it for me?",
+      "Erase the directory \"ledger's notebook-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0007",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "-harbor-draft.txt",
+        "-harbor-draft-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"-harbor-draft.txt\" and \"-harbor-draft-second.txt\".",
+      "Remove the files \"-harbor-draft.txt\" and \"-harbor-draft-second.txt\" from disk.",
+      "I don't need the files \"-harbor-draft.txt\" and \"-harbor-draft-second.txt\"; erase it.",
+      "Get rid of the files \"-harbor-draft.txt\" and \"-harbor-draft-second.txt\".",
+      "Can you delete the files \"-harbor-draft.txt\" and \"-harbor-draft-second.txt\" for me?",
+      "Erase the files \"-harbor-draft.txt\" and \"-harbor-draft-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0008",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "./-harbor-draft-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"./-harbor-draft-tree\" and everything underneath it.",
+      "Remove the directory \"./-harbor-draft-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"./-harbor-draft-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"./-harbor-draft-tree\" and everything underneath it.",
+      "Can you delete the directory \"./-harbor-draft-tree\" and everything underneath it for me?",
+      "Erase the directory \"./-harbor-draft-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0009",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "prism-$budget.txt",
+        "prism-$budget-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"prism-$budget.txt\" and \"prism-$budget-second.txt\".",
+      "Remove the files \"prism-$budget.txt\" and \"prism-$budget-second.txt\" from disk.",
+      "I don't need the files \"prism-$budget.txt\" and \"prism-$budget-second.txt\"; erase it.",
+      "Get rid of the files \"prism-$budget.txt\" and \"prism-$budget-second.txt\".",
+      "Can you delete the files \"prism-$budget.txt\" and \"prism-$budget-second.txt\" for me?",
+      "Erase the files \"prism-$budget.txt\" and \"prism-$budget-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0010",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "prism-$budget-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"prism-$budget-tree\" and everything underneath it.",
+      "Remove the directory \"prism-$budget-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"prism-$budget-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"prism-$budget-tree\" and everything underneath it.",
+      "Can you delete the directory \"prism-$budget-tree\" and everything underneath it for me?",
+      "Erase the directory \"prism-$budget-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0011",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "orchard;archive.txt",
+        "orchard;archive-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"orchard;archive.txt\" and \"orchard;archive-second.txt\".",
+      "Remove the files \"orchard;archive.txt\" and \"orchard;archive-second.txt\" from disk.",
+      "I don't need the files \"orchard;archive.txt\" and \"orchard;archive-second.txt\"; erase it.",
+      "Get rid of the files \"orchard;archive.txt\" and \"orchard;archive-second.txt\".",
+      "Can you delete the files \"orchard;archive.txt\" and \"orchard;archive-second.txt\" for me?",
+      "Erase the files \"orchard;archive.txt\" and \"orchard;archive-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0012",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "orchard;archive-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"orchard;archive-tree\" and everything underneath it.",
+      "Remove the directory \"orchard;archive-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"orchard;archive-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"orchard;archive-tree\" and everything underneath it.",
+      "Can you delete the directory \"orchard;archive-tree\" and everything underneath it for me?",
+      "Erase the directory \"orchard;archive-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0013",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "canvas*literal.txt",
+        "canvas*literal-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"canvas*literal.txt\" and \"canvas*literal-second.txt\".",
+      "Remove the files \"canvas*literal.txt\" and \"canvas*literal-second.txt\" from disk.",
+      "I don't need the files \"canvas*literal.txt\" and \"canvas*literal-second.txt\"; erase it.",
+      "Get rid of the files \"canvas*literal.txt\" and \"canvas*literal-second.txt\".",
+      "Can you delete the files \"canvas*literal.txt\" and \"canvas*literal-second.txt\" for me?",
+      "Erase the files \"canvas*literal.txt\" and \"canvas*literal-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0014",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "canvas*literal-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"canvas*literal-tree\" and everything underneath it.",
+      "Remove the directory \"canvas*literal-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"canvas*literal-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"canvas*literal-tree\" and everything underneath it.",
+      "Can you delete the directory \"canvas*literal-tree\" and everything underneath it for me?",
+      "Erase the directory \"canvas*literal-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0015",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "spool[draft].txt",
+        "spool[draft]-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"spool[draft].txt\" and \"spool[draft]-second.txt\".",
+      "Remove the files \"spool[draft].txt\" and \"spool[draft]-second.txt\" from disk.",
+      "I don't need the files \"spool[draft].txt\" and \"spool[draft]-second.txt\"; erase it.",
+      "Get rid of the files \"spool[draft].txt\" and \"spool[draft]-second.txt\".",
+      "Can you delete the files \"spool[draft].txt\" and \"spool[draft]-second.txt\" for me?",
+      "Erase the files \"spool[draft].txt\" and \"spool[draft]-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0016",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "spool[draft]-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"spool[draft]-tree\" and everything underneath it.",
+      "Remove the directory \"spool[draft]-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"spool[draft]-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"spool[draft]-tree\" and everything underneath it.",
+      "Can you delete the directory \"spool[draft]-tree\" and everything underneath it for me?",
+      "Erase the directory \"spool[draft]-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0017",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "beacon-café.txt",
+        "beacon-café-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"beacon-café.txt\" and \"beacon-café-second.txt\".",
+      "Remove the files \"beacon-café.txt\" and \"beacon-café-second.txt\" from disk.",
+      "I don't need the files \"beacon-café.txt\" and \"beacon-café-second.txt\"; erase it.",
+      "Get rid of the files \"beacon-café.txt\" and \"beacon-café-second.txt\".",
+      "Can you delete the files \"beacon-café.txt\" and \"beacon-café-second.txt\" for me?",
+      "Erase the files \"beacon-café.txt\" and \"beacon-café-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0018",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "beacon-café-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"beacon-café-tree\" and everything underneath it.",
+      "Remove the directory \"beacon-café-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"beacon-café-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"beacon-café-tree\" and everything underneath it.",
+      "Can you delete the directory \"beacon-café-tree\" and everything underneath it for me?",
+      "Erase the directory \"beacon-café-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0019",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "lantern field records.txt",
+        "lantern field records-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"lantern field records.txt\" and \"lantern field records-second.txt\".",
+      "Remove the files \"lantern field records.txt\" and \"lantern field records-second.txt\" from disk.",
+      "I don't need the files \"lantern field records.txt\" and \"lantern field records-second.txt\"; erase it.",
+      "Get rid of the files \"lantern field records.txt\" and \"lantern field records-second.txt\".",
+      "Can you delete the files \"lantern field records.txt\" and \"lantern field records-second.txt\" for me?",
+      "Erase the files \"lantern field records.txt\" and \"lantern field records-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0020",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "lantern field records-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"lantern field records-tree\" and everything underneath it.",
+      "Remove the directory \"lantern field records-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"lantern field records-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"lantern field records-tree\" and everything underneath it.",
+      "Can you delete the directory \"lantern field records-tree\" and everything underneath it for me?",
+      "Erase the directory \"lantern field records-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0021",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "quartz-journal.txt",
+        "quartz-journal-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"quartz-journal.txt\" and \"quartz-journal-second.txt\".",
+      "Remove the files \"quartz-journal.txt\" and \"quartz-journal-second.txt\" from disk.",
+      "I don't need the files \"quartz-journal.txt\" and \"quartz-journal-second.txt\"; erase it.",
+      "Get rid of the files \"quartz-journal.txt\" and \"quartz-journal-second.txt\".",
+      "Can you delete the files \"quartz-journal.txt\" and \"quartz-journal-second.txt\" for me?",
+      "Erase the files \"quartz-journal.txt\" and \"quartz-journal-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0022",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "quartz-journal-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"quartz-journal-tree\" and everything underneath it.",
+      "Remove the directory \"quartz-journal-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"quartz-journal-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"quartz-journal-tree\" and everything underneath it.",
+      "Can you delete the directory \"quartz-journal-tree\" and everything underneath it for me?",
+      "Erase the directory \"quartz-journal-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0023",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "meadow working notes.txt",
+        "meadow working notes-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"meadow working notes.txt\" and \"meadow working notes-second.txt\".",
+      "Remove the files \"meadow working notes.txt\" and \"meadow working notes-second.txt\" from disk.",
+      "I don't need the files \"meadow working notes.txt\" and \"meadow working notes-second.txt\"; erase it.",
+      "Get rid of the files \"meadow working notes.txt\" and \"meadow working notes-second.txt\".",
+      "Can you delete the files \"meadow working notes.txt\" and \"meadow working notes-second.txt\" for me?",
+      "Erase the files \"meadow working notes.txt\" and \"meadow working notes-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0024",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "meadow working notes-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"meadow working notes-tree\" and everything underneath it.",
+      "Remove the directory \"meadow working notes-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"meadow working notes-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"meadow working notes-tree\" and everything underneath it.",
+      "Can you delete the directory \"meadow working notes-tree\" and everything underneath it for me?",
+      "Erase the directory \"meadow working notes-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0025",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "parcel's notebook.txt",
+        "parcel's notebook-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"parcel's notebook.txt\" and \"parcel's notebook-second.txt\".",
+      "Remove the files \"parcel's notebook.txt\" and \"parcel's notebook-second.txt\" from disk.",
+      "I don't need the files \"parcel's notebook.txt\" and \"parcel's notebook-second.txt\"; erase it.",
+      "Get rid of the files \"parcel's notebook.txt\" and \"parcel's notebook-second.txt\".",
+      "Can you delete the files \"parcel's notebook.txt\" and \"parcel's notebook-second.txt\" for me?",
+      "Erase the files \"parcel's notebook.txt\" and \"parcel's notebook-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0026",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "parcel's notebook-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"parcel's notebook-tree\" and everything underneath it.",
+      "Remove the directory \"parcel's notebook-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"parcel's notebook-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"parcel's notebook-tree\" and everything underneath it.",
+      "Can you delete the directory \"parcel's notebook-tree\" and everything underneath it for me?",
+      "Erase the directory \"parcel's notebook-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0027",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "-cobalt-draft.txt",
+        "-cobalt-draft-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"-cobalt-draft.txt\" and \"-cobalt-draft-second.txt\".",
+      "Remove the files \"-cobalt-draft.txt\" and \"-cobalt-draft-second.txt\" from disk.",
+      "I don't need the files \"-cobalt-draft.txt\" and \"-cobalt-draft-second.txt\"; erase it.",
+      "Get rid of the files \"-cobalt-draft.txt\" and \"-cobalt-draft-second.txt\".",
+      "Can you delete the files \"-cobalt-draft.txt\" and \"-cobalt-draft-second.txt\" for me?",
+      "Erase the files \"-cobalt-draft.txt\" and \"-cobalt-draft-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0028",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "./-cobalt-draft-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"./-cobalt-draft-tree\" and everything underneath it.",
+      "Remove the directory \"./-cobalt-draft-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"./-cobalt-draft-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"./-cobalt-draft-tree\" and everything underneath it.",
+      "Can you delete the directory \"./-cobalt-draft-tree\" and everything underneath it for me?",
+      "Erase the directory \"./-cobalt-draft-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0029",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "atlas-$budget.txt",
+        "atlas-$budget-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"atlas-$budget.txt\" and \"atlas-$budget-second.txt\".",
+      "Remove the files \"atlas-$budget.txt\" and \"atlas-$budget-second.txt\" from disk.",
+      "I don't need the files \"atlas-$budget.txt\" and \"atlas-$budget-second.txt\"; erase it.",
+      "Get rid of the files \"atlas-$budget.txt\" and \"atlas-$budget-second.txt\".",
+      "Can you delete the files \"atlas-$budget.txt\" and \"atlas-$budget-second.txt\" for me?",
+      "Erase the files \"atlas-$budget.txt\" and \"atlas-$budget-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0030",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "atlas-$budget-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"atlas-$budget-tree\" and everything underneath it.",
+      "Remove the directory \"atlas-$budget-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"atlas-$budget-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"atlas-$budget-tree\" and everything underneath it.",
+      "Can you delete the directory \"atlas-$budget-tree\" and everything underneath it for me?",
+      "Erase the directory \"atlas-$budget-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0031",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "rivet;archive.txt",
+        "rivet;archive-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"rivet;archive.txt\" and \"rivet;archive-second.txt\".",
+      "Remove the files \"rivet;archive.txt\" and \"rivet;archive-second.txt\" from disk.",
+      "I don't need the files \"rivet;archive.txt\" and \"rivet;archive-second.txt\"; erase it.",
+      "Get rid of the files \"rivet;archive.txt\" and \"rivet;archive-second.txt\".",
+      "Can you delete the files \"rivet;archive.txt\" and \"rivet;archive-second.txt\" for me?",
+      "Erase the files \"rivet;archive.txt\" and \"rivet;archive-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0032",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "rivet;archive-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"rivet;archive-tree\" and everything underneath it.",
+      "Remove the directory \"rivet;archive-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"rivet;archive-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"rivet;archive-tree\" and everything underneath it.",
+      "Can you delete the directory \"rivet;archive-tree\" and everything underneath it for me?",
+      "Erase the directory \"rivet;archive-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0033",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "gasket*literal.txt",
+        "gasket*literal-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"gasket*literal.txt\" and \"gasket*literal-second.txt\".",
+      "Remove the files \"gasket*literal.txt\" and \"gasket*literal-second.txt\" from disk.",
+      "I don't need the files \"gasket*literal.txt\" and \"gasket*literal-second.txt\"; erase it.",
+      "Get rid of the files \"gasket*literal.txt\" and \"gasket*literal-second.txt\".",
+      "Can you delete the files \"gasket*literal.txt\" and \"gasket*literal-second.txt\" for me?",
+      "Erase the files \"gasket*literal.txt\" and \"gasket*literal-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0034",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "gasket*literal-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"gasket*literal-tree\" and everything underneath it.",
+      "Remove the directory \"gasket*literal-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"gasket*literal-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"gasket*literal-tree\" and everything underneath it.",
+      "Can you delete the directory \"gasket*literal-tree\" and everything underneath it for me?",
+      "Erase the directory \"gasket*literal-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0035",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "spindle[draft].txt",
+        "spindle[draft]-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"spindle[draft].txt\" and \"spindle[draft]-second.txt\".",
+      "Remove the files \"spindle[draft].txt\" and \"spindle[draft]-second.txt\" from disk.",
+      "I don't need the files \"spindle[draft].txt\" and \"spindle[draft]-second.txt\"; erase it.",
+      "Get rid of the files \"spindle[draft].txt\" and \"spindle[draft]-second.txt\".",
+      "Can you delete the files \"spindle[draft].txt\" and \"spindle[draft]-second.txt\" for me?",
+      "Erase the files \"spindle[draft].txt\" and \"spindle[draft]-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0036",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "spindle[draft]-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"spindle[draft]-tree\" and everything underneath it.",
+      "Remove the directory \"spindle[draft]-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"spindle[draft]-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"spindle[draft]-tree\" and everything underneath it.",
+      "Can you delete the directory \"spindle[draft]-tree\" and everything underneath it for me?",
+      "Erase the directory \"spindle[draft]-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0037",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "vault-café.txt",
+        "vault-café-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"vault-café.txt\" and \"vault-café-second.txt\".",
+      "Remove the files \"vault-café.txt\" and \"vault-café-second.txt\" from disk.",
+      "I don't need the files \"vault-café.txt\" and \"vault-café-second.txt\"; erase it.",
+      "Get rid of the files \"vault-café.txt\" and \"vault-café-second.txt\".",
+      "Can you delete the files \"vault-café.txt\" and \"vault-café-second.txt\" for me?",
+      "Erase the files \"vault-café.txt\" and \"vault-café-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0038",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "vault-café-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"vault-café-tree\" and everything underneath it.",
+      "Remove the directory \"vault-café-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"vault-café-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"vault-café-tree\" and everything underneath it.",
+      "Can you delete the directory \"vault-café-tree\" and everything underneath it for me?",
+      "Erase the directory \"vault-café-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0039",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "basket field records.txt",
+        "basket field records-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"basket field records.txt\" and \"basket field records-second.txt\".",
+      "Remove the files \"basket field records.txt\" and \"basket field records-second.txt\" from disk.",
+      "I don't need the files \"basket field records.txt\" and \"basket field records-second.txt\"; erase it.",
+      "Get rid of the files \"basket field records.txt\" and \"basket field records-second.txt\".",
+      "Can you delete the files \"basket field records.txt\" and \"basket field records-second.txt\" for me?",
+      "Erase the files \"basket field records.txt\" and \"basket field records-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0040",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "basket field records-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"basket field records-tree\" and everything underneath it.",
+      "Remove the directory \"basket field records-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"basket field records-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"basket field records-tree\" and everything underneath it.",
+      "Can you delete the directory \"basket field records-tree\" and everything underneath it for me?",
+      "Erase the directory \"basket field records-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0041",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "ember-journal.txt",
+        "ember-journal-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"ember-journal.txt\" and \"ember-journal-second.txt\".",
+      "Remove the files \"ember-journal.txt\" and \"ember-journal-second.txt\" from disk.",
+      "I don't need the files \"ember-journal.txt\" and \"ember-journal-second.txt\"; erase it.",
+      "Get rid of the files \"ember-journal.txt\" and \"ember-journal-second.txt\".",
+      "Can you delete the files \"ember-journal.txt\" and \"ember-journal-second.txt\" for me?",
+      "Erase the files \"ember-journal.txt\" and \"ember-journal-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0042",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "ember-journal-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"ember-journal-tree\" and everything underneath it.",
+      "Remove the directory \"ember-journal-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"ember-journal-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"ember-journal-tree\" and everything underneath it.",
+      "Can you delete the directory \"ember-journal-tree\" and everything underneath it for me?",
+      "Erase the directory \"ember-journal-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0043",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "pollen working notes.txt",
+        "pollen working notes-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"pollen working notes.txt\" and \"pollen working notes-second.txt\".",
+      "Remove the files \"pollen working notes.txt\" and \"pollen working notes-second.txt\" from disk.",
+      "I don't need the files \"pollen working notes.txt\" and \"pollen working notes-second.txt\"; erase it.",
+      "Get rid of the files \"pollen working notes.txt\" and \"pollen working notes-second.txt\".",
+      "Can you delete the files \"pollen working notes.txt\" and \"pollen working notes-second.txt\" for me?",
+      "Erase the files \"pollen working notes.txt\" and \"pollen working notes-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0044",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "pollen working notes-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"pollen working notes-tree\" and everything underneath it.",
+      "Remove the directory \"pollen working notes-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"pollen working notes-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"pollen working notes-tree\" and everything underneath it.",
+      "Can you delete the directory \"pollen working notes-tree\" and everything underneath it for me?",
+      "Erase the directory \"pollen working notes-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0045",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "turbine's notebook.txt",
+        "turbine's notebook-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"turbine's notebook.txt\" and \"turbine's notebook-second.txt\".",
+      "Remove the files \"turbine's notebook.txt\" and \"turbine's notebook-second.txt\" from disk.",
+      "I don't need the files \"turbine's notebook.txt\" and \"turbine's notebook-second.txt\"; erase it.",
+      "Get rid of the files \"turbine's notebook.txt\" and \"turbine's notebook-second.txt\".",
+      "Can you delete the files \"turbine's notebook.txt\" and \"turbine's notebook-second.txt\" for me?",
+      "Erase the files \"turbine's notebook.txt\" and \"turbine's notebook-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0046",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "turbine's notebook-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"turbine's notebook-tree\" and everything underneath it.",
+      "Remove the directory \"turbine's notebook-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"turbine's notebook-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"turbine's notebook-tree\" and everything underneath it.",
+      "Can you delete the directory \"turbine's notebook-tree\" and everything underneath it for me?",
+      "Erase the directory \"turbine's notebook-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0047",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "-compass-draft.txt",
+        "-compass-draft-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"-compass-draft.txt\" and \"-compass-draft-second.txt\".",
+      "Remove the files \"-compass-draft.txt\" and \"-compass-draft-second.txt\" from disk.",
+      "I don't need the files \"-compass-draft.txt\" and \"-compass-draft-second.txt\"; erase it.",
+      "Get rid of the files \"-compass-draft.txt\" and \"-compass-draft-second.txt\".",
+      "Can you delete the files \"-compass-draft.txt\" and \"-compass-draft-second.txt\" for me?",
+      "Erase the files \"-compass-draft.txt\" and \"-compass-draft-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0048",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "./-compass-draft-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"./-compass-draft-tree\" and everything underneath it.",
+      "Remove the directory \"./-compass-draft-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"./-compass-draft-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"./-compass-draft-tree\" and everything underneath it.",
+      "Can you delete the directory \"./-compass-draft-tree\" and everything underneath it for me?",
+      "Erase the directory \"./-compass-draft-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0049",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "willowbrook-$budget.txt",
+        "willowbrook-$budget-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"willowbrook-$budget.txt\" and \"willowbrook-$budget-second.txt\".",
+      "Remove the files \"willowbrook-$budget.txt\" and \"willowbrook-$budget-second.txt\" from disk.",
+      "I don't need the files \"willowbrook-$budget.txt\" and \"willowbrook-$budget-second.txt\"; erase it.",
+      "Get rid of the files \"willowbrook-$budget.txt\" and \"willowbrook-$budget-second.txt\".",
+      "Can you delete the files \"willowbrook-$budget.txt\" and \"willowbrook-$budget-second.txt\" for me?",
+      "Erase the files \"willowbrook-$budget.txt\" and \"willowbrook-$budget-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0050",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "willowbrook-$budget-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"willowbrook-$budget-tree\" and everything underneath it.",
+      "Remove the directory \"willowbrook-$budget-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"willowbrook-$budget-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"willowbrook-$budget-tree\" and everything underneath it.",
+      "Can you delete the directory \"willowbrook-$budget-tree\" and everything underneath it for me?",
+      "Erase the directory \"willowbrook-$budget-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0051",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "satchel;archive.txt",
+        "satchel;archive-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"satchel;archive.txt\" and \"satchel;archive-second.txt\".",
+      "Remove the files \"satchel;archive.txt\" and \"satchel;archive-second.txt\" from disk.",
+      "I don't need the files \"satchel;archive.txt\" and \"satchel;archive-second.txt\"; erase it.",
+      "Get rid of the files \"satchel;archive.txt\" and \"satchel;archive-second.txt\".",
+      "Can you delete the files \"satchel;archive.txt\" and \"satchel;archive-second.txt\" for me?",
+      "Erase the files \"satchel;archive.txt\" and \"satchel;archive-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0052",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "satchel;archive-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"satchel;archive-tree\" and everything underneath it.",
+      "Remove the directory \"satchel;archive-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"satchel;archive-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"satchel;archive-tree\" and everything underneath it.",
+      "Can you delete the directory \"satchel;archive-tree\" and everything underneath it for me?",
+      "Erase the directory \"satchel;archive-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0053",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "mosaic*literal.txt",
+        "mosaic*literal-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"mosaic*literal.txt\" and \"mosaic*literal-second.txt\".",
+      "Remove the files \"mosaic*literal.txt\" and \"mosaic*literal-second.txt\" from disk.",
+      "I don't need the files \"mosaic*literal.txt\" and \"mosaic*literal-second.txt\"; erase it.",
+      "Get rid of the files \"mosaic*literal.txt\" and \"mosaic*literal-second.txt\".",
+      "Can you delete the files \"mosaic*literal.txt\" and \"mosaic*literal-second.txt\" for me?",
+      "Erase the files \"mosaic*literal.txt\" and \"mosaic*literal-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0054",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "mosaic*literal-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"mosaic*literal-tree\" and everything underneath it.",
+      "Remove the directory \"mosaic*literal-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"mosaic*literal-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"mosaic*literal-tree\" and everything underneath it.",
+      "Can you delete the directory \"mosaic*literal-tree\" and everything underneath it for me?",
+      "Erase the directory \"mosaic*literal-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0055",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "relay[draft].txt",
+        "relay[draft]-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"relay[draft].txt\" and \"relay[draft]-second.txt\".",
+      "Remove the files \"relay[draft].txt\" and \"relay[draft]-second.txt\" from disk.",
+      "I don't need the files \"relay[draft].txt\" and \"relay[draft]-second.txt\"; erase it.",
+      "Get rid of the files \"relay[draft].txt\" and \"relay[draft]-second.txt\".",
+      "Can you delete the files \"relay[draft].txt\" and \"relay[draft]-second.txt\" for me?",
+      "Erase the files \"relay[draft].txt\" and \"relay[draft]-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0056",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "relay[draft]-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"relay[draft]-tree\" and everything underneath it.",
+      "Remove the directory \"relay[draft]-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"relay[draft]-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"relay[draft]-tree\" and everything underneath it.",
+      "Can you delete the directory \"relay[draft]-tree\" and everything underneath it for me?",
+      "Erase the directory \"relay[draft]-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0057",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "vector-café.txt",
+        "vector-café-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"vector-café.txt\" and \"vector-café-second.txt\".",
+      "Remove the files \"vector-café.txt\" and \"vector-café-second.txt\" from disk.",
+      "I don't need the files \"vector-café.txt\" and \"vector-café-second.txt\"; erase it.",
+      "Get rid of the files \"vector-café.txt\" and \"vector-café-second.txt\".",
+      "Can you delete the files \"vector-café.txt\" and \"vector-café-second.txt\" for me?",
+      "Erase the files \"vector-café.txt\" and \"vector-café-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0058",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "vector-café-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"vector-café-tree\" and everything underneath it.",
+      "Remove the directory \"vector-café-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"vector-café-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"vector-café-tree\" and everything underneath it.",
+      "Can you delete the directory \"vector-café-tree\" and everything underneath it for me?",
+      "Erase the directory \"vector-café-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0059",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "loam field records.txt",
+        "loam field records-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"loam field records.txt\" and \"loam field records-second.txt\".",
+      "Remove the files \"loam field records.txt\" and \"loam field records-second.txt\" from disk.",
+      "I don't need the files \"loam field records.txt\" and \"loam field records-second.txt\"; erase it.",
+      "Get rid of the files \"loam field records.txt\" and \"loam field records-second.txt\".",
+      "Can you delete the files \"loam field records.txt\" and \"loam field records-second.txt\" for me?",
+      "Erase the files \"loam field records.txt\" and \"loam field records-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0060",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "loam field records-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"loam field records-tree\" and everything underneath it.",
+      "Remove the directory \"loam field records-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"loam field records-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"loam field records-tree\" and everything underneath it.",
+      "Can you delete the directory \"loam field records-tree\" and everything underneath it for me?",
+      "Erase the directory \"loam field records-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0061",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "quarry-journal.txt",
+        "quarry-journal-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"quarry-journal.txt\" and \"quarry-journal-second.txt\".",
+      "Remove the files \"quarry-journal.txt\" and \"quarry-journal-second.txt\" from disk.",
+      "I don't need the files \"quarry-journal.txt\" and \"quarry-journal-second.txt\"; erase it.",
+      "Get rid of the files \"quarry-journal.txt\" and \"quarry-journal-second.txt\".",
+      "Can you delete the files \"quarry-journal.txt\" and \"quarry-journal-second.txt\" for me?",
+      "Erase the files \"quarry-journal.txt\" and \"quarry-journal-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0062",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "quarry-journal-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"quarry-journal-tree\" and everything underneath it.",
+      "Remove the directory \"quarry-journal-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"quarry-journal-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"quarry-journal-tree\" and everything underneath it.",
+      "Can you delete the directory \"quarry-journal-tree\" and everything underneath it for me?",
+      "Erase the directory \"quarry-journal-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0063",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "ribbon working notes.txt",
+        "ribbon working notes-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"ribbon working notes.txt\" and \"ribbon working notes-second.txt\".",
+      "Remove the files \"ribbon working notes.txt\" and \"ribbon working notes-second.txt\" from disk.",
+      "I don't need the files \"ribbon working notes.txt\" and \"ribbon working notes-second.txt\"; erase it.",
+      "Get rid of the files \"ribbon working notes.txt\" and \"ribbon working notes-second.txt\".",
+      "Can you delete the files \"ribbon working notes.txt\" and \"ribbon working notes-second.txt\" for me?",
+      "Erase the files \"ribbon working notes.txt\" and \"ribbon working notes-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0064",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "ribbon working notes-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"ribbon working notes-tree\" and everything underneath it.",
+      "Remove the directory \"ribbon working notes-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"ribbon working notes-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"ribbon working notes-tree\" and everything underneath it.",
+      "Can you delete the directory \"ribbon working notes-tree\" and everything underneath it for me?",
+      "Erase the directory \"ribbon working notes-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0065",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "cassette's notebook.txt",
+        "cassette's notebook-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"cassette's notebook.txt\" and \"cassette's notebook-second.txt\".",
+      "Remove the files \"cassette's notebook.txt\" and \"cassette's notebook-second.txt\" from disk.",
+      "I don't need the files \"cassette's notebook.txt\" and \"cassette's notebook-second.txt\"; erase it.",
+      "Get rid of the files \"cassette's notebook.txt\" and \"cassette's notebook-second.txt\".",
+      "Can you delete the files \"cassette's notebook.txt\" and \"cassette's notebook-second.txt\" for me?",
+      "Erase the files \"cassette's notebook.txt\" and \"cassette's notebook-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0066",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "cassette's notebook-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"cassette's notebook-tree\" and everything underneath it.",
+      "Remove the directory \"cassette's notebook-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"cassette's notebook-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"cassette's notebook-tree\" and everything underneath it.",
+      "Can you delete the directory \"cassette's notebook-tree\" and everything underneath it for me?",
+      "Erase the directory \"cassette's notebook-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0067",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "-loom-draft.txt",
+        "-loom-draft-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"-loom-draft.txt\" and \"-loom-draft-second.txt\".",
+      "Remove the files \"-loom-draft.txt\" and \"-loom-draft-second.txt\" from disk.",
+      "I don't need the files \"-loom-draft.txt\" and \"-loom-draft-second.txt\"; erase it.",
+      "Get rid of the files \"-loom-draft.txt\" and \"-loom-draft-second.txt\".",
+      "Can you delete the files \"-loom-draft.txt\" and \"-loom-draft-second.txt\" for me?",
+      "Erase the files \"-loom-draft.txt\" and \"-loom-draft-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0068",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "./-loom-draft-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"./-loom-draft-tree\" and everything underneath it.",
+      "Remove the directory \"./-loom-draft-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"./-loom-draft-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"./-loom-draft-tree\" and everything underneath it.",
+      "Can you delete the directory \"./-loom-draft-tree\" and everything underneath it for me?",
+      "Erase the directory \"./-loom-draft-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0069",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "terrace-$budget.txt",
+        "terrace-$budget-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"terrace-$budget.txt\" and \"terrace-$budget-second.txt\".",
+      "Remove the files \"terrace-$budget.txt\" and \"terrace-$budget-second.txt\" from disk.",
+      "I don't need the files \"terrace-$budget.txt\" and \"terrace-$budget-second.txt\"; erase it.",
+      "Get rid of the files \"terrace-$budget.txt\" and \"terrace-$budget-second.txt\".",
+      "Can you delete the files \"terrace-$budget.txt\" and \"terrace-$budget-second.txt\" for me?",
+      "Erase the files \"terrace-$budget.txt\" and \"terrace-$budget-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0070",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "terrace-$budget-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"terrace-$budget-tree\" and everything underneath it.",
+      "Remove the directory \"terrace-$budget-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"terrace-$budget-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"terrace-$budget-tree\" and everything underneath it.",
+      "Can you delete the directory \"terrace-$budget-tree\" and everything underneath it for me?",
+      "Erase the directory \"terrace-$budget-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0071",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "depot;archive.txt",
+        "depot;archive-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"depot;archive.txt\" and \"depot;archive-second.txt\".",
+      "Remove the files \"depot;archive.txt\" and \"depot;archive-second.txt\" from disk.",
+      "I don't need the files \"depot;archive.txt\" and \"depot;archive-second.txt\"; erase it.",
+      "Get rid of the files \"depot;archive.txt\" and \"depot;archive-second.txt\".",
+      "Can you delete the files \"depot;archive.txt\" and \"depot;archive-second.txt\" for me?",
+      "Erase the files \"depot;archive.txt\" and \"depot;archive-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0072",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "depot;archive-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"depot;archive-tree\" and everything underneath it.",
+      "Remove the directory \"depot;archive-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"depot;archive-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"depot;archive-tree\" and everything underneath it.",
+      "Can you delete the directory \"depot;archive-tree\" and everything underneath it for me?",
+      "Erase the directory \"depot;archive-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0073",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "estuary*literal.txt",
+        "estuary*literal-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"estuary*literal.txt\" and \"estuary*literal-second.txt\".",
+      "Remove the files \"estuary*literal.txt\" and \"estuary*literal-second.txt\" from disk.",
+      "I don't need the files \"estuary*literal.txt\" and \"estuary*literal-second.txt\"; erase it.",
+      "Get rid of the files \"estuary*literal.txt\" and \"estuary*literal-second.txt\".",
+      "Can you delete the files \"estuary*literal.txt\" and \"estuary*literal-second.txt\" for me?",
+      "Erase the files \"estuary*literal.txt\" and \"estuary*literal-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0074",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "estuary*literal-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"estuary*literal-tree\" and everything underneath it.",
+      "Remove the directory \"estuary*literal-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"estuary*literal-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"estuary*literal-tree\" and everything underneath it.",
+      "Can you delete the directory \"estuary*literal-tree\" and everything underneath it for me?",
+      "Erase the directory \"estuary*literal-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0075",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "thimble[draft].txt",
+        "thimble[draft]-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"thimble[draft].txt\" and \"thimble[draft]-second.txt\".",
+      "Remove the files \"thimble[draft].txt\" and \"thimble[draft]-second.txt\" from disk.",
+      "I don't need the files \"thimble[draft].txt\" and \"thimble[draft]-second.txt\"; erase it.",
+      "Get rid of the files \"thimble[draft].txt\" and \"thimble[draft]-second.txt\".",
+      "Can you delete the files \"thimble[draft].txt\" and \"thimble[draft]-second.txt\" for me?",
+      "Erase the files \"thimble[draft].txt\" and \"thimble[draft]-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0076",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "thimble[draft]-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"thimble[draft]-tree\" and everything underneath it.",
+      "Remove the directory \"thimble[draft]-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"thimble[draft]-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"thimble[draft]-tree\" and everything underneath it.",
+      "Can you delete the directory \"thimble[draft]-tree\" and everything underneath it for me?",
+      "Erase the directory \"thimble[draft]-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0077",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "pigment-café.txt",
+        "pigment-café-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"pigment-café.txt\" and \"pigment-café-second.txt\".",
+      "Remove the files \"pigment-café.txt\" and \"pigment-café-second.txt\" from disk.",
+      "I don't need the files \"pigment-café.txt\" and \"pigment-café-second.txt\"; erase it.",
+      "Get rid of the files \"pigment-café.txt\" and \"pigment-café-second.txt\".",
+      "Can you delete the files \"pigment-café.txt\" and \"pigment-café-second.txt\" for me?",
+      "Erase the files \"pigment-café.txt\" and \"pigment-café-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0078",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "pigment-café-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"pigment-café-tree\" and everything underneath it.",
+      "Remove the directory \"pigment-café-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"pigment-café-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"pigment-café-tree\" and everything underneath it.",
+      "Can you delete the directory \"pigment-café-tree\" and everything underneath it for me?",
+      "Erase the directory \"pigment-café-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0079",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "junction field records.txt",
+        "junction field records-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Delete the files \"junction field records.txt\" and \"junction field records-second.txt\".",
+      "Remove the files \"junction field records.txt\" and \"junction field records-second.txt\" from disk.",
+      "I don't need the files \"junction field records.txt\" and \"junction field records-second.txt\"; erase it.",
+      "Get rid of the files \"junction field records.txt\" and \"junction field records-second.txt\".",
+      "Can you delete the files \"junction field records.txt\" and \"junction field records-second.txt\" for me?",
+      "Erase the files \"junction field records.txt\" and \"junction field records-second.txt\" completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0080",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "train",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "junction field records-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Delete the directory \"junction field records-tree\" and everything underneath it.",
+      "Remove the directory \"junction field records-tree\" and everything underneath it from disk.",
+      "I don't need the directory \"junction field records-tree\" and everything underneath it; erase it.",
+      "Get rid of the directory \"junction field records-tree\" and everything underneath it.",
+      "Can you delete the directory \"junction field records-tree\" and everything underneath it for me?",
+      "Erase the directory \"junction field records-tree\" and everything underneath it completely."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0081",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "verdigris-journal.txt",
+        "verdigris-journal-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Discard the files \"verdigris-journal.txt\" and \"verdigris-journal-second.txt\" from the filesystem.",
+      "Please remove the files \"verdigris-journal.txt\" and \"verdigris-journal-second.txt\" permanently.",
+      "Clear out the files \"verdigris-journal.txt\" and \"verdigris-journal-second.txt\".",
+      "I want the files \"verdigris-journal.txt\" and \"verdigris-journal-second.txt\" gone from disk.",
+      "Wipe away the files \"verdigris-journal.txt\" and \"verdigris-journal-second.txt\".",
+      "Delete the filesystem entries for the files \"verdigris-journal.txt\" and \"verdigris-journal-second.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0082",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "verdigris-journal-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Discard the directory \"verdigris-journal-tree\" and everything underneath it from the filesystem.",
+      "Please remove the directory \"verdigris-journal-tree\" and everything underneath it permanently.",
+      "Clear out the directory \"verdigris-journal-tree\" and everything underneath it.",
+      "I want the directory \"verdigris-journal-tree\" and everything underneath it gone from disk.",
+      "Wipe away the directory \"verdigris-journal-tree\" and everything underneath it.",
+      "Delete the filesystem entries for the directory \"verdigris-journal-tree\" and everything underneath it."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0083",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "mariner working notes.txt",
+        "mariner working notes-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Discard the files \"mariner working notes.txt\" and \"mariner working notes-second.txt\" from the filesystem.",
+      "Please remove the files \"mariner working notes.txt\" and \"mariner working notes-second.txt\" permanently.",
+      "Clear out the files \"mariner working notes.txt\" and \"mariner working notes-second.txt\".",
+      "I want the files \"mariner working notes.txt\" and \"mariner working notes-second.txt\" gone from disk.",
+      "Wipe away the files \"mariner working notes.txt\" and \"mariner working notes-second.txt\".",
+      "Delete the filesystem entries for the files \"mariner working notes.txt\" and \"mariner working notes-second.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0084",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "mariner working notes-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Discard the directory \"mariner working notes-tree\" and everything underneath it from the filesystem.",
+      "Please remove the directory \"mariner working notes-tree\" and everything underneath it permanently.",
+      "Clear out the directory \"mariner working notes-tree\" and everything underneath it.",
+      "I want the directory \"mariner working notes-tree\" and everything underneath it gone from disk.",
+      "Wipe away the directory \"mariner working notes-tree\" and everything underneath it.",
+      "Delete the filesystem entries for the directory \"mariner working notes-tree\" and everything underneath it."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0085",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "vellum's notebook.txt",
+        "vellum's notebook-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Discard the files \"vellum's notebook.txt\" and \"vellum's notebook-second.txt\" from the filesystem.",
+      "Please remove the files \"vellum's notebook.txt\" and \"vellum's notebook-second.txt\" permanently.",
+      "Clear out the files \"vellum's notebook.txt\" and \"vellum's notebook-second.txt\".",
+      "I want the files \"vellum's notebook.txt\" and \"vellum's notebook-second.txt\" gone from disk.",
+      "Wipe away the files \"vellum's notebook.txt\" and \"vellum's notebook-second.txt\".",
+      "Delete the filesystem entries for the files \"vellum's notebook.txt\" and \"vellum's notebook-second.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0086",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "vellum's notebook-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Discard the directory \"vellum's notebook-tree\" and everything underneath it from the filesystem.",
+      "Please remove the directory \"vellum's notebook-tree\" and everything underneath it permanently.",
+      "Clear out the directory \"vellum's notebook-tree\" and everything underneath it.",
+      "I want the directory \"vellum's notebook-tree\" and everything underneath it gone from disk.",
+      "Wipe away the directory \"vellum's notebook-tree\" and everything underneath it.",
+      "Delete the filesystem entries for the directory \"vellum's notebook-tree\" and everything underneath it."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0087",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "-coracle-draft.txt",
+        "-coracle-draft-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Discard the files \"-coracle-draft.txt\" and \"-coracle-draft-second.txt\" from the filesystem.",
+      "Please remove the files \"-coracle-draft.txt\" and \"-coracle-draft-second.txt\" permanently.",
+      "Clear out the files \"-coracle-draft.txt\" and \"-coracle-draft-second.txt\".",
+      "I want the files \"-coracle-draft.txt\" and \"-coracle-draft-second.txt\" gone from disk.",
+      "Wipe away the files \"-coracle-draft.txt\" and \"-coracle-draft-second.txt\".",
+      "Delete the filesystem entries for the files \"-coracle-draft.txt\" and \"-coracle-draft-second.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0088",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "./-coracle-draft-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Discard the directory \"./-coracle-draft-tree\" and everything underneath it from the filesystem.",
+      "Please remove the directory \"./-coracle-draft-tree\" and everything underneath it permanently.",
+      "Clear out the directory \"./-coracle-draft-tree\" and everything underneath it.",
+      "I want the directory \"./-coracle-draft-tree\" and everything underneath it gone from disk.",
+      "Wipe away the directory \"./-coracle-draft-tree\" and everything underneath it.",
+      "Delete the filesystem entries for the directory \"./-coracle-draft-tree\" and everything underneath it."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0089",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "fulcrum-$budget.txt",
+        "fulcrum-$budget-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Discard the files \"fulcrum-$budget.txt\" and \"fulcrum-$budget-second.txt\" from the filesystem.",
+      "Please remove the files \"fulcrum-$budget.txt\" and \"fulcrum-$budget-second.txt\" permanently.",
+      "Clear out the files \"fulcrum-$budget.txt\" and \"fulcrum-$budget-second.txt\".",
+      "I want the files \"fulcrum-$budget.txt\" and \"fulcrum-$budget-second.txt\" gone from disk.",
+      "Wipe away the files \"fulcrum-$budget.txt\" and \"fulcrum-$budget-second.txt\".",
+      "Delete the filesystem entries for the files \"fulcrum-$budget.txt\" and \"fulcrum-$budget-second.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0090",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "fulcrum-$budget-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Discard the directory \"fulcrum-$budget-tree\" and everything underneath it from the filesystem.",
+      "Please remove the directory \"fulcrum-$budget-tree\" and everything underneath it permanently.",
+      "Clear out the directory \"fulcrum-$budget-tree\" and everything underneath it.",
+      "I want the directory \"fulcrum-$budget-tree\" and everything underneath it gone from disk.",
+      "Wipe away the directory \"fulcrum-$budget-tree\" and everything underneath it.",
+      "Delete the filesystem entries for the directory \"fulcrum-$budget-tree\" and everything underneath it."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0091",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "tundralake;archive.txt",
+        "tundralake;archive-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Discard the files \"tundralake;archive.txt\" and \"tundralake;archive-second.txt\" from the filesystem.",
+      "Please remove the files \"tundralake;archive.txt\" and \"tundralake;archive-second.txt\" permanently.",
+      "Clear out the files \"tundralake;archive.txt\" and \"tundralake;archive-second.txt\".",
+      "I want the files \"tundralake;archive.txt\" and \"tundralake;archive-second.txt\" gone from disk.",
+      "Wipe away the files \"tundralake;archive.txt\" and \"tundralake;archive-second.txt\".",
+      "Delete the filesystem entries for the files \"tundralake;archive.txt\" and \"tundralake;archive-second.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0092",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "tundralake;archive-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Discard the directory \"tundralake;archive-tree\" and everything underneath it from the filesystem.",
+      "Please remove the directory \"tundralake;archive-tree\" and everything underneath it permanently.",
+      "Clear out the directory \"tundralake;archive-tree\" and everything underneath it.",
+      "I want the directory \"tundralake;archive-tree\" and everything underneath it gone from disk.",
+      "Wipe away the directory \"tundralake;archive-tree\" and everything underneath it.",
+      "Delete the filesystem entries for the directory \"tundralake;archive-tree\" and everything underneath it."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0093",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "obsidian*literal.txt",
+        "obsidian*literal-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Discard the files \"obsidian*literal.txt\" and \"obsidian*literal-second.txt\" from the filesystem.",
+      "Please remove the files \"obsidian*literal.txt\" and \"obsidian*literal-second.txt\" permanently.",
+      "Clear out the files \"obsidian*literal.txt\" and \"obsidian*literal-second.txt\".",
+      "I want the files \"obsidian*literal.txt\" and \"obsidian*literal-second.txt\" gone from disk.",
+      "Wipe away the files \"obsidian*literal.txt\" and \"obsidian*literal-second.txt\".",
+      "Delete the filesystem entries for the files \"obsidian*literal.txt\" and \"obsidian*literal-second.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0094",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "obsidian*literal-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Discard the directory \"obsidian*literal-tree\" and everything underneath it from the filesystem.",
+      "Please remove the directory \"obsidian*literal-tree\" and everything underneath it permanently.",
+      "Clear out the directory \"obsidian*literal-tree\" and everything underneath it.",
+      "I want the directory \"obsidian*literal-tree\" and everything underneath it gone from disk.",
+      "Wipe away the directory \"obsidian*literal-tree\" and everything underneath it.",
+      "Delete the filesystem entries for the directory \"obsidian*literal-tree\" and everything underneath it."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0095",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "meridian[draft].txt",
+        "meridian[draft]-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Discard the files \"meridian[draft].txt\" and \"meridian[draft]-second.txt\" from the filesystem.",
+      "Please remove the files \"meridian[draft].txt\" and \"meridian[draft]-second.txt\" permanently.",
+      "Clear out the files \"meridian[draft].txt\" and \"meridian[draft]-second.txt\".",
+      "I want the files \"meridian[draft].txt\" and \"meridian[draft]-second.txt\" gone from disk.",
+      "Wipe away the files \"meridian[draft].txt\" and \"meridian[draft]-second.txt\".",
+      "Delete the filesystem entries for the files \"meridian[draft].txt\" and \"meridian[draft]-second.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0096",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "meridian[draft]-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Discard the directory \"meridian[draft]-tree\" and everything underneath it from the filesystem.",
+      "Please remove the directory \"meridian[draft]-tree\" and everything underneath it permanently.",
+      "Clear out the directory \"meridian[draft]-tree\" and everything underneath it.",
+      "I want the directory \"meridian[draft]-tree\" and everything underneath it gone from disk.",
+      "Wipe away the directory \"meridian[draft]-tree\" and everything underneath it.",
+      "Delete the filesystem entries for the directory \"meridian[draft]-tree\" and everything underneath it."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0097",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "palisade-café.txt",
+        "palisade-café-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Discard the files \"palisade-café.txt\" and \"palisade-café-second.txt\" from the filesystem.",
+      "Please remove the files \"palisade-café.txt\" and \"palisade-café-second.txt\" permanently.",
+      "Clear out the files \"palisade-café.txt\" and \"palisade-café-second.txt\".",
+      "I want the files \"palisade-café.txt\" and \"palisade-café-second.txt\" gone from disk.",
+      "Wipe away the files \"palisade-café.txt\" and \"palisade-café-second.txt\".",
+      "Delete the filesystem entries for the files \"palisade-café.txt\" and \"palisade-café-second.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0098",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "palisade-café-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Discard the directory \"palisade-café-tree\" and everything underneath it from the filesystem.",
+      "Please remove the directory \"palisade-café-tree\" and everything underneath it permanently.",
+      "Clear out the directory \"palisade-café-tree\" and everything underneath it.",
+      "I want the directory \"palisade-café-tree\" and everything underneath it gone from disk.",
+      "Wipe away the directory \"palisade-café-tree\" and everything underneath it.",
+      "Delete the filesystem entries for the directory \"palisade-café-tree\" and everything underneath it."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0099",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "almanac field records.txt",
+        "almanac field records-second.txt"
+      ],
+      "recursive": false
+    },
+    "requests": [
+      "Discard the files \"almanac field records.txt\" and \"almanac field records-second.txt\" from the filesystem.",
+      "Please remove the files \"almanac field records.txt\" and \"almanac field records-second.txt\" permanently.",
+      "Clear out the files \"almanac field records.txt\" and \"almanac field records-second.txt\".",
+      "I want the files \"almanac field records.txt\" and \"almanac field records-second.txt\" gone from disk.",
+      "Wipe away the files \"almanac field records.txt\" and \"almanac field records-second.txt\".",
+      "Delete the filesystem entries for the files \"almanac field records.txt\" and \"almanac field records-second.txt\"."
+    ]
+  },
+  {
+    "id": "coverage-v2-rm-0100",
+    "family": "rm",
+    "topic": "filesystem",
+    "capability": "explicit-removal",
+    "split": "validation",
+    "intent": {
+      "op": "rm",
+      "targets": [
+        "almanac field records-tree"
+      ],
+      "recursive": true
+    },
+    "requests": [
+      "Discard the directory \"almanac field records-tree\" and everything underneath it from the filesystem.",
+      "Please remove the directory \"almanac field records-tree\" and everything underneath it permanently.",
+      "Clear out the directory \"almanac field records-tree\" and everything underneath it.",
+      "I want the directory \"almanac field records-tree\" and everything underneath it gone from disk.",
+      "Wipe away the directory \"almanac field records-tree\" and everything underneath it.",
+      "Delete the filesystem entries for the directory \"almanac field records-tree\" and everything underneath it."
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "run_id": "2026-10-10-pilot-v2-fresh-lora-micro4",
+  "started": "2026-10-10T00:38:44.046837+02:00",
+  "config": {
+    "model": "Qwen/Qwen3-0.6B-Base",
+    "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+    "dataset_release": "pilot-v2",
+    "seed": 42,
+    "epochs": 3,
+    "micro_batch_size": 4,
+    "effective_batch_size": 16,
+    "max_length": 128,
+    "learning_rate": 0.0002,
+    "warmup_steps": 90,
+    "weight_decay": 0.0,
+    "max_grad_norm": 1.0,
+    "lora": {
+      "r": 8,
+      "lora_alpha": 16,
+      "lora_dropout": 0.05,
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ],
+      "bias": "none",
+      "task_type": "CAUSAL_LM"
+    }
+  },
+  "dataset_sha256": "d546e6075d539854706eecce78ce0e3667257c067a218722945ddff545265e93",
+  "train_examples": 18392,
+  "validation_examples": 4392,
+  "trainable_parameters": 5046272,
+  "total_parameters": 601096192,
+  "gpu": "NVIDIA GeForce RTX 2060",
+  "max_example_tokens": 86,
+  "packages": {
+    "torch": "2.11.0+cu130",
+    "transformers": "4.57.6",
+    "peft": "0.18.1",
+    "accelerate": "1.15.0"
+  },
+  "trainer_sha256": "262358a63cb261bc0aaa66c02798346f40678af29acc7f61b267dee6e2f55b2c",
+  "precision": "FP16 frozen base and autocast, FP32 adapters and optimizer",
+  "status": "failed",
+  "error": "KeyboardInterrupt: ",
+  "optimizer_steps": 30,
+  "examples_seen": 480
+}

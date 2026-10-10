@@ -1,0 +1,82 @@
+[
+  {
+    "id": "pilot-v1-false-01",
+    "topic": "shell-utils",
+    "family": "false",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "false"
+    },
+    "requests": [
+      "run a command that always fails",
+      "return a failure exit status",
+      "I need a command that does nothing except exit with status 1",
+      "what command simply fails with exit code 1?"
+    ]
+  },
+  {
+    "id": "pilot-v1-false-02",
+    "topic": "shell-utils",
+    "family": "false",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "false"
+    },
+    "requests": [
+      "fail on purpose without doing anything",
+      "give me something whose exit status is always 1",
+      "is there a command that only reports failure?",
+      "I want something that exits unsuccessfully"
+    ]
+  },
+  {
+    "id": "pilot-v1-false-03",
+    "topic": "shell-utils",
+    "family": "false",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "false"
+    },
+    "requests": [
+      "make a command that ends in failure and prints nothing",
+      "which command does nothing and fails every time?",
+      "I'd like a placeholder that always returns an error status",
+      "produce a status of 1 with no other effect"
+    ]
+  },
+  {
+    "id": "pilot-v1-false-04",
+    "topic": "shell-utils",
+    "family": "false",
+    "capability": "phrasing",
+    "split": "train",
+    "intent": {
+      "op": "false"
+    },
+    "requests": [
+      "finish immediately with status 1",
+      "what is the standard do-nothing command that reports failure?",
+      "I just need an exit code of one",
+      "simulate a failing command"
+    ]
+  },
+  {
+    "id": "pilot-v1-false-05",
+    "topic": "shell-utils",
+    "family": "false",
+    "capability": "phrasing",
+    "split": "validation",
+    "intent": {
+      "op": "false"
+    },
+    "requests": [
+      "signal failure with no side effects",
+      "can you run a dummy command that ends with exit status 1?",
+      "a deliberately failing command, please",
+      "all I need is an unsuccessful return code of 1"
+    ]
+  }
+]
