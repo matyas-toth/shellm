@@ -26,5 +26,6 @@ Created on 2026-10-01. This notebook backfills the work performed on 2026-09-28 
 | [Expanded-data LoRA experiment on csanad-shenanigans](csanad-expanded-data-lora-experiment.md) | Fresh adapter on 2,072 training examples, 84.8% original / 25.7% Extra, and Base comparison charts | Completed |
 | [Pilot v2 coverage data expansion](pilot-v2-coverage-data-expansion.md) | 20,340 additional examples, preserved parent data, phrasing/argument holdouts, stronger label checks, and review pack | Data validated and approved |
 | [Fresh LoRA on pilot-v2](pilot-v2-fresh-lora-experiment.md) | Fresh adapter on 18,392 training examples, 92.9% original / 34.3% Extra, and Base comparison charts | Completed |
+| [Manual Hugging Face progress sync](manual-hugging-face-progress-sync.md) | Manual preview/upload script, preserved run/epoch archives, reports/charts, and incremental commits | Implemented; local preview and mocked API checks passed |
 
 Each topic should explain what we did, why, how to repeat it, what we observed, and what remains uncertain. Experiment dates and documentation dates are recorded separately when backfilling. Plans are not recorded as completed experiments.
